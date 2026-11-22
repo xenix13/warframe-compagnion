@@ -1,10 +1,12 @@
 # Construit l'installeur Windows (Python embarqué + outil + base) et le publie dans une release GitHub.
-# Déclenché par un tag v* (ex. git tag v0.1.0 && git push origin v0.1.0) ou à la main (onglet Actions).
+# Déclenché en changeant le fichier VERSION sur main, par un tag v*, ou à la main (onglet Actions).
 name: Release
 
 on:
   push:
     tags: ["v*"]
+    branches: [main]
+    paths: [VERSION]
   workflow_dispatch:
     inputs:
       version:
@@ -38,7 +40,9 @@ jobs:
         id: v
         shell: pwsh
         run: |
-          $v = if ("${{ github.event_name }}" -eq "workflow_dispatch") { "${{ inputs.version }}" } else { "${{ github.ref_name }}".TrimStart("v") }
+          $v = if ("${{ github.event_name }}" -eq "workflow_dispatch") { "${{ inputs.version }}" }
+               elseif ("${{ github.ref_type }}" -eq "tag") { "${{ github.ref_name }}".TrimStart("v") }
+               else { (Get-Content VERSION -Raw).Trim() }
           "version=$v" >> $env:GITHUB_OUTPUT
 
       - name: Python embarqué + dépendances
@@ -98,5 +102,8 @@ jobs:
 
           Version portable : décompresse le .zip et lance ``lancer.bat``.
           "@
-          gh release create "v$v" dist\* --title "Compagnon Warframe $v" --notes $notes 2>$null
-          if ($LASTEXITCODE -ne 0) { gh release upload "v$v" dist\* --clobber }
+          $files = Get-ChildItem dist | ForEach-Object FullName
+          gh release view "v$v" *> $null
+          if ($LASTEXITCODE -eq 0) { gh release upload "v$v" @files --clobber }
+          else { gh release create "v$v" @files --target $env:GITHUB_SHA --title "Compagnon Warframe $v" --notes $notes }
+          if ($LASTEXITCODE -ne 0) { exit 1 }

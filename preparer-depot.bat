@@ -11,7 +11,7 @@ rem version installee (setup) : Python embarque dans le dossier de l'outil
 if exist "%~dp0python\python.exe" set PY="%~dp0python\python.exe"
 rem Prepare le depot GitHub (sans cles, loadouts ni donnees generees) dans ..\depot-github
 rem   preparer-depot.bat                                        : prepare et commit seulement
-rem   preparer-depot.bat --publier xenix13/compagnon-warframe   : cree le depot prive et l'envoie (outil gh requis)
+rem   preparer-depot.bat --publier xenix13/warframe-compagnion   : cree le depot prive et l'envoie (outil gh requis)
 rem   ajouter --public pour un depot public (necessaire pour l'installation en une commande)
 %PY% -m wfcompanion.depot --sortie "%~dp0..\depot-github" %*
 pause
