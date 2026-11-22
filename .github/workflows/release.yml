@@ -1,0 +1,102 @@
+# Construit l'installeur Windows (Python embarqué + outil + base) et le publie dans une release GitHub.
+# Déclenché par un tag v* (ex. git tag v0.1.0 && git push origin v0.1.0) ou à la main (onglet Actions).
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version (ex. 0.1.0)"
+        required: true
+        default: "0.1.0"
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_EMBED: "3.12.10"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+
+  windows:
+    needs: tests
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Version
+        id: v
+        shell: pwsh
+        run: |
+          $v = if ("${{ github.event_name }}" -eq "workflow_dispatch") { "${{ inputs.version }}" } else { "${{ github.ref_name }}".TrimStart("v") }
+          "version=$v" >> $env:GITHUB_OUTPUT
+
+      - name: Python embarqué + dépendances
+        shell: pwsh
+        run: |
+          $app = "build\app"; New-Item -ItemType Directory -Force $app | Out-Null
+          $zip = "python-$env:PYTHON_EMBED-embed-amd64.zip"
+          Invoke-WebRequest "https://www.python.org/ftp/python/$env:PYTHON_EMBED/$zip" -OutFile $zip
+          Expand-Archive $zip -DestinationPath "$app\python"
+          # active site-packages et ajoute le dossier de l'outil (..) au chemin des modules
+          $pth = Get-ChildItem "$app\python\python3*._pth" | Select-Object -First 1
+          (Get-Content $pth) -replace '^#\s*import site', 'import site' | Set-Content $pth
+          Add-Content $pth ".."
+          Invoke-WebRequest "https://bootstrap.pypa.io/get-pip.py" -OutFile get-pip.py
+          & "$app\python\python.exe" get-pip.py --no-warn-script-location
+          & "$app\python\python.exe" -m pip install --no-warn-script-location -r requirements.txt
+
+      - name: Copie de l'outil et de la base
+        shell: pwsh
+        run: |
+          $app = "build\app"
+          $items = @("wfcompanion", "README.md", "SOURCES.md", "requirements.txt", "FEUILLE-DE-ROUTE.md") + (Get-ChildItem *.bat | ForEach-Object Name)
+          foreach ($i in $items) { Copy-Item $i -Destination $app -Recurse -Force }
+          if (Test-Path base-warframe) { Copy-Item base-warframe -Destination $app -Recurse -Force }
+          Get-ChildItem $app -Recurse -Directory -Filter __pycache__ | Remove-Item -Recurse -Force
+          # vérification : Python embarqué trouve l'outil et ses dépendances
+          Push-Location $app
+          & ".\python\python.exe" -c "import wfcompanion.web, wfcompanion.llm_local, bs4; print('ok')"
+          Pop-Location
+
+      - name: Installeur (Inno Setup)
+        shell: pwsh
+        run: |
+          if (-not (Get-Command iscc -ErrorAction SilentlyContinue)) {
+            $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+            if (-not (Test-Path $iscc)) { choco install innosetup -y --no-progress | Out-Null }
+            $env:Path += ";${env:ProgramFiles(x86)}\Inno Setup 6"
+          }
+          iscc /DAppVersion=${{ steps.v.outputs.version }} packaging\installer.iss
+          Compress-Archive -Path build\app\* -DestinationPath "dist\CompagnonWarframe-portable-${{ steps.v.outputs.version }}.zip"
+
+      - name: Release GitHub
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $v = "${{ steps.v.outputs.version }}"
+          $notes = @"
+          ## Installation
+
+          1. Télécharge **CompagnonWarframe-Setup-$v.exe** ci-dessous et lance-le (pas besoin de droits administrateur).
+          2. Lance **Compagnon Warframe** depuis le bureau ou le menu Démarrer.
+
+          Au premier lancement, l'outil prépare les données du jeu puis télécharge le modèle d'IA (llama.cpp + Qwen3 1.7B, environ 1,8 Go). Rien d'autre à installer : ni Python, ni Ollama, ni clé d'API.
+
+          Windows peut afficher « Windows a protégé votre ordinateur » (installeur non signé) : « Informations complémentaires » puis « Exécuter quand même ».
+
+          Version portable : décompresse le .zip et lance ``lancer.bat``.
+          "@
+          gh release create "v$v" dist\* --title "Compagnon Warframe $v" --notes $notes 2>$null
+          if ($LASTEXITCODE -ne 0) { gh release upload "v$v" dist\* --clobber }

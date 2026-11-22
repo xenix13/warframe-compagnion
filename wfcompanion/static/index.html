@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compagnon Warframe</title>
+<style>
+:root{
+  --bg:#0c0e12; --panel:#14171d; --panel2:#1b1f27; --panel3:#222733; --line:#2a2f3a; --text:#e8e5dc; --muted:#8f8c80;
+  --gold:#d4ad55; --gold2:#f1d48c; --ok:#6fbf73; --warn:#e0a53b; --err:#e06a5a; --blue:#7aa7d9;
+  --r:12px; --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 var(--font)}
+input,select,button,textarea{font:inherit;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 11px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+button{cursor:pointer;transition:border-color .15s,background .15s}
+button:hover{border-color:var(--gold)}
+button:disabled{opacity:.5;cursor:default}
+button.primary{background:var(--gold);color:#1b1608;border-color:var(--gold);font-weight:600}
+button.primary:hover{background:var(--gold2)}
+button.ghost{background:transparent}
+.small{font-size:12px;color:var(--muted)}
+.err{color:var(--err)} .warn{color:var(--warn)} .ok{color:var(--ok)}
+
+/* barre du haut */
+header{display:flex;align-items:center;gap:18px;padding:0 20px;height:56px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:5}
+.brand{font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-size:14px;white-space:nowrap}
+nav{display:flex;gap:4px;height:100%}
+nav button{border:0;border-radius:0;background:transparent;color:var(--muted);padding:0 14px;height:100%;border-bottom:2px solid transparent;font-weight:600}
+nav button.on{color:var(--text);border-bottom-color:var(--gold)}
+nav button:hover{color:var(--text)}
+.chip{font-size:12px;padding:3px 10px;border-radius:20px;background:var(--panel2);border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.chip.live{color:var(--ok);border-color:#2f4a33}
+#status{margin-left:auto;font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:40vw}
+
+.view{display:none;padding:20px;max-width:1500px;margin:0 auto}
+.view.on{display:block}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px}
+.card h2{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 12px;font-weight:600}
+.stack{display:flex;flex-direction:column;gap:16px}
+
+/* conseiller */
+.adv{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:20px;align-items:start}
+@media (max-width:1100px){.adv{grid-template-columns:1fr}}
+.genrow{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:end}
+.field{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--muted)}
+.field input{font-size:15px;padding:10px 12px}
+.choices{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;margin-top:14px}
+.choice{text-align:left;background:var(--panel2);padding:10px 12px;border-radius:10px}
+.choice b{display:block;color:var(--text);font-size:13px}
+.choice span{font-size:12px;color:var(--muted)}
+.choice.on{border-color:var(--gold);background:#231f15}
+.seg{display:inline-flex;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:3px;gap:3px;margin-top:14px}
+.seg button{border:0;background:transparent;border-radius:8px;padding:6px 12px;color:var(--muted);font-size:13px}
+.seg button.on{background:var(--panel3);color:var(--text)}
+.genfoot{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:14px}
+.empty-hint{color:var(--muted);text-align:center;padding:40px 10px}
+
+.res-head{display:flex;gap:16px;align-items:center}
+.res-head img{width:88px;height:88px;object-fit:contain;background:radial-gradient(circle,#2a2618,transparent 70%);border-radius:10px}
+.res-head h3{margin:0;font-size:20px}
+.res-head p{margin:2px 0 0;color:var(--muted);font-size:13px}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);border:1px solid var(--line);color:var(--muted);margin:6px 6px 0 0}
+.tag.ok{color:var(--ok);border-color:#2f4a33}.tag.warn{color:var(--warn);border-color:#4a3d22}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:16px 0}
+.kpi{background:var(--panel2);border-radius:10px;padding:10px 12px}
+.kpi span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.kpi b{display:block;font-size:22px;color:var(--gold2);font-weight:600}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.tiles.two{grid-template-columns:repeat(2,1fr);margin-bottom:8px}
+.tile{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:9px 11px;min-height:64px}
+.tile .lab{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.tile .nm{display:block;font-weight:600;color:var(--gold2);font-size:13px}
+.tile .eff{display:block;font-size:11.5px;color:var(--muted);margin-top:2px}
+.tile.core{border-color:#5a4a22}
+.subt{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:18px 0 8px}
+.expl h4{margin:14px 0 4px;font-size:14px;color:var(--gold2)}
+.expl ul{margin:0;padding-left:18px}
+.expl li{margin:3px 0}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:12px}
+details ul{color:var(--muted);font-size:13px}
+@media (max-width:700px){.tiles{grid-template-columns:repeat(2,1fr)}.kpis{grid-template-columns:repeat(2,1fr)}}
+
+/* discussion */
+#chat{position:sticky;top:76px;display:flex;flex-direction:column;height:calc(100vh - 96px);min-height:420px}
+#log{flex:1;overflow:auto;display:flex;flex-direction:column;gap:10px;padding-right:4px}
+.msg{padding:10px 12px;border-radius:12px;background:var(--panel2);max-width:100%;overflow-wrap:anywhere}
+.msg.me{background:#2a2414;align-self:flex-end;max-width:85%}
+.msg h3,.msg h4{margin:4px 0;font-size:14px;color:var(--gold2)}
+.msg ul{margin:4px 0;padding-left:18px}
+.msg .trace{font-size:11px;color:var(--muted);margin-top:6px}
+.msg button{margin-top:8px;font-size:12px;padding:5px 10px}
+.chatin{display:flex;gap:8px;margin-top:12px}
+.chatin textarea{flex:1;min-height:44px;max-height:160px;resize:vertical}
+.suggest{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.suggest button{font-size:12px;padding:4px 10px;border-radius:20px;background:transparent}
+.mdtable{border-collapse:collapse;font-size:12px;margin:6px 0;width:100%}
+.mdtable td{border:1px solid var(--line);padding:3px 6px}
+
+/* compagnon : discussion à gauche, éditeur à droite */
+.main{display:grid;grid-template-columns:minmax(360px,36%) minmax(0,1fr);gap:20px;align-items:start}
+.edgrid{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:16px;align-items:start}
+@media (max-width:1300px){.edgrid{grid-template-columns:1fr}}
+@media (max-width:980px){.main{grid-template-columns:1fr} #chat{position:static;height:70vh}}
+.editor.flash .card{animation:flash 1.2s ease}
+@keyframes flash{0%{border-color:var(--gold);box-shadow:0 0 0 2px #d4ad5544}100%{border-color:var(--line);box-shadow:none}}
+#framePanel .frame-img{height:140px}
+
+/* éditeur */
+.ed{display:grid;grid-template-columns:260px minmax(0,1fr) 320px;gap:16px;align-items:start}
+@media (max-width:1250px){.ed{grid-template-columns:1fr}}
+.edtop{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+.edtop input{width:260px}
+.frame-img{width:100%;height:190px;object-fit:contain;background:radial-gradient(circle at 50% 40%,#2a2618,transparent 70%);border-radius:8px}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin:10px 0}
+.stat{background:var(--panel2);border-radius:8px;padding:6px 8px}
+.stat b{display:block;font-size:16px;color:var(--gold2)}
+.stat span{font-size:11px;color:var(--muted);text-transform:uppercase}
+.slots{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.slot{min-height:88px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:9px;cursor:pointer;position:relative;display:flex;flex-direction:column;gap:3px;transition:border-color .15s}
+.slot:hover{border-color:var(--gold)}
+.slot.empty{border-style:dashed;align-items:center;justify-content:center;color:var(--muted)}
+.slot .lab{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.slot .nm{font-weight:600;color:var(--gold2);font-size:13px}
+.slot .eff{font-size:11.5px;color:var(--text);opacity:.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.slot .meta{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:auto}
+.slot .modpoltop{position:absolute;top:4px;right:24px}
+.slot .x{position:absolute;top:4px;right:7px;color:var(--muted);font-size:13px}
+.slot .x:hover{color:var(--err)}
+.slot img{width:30px;height:30px;object-fit:contain;float:right}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.fields{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+@media (max-width:900px){.fields{grid-template-columns:repeat(2,1fr)}}
+.fields label{display:flex;flex-direction:column;gap:4px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.fields input,.fields select{width:100%}
+.slotpol{font-size:10px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:auto;padding-top:6px;color:var(--muted)}
+.slotpol .cost{margin-left:auto}
+.slotpol .forma{color:var(--gold);font-weight:600}
+.pol{display:inline-block;padding:0 6px;border-radius:5px;font-size:10px;text-transform:uppercase;border:1px solid var(--line)}
+.totals{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.tot{background:var(--panel2);border-radius:8px;padding:8px}
+.tot span{font-size:11px;color:var(--muted)}
+.tot b{font-size:18px;color:var(--gold2);display:block}
+.bar{height:6px;background:var(--panel2);border-radius:5px;overflow:hidden;margin:6px 0}
+.bar i{display:block;height:100%;background:var(--gold)}
+.list{margin:0;padding-left:18px}
+.list li{margin:4px 0}
+.badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600;text-transform:none;letter-spacing:0}
+.badge.ok{background:#1f3322;color:var(--ok)} .badge.bad{background:#3a2020;color:var(--err)}
+.tabs{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.tabs button{font-size:12px;padding:5px 10px}
+.tabs button.on{background:var(--gold);color:#1b1608;border-color:var(--gold)}
+.wstats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}
+.wstats .tot b{font-size:15px}
+.polsel{position:absolute;top:4px;right:24px;font-size:10px;padding:1px 3px;background:var(--panel);max-width:90px}
+.shards{display:grid;grid-template-columns:1fr;gap:6px}
+.shards select{width:100%;font-size:12px}
+#modal{position:fixed;inset:0;background:#000b;display:none;align-items:center;justify-content:center;z-index:20}
+#modal .box{width:min(820px,94vw);max-height:86vh;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);display:flex;flex-direction:column}
+#modal .head{display:flex;gap:10px;padding:12px;border-bottom:1px solid var(--line)}
+#modal .head input{flex:1}
+#modal .items{overflow:auto;padding:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.item{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px;cursor:pointer}
+.item:hover{border-color:var(--gold)}
+.item .nm{font-weight:600;color:var(--gold2)}
+.item .eff{font-size:12px;opacity:.85}
+.item.aug{border-left:3px solid var(--blue)}
+
+/* loadouts */
+.ld{display:grid;grid-template-columns:300px minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:900px){.ld{grid-template-columns:1fr}}
+.ldcards{display:flex;flex-direction:column;gap:8px}
+.ldcard{text-align:left;padding:10px 12px;border-radius:10px;background:var(--panel2)}
+.ldcard b{display:block}
+.ldcard.on{border-color:var(--gold)}
+#ldSynth{width:100%;min-height:260px;resize:vertical}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Compagnon Warframe</div>
+  <nav>
+    <button data-view="vMain" class="on">Compagnon</button>
+    <button data-view="vLoad">Mes loadouts</button>
+  </nav>
+  <span class="chip" id="modelChip">…</span>
+  <span id="status"></span>
+</header>
+
+<!-- ============ COMPAGNON : discussion + éditeur ============ -->
+<section class="view on" id="vMain">
+  <div class="main">
+    <div class="card" id="chat">
+      <h2>Compagnon</h2>
+      <div id="log"></div>
+      <div class="suggest" id="suggest">
+        <button>Je débute, propose-moi un build pour Atlas</button><button>Où farmer Rubble Heap ?</button><button>Explique-moi le shield gate</button>
+      </div>
+      <div class="chatin">
+        <textarea id="q" placeholder="Écris ta question… (Entrée pour envoyer)"></textarea>
+        <button class="primary" id="send">Envoyer</button>
+      </div>
+      <div style="display:flex;justify-content:space-between;margin-top:6px">
+        <button class="ghost small" id="newchat" style="padding:2px 6px;border:0">Nouvelle discussion</button>
+        <input type="checkbox" id="withBuild" checked hidden>
+      </div>
+    </div>
+    <div class="editor" id="editor">
+      <div class="edtop">
+        <input id="wf" list="wflist" placeholder="Warframe (ex. Atlas Prime)">
+        <datalist id="wflist"></datalist>
+        <button id="btnClear">Vider</button>
+        <button class="primary" id="edSave">Enregistrer le loadout</button>
+        <span class="small" id="ldName"></span>
+      </div>
+  <div class="edgrid">
+
+    <div class="stack">
+      <div class="card">
+        <h2>Mods</h2>
+        <div class="row2">
+          <div class="slot empty" data-slot="aura">Aura</div>
+          <div class="slot empty" data-slot="exilus">Exilus</div>
+        </div>
+        <div class="slots" id="modSlots"></div>
+        <div class="fields">
+          <label>Arcane 1<select id="arc1"></select></label>
+          <label>Arcane 2<select id="arc2"></select></label>
+          <label>Helminth<select id="helminth"></select></label>
+          <label>Remplace<select id="hremp" title="Capacité de la warframe remplacée par le Helminth"></select></label>
+          <label>Focus<select id="focus"><option></option><option>Madurai</option><option>Naramon</option><option>Unairu</option><option>Vazarin</option><option>Zenurik</option></select></label>
+          <label>Compagnon<select id="compagnon"></select><span class="small" id="cpols"></span></label>
+          <input type="hidden" id="role"><input type="hidden" id="source_energie">
+        </div>
+      </div>
+      <div class="card">
+        <h2>Armes</h2>
+        <div class="tabs" id="wtabs">
+          <button data-w="principale" class="on">Principale</button><button data-w="secondaire">Secondaire</button><button data-w="melee">Mêlée</button><span id="wtabsEx"></span>
+        </div>
+        <div class="row2">
+          <label class="small" style="display:flex;flex-direction:column;gap:4px">Arme<input id="wname" list="wlist" placeholder="ex. Soma Prime"><datalist id="wlist"></datalist></label>
+          <label class="small" style="display:flex;flex-direction:column;gap:4px">Arcane d'arme<select id="warc"></select></label>
+        </div>
+        <div class="row2"><div class="slot empty" data-slot="wexilus">+ Exilus</div><div class="small" id="wcap" style="align-self:center"></div></div>
+        <div class="slots" id="wSlots"></div>
+        <div class="wstats" id="wstats"></div>
+        <p class="small" id="wnote"></p>
+      </div>
+    </div>
+    <div class="stack">
+      <div class="card" id="framePanel"><h2>Warframe</h2><div id="frameInfo" class="small">Choisis une warframe.</div></div>
+      <div class="card">
+        <h2>Totaux <span id="badge"></span></h2>
+        <div class="totals" id="totals"></div>
+        <div style="margin-top:10px" class="small" id="capTxt"></div>
+        <div class="bar"><i id="capBar" style="width:0"></i></div>
+        <ul class="list" id="issues"></ul>
+      </div>
+      <div class="card">
+        <details><summary style="margin:0">Fragments d'Archonte</summary><div class="shards" id="shards" style="margin-top:10px"></div></details>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOADOUTS ============ -->
+<section class="view" id="vLoad">
+  <div class="ld">
+    <div class="card">
+      <h2>Mes loadouts</h2>
+      <div class="ldcards" id="ldCards"><span class="small">Aucun loadout enregistré.</span></div>
+      <select id="ldList" hidden></select><button id="ldOpen" hidden></button>
+    </div>
+    <div class="card" id="ldPanel">
+      <h2>Loadout <span id="ldTitle" style="color:var(--gold2);text-transform:none;letter-spacing:0"></span></h2>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="primary" id="ldSave">Enregistrer une nouvelle version</button>
+        <button id="ldSaveAs">Enregistrer sous…</button>
+        <button id="ldCheck">Vérifier après une mise à jour du jeu</button>
+        <button id="ldEdit">Ouvrir dans l'éditeur</button>
+      </div>
+      <div id="ldChanges" class="small" style="margin-top:10px"></div>
+      <div class="subt">Synthèse du build</div>
+      <textarea id="ldSynth" placeholder="Rôle, boucle de jeu, mécaniques, survie, énergie, points faibles… Écris-la ou demande-la au compagnon."></textarea>
+      <div style="margin-top:8px"><button id="ldGen">Rédiger la synthèse avec le compagnon</button></div>
+      <details><summary>Historique des versions</summary><ul class="list small" id="ldHist"></ul></details>
+    </div>
+  </div>
+</section>
+
+<div id="modal"><div class="box">
+  <div class="head"><input id="mq" placeholder="Rechercher un mod"><button id="mclose">Fermer</button></div>
+  <div class="items" id="mitems"></div>
+</div></div>
+
+<script>
+
+const IMG = n => n ? "https://cdn.warframestat.us/img/" + encodeURIComponent(n) : "";
+const $ = id => document.getElementById(id);
+const api = async (path, body) => {
+  const r = await fetch(path, body ? {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(body)} : {});
+  return r.json();
+};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const POL = {madurai:["V","#e06a5a"], vazarin:["D","#6fbf73"], naramon:["—","#d6b25e"], zenurik:["=","#78a6d8"], unairu:["Y","#b58ad8"], umbra:["Ω","#e6e3da"], penjaga:["P","#9a9789"], any:["*","#9a9789"]};
+const pol = p => p ? `<span class="pol" style="color:${(POL[p]||["",""])[1]}">${esc((POL[p]||[p])[0])} ${esc(p)}</span>` : "";
+
+const W = () => ({nom:"", exilus:null, mods:Array(8).fill(null), arcane:""});
+let state = {warframe:"", aura:null, exilus:null, mods:Array(8).fill(null), pols:Array(8).fill(""),
+             weapons:{principale:W(), secondaire:W(), melee:W()}};
+let curW = "principale", weaponLists = {}, wArcanes = {}, frameExalted = [];
+// polarités : celles déjà posées (warframe, armes, compagnon) puis celles retenues par le contrôle (forma ajouté ou non)
+let framePols = {aura:null, exilus:null, mods:[]}, lastCap = null, wPols = {};
+// armes exaltées (données par une capacité) : onglets « ex:<nom> » ; griffes de Garuda : emplacement de mêlée imposé
+const isEx = cat => cat.startsWith("ex:");
+const detailKey = cat => isEx(cat) ? "exaltee " + cat.slice(3) : cat;
+const talonsOf = () => (frameExalted.find(x => x.griffes_garuda) || {}).nom || "";
+const POLS = ["", "madurai", "vazarin", "naramon", "zenurik", "unairu", "umbra", "penjaga", "any"];
+const WCAT = {principale:"arcanes_principale", secondaire:"arcanes_secondaire", melee:"arcanes_melee"};
+let picking = null, modCache = {};
+
+// ---------- warframe
+async function init(){
+  const wfs = await api("/api/warframes");
+  $("wflist").innerHTML = wfs.map(n => `<option value="${esc(n)}">`).join("");
+  const [arc, cmp] = await Promise.all([api("/api/options?cat=arcanes"), api("/api/options?cat=compagnon")]);
+  const arcOpts = "<option></option>" + (arc.arcanes||[]).map(a => `<option title="${esc(a.effet)}">${esc(a.nom)}</option>`).join("");
+  $("arc1").innerHTML = arcOpts; $("arc2").innerHTML = arcOpts;
+  $("compagnon").innerHTML = "<option></option>" + (cmp.compagnons||[]).map(c => `<option>${esc(c.replace(/ \(.*\)$/,""))}</option>`).join("");
+  for (const cat of ["principale","secondaire","melee"]) {
+    weaponLists[cat] = api("/api/weapons?cat=" + cat);
+    wArcanes[cat] = api("/api/options?cat=" + WCAT[cat]);
+  }
+  const fr = await api("/api/options?cat=fragments");
+  const frOpts = "<option value=''>(vide)</option>" + (fr.fragments||[]).map(f => `<option>${esc(f)}</option>`).join("");
+  $("shards").innerHTML = [0,1,2,3,4].map(i => `<select id="sh${i}">${frOpts}</select>`).join("");
+  for (let i = 0; i < 5; i++) $("sh" + i).addEventListener("change", validate);
+  await showWeaponTab("principale");
+  const h = await api("/api/options?cat=helminth");
+  $("helminth").innerHTML = "<option></option>" + (h.helminth||[]).map(x => `<option>${esc(x.replace(/ \(.*\)$/,""))}</option>`).join("");
+  renderSlots();
+  try { const saved = JSON.parse(localStorage.getItem("wf_build") || "null"); if (saved) await loadBuild(saved); } catch(e) {}
+}
+
+async function setFrame(name){
+  const f = await api("/api/frame?nom=" + encodeURIComponent(name));
+  if (f.erreur) { $("frameInfo").innerHTML = `<span class="err">${esc(f.erreur)}</span>`; return; }
+  if (state.warframe !== f.nom) modCache = {};
+  state.warframe = f.nom; $("wf").value = f.nom;
+  $("hremp").innerHTML = "<option></option>" + (f.capacites||[]).map((c,i) => `<option value="${esc(c.nom)}">${i+1}. ${esc(c.nom)}</option>`).join("");
+  framePols = {aura: f.polarite_aura || null, exilus: f.polarite_exilus || null, mods: f.polarites || []}; lastCap = null;
+  frameExalted = f.exaltees_detail || [];
+  for (const k of Object.keys(state.weapons)) if (isEx(k) && !frameExalted.some(x => "ex:" + x.nom === k)) delete state.weapons[k];
+  for (const x of frameExalted) if (!x.griffes_garuda && !state.weapons["ex:" + x.nom]) state.weapons["ex:" + x.nom] = {...W(), nom: x.nom};
+  const tal = talonsOf(), m = state.weapons.melee;
+  if (tal && m.nom !== tal) state.weapons.melee = {...W(), nom: tal};
+  if (!tal && /garuda.*talons/i.test(m.nom)) state.weapons.melee = W();
+  $("wtabsEx").innerHTML = frameExalted.filter(x => !x.griffes_garuda).map(x => `<button data-w="ex:${esc(x.nom)}">Exaltée : ${esc(x.nom)}</button>`).join("");
+  if (isEx(curW) && !state.weapons[curW]) curW = "principale";
+  showWeaponTab(curW);
+  const r = f.rang_30_sans_mod;
+  $("frameInfo").innerHTML = `
+    <img class="frame-img" src="${IMG(f.image)}" alt="" onerror="this.style.display='none'">
+    <div class="stats">
+      <div class="stat"><span>Santé</span><b>${r.sante}</b></div><div class="stat"><span>Bouclier</span><b>${r.bouclier}</b></div>
+      <div class="stat"><span>Armure</span><b>${r.armure}</b></div><div class="stat"><span>Énergie</span><b>${r.energie}</b></div>
+    </div>
+    <details><summary>Passif</summary><p class="small">${esc(f.passif)}</p></details>
+    <details><summary>Coûts des capacités</summary><ul class="list small">${Object.entries(f.couts_des_capacites||{}).map(([k,v]) => `<li>${esc(k)} : ${esc(v)}</li>`).join("")}</ul></details>
+    ${f.ressource && f.ressource !== "énergie" ? `<p class="small warn">${esc(f.ressource)}</p>` : ""}`;
+  validate();
+}
+$("wf").addEventListener("change", e => { e.target.blur(); setFrame(e.target.value); });
+
+// ---------- emplacements
+function slotHTML(m, label){
+  if (!m) return null;
+  return `<span class="x" title="Retirer">✕</span><span class="modpoltop" title="Polarité du mod">${pol(m.polarite)}</span>${m.image ? `<img src="${IMG(m.image)}" alt="" onerror="this.remove()">` : ""}
+    <span class="lab">${esc(label)}</span><span class="nm">${esc(m.nom)}</span>
+    <span class="eff" title="${esc((m.effets||[]).join(" ; "))}">${esc((m.effets||[]).join(" ; "))}</span>`;
+}
+function polSel(i){
+  return `<select class="polsel" data-pi="${i}" title="Polarité de l'emplacement">${POLS.map(p => `<option value="${p}" ${state.pols[i]===p?"selected":""}>${p ? "imposer " + p : "polarité auto"}</option>`).join("")}</select>`;
+}
+// polarité de chaque emplacement : celle choisie par le contrôle (placement des mods) sinon celle posée d'origine
+function placedPols(mods, cap, base){
+  const em = (cap && cap.emplacements) || null;
+  if (!em) return mods.map((_, i) => ({pol: base[i] || null, forma: false}));
+  const used = new Set(), free = em.filter(e => !e.mod);
+  let k = 0;
+  return mods.map(m => {
+    if (m) { const j = em.findIndex((e, j) => !used.has(j) && e.mod && e.mod.toLowerCase() === m.nom.toLowerCase());
+             if (j >= 0) { used.add(j); return {pol: em[j].polarite, forma: em[j].forma, cout: em[j].cout}; } }
+    const e = free[k++]; return e ? {pol: e.polarite, forma: false} : {pol: null, forma: false};
+  });
+}
+const polTag = (p, forma, extra) => `<span class="slotpol" title="Polarité de l'emplacement">${p ? pol(p) : '<span class="small">sans polarité</span>'}${forma ? '<span class="forma" title="forma à poser">+forma</span>' : ""}${extra ? `<span class="small cost">${esc(extra)}</span>` : ""}</span>`;
+function renderSlots(){
+  const fp = placedPols(state.mods, lastCap, framePols.mods);
+  $("modSlots").innerHTML = state.mods.map((m,i) => `<div class="slot ${m?"":"empty"}" data-slot="mod" data-i="${i}">${slotHTML(m,"Mod "+(i+1)) || "+ Mod " + (i+1)}${polTag(fp[i].pol, fp[i].forma, m ? "coût " + (fp[i].cout ?? m.cout) : "")}</div>`).join("");
+  const w = state.weapons[curW];
+  const wd = lastResult && lastResult.armes_detail && lastResult.armes_detail[detailKey(curW)];
+  const wb = wPols[w.nom] || {mods: [], exilus: null};
+  const wp = placedPols(w.mods, wd && wd.capacite, wb.mods || []);
+  $("wSlots").style.display = w.nom ? "" : "none";
+  document.querySelector('.slot[data-slot="wexilus"]').parentElement.style.display = w.nom ? "" : "none";
+  $("wSlots").innerHTML = w.mods.map((m,i) => `<div class="slot ${m?"":"empty"}" data-slot="wmod" data-i="${i}">${slotHTML(m,"Mod "+(i+1)) || "+ Mod " + (i+1)}${w.nom ? polTag(wp[i].pol, wp[i].forma, m ? "coût " + (wp[i].cout ?? m.cout) : "") : ""}</div>`).join("");
+  const we = document.querySelector('.slot[data-slot="wexilus"]');
+  we.className = "slot " + (w.exilus ? "" : "empty"); we.innerHTML = (slotHTML(w.exilus, "Exilus d'arme") || "+ Exilus") + (w.nom ? polTag(wb.exilus, false) : "");
+  for (const s of ["aura","exilus"]) {
+    const el = document.querySelector(`.slot[data-slot="${s}"]`);
+    el.className = "slot " + (state[s] ? "" : "empty");
+    const c = lastCap && lastCap[s];
+    const tag = s === "aura" ? polTag(c && state.aura ? c.polarite : framePols.aura, c && state.aura && c.forma, c && c.apport !== undefined && state.aura ? `+${c.apport} capacité` : "")
+                             : polTag(c ? c.polarite : framePols.exilus, c && c.forma, c && c.cout ? "coût " + c.cout : "");
+    el.innerHTML = (slotHTML(state[s], s === "aura" ? "Aura" : "Exilus") || (s === "aura" ? "+ Aura" : "+ Exilus")) + (state.warframe ? tag : "");
+  }
+}
+async function loadWPols(name){
+  if (!name || wPols[name]) return;
+  wPols[name] = await api(`/api/pols?kind=arme&nom=${encodeURIComponent(name)}`);
+}
+document.addEventListener("change", e => {
+  if (e.target.classList.contains("polsel")) { state.pols[+e.target.dataset.pi] = e.target.value; validate(); }
+});
+document.addEventListener("click", e => {
+  if (e.target.classList.contains("polsel")) return;
+  const slot = e.target.closest(".slot"); if (!slot) return;
+  const kind = slot.dataset.slot, i = +slot.dataset.i, w = state.weapons[curW];
+  if (e.target.classList.contains("x")) {
+    if (kind === "mod") state.mods[i] = null; else if (kind === "wmod") w.mods[i] = null;
+    else if (kind === "wexilus") w.exilus = null; else state[kind] = null;
+    renderSlots(); validate(); return;
+  }
+  if ((kind === "wmod" || kind === "wexilus") && !w.nom) { $("status").textContent = "Choisis d'abord une arme."; return; }
+  if (!state.warframe && !kind.startsWith("w")) { $("status").textContent = "Choisis d'abord une warframe."; return; }
+  picking = {kind, i}; openModal();
+});
+
+// ---------- armes
+async function showWeaponTab(cat){
+  curW = cat;
+  document.querySelectorAll("#wtabs button").forEach(b => b.classList.toggle("on", b.dataset.w === cat));
+  const locked = isEx(cat) || (cat === "melee" && !!talonsOf());
+  const lst = isEx(cat) ? {} : await weaponLists[cat];
+  $("wlist").innerHTML = (lst.armes||[]).map(a => `<option value="${esc(a.nom)}">${esc(a.type)} · crit ${esc(a.critique)} · statut ${esc(a.statut)}</option>`).join("");
+  const acat = isEx(cat) ? ({melee:"melee", principale:"principale", secondaire:"secondaire"})[(frameExalted.find(x => "ex:" + x.nom === cat) || {}).emplacement] || "melee" : cat;
+  const arcs = await wArcanes[acat];
+  $("warc").innerHTML = "<option></option>" + (arcs[WCAT[acat]]||[]).map(a => `<option title="${esc(a.effet)}">${esc(a.nom)}</option>`).join("");
+  const w = state.weapons[cat];
+  $("wname").value = w.nom; setSel("warc", w.arcane); await loadWPols(w.nom);
+  $("wname").disabled = locked;
+  $("wname").title = isEx(cat) ? "Arme donnée par une capacité : elle se mode à part"
+    : locked ? "Les griffes de Garuda occupent son emplacement de mêlée" : "";
+  renderSlots(); renderWeaponStats(lastResult);
+}
+$("wtabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b) showWeaponTab(b.dataset.w); });
+$("wname").addEventListener("change", e => {
+  const w = state.weapons[curW];
+  if (w.nom === e.target.value) return;  // évite de redessiner pendant un clic (le clic serait perdu)
+  w.mods = Array(8).fill(null); w.exilus = null;
+  w.nom = e.target.value; loadWPols(w.nom).then(renderSlots); renderSlots(); validate();
+});
+$("warc").addEventListener("change", e => { state.weapons[curW].arcane = e.target.value; validate(); });
+let lastResult = null;
+function renderWeaponStats(r){
+  const d = r && r.armes_detail && r.armes_detail[detailKey(curW)];
+  if (!d || !d.stats) { $("wstats").innerHTML = ""; $("wcap").textContent = ""; $("wnote").textContent = state.weapons[curW].nom ? "Ajoute des mods pour voir le calcul." : ""; return; }
+  const st = d.stats;
+  const cells = [["Dégâts moyens / coup", st.degats_moyens_par_coup], ["DPS (rafale)", st.dps_rafale], ["DPS soutenu", st.dps_soutenu ?? "—"],
+    ["Critique", st.chance_critique + " " + st.multiplicateur_critique], ["Statut", st.chance_statut], ["Multitir", st.multitir],
+    [st.vitesse_attaque !== undefined ? "Vitesse d'attaque" : "Cadence", st.vitesse_attaque ?? st.cadence], ["Statuts / s", st.statuts_par_seconde],
+    [st.portee_m !== undefined ? "Portée" : "Chargeur", st.portee_m !== undefined ? st.portee_m + " m" : (st.chargeur ?? "—")]];
+  $("wstats").innerHTML = cells.map(([k,v]) => `<div class="tot"><span class="small">${esc(k)}</span><b>${esc(v)}</b></div>`).join("") +
+    (st.a_combo_12x ? `<div class="tot" style="grid-column:1/-1"><span class="small">À combo 12x</span><div>${esc(st.a_combo_12x.detail)} · DPS ${esc(st.a_combo_12x.dps_rafale)}</div></div>` : "") +
+    `<div class="tot" style="grid-column:1/-1"><span class="small">Dégâts par type</span><div>${Object.entries(st.degats_par_type).map(([k,v]) => `${esc(k)} ${esc(v)}`).join(" · ")}</div></div>`;
+  $("wcap").textContent = `Capacité ${d.capacite.cout} / ${d.capacite.capacite} · formas ${d.capacite.formas_necessaires_au_minimum}`;
+  $("wnote").textContent = "Non compté : " + d.non_compte + "." + (isEx(curW) ? " Effets de la puissance, de la portée et du combo de capacité : voir les remarques du contrôle." : "");
+}
+
+// ---------- sélecteur de mods
+async function openModal(){
+  $("modal").style.display = "flex"; $("mq").value = ""; $("mq").focus(); await fillModal("");
+}
+async function fillModal(q){
+  const isW = picking.kind === "wmod" || picking.kind === "wexilus", w = state.weapons[curW];
+  const slot = picking.kind === "mod" ? "mod" : picking.kind;
+  const key = isW ? `w|${w.nom}|${picking.kind}` : slot + "|" + state.warframe;
+  let pool = modCache[key];
+  if (!Array.isArray(pool)) {
+    pool = await api(isW ? `/api/weapon_mods?arme=${encodeURIComponent(w.nom)}&exilus=${picking.kind === "wexilus" ? 1 : 0}`
+                         : `/api/mods?slot=${slot}&frame=${encodeURIComponent(state.warframe)}`);
+    if (Array.isArray(pool)) modCache[key] = pool; else pool = [];
+  }
+  const used = new Set((isW ? [w.exilus, ...w.mods] : [state.aura, state.exilus, ...state.mods]).filter(Boolean).map(m => m.nom));
+  const list = pool.filter(m => !q || m.nom.toLowerCase().includes(q.toLowerCase()) || m.effets.join(" ").toLowerCase().includes(q.toLowerCase()));
+  $("mitems").innerHTML = list.map((m,k) => `<div class="item ${m.augment?"aug":""}" data-k="${k}" style="${used.has(m.nom)?"opacity:.4":""}">
+      <div class="nm">${esc(m.nom)} ${m.augment ? '<span class="small">(augment)</span>' : ""}</div>
+      <div class="eff">${esc(m.effets.join(" ; "))}</div>
+      <div class="small">${pol(m.polarite)} coût ${esc(m.cout)}${m.set ? " · set " + esc(m.set) : ""}</div></div>`).join("") || `<p class="small">Aucun mod.</p>`;
+  $("mitems").onclick = ev => {
+    const it = ev.target.closest(".item"); if (!it) return;
+    const m = list[+it.dataset.k];
+    if (picking.kind === "mod") state.mods[picking.i] = m;
+    else if (picking.kind === "wmod") w.mods[picking.i] = m;
+    else if (picking.kind === "wexilus") w.exilus = m;
+    else state[picking.kind] = m;
+    $("modal").style.display = "none"; renderSlots(); validate();
+  };
+}
+$("mq").addEventListener("input", e => fillModal(e.target.value));
+$("mclose").onclick = () => $("modal").style.display = "none";
+$("modal").addEventListener("click", e => { if (e.target.id === "modal") $("modal").style.display = "none"; });
+
+// ---------- build et validation
+function currentBuild(){
+  return {...(state.extra || {}), warframe: state.warframe, role: $("role").value, source_energie: $("source_energie").value,
+    aura: state.aura?.nom || "", exilus: state.exilus?.nom || "", mods: state.mods.filter(Boolean).map(m => m.nom),
+    arcanes: [$("arc1").value, $("arc2").value].filter(Boolean), helminth: $("helminth").value, helminth_remplace: $("helminth").value ? $("hremp").value : "", focus: $("focus").value,
+    compagnon: $("compagnon").value,
+    armes: (() => {
+      const spec = w => ({nom: w.nom, mods: w.mods.filter(Boolean).map(m => m.nom), exilus: w.exilus?.nom || "", arcane: w.arcane});
+      const out = Object.fromEntries(Object.entries(state.weapons).filter(([k]) => !isEx(k))
+        .map(([k,w]) => [k, w.mods.some(Boolean) || w.exilus || w.arcane ? spec(w) : w.nom]));
+      const ex = Object.entries(state.weapons).filter(([k,w]) => isEx(k) && (w.mods.some(Boolean) || w.exilus || w.arcane)).map(([,w]) => spec(w));
+      if (ex.length) out.exaltees = ex;
+      return out; })(),
+    fragments: [0,1,2,3,4].map(i => $("sh" + i)?.value).filter(Boolean),
+};
+}
+let vt = null;
+function validate(){ clearTimeout(vt); vt = setTimeout(doValidate, 250); }
+async function doValidate(){
+  if (!state.warframe) return;
+  const b = currentBuild();
+  try { localStorage.setItem("wf_build", JSON.stringify(b)); } catch(e) {}
+  const r = await api("/api/validate", {build: b});
+  if (r.erreur) { $("issues").innerHTML = `<li class="err">${esc(r.erreur)}</li>`; return; }
+  $("totals").innerHTML = Object.entries(r.totaux||{}).filter(([k]) => !/^Coût d'une capacité/.test(k)).map(([k,v]) => `<div class="tot"><span class="small">${esc(k)}</span><b>${esc(v)}</b></div>`).join("");
+  const c = r.capacite || {};
+  $("capTxt").textContent = `Capacité ${c.cout_des_8_mods ?? 0} / ${c.capacite ?? 0} · ${c.formas_necessaires_au_minimum ?? 0} forma(s) à poser`;
+  $("capBar").style.width = Math.min(100, 100 * (c.cout_des_8_mods||0) / (c.capacite||1)) + "%";
+  $("capBar").style.background = (c.cout_des_8_mods||0) > (c.capacite||0) ? "var(--err)" : "var(--gold)";
+  $("badge").innerHTML = r.statut === "complet et valide" ? '<span class="badge ok">valide</span>' : '<span class="badge bad">à compléter</span>';
+  // seules les vraies erreurs restent visibles ; les rappels du contrôle (destinés à l'agent) sont repliés
+  $("issues").innerHTML = (r.erreurs||[]).map(e => `<li class="err">${esc(e)}</li>`).join("");
+  lastResult = r; lastCap = r.capacite || null; renderSlots(); renderWeaponStats(r);
+}
+for (const id of ["role","source_energie","arc1","arc2","helminth","hremp","focus","compagnon"]) $(id).addEventListener("change", validate);
+async function showCompanionPols(){
+  const n = $("compagnon").value; if (!n) { $("cpols").innerHTML = ""; return; }
+  const p = await api(`/api/pols?kind=compagnon&nom=${encodeURIComponent(n)}`);
+  $("cpols").innerHTML = "Polarités : " + ((p.mods||[]).map(pol).join(" ") || "aucune");
+}
+$("compagnon").addEventListener("change", showCompanionPols);
+
+// ---------- charger, sauvegarder
+async function loadBuild(b){
+  if (!b || !b.warframe) return;
+  // ce que le compagnon a décidé de laisser au joueur (armes, compagnon…) et le niveau visé (capacité, formas)
+  state.extra = Object.fromEntries(["hors_build", "reacteur", "niveau", "defense"].filter(k => b[k] !== undefined).map(k => [k, b[k]]));
+  await setFrame(b.warframe);
+  const pool = await api(`/api/mods?slot=mod&frame=${encodeURIComponent(state.warframe)}`);
+  const aur = await api(`/api/mods?slot=aura&frame=${encodeURIComponent(state.warframe)}`);
+  const exi = await api(`/api/mods?slot=exilus&frame=${encodeURIComponent(state.warframe)}`);
+  const find = (lst, n) => lst.find(m => m.nom.toLowerCase() === String(n||"").toLowerCase()) || (n ? {nom:n, effets:[], cout:"?"} : null);
+  state.aura = find(aur, b.aura); state.exilus = find(exi, b.exilus);
+  state.mods = Array(8).fill(null).map((_,i) => find(pool, (b.mods||[])[i]));
+  $("role").value = b.role || ""; $("source_energie").value = b.source_energie || "";
+  const arcs = b.arcanes || [];
+  setSel("arc1", arcs[0]); setSel("arc2", arcs[1]); setSel("helminth", b.helminth); setSel("hremp", b.helminth_remplace); setSel("focus", b.focus); setSel("compagnon", b.compagnon); showCompanionPols();
+  const a = b.armes || {};
+  const exl = Array.isArray(a.exaltees) ? a.exaltees : (a.exaltees ? [a.exaltees] : []);
+  const slots = ["principale","secondaire","melee", ...exl.map(e => "ex:" + (typeof e === "string" ? e : e.nom))];
+  for (const cat of slots) {
+    const spec = isEx(cat) ? exl.find(e => "ex:" + (typeof e === "string" ? e : e.nom) === cat) : a[cat]; const w = W();
+    if (isEx(cat) && !state.weapons[cat]) continue;  // arme exaltée d'une autre warframe
+    if (cat === "melee" && talonsOf() && !spec) { state.weapons.melee = {...W(), nom: talonsOf()}; continue; }
+    if (typeof spec === "string") w.nom = spec;
+    else if (spec && spec.nom) {
+      w.nom = spec.nom; w.arcane = spec.arcane || "";
+      const wp = await api(`/api/weapon_mods?arme=${encodeURIComponent(spec.nom)}&exilus=0`);
+      const lst = Array.isArray(wp) ? wp : [];
+      w.mods = Array(8).fill(null).map((_,i) => find(lst, (spec.mods||[])[i]));
+      w.exilus = find(lst, spec.exilus);
+    }
+    state.weapons[cat] = w;
+  }
+  const frs = b.fragments || [];
+  for (let i = 0; i < 5; i++) if ($("sh" + i)) setSel("sh" + i, frs[i]);
+  state.pols = Array(8).fill("");
+  if (b.polarites && Array.isArray(b.polarites.mods)) b.polarites.mods.forEach((p,i) => state.pols[i] = p || "");
+  await showWeaponTab(curW); validate();
+}
+function setSel(id, v){
+  if (!v) { $(id).value = ""; return; }
+  const sel = $(id); let o = [...sel.options].find(o => o.value.toLowerCase() === String(v).toLowerCase() || o.value.toLowerCase().startsWith(String(v).toLowerCase()));
+  if (!o) { o = new Option(v, v); sel.add(o); }
+  sel.value = o.value;
+}
+// ---------- loadouts
+let activeLd = "", ldData = null;
+async function refreshLoadouts(sel){
+  const l = await api("/api/loadouts");
+  $("ldList").innerHTML = "<option value=''>(choisir un loadout)</option>" + l.map(x => `<option value="${esc(x.nom)}">${esc(x.nom)} · ${esc(x.warframe||"")} · v${x.versions}</option>`).join("");
+  if (sel) $("ldList").value = sel;
+  $("ldCards").innerHTML = l.length ? l.map(x => `<button class="ldcard ${x.nom === activeLd ? "on" : ""}" data-ld="${esc(x.nom)}"><b>${esc(x.nom)}</b>
+    <span class="small">${esc(x.warframe||"")} · v${x.versions} · ${esc((x.derniere_modification||"").slice(0,10))}</span></button>`).join("")
+    : '<span class="small">Aucun loadout. Génère un build dans le Conseiller ou monte-le dans l\'Éditeur, puis enregistre-le.</span>';
+}
+$("ldCards").addEventListener("click", e => { const b = e.target.closest("[data-ld]"); if (b) openLoadout(b.dataset.ld); });
+function showChanges(ch){
+  if (!ch) { $("ldChanges").innerHTML = ""; return; }
+  if (ch.a_jour) { $("ldChanges").innerHTML = `<span class="ok">À jour : aucun changement des données ni note de patch depuis le ${esc(ch.sauvegarde_du)}.</span>`; return; }
+  $("ldChanges").innerHTML = `<span class="warn">Depuis la sauvegarde du ${esc(ch.sauvegarde_du)} :</span><ul class="list">` +
+    ch.changements_dans_les_donnees.map(c => `<li>${esc(c)}</li>`).join("") +
+    ch.notes_de_patch_posterieures.map(n => `<li>note de patch « ${esc(n.note)} » : ${n.mentions.map(esc).join(" ; ")}</li>`).join("") + "</ul>";
+}
+async function openLoadout(name){
+  if (!name) return;
+  const r = await api("/api/loadout?nom=" + encodeURIComponent(name));
+  if (r.erreur) { $("status").textContent = r.erreur; return; }
+  ldData = r.loadout; activeLd = ldData.nom; $("ldName").textContent = "Loadout : " + activeLd; $("ldTitle").textContent = "· " + activeLd;
+  document.querySelectorAll(".ldcard").forEach(c => c.classList.toggle("on", c.dataset.ld === activeLd));
+  const v = ldData.versions[ldData.versions.length - 1];
+  await loadBuild(v.build); $("ldSynth").value = v.synthese || "";
+  $("ldHist").innerHTML = ldData.versions.slice().reverse().map(x => `<li>v${x.version} (${esc(x.date.slice(0,10))}) : ${esc(x.raison||"")} <a href="#" data-v="${x.version}">charger</a></li>`).join("");
+  showChanges(r.changements);
+  $("log").innerHTML = ""; (ldData.conversation||[]).slice(-8).forEach(m => addMsg(m.role === "user" ? esc(m.content) : md(m.content), m.role === "user" ? "me" : ""));
+}
+$("ldHist").addEventListener("click", async e => {
+  const a = e.target.closest("a[data-v]"); if (!a || !ldData) return; e.preventDefault();
+  const v = ldData.versions.find(x => x.version === +a.dataset.v); if (v) { await loadBuild(v.build); $("ldSynth").value = v.synthese || ""; }
+});
+$("ldOpen").onclick = () => openLoadout($("ldList").value);
+async function saveLoadout(name){
+  const raison = prompt("Raison de cette version (ex. création, mise à jour 44.2, essai Roar) :", activeLd === name ? "modification" : "création");
+  if (raison === null) return;
+  const r = await api("/api/loadout/save", {nom: name, build: currentBuild(), synthese: $("ldSynth").value, raison});
+  if (r.erreur) { $("status").textContent = r.erreur; return; }
+  $("status").textContent = `Loadout « ${r.nom} » enregistré (version ${r.version}, build ${r.statut_du_build}) dans ${r.dossier}`;
+  await refreshLoadouts(r.nom); await openLoadout(r.nom);
+}
+$("ldSave").onclick = () => { if (!activeLd) return $("ldSaveAs").onclick(); saveLoadout(activeLd); };
+$("ldSaveAs").onclick = () => {
+  const n = prompt("Nom du loadout :", (state.warframe || "build") + " " + ($("role").value || "")); if (n) saveLoadout(n.trim());
+};
+$("ldGen").onclick = async () => {
+  if (!state.warframe) return;
+  $("ldGen").disabled = true; $("ldGen").textContent = "Le compagnon rédige…";
+  const r = await api("/api/loadout/synthese", {build: currentBuild()});
+  $("ldGen").disabled = false; $("ldGen").textContent = "Rédiger la synthèse avec le compagnon";
+  if (r.erreur) { $("status").textContent = r.erreur; return; }
+  $("ldSynth").value = r.synthese;
+};
+$("ldCheck").onclick = async () => {
+  if (!activeLd) { $("status").textContent = "Ouvre d'abord un loadout."; return; }
+  showView("vMain");
+  addMsg("Vérifie mon loadout « " + esc(activeLd) + " » après les dernières mises à jour.", "me");
+  const wait = addMsg('<span class="small">L\'agent compare le loadout aux données actuelles…</span>');
+  const r = await api("/api/loadout/maj", {nom: activeLd});
+  wait.remove();
+  if (r.changements) showChanges(r.changements);
+  if (r.erreur) { addMsg(`<span class="err">${esc(r.erreur)}</span>`); return; }
+  const d = addMsg(md(r.reponse || ""));
+  if (r.build_propose && r.build_propose.warframe) {
+    const b = document.createElement("button"); b.textContent = "Charger le build mis à jour (puis Enregistrer pour en faire une version)";
+    b.onclick = async () => { await loadBuild(r.build_propose); showView("vMain"); }; d.appendChild(b);
+  }
+};
+refreshLoadouts();
+
+$("btnClear").onclick = () => { state.extra = {}; state.aura = state.exilus = null; state.mods = Array(8).fill(null); state.pols = Array(8).fill("");
+  state.weapons = {principale:W(), secondaire:W(), melee: talonsOf() ? {...W(), nom: talonsOf()} : W()};
+  for (const x of frameExalted) if (!x.griffes_garuda) state.weapons["ex:" + x.nom] = {...W(), nom: x.nom};
+  showWeaponTab(curW); validate(); };
+
+// ---------- discussion
+function md(t){
+  let h = esc(t);
+  h = h.replace(/((?:^\|.*\|\s*$\n?)+)/gm, blk => {
+    const rows = blk.trim().split("\n").filter(r => !/^\|\s*:?-/.test(r));
+    return '<table class="mdtable">' + rows.map(r => "<tr>" + r.split("|").slice(1,-1).map(c => `<td>${c.trim()}</td>`).join("") + "</tr>").join("") + "</table>";
+  });
+  h = h.replace(/^#{1,4}\s+(.+)$/gm, "<h4>$1</h4>");
+  h = h.replace(/((?:^\s*[-*•]\s+.*$\n?)+)/gm, blk => "<ul>" + blk.trim().split("\n").map(l => "<li>" + l.replace(/^\s*[-*•]\s+/, "") + "</li>").join("") + "</ul>");
+  h = h.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<i>$2</i>");
+  return h.replace(/\n{2,}/g, "<br>").replace(/\n/g, "<br>").replace(/<br>(<(?:ul|table|h4))/g, "$1").replace(/(<\/(?:ul|table|h4)>)<br>/g, "$1");
+}
+function addMsg(html, cls){ const d = document.createElement("div"); d.className = "msg " + (cls||""); d.innerHTML = html; $("log").appendChild(d); $("log").scrollTop = 1e9; return d; }
+$("send").onclick = async () => {
+  const q = $("q").value.trim(); if (!q) return;
+  $("q").value = ""; addMsg(esc(q), "me");
+  const wait = addMsg('<span class="small">Le compagnon réfléchit…</span>');
+  $("send").disabled = true;
+  const r = await api("/api/chat", {message: q, build: $("withBuild").checked && state.warframe ? currentBuild() : null});
+  wait.remove(); $("send").disabled = false;
+  if (r.erreur) { addMsg(`<span class="err">${esc(r.erreur)}</span>`); return; }
+  if (r.mode === "questions") { addMsg(md(r.reponse)); return; }
+  const d = addMsg(md(r.reponse || ""));
+  if (r.trace && r.trace.length) d.insertAdjacentHTML("beforeend", `<details class="trace"><summary>${r.trace.length} étapes</summary>${r.trace.map(esc).join("<br>")}</details>`);
+  if (r.build_propose && r.build_propose.warframe) {  // le build apparaît tout de suite dans l'éditeur
+    await fillEditor(r.build_propose);
+    d.insertAdjacentHTML("beforeend", '<div class="small" style="margin-top:6px">↗ Build chargé dans l\'éditeur. Demande-moi d\'y changer quelque chose si besoin.</div>');
+  }
+};
+$("q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("send").click(); } });
+$("suggest").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { $("q").value = b.textContent; $("send").click(); } });
+$("newchat").onclick = async () => { await api("/api/reset", {}); $("log").innerHTML = ""; };
+
+
+
+// ================= navigation
+function showView(id){
+  document.querySelectorAll(".view").forEach(v => v.classList.toggle("on", v.id === id));
+  document.querySelectorAll("nav button").forEach(b => b.classList.toggle("on", b.dataset.view === id));
+  try { localStorage.setItem("wf_view", id); } catch(e) {}
+  if (id === "vLoad") refreshLoadouts(activeLd);
+}
+document.querySelector("nav").addEventListener("click", e => { const b = e.target.closest("[data-view]"); if (b) showView(b.dataset.view); });
+$("edSave").onclick = () => { if (activeLd) saveLoadout(activeLd); else $("ldSaveAs").onclick(); };
+$("ldEdit").onclick = () => showView("vMain");
+
+// ================= le compagnon remplit l'éditeur
+async function fillEditor(build){
+  await loadBuild(build);
+  const ed = $("editor"); ed.classList.remove("flash"); void ed.offsetWidth; ed.classList.add("flash");
+}
+// ================= démarrage
+(async () => {
+  const st = await api("/api/status");
+  $("modelChip").textContent = st.modele ? "IA : " + st.modele : "IA : aucune (éditeur seulement)";
+  $("modelChip").classList.toggle("live", !!st.modele);
+  await init();
+  if (!$("log").children.length) addMsg("Salut ! Dis-moi quelle warframe tu joues et ce que tu veux faire (débuter, passer au Steel Path, farmer quelque chose…). Je te propose un build qui s'affiche à droite, et on l'ajuste ensemble.");
+})();
+</script>
+</body>
+</html>

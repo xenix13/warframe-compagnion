@@ -1,0 +1,19 @@
+# secrets : ne jamais publier
+cle-*.txt
+cle-api.txt
+.env
+# généré ou téléchargé à l'installation
+companion-data/
+moteur-ia/
+__pycache__/
+*.pyc
+*.log
+*.part
+rapport-references.txt
+# personnel
+base-warframe/06-builds-joueur/
+base-warframe/04-retours-experience/profil-joueur.json
+base-warframe/04-retours-experience/relectures.jsonl
+build/
+dist/
+python/
