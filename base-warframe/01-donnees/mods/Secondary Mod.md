@@ -1,0 +1,173 @@
+# Secondary Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Toxic Sequence** (Acrid, vazarin, Rare, coût 7 au rang max) : +200% Status Duration ; +1 'Sequence'
+- **Damzav-Vati** (Akbronco Prime, madurai, Rare, coût 7 au rang max) : +240% Viral
+- **Zazvat-Kar** (Akstiletto Prime, naramon, Rare, coût 7 au rang max) : +75% Ammo Efficiency while Airborne
+- **Pain Points** (Athodai, madurai, Rare, coût 7 au rang max) : On Weak Point hits with Primary Fire: +60% Weak Point Damage for 5s. Stacks up to 10x.
+- **Soaring Truth** (Ballistica, vazarin, Rare, coût 7 au rang max) : +200% Critical Chance ; +1 'Purity' [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Entropy Spike** (Bolto, naramon, Rare, coût 7 au rang max) : +20% Chance to Explode (Use with Caution) ; +1 'Entropy'
+- **Dizzying Rounds** (Bronco, naramon, Rare, coût 7 au rang max) : Shots from less than 8m stun enemies and open them to finishers. +200% Status Chance
+- **Critical Mutation** (Catabolyst, madurai, Rare, coût 7 au rang max) : Each kill increases Critical Chance and Critical Damage by 30% up to 300%. Reduce by 30% when fewer than 3 enemies are struck by the grenade explosion.
+- **Draining Gloom** (Despair, madurai, Rare, coût 13 au rang max) : +100% chance of Energy Drain explosion ; -60% Magazine Capacity ; -60% Ammo Maximum
+- **Prototype Shock Coils** (EFV-8 Mars, madurai, Rare, coût 7 au rang max) : Adds +90% Electric damage, and shots have a 20% base chance to apply extra Electric status independent of modded damage types.
+- **Eroding Blight** (Embolist, vazarin, Rare, coût 7 au rang max) : +200% Magazine Capacity ; +1 'Blight'
+- **Winds Of Purity** (Furis, vazarin, Rare, coût 7 au rang max) : +20% Life Steal ; +1 'Purity'
+- **Stockpiled Blight** (Kunai, vazarin, Rare, coût 7 au rang max) : +200% Magazine Capacity ; +1 'Blight'
+- **Deadly Maneuvers** (Magnus, naramon, Rare, coût 7 au rang max) : On Dodge, gain 400% Headshot Critical Chance for your next 2 shots.
+- **Shrapnel Rounds** (Marelok, madurai, Rare, coût 10 au rang max) : +200% Multishot ; -66% Damage
+- **Sentient Surge** (Ocucor, madurai, Rare, coût 7 au rang max) : Each target eliminated refills 20% of Ocucor's magazine. Status Chance and Critical Chance are increased by 60% for each Tendril active.
+- **Accelerated Isotope** (Pistol, madurai, Rare, coût 7 au rang max) : +60% Radiation ; +40% Fire Rate
+- **Air Recon** (Pistol, naramon, Uncommon, coût 7 au rang max, Exilus) : -60% Zoom while Aim Gliding
+- **Amalgam Barrel Diffusion** (Pistol, madurai, Rare, coût 15 au rang max) : +110% Multishot ; +60% Dodge Speed
+- **Anemic Agility** (Pistol, naramon, Rare, coût 9 au rang max) : +90% Fire Rate ; -15% Damage
+- **Augur Pact** (Pistol, naramon, Common, coût 7 au rang max) : +90% Damage [fait partie d'un set : AugurSetMod]
+- **Augur Seeker** (Pistol, madurai, Rare, coût 7 au rang max) : +90% Status Duration [fait partie d'un set : AugurSetMod]
+- **Barrel Diffusion** (Pistol, madurai, Rare, coût 11 au rang max) : +120% Multishot
+- **Barrel Diffusion** (Pistol, madurai, Rare, coût 16 au rang max) : +220% Multishot [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Barrel Diffusion** (Pistol, madurai, Rare, coût 7 au rang max) : +40% Multishot [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Blind Shot** (Pistol, madurai, Rare, coût 9 au rang max) : +40% Projectile Speed ; -4% Accuracy
+- **Bore** (Pistol, naramon, Rare, coût 11 au rang max) : +120% Puncture
+- **Calculated Victory** (Pistol, vazarin, Rare, coût 13 au rang max) : On Kill: -100% Shield Recharge Delay for 10s ; -25% from Health Orbs
+- **Cannonade** (Pistol, madurai, Rare, coût 9 au rang max) : +30% Chance to Explode (Use with Caution) [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Carnis Stinger** (Pistol, naramon, Rare, coût 9 au rang max) : +90% Slash ; +60% Status Chance [fait partie d'un set : AshenSetMod]
+- **Concussion Rounds** (Pistol, naramon, Uncommon, coût 12 au rang max) : +165% Impact [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Concussion Rounds** (Pistol, naramon, Uncommon, coût 5 au rang max) : +32% Impact [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Concussion Rounds** (Pistol, naramon, Uncommon, coût 7 au rang max) : +90% Impact
+- **Convulsion** (Pistol, naramon, Uncommon, coût 11 au rang max) : +90% Electricity
+- **Convulsion** (Pistol, naramon, Uncommon, coût 16 au rang max) : +165% Electricity [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Convulsion** (Pistol, naramon, Uncommon, coût 7 au rang max) : +40% Electricity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Creeping Bullseye** (Pistol, naramon, Rare, coût 9 au rang max) : +200% Critical Chance ; -20% Fire Rate
+- **Deep Freeze** (Pistol, vazarin, Uncommon, coût 11 au rang max) : +90% Cold
+- **Deep Freeze** (Pistol, vazarin, Uncommon, coût 16 au rang max) : +165% Cold [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Deep Freeze** (Pistol, vazarin, Uncommon, coût 5 au rang max) : +20% Cold [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Eject Magazine** (Pistol, naramon, Rare, coût 9 au rang max, Exilus) : +20% Magazine Reloaded/s when Holstered
+- **Embedded Catalyzer** (Pistol, madurai, Uncommon, coût 9 au rang max) : On Ability Cast: +90% Status Chance when Aiming for 9s
+- **Expel Corpus** (Pistol, madurai, Uncommon, coût 5 au rang max) : x1.1 Damage to Corpus [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Expel Corpus** (Pistol, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Corpus
+- **Expel Grineer** (Pistol, madurai, Uncommon, coût 5 au rang max) : x1.1 Damage to Grineer [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Expel Grineer** (Pistol, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Grineer
+- **Expel Infested** (Pistol, madurai, Uncommon, coût 5 au rang max) : x1.1 Damage to Infested [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Expel Infested** (Pistol, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Infested
+- **Expel Orokin** (Pistol, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Orokin
+- **Expel The Murmur** (Pistol, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Murmur
+- **Frostbite** (Pistol, madurai, Rare, coût 7 au rang max) : +60% Cold ; +60% Status Chance
+- **Full Capacity** (Pistol, naramon, Common, coût 9 au rang max) : +30% Magazine Capacity ; -15% Reload Speed
+- **Fulmination** (Pistol, madurai, Rare, coût 9 au rang max) : +24% Blast Range
+- **Galvanized Crosshairs** (Pistol, madurai, Rare, coût 12 au rang max) : On Weak Point Hit: +120% Critical Chance when Aiming for 12s On Weak Point Kill: +40% Critical Chance when Aiming for 12s. Stacks up to 5x.
+- **Galvanized Diffusion** (Pistol, madurai, Rare, coût 14 au rang max) : +110% Multishot ; On Kill: +30% Multishot for 20s. Stacks up to 4x.
+- **Galvanized Shot** (Pistol, vazarin, Rare, coût 12 au rang max) : +80% Status Chance ; On Kill: +40% Direct Damage per Status Type affecting the target for 14s. Stacks up to 3x.
+- **Gunslinger** (Pistol, madurai, Uncommon, coût 14 au rang max) : +132% Fire Rate [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Gunslinger** (Pistol, madurai, Uncommon, coût 5 au rang max) : +30% Fire Rate [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Gunslinger** (Pistol, madurai, Uncommon, coût 9 au rang max) : +72% Fire Rate
+- **Hawk Eye** (Pistol, naramon, Uncommon, coût 14 au rang max, Exilus) : +220% Zoom [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Hawk Eye** (Pistol, naramon, Uncommon, coût 7 au rang max, Exilus) : +80% Zoom
+- **Hawk Eye** (Pistol, naramon, Uncommon, coût 9 au rang max, Exilus) : +120% Zoom [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Heated Charge** (Pistol, naramon, Uncommon, coût 11 au rang max) : +90% Heat
+- **Heated Charge** (Pistol, naramon, Uncommon, coût 7 au rang max) : +40% Heat [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Heavy Warhead** (Pistol, madurai, Rare, coût 13 au rang max) : +100% Blast Radius ; -50% Projectile Speed
+- **Hemorrhage** (Pistol, madurai, Rare, coût 15 au rang max) : Impact Status Effects have 35% chance to apply a Slash Status Effect (x2 when Fire Rate is below 2.5)
+- **Hollow Point** (Pistol, naramon, Rare, coût 9 au rang max) : +60% Critical Damage ; -15% Damage
+- **Hornet Strike** (Pistol, madurai, Uncommon, coût 14 au rang max) : +220% Damage
+- **Hornet Strike** (Pistol, madurai, Uncommon, coût 5 au rang max) : +40% Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Hornet Strike** (Pistol, madurai, Uncommon, coût 9 au rang max) : +120% Damage [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Hydraulic Barrel** (Pistol, naramon, Rare, coût 9 au rang max) : -40% Weapon Recoil ; -20% Magazine Capacity
+- **Hydraulic Crosshairs** (Pistol, madurai, Common, coût 7 au rang max) : On Weak Point Hit: +135% Critical Chance when Aiming for 9s
+- **Ice Storm** (Pistol, madurai, Rare, coût 9 au rang max) : +40% Magazine Capacity ; +40% Cold
+- **Impaler Munitions** (Pistol, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Puncture
+- **Jolt** (Pistol, madurai, Rare, coût 7 au rang max) : +60% Electricity ; +60% Status Chance
+- **Jugulus Spines** (Pistol, naramon, Rare, coût 9 au rang max) : +90% Puncture ; +60% Status Chance [fait partie d'un set : BonebladeSetMod]
+- **Lethal Momentum** (Pistol, madurai, Uncommon, coût 7 au rang max, Exilus) : +40% Projectile Speed
+- **Lethal Torrent** (Pistol, madurai, Rare, coût 11 au rang max) : +60% Fire Rate ; +60% Multishot
+- **Loose Magazine** (Pistol, naramon, Common, coût 9 au rang max) : +50% Reload Speed ; +50% Weapon Recoil
+- **Magnetic Might** (Pistol, madurai, Rare, coût 7 au rang max) : +60% Magnetic ; +40% Critical Damage
+- **Magnum Force** (Pistol, madurai, Rare, coût 14 au rang max) : +165% Damage ; -55% Accuracy
+- **Maim** (Pistol, naramon, Rare, coût 11 au rang max) : +120% Slash
+- **Merciless Gunfight** (Pistol, naramon, Rare, coût 15 au rang max) : +45% Critical Damage ; +1.2 Punch Through
+- **Meteor Munitions** (Pistol, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Impact
+- **Night Stalker** (Pistol, naramon, Uncommon, coût 7 au rang max) : Reveals target on Minimap for +6s.
+- **No Return** (Pistol, naramon, Uncommon, coût 12 au rang max) : +165% Puncture [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **No Return** (Pistol, naramon, Uncommon, coût 5 au rang max) : +20% Puncture [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **No Return** (Pistol, naramon, Uncommon, coût 7 au rang max) : +90% Puncture
+- **Pathogen Rounds** (Pistol, naramon, Uncommon, coût 11 au rang max) : +90% Toxin
+- **Pathogen Rounds** (Pistol, naramon, Uncommon, coût 16 au rang max) : +165% Toxin [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Pathogen Rounds** (Pistol, naramon, Uncommon, coût 7 au rang max) : +40% Toxin [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Perpetual Agony** (Pistol, madurai, Common, coût 11 au rang max) : +90% Status Duration
+- **Pistol Acuity** (Pistol, naramon, Rare, coût 16 au rang max) : +350% Weak Point Damage ; +350% Weak Point Critical Chance. Multishot cannot be modified.
+- **Pistol Ammo Mutation** (Pistol, naramon, Rare, coût 7 au rang max, Exilus) : Converts Primary ammo pickups to 50% of Ammo Pick Up.
+- **Pistol Ammo Mutation** (Pistol, naramon, Rare, coût 7 au rang max, Exilus) : Converts Primary ammo pickups to 50% of Ammo Pick Up. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Pistol Elementalist** (Pistol, vazarin, Uncommon, coût 9 au rang max) : +90% Status Damage ; +60% Reload Speed
+- **Pistol Gambit** (Pistol, madurai, Common, coût 5 au rang max) : +60% Critical Chance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Pistol Gambit** (Pistol, madurai, Common, coût 9 au rang max) : +120% Critical Chance
+- **Pistol Pestilence** (Pistol, madurai, Rare, coût 7 au rang max) : +60% Toxin ; +60% Status Chance
+- **Pressurized Magazine** (Pistol, madurai, Rare, coût 9 au rang max) : On Reload: +90% Fire Rate when Aiming for 9s
+- **Primed Convulsion** (Pistol, naramon, Legendary, coût 16 au rang max) : +165% Electricity [variante du jeu : Expert, rang max 10]
+- **Primed Expel Corpus** (Pistol, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Corpus [variante du jeu : Expert, rang max 10]
+- **Primed Expel Grineer** (Pistol, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Grineer [variante du jeu : Expert, rang max 10]
+- **Primed Expel Infested** (Pistol, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Infested [variante du jeu : Expert, rang max 10]
+- **Primed Expel Orokin** (Pistol, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Orokin [variante du jeu : Expert, rang max 10]
+- **Primed Expel The Murmur** (Pistol, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Murmur [variante du jeu : Expert, rang max 10]
+- **Primed Fulmination** (Pistol, madurai, Legendary, coût 16 au rang max) : +44% Blast Range [variante du jeu : Expert, rang max 10]
+- **Primed Heated Charge** (Pistol, naramon, Legendary, coût 16 au rang max) : +165% Heat [variante du jeu : Expert, rang max 10]
+- **Primed Pistol Ammo Mutation** (Pistol, naramon, Legendary, coût 10 au rang max, Exilus) : Converts Primary ammo pickups to 92% of Ammo Pick Up. [variante du jeu : Expert, rang max 10]
+- **Primed Pistol Gambit** (Pistol, madurai, Legendary, coût 12 au rang max) : +187% Critical Chance [variante du jeu : Expert, rang max 10]
+- **Primed Quickdraw** (Pistol, naramon, Legendary, coût 12 au rang max) : +88% Reload Speed [variante du jeu : Expert, rang max 10]
+- **Primed Slip Magazine** (Pistol, naramon, Legendary, coût 14 au rang max) : +55% Magazine Capacity [variante du jeu : Expert, rang max 10]
+- **Primed Steady Hands** (Pistol, naramon, Legendary, coût 12 au rang max, Exilus) : -85% Weapon Recoil [variante du jeu : Expert, rang max 10]
+- **Primed Target Cracker** (Pistol, madurai, Legendary, coût 14 au rang max) : +110% Critical Damage [variante du jeu : Expert, rang max 10]
+- **Pummel** (Pistol, naramon, Rare, coût 11 au rang max) : +120% Impact
+- **Quickdraw** (Pistol, naramon, Common, coût 5 au rang max) : +20% Reload Speed [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Quickdraw** (Pistol, naramon, Common, coût 7 au rang max) : +48% Reload Speed
+- **Razor Munitions** (Pistol, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Slash
+- **Razor Shot** (Pistol, naramon, Uncommon, coût 12 au rang max) : +165% Slash [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Razor Shot** (Pistol, naramon, Uncommon, coût 5 au rang max) : +30% Slash [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Razor Shot** (Pistol, naramon, Uncommon, coût 7 au rang max) : +90% Slash
+- **Recuperate** (Pistol, vazarin, Rare, coût 13 au rang max) : On Kill: +15 Heal Rate for 10s ; -25% from Health Orbs
+- **Reflex Draw** (Pistol, naramon, Uncommon, coût 7 au rang max, Exilus) : On Equip: -40% Weapon Recoil and +40% Accuracy for 8s
+- **Ruinous Extension** (Pistol, naramon, Uncommon, coût 5 au rang max, Exilus) : +8m Beam Range
+- **Saxum Spittle** (Pistol, naramon, Rare, coût 9 au rang max) : +90% Impact ; +60% Status Chance [fait partie d'un set : FemurSetMod]
+- **Scorch** (Pistol, madurai, Rare, coût 7 au rang max) : +60% Heat ; +60% Status Chance
+- **Secondary Wind** (Pistol, vazarin, Rare, coût 13 au rang max) : On Kill: +50% Reload Speed for 4s
+- **Seeker** (Pistol, naramon, Rare, coût 15 au rang max) : +2.1 Punch Through
+- **Seeker** (Pistol, naramon, Rare, coût 20 au rang max) : +3.9 Punch Through [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Seeker** (Pistol, naramon, Rare, coût 7 au rang max) : +0.6 Punch Through [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Semi-Pistol Cannonade** (Pistol, vazarin, Uncommon, coût 9 au rang max) : +300% Damage ; +1.5 Punch Through
+- **Sharpened Bullets** (Pistol, madurai, Uncommon, coût 7 au rang max) : On Kill: +75% Critical Damage when Aiming for 9s
+- **Slip Magazine** (Pistol, naramon, Common, coût 5 au rang max) : +10% Magazine Capacity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Slip Magazine** (Pistol, naramon, Common, coût 9 au rang max) : +30% Magazine Capacity
+- **Spry Sights** (Pistol, madurai, Uncommon, coût 5 au rang max, Exilus) : +20% Movement Speed when Aiming
+- **Steady Hands** (Pistol, naramon, Rare, coût 11 au rang max, Exilus) : -90% Weapon Recoil [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Steady Hands** (Pistol, naramon, Rare, coût 9 au rang max, Exilus) : -60% Weapon Recoil
+- **Strafing Slide** (Pistol, madurai, Rare, coût 9 au rang max, Exilus) : -20% Weapon Recoil ; and +20% Accuracy when Sliding
+- **Stunning Speed** (Pistol, naramon, Rare, coût 9 au rang max) : +40% Reload Speed ; +30% Status Chance
+- **Suppress** (Pistol, naramon, Common, coût 5 au rang max, Exilus) : Reduces the chance an enemy will hear gunfire by 100%.
+- **Sure Shot** (Pistol, vazarin, Uncommon, coût 12 au rang max) : +165% Status Chance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Sure Shot** (Pistol, vazarin, Uncommon, coût 5 au rang max) : +4% Status Chance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Sure Shot** (Pistol, vazarin, Uncommon, coût 7 au rang max) : +90% Status Chance
+- **Sure Shot** (Pistol, vazarin, Uncommon, coût 7 au rang max) : +90% Status Chance [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Synth Charge** (Pistol, madurai, Rare, coût 9 au rang max) : +200% Bonus Damage on final shot. Requires Magazine 6 or higher. [fait partie d'un set : SynthSetMod]
+- **Tainted Clip** (Pistol, naramon, Rare, coût 11 au rang max) : +60% Magazine Capacity ; -30% Reload Speed
+- **Target Cracker** (Pistol, madurai, Uncommon, coût 14 au rang max) : +110% Critical Damage [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Target Cracker** (Pistol, madurai, Uncommon, coût 5 au rang max) : +30% Critical Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Target Cracker** (Pistol, madurai, Uncommon, coût 9 au rang max) : +60% Critical Damage
+- **Targeting Subsystem** (Pistol, madurai, Uncommon, coût 7 au rang max, Exilus) : On Hit: +30% Accuracy when Aiming for 9s
+- **Trick Mag** (Pistol, naramon, Common, coût 12 au rang max, Exilus) : +165% Ammo Maximum [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Trick Mag** (Pistol, naramon, Common, coût 5 au rang max, Exilus) : +40% Ammo Maximum [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Trick Mag** (Pistol, naramon, Common, coût 7 au rang max, Exilus) : +90% Ammo Maximum
+- **Energizing Shot** (Pistol (No Aoe), madurai, Rare, coût 10 au rang max, Exilus) : Shoot Energy Orbs to obtain them with +110% extra effect.
+- **Sequence Burn** (Spectra, naramon, Rare, coût 7 au rang max) : +20m Beam Range ; +1 'Sequence'
+- **Static Alacrity** (Staticor, madurai, Rare, coût 9 au rang max) : +50% Projectile Speed ; -50% Blast Radius
+- **Concealed Explosives** (Thrown, madurai, Rare, coût 9 au rang max) : +80% Chance to Explode (Use with Caution)
+- **Fass Canticle** (Tome, naramon, Rare, coût 7 au rang max, Exilus) : Killing enemies grants Allies in Affinity Range 40% Shield Recharge Rate and -28% Shield Recharge Delay for 15s.
+- **Jahu Canticle** (Tome, madurai, Rare, coût 7 au rang max, Exilus) : Killing enemies reduces the Armor and Shields of other enemies within Affinity Range by 5%.
+- **Khra Canticle** (Tome, naramon, Rare, coût 7 au rang max, Exilus) : Enemies have a 12% chance to drop a Universal Orb on death.
+- **Lohk Canticle** (Tome, madurai, Rare, coût 7 au rang max, Exilus) : Killing enemies grants Allies within Affinity Range +30% Fire Rate for 15s.
+- **Netra Invocation** (Tome, madurai, Rare, coût 13 au rang max) : Alternate Fire increases Ability Efficiency by 4% for 20s for each enemy hit. Stacks up to 15 times.
+- **Ris Invocation** (Tome, madurai, Rare, coût 13 au rang max) : Alternate Fire increases Ability Duration by 4% for 20s for each enemy hit. Stacks up to 15 times.
+- **Vome Invocation** (Tome, madurai, Rare, coût 13 au rang max) : Alternate Fire increases Ability Strength by 4% for 20s for each enemy hit. Stacks up to 15 times.
+- **Xata Invocation** (Tome, naramon, Rare, coût 13 au rang max) : Alternate Fire grants 1 Energy Regen/s for 20s for each enemy hit. Stacks up to 10 times.
+- **Velox Conclusion** (Velox, madurai, Rare, coût 7 au rang max) : On hit, gain +0.6% Ability Strength up to 60% maximum. Consumed on your next Ability cast.
+- **Leaded Gas** (Vesper 77, madurai, Rare, coût 7 au rang max) : On Weak Point Hit: +300% Gas Damage and Status Chance for 6s
+- **Skull Shots** (Viper, madurai, Rare, coût 13 au rang max) : On Headshot: 40% chance for Infinite Ammo for 2s
+- **Stinging Truth** (Viper, vazarin, Rare, coût 7 au rang max) : +40 Magazine Capacity ; +1 'Truth'

@@ -1,0 +1,12 @@
+{
+  "_lecture": "Capacités canalisées ou à coût croissant : coût initial, drain par seconde et croissance du drain. Source : wiki (pages des capacités et des augments), relevé le 13/11/2026. À compléter au fil des retours. Le drain est réduit par la durée et l'efficacité : drain réel = drain x (2 - efficacité) / durée.",
+  "Gaseous Quake": {
+    "capacite": "Sound Quake",
+    "warframe": "Banshee",
+    "cout_initial": 100,
+    "drain_par_seconde": 16,
+    "croissance_du_drain_par_seconde": 1.2,
+    "plafond_degats_secondes": 10,
+    "note": "Le multiplicateur de dégâts (2,75x par seconde, cumulatif) plafonne après 10 s de canalisation ; le drain, lui, n'a pas de plafond. Sans mod : 100 + environ 514 = 614 d'énergie pour 10 s (wiki). XeniX13 : on canalise 5 à 10 secondes puis on relance, pour ne pas vider la jauge."
+  }
+}

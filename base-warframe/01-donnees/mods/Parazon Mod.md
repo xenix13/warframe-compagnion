@@ -1,0 +1,42 @@
+# Parazon Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Anti-V** (Parazon, universal, Rare, coût 3 au rang max) : Digital extremists stand no chance when you have Anti-V on your side
+- **Auto Breach** (Parazon, universal, Uncommon, coût 0 au rang max) : +30% chance to auto complete Hacking
+- **Blood For Ammo** (Parazon, universal, Common, coût 0 au rang max) : Mercy Kill refills Primary and Secondary Magazine by 100%
+- **Blood For Energy** (Parazon, universal, Rare, coût 0 au rang max) : 50% chance to drop an Energy Orb on Mercy
+- **Blood For Life** (Parazon, universal, Common, coût 0 au rang max) : 100% chance to drop a Health Orb on Mercy
+- **Byteryte** (Parazon, universal, Rare, coût 3 au rang max) : Keeps your bytes tight and your bits fit
+- **Computer Cop** (Parazon, universal, Rare, coût 3 au rang max) : Stopping cyber-crime in its tracks
+- **Drive-Duster** (Parazon, universal, Rare, coût 3 au rang max) : Your digital virus buster
+- **Failsafe** (Parazon, universal, Rare, coût 0 au rang max) : +50% to retry on Hacking failure
+- **Fass** (Parazon, universal, Rare, coût 3 au rang max) : Roiling, moaning, this realm of ours In madness lost shall die
+- **Firewall** (Parazon, universal, Uncommon, coût 0 au rang max) : Reduces damage by 75% while hacking
+- **Hard Reset** (Parazon, universal, Rare, coût 0 au rang max) : Mercy Kills reduce Companion Recovery by 15s
+- **Hit And Run** (Parazon, universal, Uncommon, coût 0 au rang max) : +60% Parkour Speed after a Mercy for 15s
+- **Immuno Shield** (Parazon, universal, Common, coût 3 au rang max) : Gain 15% Disinfection and gain 5000 Affinity
+- **Instant Secure** (Parazon, universal, Common, coût 3 au rang max) : Gain 15% Disinfection and gain 10,000 Höllars
+- **Jahu** (Parazon, universal, Rare, coût 3 au rang max) : Corporeal laws are unwrit As suns and love retreat
+- **Keep-Clean** (Parazon, universal, Rare, coût 3 au rang max) : There's no Clean like Keep-Clean
+- **Khra** (Parazon, universal, Rare, coût 3 au rang max) : To cosmic forms from tangent planes We end as we began
+- **Live Wire** (Parazon, universal, Common, coût 0 au rang max) : Shock enemies within 20m while Hacking
+- **Lohk** (Parazon, universal, Rare, coût 3 au rang max) : From brooding gulfs are we beheld By that which bears no name
+- **Malicious Code** (Parazon, universal, Rare, coût 0 au rang max) : 50% chance on Mercy Kill for enemies within 15m to cower in fear for 8s
+- **Master Key** (Parazon, universal, Common, coût 0 au rang max) : Unlock 5 lockers within 20m after Hacking
+- **Netra** (Parazon, universal, Rare, coût 3 au rang max) : Carrion hordes trill their profane Accord with eldritch plans
+- **Oull** (Parazon, universal, Rare, coût 3 au rang max) : Through endless faces, countless forms, a multitude unfolds. (Mimics any Requiem Mod)
+- **Out Of Sight** (Parazon, universal, Rare, coût 0 au rang max) : Blinds enemies within 18m on Mercy Kill
+- **Power Drain** (Parazon, universal, Uncommon, coût 0 au rang max) : Next ability cast after Mercy Kill gains +50% Ability Strength
+- **Quick Correct** (Parazon, universal, Rare, coût 3 au rang max) : Gain 10% Disinfection and 10% chance to drop a Live Heartcell
+- **Ris** (Parazon, universal, Rare, coût 3 au rang max) : In luminous space blackened stars They gaze, accuse, deny
+- **Runtime** (Parazon, universal, Rare, coût 0 au rang max) : +75% Sprint Speed for 15s after Hacking
+- **Soft Safe** (Parazon, universal, Rare, coût 3 au rang max) : Keeping software safe by ALWAYS WATCHING
+- **Swift Mercy** (Parazon, universal, Common, coût 0 au rang max) : Speed of Mercy Kills increased by 50%
+- **Threat Blocker** (Parazon, universal, Uncommon, coût 3 au rang max) : Gain 10% Disinfection and 25% chance to drop a Potency mod
+- **Trojan Tracker** (Parazon, universal, Rare, coût 3 au rang max) : Eliminating sneaky viruses since 1989
+- **Turbo Protect** (Parazon, universal, Rare, coût 3 au rang max) : Gain 10% Disinfection and 25% chance to drop an Antivirus mod
+- **Untraceable** (Parazon, universal, Rare, coût 0 au rang max) : Invisible for 15s after Hacking
+- **Vome** (Parazon, universal, Rare, coût 3 au rang max) : To cosmic madness laws submit Though stalwart minds entreat
+- **Worm Away** (Parazon, universal, Rare, coût 3 au rang max) : Get rid of malware, spyware, wetware and worms
+- **Xata** (Parazon, universal, Rare, coût 3 au rang max) : Its heralds are the stars it fells The sky and Earth aflame

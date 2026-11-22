@@ -1,0 +1,24 @@
+# École de Focus Naramon : nœuds (valeurs au rang maximum)
+
+- **Affinity Spike** : Kills from Melee Attacks grant 45% more Melee Affinity.
+- **Amp Spike** : Transfer to Operator with 8x Combo Multiplier to increase AMP damage by 100% for 40s.
+- **Astral Cut** : Tauron Strike slash size is increased by 80%.
+- **Disarming Blast** : Enemies hit by Void Blast have a 50% chance to be disarmed.
+- **Disorienting Blast** : Void Blast has a 50% chance of confusing enemies for 16s, causing them to be unable to distinguish friend from foe.
+- **Executing Dash** : Void Sling no longer displaces enemies, instead it will open them up to Finishers and increase Finisher Damage taken by 35%.
+- **Far Sling** : Increases maximum Void Sling distance by 30%.
+- **Flowing Strikes** : Increase the range of spectral melee attacks to 26m.
+- **Hungering Blades** : Spectral weapons have a 100% chance to attack the same enemy a second time.
+- **Killer's Rush** : Initiating a finisher as Operator switches to Warframe, increasing melee Critical Chance by 50% for 40s.
+- **Lethal Levitation** : Additional 50% Weapon Damage per Lifted enemy attacked by Operator. Lasts for 60s, stacks up to 4x.
+- **Mind Sprint** : Increases Void Sling Speed by 120%.
+- **Mind Step** : Increases Operator Movement Speed by 30%.
+- **Opening Slam** : Performing a Slam as Operator switches to Warframe and grants double Combo gain for 20s.
+- **Power Spike** : Melee Combo Counter now decays while out of combat by 5 every few seconds, instead of depleting completely.
+- **Sling Stun** : Second Ability increases the width of the next Void Sling by 200% and enemies hit are vulnerable to Finishers, taking 30% more finisher damage.
+- **Spectral Blades** : Summon 4 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m for 30s. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range.
+- **Surging Dash** : Creates a wave while dashing, increasing the Damage by 30% and the area of effect around the Operator by 12m.
+- **Vexoric Tauron Strike** : Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +8 Melee Combo from each enemy hit.
+- **Void Hunter** : Void Mode reveals enemies within 25m through walls. This range gradually decreases over 5s when the Operator leaves Void Mode. This ability costs an additional 1 Energy/s.
+- **Void Levitation** : First Ability creates a 6m wide shockwave lasting 4s, that inflicts Lift Status on all enemies it touches.
+- **Void Stalker** : Void Mode increases Critical Chance of melee attacks by up to 50% over 5s. This chance gradually decreases over 20s when the Operator leaves Void Mode. This ability costs an additional 4 Energy/s.

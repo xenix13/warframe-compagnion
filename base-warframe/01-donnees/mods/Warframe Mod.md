@@ -1,0 +1,461 @@
+# Warframe Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Rising Storm** (Ash, zenurik, Rare, coût 9 au rang max, Augment) : Blade Storm Augment: Blade Storm attacks increase your Ability Combo Counter by 4. Passive: +10s Combo Duration
+- **Seeking Shuriken** (Ash, zenurik, Rare, coût 9 au rang max, Augment) : Shuriken Augment: Hits expose weaknesses on enemies, reducing their Armor by 70% for 8s.
+- **Smoke Shadow** (Ash, zenurik, Rare, coût 9 au rang max, Augment) : Smoke Screen Augment: Conceals allies within 15m and grants 150% Critical Chance while invisible.
+- **Tear Gas** (Ash, zenurik, Rare, coût 9 au rang max, Augment) : Smoke Screen Augment: Blinds enemies within 4m for 3s.
+- **Teleport Rush** (Ash, zenurik, Rare, coût 9 au rang max, Augment) : Teleport Augment: Using Teleport increases Parkour Velocity by 30% for 12s. Executing a target with Teleport extends Smoke Screen's duration by 5s. Teleport Mercy Kills fully refresh the duration.
+- **Ore Gaze** (Atlas, zenurik, Rare, coût 9 au rang max, Augment) : Petrify Augment: Petrified enemies are scanned into the Codex and have a 25% chance to drop additional loot when killed.
+- **Path Of Statues** (Atlas, zenurik, Rare, coût 9 au rang max, Augment) : Landslide Augment: Leave a trail for 12s that petrifies enemies for 6s.
+- **Rubble Heap** (Atlas, zenurik, Rare, coût 9 au rang max, Augment) : Passive Augment: When above 1400 Rubble, Landslide costs no Energy, deals 2x Damage, and travels 2x faster.
+- **Rumbled** (Atlas, zenurik, Rare, coût 9 au rang max, Augment) : Rumblers Augment: Atlas becomes a Rumbler with Rock Armor that grants Overguard and absorbs up to 300% of damage to Max Health.
+- **Tectonic Fracture** (Atlas, zenurik, Rare, coût 9 au rang max, Augment) : Tectonics Augment: Create up to 3 walls with 100% Health. Walls can no longer be turned into boulders.
+- **Titanic Rumbler** (Atlas, zenurik, Rare, coût 9 au rang max, Augment) : Rumblers Augment: Create a single rumbler with 300% Health and 400% Damage. Reactivating will cause him to slam the floor and knockdown enemies in 15m.
+- **Aerodynamic** (AURA, vazarin, Rare, coût 3 au rang max, Augment) : Squad takes 24% reduced damage while airborne, gains +6s Aim Glide and +12s Wall Latch
+- **Brief Respite** (AURA, zenurik, Uncommon, coût 3 au rang max, Augment) : Squad converts 150% of Energy spent to Shields while Overshields are inactive
+- **Combat Discipline** (AURA, vazarin, Rare, coût 3 au rang max, Augment) : You lose 10 Health on kill Squadmates gain 20 Health on kill
+- **Corrosive Projection** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Enemies lose -18% Armor
+- **Dead Eye** (AURA, madurai, Uncommon, coût 3 au rang max, Augment) : Squad receives +52.5% Sniper Rifle Damage
+- **Dreamer's Bond** (AURA, aura, Uncommon, coût 3 au rang max, Augment) : Squad receives +0.3 Energy Regen/s and +1.5 Health Regen/s
+- **Emp Aura** (AURA, vazarin, Uncommon, coût 3 au rang max, Augment) : Enemy Corpus lose -15% Accuracy
+- **Empowered Blades** (AURA, naramon, Rare, coût 3 au rang max, Augment) : Squad receives +60% Status Chance and Status Damage on Heavy Attacks, but lose 90 Shields per hit.
+- **Enemy Radar** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +30 Enemy Radar
+- **Energy Siphon** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +0.6 Energy Regen/s
+- **Growing Power** (AURA, madurai, Rare, coût 3 au rang max, Augment) : On Status Effect with Weapon: Squad increases personal Ability Strength by 25% for 6s.
+- **Holster Amp** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : On Equip: Squad gains 60% Weapon Damage for 3s
+- **Infested Impedance** (AURA, vazarin, Uncommon, coût 3 au rang max, Augment) : Enemy Infested lose -18% Speed
+- **Loot Detector** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +30m Loot Radar
+- **Mecha Empowered** (AURA, naramon, Rare, coût 3 au rang max, Augment) : Squad deals +150% extra Damage against a Marked Enemy [fait partie d'un set : MechaSetMod]
+- **Melee Guidance** (AURA, madurai, Rare, coût 3 au rang max, Augment) : You lose 6s Melee Combo Duration Squadmates gain 12s Melee Combo Duration
+- **Physique** (AURA, vazarin, Uncommon, coût 3 au rang max, Augment) : Squad gains +20% Maximum Health
+- **Pistol Amp** (AURA, madurai, Uncommon, coût 3 au rang max, Augment) : Squad receives +27% Pistol Damage
+- **Pistol Scavenger** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +150% Pistol Ammo Recovery
+- **Power Donation** (AURA, madurai, Rare, coût 1 au rang max, Augment) : You lose 30% Ability Strength Squadmates gain 30% Ability Strength
+- **Ready Steel** (AURA, vazarin, Uncommon, coût 3 au rang max, Augment) : Squad begins the mission with +24 Initial Combo
+- **Rejuvenation** (AURA, vazarin, Uncommon, coût 3 au rang max, Augment) : Squad receives +3 Health Regen/s
+- **Rifle Amp** (AURA, madurai, Uncommon, coût 3 au rang max, Augment) : Squad receives +27% Rifle Damage
+- **Rifle Scavenger** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +150% Rifle Ammo Recovery
+- **Shepherd** (AURA, vazarin, Rare, coût 3 au rang max, Augment) : Squad's Companions receive +300 Health and +180 Armor
+- **Shield Disruption** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Enemies lose -18% Shield Capacity
+- **Shotgun Amp** (AURA, madurai, Uncommon, coût 3 au rang max, Augment) : Squad receives +18% Shotgun Damage
+- **Shotgun Scavenger** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +150% Shotgun Ammo Recovery
+- **Sniper Scavenger** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +150% Sniper Rifle Ammo Recovery
+- **Sprint Boost** (AURA, naramon, Uncommon, coût 3 au rang max, Augment) : Squad receives +15% Sprint Speed
+- **Stand United** (AURA, vazarin, Uncommon, coût 3 au rang max, Augment) : Squad receives +25% Armor
+- **Steel Charge** (AURA, madurai, Uncommon, coût 1 au rang max, Augment) : Squad receives +60% Melee Damage
+- **Summoner's Wrath** (AURA, madurai, Uncommon, coût 3 au rang max, Augment) : Squad receives 75% Companion and Summon Damage
+- **Swift Momentum** (AURA, madurai, Rare, coût 3 au rang max, Augment) : Squad receives +30% Heavy Attack Wind Up Speed and +6s Melee Combo Duration
+- **Toxin Resistance** (AURA, vazarin, Uncommon, coût 3 au rang max, Augment) : +15% Toxin Resistance
+- **Worthy Comradery** (AURA, madurai, Uncommon, coût 3 au rang max, Augment) : Squad receives +75% Weak Point Critical Chance
+- **Gaseous Quake** (Banshee, zenurik, Rare, coût 9 au rang max, Augment) : Sound Quake Augment: Channel Gas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight.
+- **Resonance** (Banshee, zenurik, Rare, coût 9 au rang max, Augment) : Sonar Augment: Killing an enemy by shooting their Sonar's weak point will trigger another Sonar for 100% of its duration.
+- **Savage Silence** (Banshee, zenurik, Rare, coût 9 au rang max, Augment) : Silence Augment: Silence staggers enemies and Finisher damage is increased by 300%
+- **Sonic Siphon** (Banshee, zenurik, Rare, coût 9 au rang max, Augment) : Sonic Boom Augment: Gain Armor for each enemy hit by Sonic Boom for 20s.
+- **Elusive Retribution** (Baruuk, zenurik, Rare, coût 9 au rang max, Augment) : Elude Augment: Every attack Baruuk Eludes increases his Melee Attack Speed and Melee Critical Damage by 5% up to 6 stacks. Stacks last 6s.
+- **Endless Lullaby** (Baruuk, zenurik, Rare, coût 9 au rang max, Augment) : Lull Augment: Performing a finisher on or killing a sleeping enemy will retrigger Lull for 100% of the remaining duration. Passive: +50% Lull Duration.
+- **Reactive Storm** (Baruuk, zenurik, Rare, coût 9 au rang max, Augment) : Serene Storm Augment: Desert Wind is granted +250% Status Chance and changes its damage type to match enemy weaknesses.
+- **Razor Mortar** (Caliban, zenurik, Rare, coût 9 au rang max, Augment) : Razor Gyre Augment: Groups enemies together, while Lethal Progeny's Ortholysts focus fire on those enemies with +70% Electricity Damage and Fire Rate for 6s.
+- **Afterburn** (Chroma, zenurik, Rare, coût 9 au rang max, Augment) : Spectral Scream Augment: Upon deactivation, Chroma will launch an elemental projectile dealing 100 Damage for each second the ability was active, to a maximum of 500 Damage.
+- **Everlasting Ward** (Chroma, zenurik, Rare, coût 9 au rang max, Augment) : Elemental Ward Augment: Allies that leave the radius will retain the effect for 100% of the remaining duration.
+- **Guardian Armor** (Chroma, zenurik, Rare, coût 9 au rang max, Augment) : Vex Armor Augment: Chroma reduces the damage his squadmates within Affinity Range take by 75%. Squad kills restore 5% of his Health over 3s and increases Vex Armor duration by 1s.
+- **Guided Effigy** (Chroma, zenurik, Rare, coût 9 au rang max, Augment) : Effigy Augment: Cast and hold to make Effigy move to your aim point. Deals 4000 Damage/s and restores 5 Energy for each enemy in its path. Roars on arrival, stunning nearby enemies.
+- **Vexing Retaliation** (Chroma, zenurik, Rare, coût 9 au rang max, Augment) : Vex Armor Augment: Taking 150 Damage will trigger a 9m burst. Shield damage will cause a Puncture Status effect while Health damage will cause a Blast Status effect.
+- **Prismatic Companion** (Citrine, zenurik, Rare, coût 9 au rang max, Augment) : Prismatic Gem Augment: The gem now attaches to your free-moving companion. Passive : +50% Prismatic Gem Duration.
+- **Recrystalize** (Citrine, zenurik, Rare, coût 9 au rang max, Augment) : Crystallize Augment: Enemies killed by crystalline growths stagger and spread the crystals to enemies within 16m.
+- **Spectral Spirit** (Dagath, zenurik, Rare, coût 9 au rang max, Augment) : Grave Spirit Augment: Immediately assume Spectral Form. 100% chance for weapons and abilities to apply Doom. Kills outside of Spectral Form decrease its cooldown by 1s.
+- **Noctua Swarm** (Dante, zenurik, Rare, coût 9 au rang max, Augment) : Noctua Augment: Alternate Fire releases Paragrimms that swarm 8m around the point of aim for 15s, silencing enemies and stealing their Energy for allies.
+- **Exothermic** (Ember, zenurik, Rare, coût 9 au rang max, Augment) : Inferno Augment: Enemies killed while under the effect of Inferno have a 15% chance to drop an energy orb.
+- **Fireball Frenzy** (Ember, zenurik, Rare, coût 9 au rang max, Augment) : Fireball Augment: Hold to cast will grant all allies within 15m an additional 100% Heat Damage to their attacks for 40s.
+- **Healing Flame** (Ember, zenurik, Rare, coût 9 au rang max, Augment) : Fire Blast Augment: Each enemy hit heals by 25 to 50 depending on current Immolation level. With Ember, over healing grants you Overguard.
+- **Immolated Radiance** (Ember, zenurik, Rare, coût 9 au rang max, Augment) : Immolation Augment: Allies within Affinity range will receive 50% of Immolation's Damage Reduction.
+- **Purifying Flames** (Ember, zenurik, Rare, coût 9 au rang max, Augment) : Fire Blast Augment: Allies hit by the expanding ring of fire are cured of Status Effects and granted 4s of Status Immunity.
+- **Calm & Frenzy** (Equinox, zenurik, Rare, coût 9 au rang max, Augment) : Rest & Rage Augment: Killing an affected enemy causes the effect to spread to enemies within 5m for 100% of the remaining duration.
+- **Duality** (Equinox, zenurik, Rare, coût 9 au rang max, Augment) : Metamorphosis Augment: Equinox's other half breaks free for 10s, dealing 300% Damage.
+- **Energy Transfer** (Equinox, zenurik, Rare, coût 9 au rang max, Augment) : Mend & Maim Augment: 100% of charge is conserved when switching between forms.
+- **Peaceful Provocation** (Equinox, zenurik, Rare, coût 9 au rang max, Augment) : Pacify & Provoke Augment: Pacify converts damage done to allies into an aura that slows enemies by 40%. Provoke converts damage done to enemies into 15% extra Ability Strength.
+- **Push & Pull** (Equinox, zenurik, Rare, coût 9 au rang max, Augment) : Metamorphosis Augment: Switching to Day-form staggers enemies within 6m and knocks them down when switching to Night-form.
+- **Chromatic Blade** (Excalibur, zenurik, Rare, coût 9 au rang max, Augment) : Exalted Blade Augment: Exalted Blade's Damage Type changes depending on Excalibur's Emissive Color, and Status Chance is increased by 300%.
+- **Furious Javelin** (Excalibur, zenurik, Rare, coût 9 au rang max, Augment) : Radial Javelin Augment: Each enemy hit will increase Excalibur's Melee Damage by 15% for 16s.
+- **Purging Slash** (Excalibur, zenurik, Rare, coût 9 au rang max, Augment) : Slash Dash Augment: Allies in the path of Slash Dash have 4 debuffs removed and 70% Shields restored.
+- **Radiant Finish** (Excalibur, zenurik, Rare, coût 9 au rang max, Augment) : Radial Blind Augment: Blinded enemies take 300% more Finisher Damage.
+- **Signal Flare** (Excalibur, zenurik, Rare, coût 9 au rang max, Augment) : Radial Blind Augment: Blinded enemies are marked on the Minimap for 12s.
+- **Surging Dash** (Excalibur, zenurik, Rare, coût 9 au rang max, Augment) : Slash Dash Augment: Each enemy hit during Slash Dash further increases your Melee Counter by 8.
+- **Warrior's Rest** (Excalibur Umbra, zenurik, Rare, coût 7 au rang max, Exilus, Augment) : Passive Augment: Umbra's Ability Strength increases by +15% but he no longer fights independently alongside his Operator.
+- **Biting Frost** (Frost, zenurik, Rare, coût 9 au rang max, Augment) : Frost gains +200% Critical Chance and +100% Critical Damage against frozen enemies.
+- **Chilling Globe** (Frost, zenurik, Rare, coût 9 au rang max, Augment) : Snow Globe Augment: Enemies that enter have a 50% chance to become frozen solid for 10s.
+- **Cold Front** (Frost, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Snow Globe Augment: Snow Globe is now attached to Frost with a smaller radius while increasing your mobility. Kills on frozen enemies increase the Globe health by 4% per kill.
+- **Freeze Force** (Frost, zenurik, Rare, coût 9 au rang max, Augment) : Freeze Augment: Hold to cast will grant all allies within 15m an additional 100% Cold Damage to their attacks for 40s.
+- **Ice Wave Impedance** (Frost, zenurik, Rare, coût 9 au rang max, Augment) : Ice Wave Augment: Create a frozen trail for 12 seconds. Enemies that touch it are inflicted with Cold Status every second.
+- **Icy Avalanche** (Frost, zenurik, Rare, coût 9 au rang max, Augment) : Avalanche Augment: Allies within Affinity Range are coated in ice that grants 60 Overguard per enemy hit. Overguard increases by 20% of your Armor once per enemy.
+- **Mending Splinters** (Gara, zenurik, Rare, coût 9 au rang max, Augment) : Splinter Storm Augment: For each target affected, Splinter Storm heals 15 Health/s.
+- **Shattered Storm** (Gara, zenurik, Rare, coût 9 au rang max, Augment) : Shattered Lash Augment: When Gara breaks her Mass Vitrify ring with Shattered Lash, enemies struck by the glass suffer Splinter Storm at 100% Strength.
+- **Spectrosiphon** (Gara, zenurik, Rare, coût 9 au rang max, Augment) : Spectrorage Augment: Enemies that die within Spectrorage have a 50% chance to drop an Energy Orb.
+- **Blending Talons** (Garuda, zenurik, Rare, coût 9 au rang max, Augment) : Seeking Talons Augment: Tap to perform a 9m AoE around Garuda. Garuda's Talons gain 100% additional Combo Count Chance when hitting targets affected by Slash Status.
+- **Blood Forge** (Garuda, zenurik, Rare, coût 9 au rang max, Augment) : Bloodletting Augment: Garuda's equipped weapon is reloaded up to 100%.
+- **Dread Ward** (Garuda, zenurik, Rare, coût 9 au rang max, Augment) : Dread Mirror Augment: Become unkillable for 8s when Dread Mirror kills a target by ripping its life force.
+- **Mach Crash** (Gauss, zenurik, Rare, coût 9 au rang max, Augment) : Mach Rush Augment: Impact shockwave leaves behind a vacuum that sucks in enemies within 8m.
+- **Thermal Transfer** (Gauss, zenurik, Rare, coût 9 au rang max, Augment) : Thermal Sunder Augment: Allies in range gain 75% bonus Elemental Damage for 30s.
+- **Catapult** (Grendel, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Pulverize Augment: to launch Grendel in your aim direction. Costs 5. Crouch to slow down.
+- **Gastro** (Grendel, zenurik, Rare, coût 9 au rang max, Augment) : Regurgitate Augment: Regurgitated enemies bounce up to 3 times, creating gas clouds that last 8s and inflict nearby enemies with Gas Status Effect.
+- **Gastroparesis** (Grendel, zenurik, Rare, coût 9 au rang max, Augment) : Passive Augment: Each enemy consumed adds 15% Extra Gas Damage to Primary and Secondary Weapons.
+- **Gourmand** (Grendel, zenurik, Rare, coût 9 au rang max, Augment) : Feast Augment: Instead of Energy, consumes 200 Health on cast. Glutton grants an additional 150 Armor per enemy.
+- **Hearty Nourishment** (Grendel, zenurik, Rare, coût 9 au rang max, Augment) : Nourish Augment: Clear Status Effects and gain 5s of Status Immunity for each victim in Grendel's stomach.
+- **Cathode Current** (Gyre, zenurik, Rare, coût 9 au rang max, Augment) : Cathode Grace Augment: Eliminating an enemy while Cathode Grace is active will release an additional discharge from Rotorswell with 200% Damage and extend its duration by the same amount.
+- **Coil Recharge** (Gyre, zenurik, Rare, coût 9 au rang max, Augment) : Coil Horizon Augment: Gyratory Sphere can be recalled. Enemies in its radius suffer 500 Electricity Damage and chain other enemies. Enemies pulled into detonation suffer additional discharges.
+- **Conductive Sphere** (Gyre, zenurik, Rare, coût 9 au rang max, Augment) : Arcsphere Augment: Projectiles that pass through Arcsphere have guaranteed Electricity Status Effect and +75% Electricity Damage.
+- **Reverse Rotorswell** (Gyre, zenurik, Rare, coût 9 au rang max, Augment) : Rotorswell Augment: 35% of damage received is redirected toward the instigator as Electricity Damage.
+- **Lasting Covenant** (Harrow, zenurik, Rare, coût 9 au rang max, Augment) : Covenant Augment: Weak Point kills increase Critical Chance bonus duration by 3s.
+- **Tribunal** (Harrow, zenurik, Rare, coût 9 au rang max, Augment) : Condemn Augment: Other players will trigger 100% of the effects of Penance and Thurible when attacking chained enemies.
+- **Warding Thurible** (Harrow, zenurik, Rare, coût 9 au rang max, Augment) : Thurible Augment: Allies in range take 50% less Damage while channeling Thurible and grant 1.0 additional Energy charge whenever damaged.
+- **Aegis Gale** (Hildryn, zenurik, Rare, coût 9 au rang max, Augment) : Aegis Storm Augment: Balefire has an Alternate Fire during Aegis Storm. The blast deals 15% of Hildryn's Max Shield as additional damage.
+- **Balefire Surge** (Hildryn, zenurik, Rare, coût 9 au rang max, Augment) : Balefire Augment: Fully charged direct hits restore 250 Shield to Hildryn. Impact with Nullifier Shields will destroy them and restore 750 Shield.
+- **Blazing Pillage** (Hildryn, zenurik, Rare, coût 9 au rang max, Augment) : Pillage Augment: Enemies affected by Haven will be set ablaze for 200 Heat Damage and restore 50 additional Shields to Hildryn.
+- **Pilfering Swarm** (Hydroid, zenurik, Rare, coût 9 au rang max, Augment) : Tentacle Swarm Augment: Enemies held by tentacles have a 100% chance at additional drops.
+- **Rousing Plunder** (Hydroid, zenurik, Rare, coût 9 au rang max, Augment) : Plunder Augment: Plunder gains 50% max Corrosive Damage and Armor, and heals allies within Affinity range for 50 Health.
+- **Tidal Impunity** (Hydroid, zenurik, Rare, coût 9 au rang max, Augment) : Tidal Surge Augment: Clears Status Effects and grants 12s of Status Immunity for yourself and allies that come in contact with it. Reduces Tidal Surge's Energy cost to 15.
+- **Viral Tempest** (Hydroid, zenurik, Rare, coût 9 au rang max, Augment) : Tempest Barrage Augment: Each projectile has a 100% chance of inflicting a Viral Status Effect.
+- **Desiccation's Curse** (Inaros, zenurik, Rare, coût 9 au rang max, Augment) : Desiccation Augment: Killing a blinded enemy with a Finisher has a 100% chance to summon a Swarm Kavat that will spread Scarab Swarm. Maximum Swarm Kavats +2.
+- **Elemental Sandstorm** (Inaros, zenurik, Rare, coût 9 au rang max, Augment) : Sandstorm Augment: Sandstorm gains 50% Ability Range and has a 100% chance of inflicting Status Effects based on the Damage Types on the equipped Melee Weapon.
+- **Negation Armor** (Inaros, zenurik, Rare, coût 9 au rang max, Augment) : Scarab Shell Augment: When Inaros takes fatal damage, he consumes Scarab Shell to heal with a brief invulnerability that ends with a deadly Slash Status Effect. Cooldown 30s.
+- **Concentrated Arrow** (Ivara, zenurik, Rare, coût 9 au rang max, Augment) : Artemis Bow Augment: Fires a single arrow with +25% Base Critical Chance on full charge, additional +50% Chance and explodes in a 7m radius on Weak Points. Removes Punch Through.
+- **Empowered Quiver** (Ivara, zenurik, Rare, coût 9 au rang max, Augment) : Quiver Augment: Dashwire grants allies 100% Critical Damage. Cloak arrow has a 100% chance to prevent Status Effects.
+- **Infiltrate** (Ivara, zenurik, Rare, coût 9 au rang max, Augment) : Prowl Augment: Ivara is able to bypass laser barriers and gains 25% Movement Speed.
+- **Piercing Navigator** (Ivara, zenurik, Rare, coût 9 au rang max, Augment) : Navigator Augment: Each hit increases the projectile's Critical Chance by 50% up to a max of 250%. +3 Projectile Punch Through.
+- **Power Of Three** (Ivara, zenurik, Rare, coût 9 au rang max, Augment) : Quiver Augment: Quiver fires three arrows and consumes 20 more Energy.
+- **Jade's Judgment** (Jade, zenurik, Rare, coût 9 au rang max, Augment) : Light's Judgment Augment: Enemies damaged by the well have a 5% chance per hit to spawn a Jade Light above them, damaging them for 3s.
+- **Accumulating Whipclaw** (Khora, zenurik, Rare, coût 9 au rang max, Augment) : Whipclaw Augment: Hitting 3 enemies will grant a 35% stacking Damage Bonus to subsequent Whipclaws. Bonus will decay after 10s.
+- **Pilfering Strangledome** (Khora, zenurik, Rare, coût 9 au rang max, Augment) : Strangledome Augment: Enemies held in Strangledome have a 65% chance of dropping additional loot.
+- **Venari Bodyguard** (Khora, zenurik, Rare, coût 9 au rang max, Augment) : Venari Augment: Venari dies in Khora's place. Recovery timer increased to 150s. Killing enemies decreases the timer by 4s.
+- **Kumihimo Loading** (Koumei, zenurik, Rare, coût 9 au rang max, Augment) : Kumihimo Augment: 6 kills with weapons affected by Koumei's Passive give a loaded die that always rolls 6. Hold to cast empowered Kumihimo and consume all dice.
+- **Omikuji's Fortune** (Koumei, zenurik, Rare, coût 9 au rang max, Augment) : Omikuji Augment: Reduce Omikuji's Cooldown by 4s when you kill an enemy with the weapon affected by Koumei's Passive.
+- **Volatile Recompense** (Kullervo, zenurik, Rare, coût 9 au rang max, Augment) : Recompense Augment: Daggers whirl in a ring around Kullervo for 25s, slashing nearby foes and dealing Blast Damage and Status Effect before returning to the ring.
+- **Wrath Of Ukko** (Kullervo, zenurik, Rare, coût 9 au rang max, Augment) : Storm of Ukko Augment: Wrathful Advance moves the storm of daggers to the teleportation location and increases its duration by 6s.
+- **Lingering Transmutation** (Lavos, zenurik, Rare, coût 9 au rang max, Augment) : Transmutation Probe Augment: Probe returns to cast position after reaching max range, and remains nearby for 15s. Recall Probe by recasting. Recast again to end.
+- **Swift Bite** (Lavos, zenurik, Rare, coût 9 au rang max, Augment) : Ophidian Bite Augment: Reduce Ability Cooldowns by 4s when at least 4 enemies are hit. Ophidian Bite is granted 30% additional Ability Range.
+- **Valence Formation** (Lavos, zenurik, Rare, coût 9 au rang max, Augment) : Passive Augment: Casting an Ability imbued with extra Elemental Damage applies that Element as a 200% bonus to your weapons with guaranteed Status for 20s.
+- **Cataclysmic Continuum** (Limbo, zenurik, Rare, coût 9 au rang max, Augment) : Cataclysm Augment: Duration increased by 1s for each enemy killed.
+- **Rift Haven** (Limbo, zenurik, Rare, coût 9 au rang max, Augment) : Banish Augment: Allies banished to the rift will have 25% of their Maximum Health restored every second.
+- **Rift Torrent** (Limbo, zenurik, Rare, coût 9 au rang max, Augment) : Rift Surge Augment: Limbo deals 30% Extra Damage for each enemy affected by Rift Surge while in the rift.
+- **Damage Decoy** (Loki, zenurik, Rare, coût 9 au rang max, Augment) : Decoy Augment: Decoy can be cast on enemies. Enemies who attack that decoy receive 5 random Status Effects, and the reflected damage is increased by 350%.
+- **Deceptive Bond** (Loki, zenurik, Rare, coût 9 au rang max, Augment) : Decoy Augment: 50% of damage Loki takes is transferred to Decoy, and vice versa.
+- **Hushed Invisibility** (Loki, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Invisibility Augment: Weapon noise is reduced by 100% while invisible.
+- **Irradiating Disarm** (Loki, zenurik, Rare, coût 9 au rang max, Augment) : Radial Disarm Augment: Enemies will be affected by Radiation Status for 9s
+- **Safeguard Switch** (Loki, zenurik, Rare, coût 9 au rang max, Augment) : Switch Teleport Augment: Switch with an enemy for 3s invulnerability. Switch with an ally to give ally 6s invulnerability. Switch also removes negative status effects on Loki and allies.
+- **Savior Decoy** (Loki, zenurik, Rare, coût 9 au rang max, Augment) : Decoy Augment: If Loki takes fatal damage, Decoy absorbs the damage and swaps locations. Also increases Casting Speed of Decoy by 50%
+- **Counter Pulse** (Mag, zenurik, Rare, coût 9 au rang max, Augment) : Polarize Augment: Enemy weapons are jammed and robotics are disabled for 4s when hit by Polarize.
+- **Fracturing Crush** (Mag, zenurik, Rare, coût 9 au rang max, Augment) : Crush Augment: Crush gains +50% casting speed. The armor of surviving enemies decreases by 75% and they are unable to move for 7s.
+- **Greedy Pull** (Mag, zenurik, Rare, coût 9 au rang max, Augment) : Pull Augment: Adds 100% chance to pull pickups towards Mag.
+- **Magnetized Discharge** (Mag, zenurik, Rare, coût 9 au rang max, Augment) : Magnetize Augment: Recast on the target to detonate. Enemies hit have a 50% chance to be disarmed. Passive: +45% Magnetize Range.
+- **Sapping Reach** (Mag, zenurik, Rare, coût 9 au rang max, Augment) : Pull Augment: Steals up to 25 Energy from the target.
+- **Shield Overload** (Mag, zenurik, Rare, coût 9 au rang max, Augment) : Polarize Augment: Increases the time for the target's Shields to regenerate by 9s.
+- **Parry** (Melee, vazarin, Common, coût 12 au rang max, Exilus, Augment) : +176% chance to open enemies to Finisher Attacks after Warframe blocks Melee [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Parry** (Melee, vazarin, Common, coût 5 au rang max, Exilus, Augment) : +48% chance to open enemies to Finisher Attacks after Warframe blocks Melee [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Parry** (Melee, vazarin, Common, coût 7 au rang max, Exilus, Augment) : +96% chance to open enemies to Finisher Attacks after Warframe blocks Melee
+- **Parry** (Melee, vazarin, Common, coût 7 au rang max, Exilus, Augment) : +96% chance to open enemies to Finisher Attacks after Warframe blocks Melee [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Ballistic Bullseye** (Mesa, zenurik, Rare, coût 9 au rang max, Augment) : Ballistic Battery Augment: The shot gains a +50% Final Critical Chance bonus, based on the amount charged.
+- **Mesa's Waltz** (Mesa, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Peacemaker Augment: Mesa can move at 50% Speed while using Peacemaker.
+- **Muzzle Flash** (Mesa, zenurik, Rare, coût 9 au rang max, Augment) : Shooting Gallery Augment: After 6 kill assists by a player with Shooting Gallery, Mesa's next shot will blind enemies within 12m for 6s.
+- **Staggering Shield** (Mesa, zenurik, Rare, coût 9 au rang max, Augment) : Shatter Shield Augment: Reflected bullets have a chance to stagger enemies. The base 50% chance increases with power strength.
+- **Explosive Legerdemain** (Mirage, zenurik, Rare, coût 9 au rang max, Augment) : Sleight of Hand Augment: Ammo and Orbs pickups are turned into proximity mines that deal 1000 Damage with a 100% Status Chance.
+- **Hall Of Malevolence** (Mirage, zenurik, Rare, coût 9 au rang max, Augment) : Hall of Mirrors Augment: The damage of your doppelgangers is increased by 5% every time you kill an enemy.
+- **Prism Guard** (Mirage, zenurik, Rare, coût 9 au rang max, Augment) : Prism Augment: Prism follows above Mirage. Duration changed to 4s.
+- **Total Eclipse** (Mirage, zenurik, Rare, coût 9 au rang max, Augment) : Eclipse Augment: While active, allies within 15m benefit from Eclipse.
+- **Creeping Terrify** (Nekros, zenurik, Rare, coût 9 au rang max, Augment) : Terrify Augment: Affected enemies have 60% reduced Movement Speed.
+- **Despoil** (Nekros, zenurik, Rare, coût 9 au rang max, Augment) : Desecrate Augment: No longer consumes Energy, but consumes 10 Health per corpse instead.
+- **Discharge Strike** (Nekros, zenurik, Rare, coût 9 au rang max, Augment) : Soul Punch Augment: Depletes up to 25 Energy from the target.
+- **Shield Of Shadows** (Nekros, zenurik, Rare, coût 9 au rang max, Augment) : Shadows of the Dead Augment: Each Shadow within 50m take 6% of the Damage done to Nekros in his stead.
+- **Soul Survivor** (Nekros, zenurik, Rare, coût 9 au rang max, Augment) : Soul Punch Augment: Use on a downed ally to revive them with 30% Health.
+- **Controlled Slide** (Nezha, zenurik, Rare, coût 7 au rang max, Exilus, Augment) : Disable Nezha's passive ability. Increase Ability Strength by 15%.
+- **Divine Retribution** (Nezha, zenurik, Rare, coût 9 au rang max, Augment) : Divine Spears Augment: Status Effects spread to all speared enemies. Spear explosions scale by 1.5x of remaining Slash, Toxin and Heat Status Effects. Base Radius is 14m.
+- **Pyroclastic Flow** (Nezha, zenurik, Rare, coût 9 au rang max, Augment) : Fire Walker Augment: Accumulate 250% of the damage Fire Walker deals, unleashing it in a trail of fire that lasts 10s.
+- **Reaping Chakram** (Nezha, zenurik, Rare, coût 9 au rang max, Augment) : Blazing Chakram Augment: Each enemy hit increases the ring's Damage by 2x and the chance for enemies to drop Health Orbs on death by +0.25x.
+- **Safeguard** (Nezha, zenurik, Rare, coût 9 au rang max, Augment) : Warding Halo Augment: Can now be cast on allies with 50% effectiveness.
+- **Ward Recovery** (Nezha, zenurik, Rare, coût 9 au rang max, Augment) : Warding Halo Augment: 50% of the casting cost returned based on how much protection is left.
+- **Abundant Mutation** (Nidus, zenurik, Rare, coût 9 au rang max, Augment) : Passive Augment: Nidus gains an additional 300 max stacks of Mutation. Undying has a 30s cooldown.
+- **Insatiable** (Nidus, zenurik, Rare, coût 9 au rang max, Augment) : Ravenous Augment: Nidus has a chance for additional Mutation stacks while in the infestation. The base 60% chance increases with power strength, and multiple stacks are possible above 100%.
+- **Larva Burst** (Nidus, zenurik, Rare, coût 9 au rang max, Augment) : Larva Augment: Reactivate Larva to detonate and deal 600 Toxin Damage in a 8m radius. This damage and Status Effect stacks for every enemy grabbed by the Larva.
+- **Parasitic Vitality** (Nidus, zenurik, Rare, coût 9 au rang max, Augment) : Parasitic Link Augment: Nidus and any ally he's bound to gain 4% Max Health per Mutation during Parasitic Link.
+- **Teeming Virulence** (Nidus, zenurik, Rare, coût 9 au rang max, Augment) : Virulence Augment: Hitting 4 enemies with Virulence grants 200% Primary Weapon Critical Chance for 15s.
+- **Reroot Rampage** (Nokko, zenurik, Rare, coût 9 au rang max, Augment) : Reroot Augment: Collecting Reroot orbs summons additional Sprodlings inflicting 250 Toxin Damage with increased Critical Chance each hit.
+- **Antimatter Absorb** (Nova, zenurik, Rare, coût 9 au rang max, Augment) : Antimatter Drop Augment: Absorbs enemy bullets within 5m, increasing the power of the explosion from Nova’s particle of antimatter.
+- **Antimatter Mine** (Nova, zenurik, Rare, coût 9 au rang max, Augment) : Antimatter Drop Augment: Creates a fully charged stationary orb that explodes after 6s or within enemy proximity.
+- **Escape Velocity** (Nova, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Worm Hole Augment: Allies that travel through wormhole gain a 50% Speed bonus for 7s.
+- **Molecular Fission** (Nova, zenurik, Rare, coût 9 au rang max, Augment) : Molecular Prime Augment: Enemies hit by Null Stars are primed. When killed, primed enemies will restore a Null Star charge and have a 100% chance of restoring two.
+- **Neutron Star** (Nova, zenurik, Rare, coût 9 au rang max, Augment) : Null Star Augment: Particles deal 240 Heat Damage with guaranteed Status effect in 8m. On recast, remaining particles seek out enemies with doubled search radius.
+- **Assimilate** (Nyx, zenurik, Rare, coût 9 au rang max, Augment) : Absorb Augment: Nyx can use weapons during Absorb and its duration is infinite, but it consumes 6.5 Energy/s and its area of effect is halved.
+- **Chaos Sphere** (Nyx, zenurik, Rare, coût 9 au rang max, Augment) : Chaos Augment: Enemies entering the Effect Range will be inflicted with Chaos. Effect Range lasts for 50% of the ability duration and shrinks over time.
+- **Mind Freak** (Nyx, zenurik, Rare, coût 9 au rang max, Augment) : Mind Control Augment: Controlled target inflicts +1000% Damage and gains +25% Movement and Attack Speed.
+- **Pacifying Bolts** (Nyx, zenurik, Rare, coût 9 au rang max, Augment) : Psychic Bolts Augment: Throw an additional 3 force bolts with guaranteed Radiation Status Effect. Enemies struck are confused for 10s.
+- **Singularity** (Nyx, zenurik, Rare, coût 9 au rang max, Augment) : Absorb Augment: Create a ring every 3s that drags in enemies at 15m/s.
+- **Defiled Reckoning** (Oberon, zenurik, Rare, coût 9 au rang max, Augment) : Reckoning Augment: Health Orbs become unusable by enemies for 10s.
+- **Hallowed Eruption** (Oberon, zenurik, Rare, coût 9 au rang max, Augment) : Hallowed Ground Augment: Reactivate to deal all Remaining Damage and Radiation Status. Passive: +200% Hallowed Ground Duration.
+- **Hallowed Reckoning** (Oberon, zenurik, Rare, coût 9 au rang max, Augment) : Reckoning Augment: Reckoning gains +40% range. A 3m radius around each affected enemy grants bonus armor to allies and deals 300 damage per second to enemies.
+- **Phoenix Renewal** (Oberon, zenurik, Rare, coût 9 au rang max, Augment) : Renewal Augment: Taking fatal damage while under the effects of Renewal will instead Heal you or allies to 50% Health. This effect triggers only once for each ally every 60s.
+- **Smite Infusion** (Oberon, zenurik, Rare, coût 9 au rang max, Augment) : Smite Augment: Hold to cast will grant all allies within 15m an additional 100% Radiation Damage to their attacks for 40s.
+- **Conductor** (Octavia, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Resonator Augment: Reactivate the ability to command Resonator to move to your aim point at 150% Speed.
+- **Partitioned Mallet** (Octavia, zenurik, Rare, coût 9 au rang max, Augment) : Mallet Augment: Create an additional Mallet with 20% reduced range.
+- **Brood's Oversurge** (Oraxia, zenurik, Rare, coût 9 au rang max, Augment) : Widow's Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all active Scuttlers at the aimed target, inflicting 2000 Electricity Damage and Status Effect in a radius.
+- **Intruder** (Parazon, universal, Common, coût 0 au rang max, Exilus, Augment) : +8s to Hacking
+- **Intruder** (Parazon, universal, Common, coût 3 au rang max, Augment) : +2s to Hacking [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Repair Dispensary** (Protea, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Dispensary Augment: Dispensary also creates pick ups that heal companions for 20% of their maximum health and reduce their incapacitation timer by 12 sec.
+- **Temporal Artillery** (Protea, zenurik, Rare, coût 9 au rang max, Augment) : Blaze Artillery Augment : When Temporal Anchor is activated, one existing Artillery unit will attach to Protea, halting its duration countdown. Max combo count is 20x.
+- **Temporal Erosion** (Protea, zenurik, Rare, coût 9 au rang max, Augment) : Temporal Anchor Augment: While Temporal Anchor is active, each strike of Grenade Fan and Blaze Artillery strips 10% Armor from enemies.
+- **Fused Crucible** (Qorvex, zenurik, Rare, coût 9 au rang max, Augment) : Crucible Blast Augment: Becomes a channeled ability consuming 20 Energy/s that ramps up. While active Chyrinka Pillars trigger chain reactions and their duration is frozen. Mobility is greatly reduced.
+- **Wrecking Wall** (Qorvex, zenurik, Rare, coût 9 au rang max, Augment) : Containment Wall Augment: Strip 50% of armor and shields from struck enemies. Hitting 5 or more enemies will restart the duration of any Chyrinka Pillars and empower them.
+- **Blinding Reave** (Revenant, zenurik, Rare, coût 9 au rang max, Augment) : Reave Augment: Reave gains +40% range and enemies are blinded by its fog for 10s.
+- **Mesmer Shield** (Revenant, zenurik, Rare, coût 9 au rang max, Augment) : Mesmer Skin Augment: Revenant receives +50% Mesmer Skin Strength and allies within Affinity Range are granted a maximum of 5 charges.
+- **Thrall Pact** (Revenant, zenurik, Rare, coût 9 au rang max, Augment) : Enthrall Augment: Gain +25% Primary Weapon Damage for each active Thrall.
+- **Iron Shrapnel** (Rhino, zenurik, Rare, coût 9 au rang max, Augment) : Iron Skin Augment: Recasting Iron Skin will cause it to detonate, dealing 100% of its remaining Health as Puncture Damage, and knocking down enemies.
+- **Ironclad Charge** (Rhino, zenurik, Rare, coût 9 au rang max, Augment) : Rhino Charge Augment: Each enemy hit increases Rhino's Armor Rating by 50% for 10s.
+- **Piercing Roar** (Rhino, zenurik, Rare, coût 9 au rang max, Augment) : Roar Augment: Roar gains +40% range. Enemies within 25m are knocked down and suffer 5 stacks of Puncture Status.
+- **Reinforcing Stomp** (Rhino, zenurik, Rare, coût 9 au rang max, Augment) : Rhino Stomp Augment: Iron Skin Health is replenished by 4% for each enemy affected.
+- **Contagion Cloud** (Saryn, zenurik, Rare, coût 9 au rang max, Augment) : Toxic Lash Augment: Create 5m toxic clouds, dealing 300 Toxin Damage/s for 12s with every kill. Damage is twice as strong for Melee kills.
+- **Regenerative Molt** (Saryn, zenurik, Rare, coût 9 au rang max, Augment) : Molt Augment: After casting Molt, Saryn regenerates 50 Health/s for 10s.
+- **Revealing Spores** (Saryn, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Spores Augment: Infected enemies within 40m appear on the minimap. +40 Enemy Radar.
+- **Venom Dose** (Saryn, zenurik, Rare, coût 9 au rang max, Augment) : Spores Augment: Hold to cast will grant all allies within 15m an additional 100% Corrosive Damage to their attacks for 40s.
+- **Dark Propagation** (Sevagoth, zenurik, Rare, coût 9 au rang max, Augment) : Sow Augment: Enemies killed while inflicted with Sow spread its effect in a 15m radius. Shadow's Death Harvest also inflicts Sow.
+- **Shadow Haze** (Sevagoth, zenurik, Rare, coût 9 au rang max, Augment) : Reap Augment: Increase Critical Chance by 50% on enemies inflicted with Death Harvest. A new Shadow emerges from those enemies when they perish. Limit of 3 Shadows.
+- **Ambush** (Shade, penjaga, Rare, coût 9 au rang max, Augment) : When Ghost invisibility is broken, Shade's owner is granted +240% Weapon Damage for 3s.
+- **Axios Javelineers** (Styanax, zenurik, Rare, coût 9 au rang max, Augment) : Axios Javelin Augment: A pair of Styanax Specters spawn to throw javelins, creating vortexes on impact. Impale an enemy to increase vortex duration by 5s.
+- **Intrepid Stand** (Styanax, zenurik, Rare, coût 9 au rang max, Augment) : Final Stand Augment: Each javelin that damages an enemy grants 60 Overguard to Styanax and 30 Overguard to his allies within Affinity Range.
+- **Tharros Lethality** (Styanax, zenurik, Rare, coût 9 au rang max, Augment) : Tharros Strike Augment: Increases Critical Damage by 100% on enemies you hit. Critical Damage bonus is doubled for Spearguns.
+- **Rhythm Guard** (Temple, zenurik, Rare, coût 9 au rang max, Augment) : Passive Augment: Gain 100 Overguard when using an Ability on the Backbeat. Amount doubles up to 1600 per Beat, but resets if the Beat is missed.
+- **Beguiling Lantern** (Titania, zenurik, Rare, coût 9 au rang max, Augment) : Lantern Augment: Attracted enemies take 100% more Weapon Damage.
+- **Ironclad Flight** (Titania, zenurik, Rare, coût 7 au rang max, Exilus, Augment) : Disable vacuum in Razorwing. Reduced Damage by 40% while Airborne.
+- **Razorwing Blitz** (Titania, zenurik, Rare, coût 9 au rang max, Augment) : Razorwing Augment: Flight Speed increased by 25% and Fire Rate increased by 25% for 8s when using abilities. Stacks up to 4x.
+- **Spellbound Harvest** (Titania, zenurik, Rare, coût 9 au rang max, Augment) : Spellbind Augment: Hitting at least 4 enemies with Spellbind grants Titania 50. The next cast has +40% Ability Range.
+- **Abating Link** (Trinity, zenurik, Rare, coût 9 au rang max, Augment) : Link Augment: Reduces Armor Rating by 60% on enemies targeted by Link.
+- **Champion's Blessing** (Trinity, zenurik, Rare, coût 9 au rang max, Augment) : Blessing Augment: Gain Primary and Secondary Critical Chance for 30s for each percent you heal on allies up to 350%.
+- **Pool Of Life** (Trinity, zenurik, Rare, coût 9 au rang max, Augment) : Well of Life Augment: On death, marked enemies will drop 4 Health Orbs with a 100% chance of dropping an Energy Orb.
+- **Vampire Leech** (Trinity, zenurik, Rare, coût 9 au rang max, Augment) : Energy Vampire Augment: Excess Energy replenishes Shields by 225%.
+- **Infernum** (Uriel, zenurik, Rare, coût 9 au rang max, Augment) : Infernalis Augment: Release Fireballs for 1500Heat Damage with larger volleys when grabbing Vythelas' Runes during flight. Hits from Fireballs slowly charge Brimstone.
+- **Enraged** (Valkyr, zenurik, Rare, coût 9 au rang max, Augment) : Hysteria Augment: Damage increased by 350%, Critical Chance increased by 350%. Hysteria lasts for 15s, and receives a matching cooldown.
+- **Eternal War** (Valkyr, zenurik, Rare, coût 9 au rang max, Augment) : Warcry Augment: While active, Warcry's duration is increased by 2s for each Melee Kill.
+- **Hysterical Assault** (Valkyr, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Hysteria Augment: Attack with Valkyr's Talons to leap onto targeted enemies up to 50m away. Gain +50% Parkour Velocity and +50% Sprint Speed for 5s.
+- **Hysterical Fixation** (Valkyr, zenurik, Rare, coût 9 au rang max, Augment) : Hysteria Augment: While Hysteria is active, each kill restores 20% Maximum Shields.
+- **Prolonged Paralysis** (Valkyr, zenurik, Rare, coût 9 au rang max, Augment) : Paralysis Augment: Affected enemies are pulled towards Valkyr and the stun duration is increased by 5s.
+- **Swing Line** (Valkyr, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Rip Line Augment: Rip Lines has no Energy cost while Airborne. ; +20% Parkour Velocity
+- **Enduring Bastille** (Vauban, zenurik, Rare, coût 9 au rang max, Augment) : Bastille Augment: Killing an enemy in Bastille extends the duration by 2s. Vortex's duration is increased by 70% of its Maximum Duration for each additional Vortex thrown into it.
+- **Photon Repeater** (Vauban, zenurik, Rare, coût 9 au rang max, Augment) : Photon Strike Augment: If Photon Strike hits at least 5 enemies, the next cast will cost no Energy and fire two additional strikes.
+- **Tesla Bank** (Vauban, zenurik, Rare, coût 9 au rang max, Augment) : Tesla Nervos Augment: Enemy health when a Nervos is first attached is converted into 8m burst of Electricity when killed.
+- **Capacitance** (Volt, zenurik, Rare, coût 9 au rang max, Augment) : Discharge Augment: Converts 3% of Damage dealt into Shields split between Volt and Squadmates.
+- **Kinetic Collision** (Volt, zenurik, Rare, coût 9 au rang max, Augment) : Speed Augment: Running into an opponent increases the duration of Speed by 4s.
+- **Recharge Barrier** (Volt, zenurik, Rare, coût 9 au rang max, Augment) : Electric Shield Augment: Allies that pass through have 35% Shields restored.
+- **Shock Trooper** (Volt, zenurik, Rare, coût 9 au rang max, Augment) : Shock Augment: Hold to cast will grant all allies within 15m an additional 100% Electricity Damage to their attacks for 40s.
+- **Shocking Speed** (Volt, zenurik, Rare, coût 9 au rang max, Augment) : Speed Augment: While moving under the effects of Speed, enemies within 3m will take 300 Electricity Damage with guaranteed Status effect.
+- **Transistor Shield** (Volt, zenurik, Rare, coût 9 au rang max, Augment) : Electric Shield Augment: Allies can pick up Electric Shield. 300% of damage absorbed will be added to Volt's Static Discharge.
+- **Prey Of Dynar** (Voruna, zenurik, Rare, coût 9 au rang max, Augment) : Shroud of Dynar Augment: Increase an enemy’s Damage Vulnerability by 50%. Using Fang of Raksh on that enemy increases its spread radius by 150%.
+- **Ulfrun's Endurance** (Voruna, zenurik, Rare, coût 9 au rang max, Augment) : Ulfrun's Descent Augment: During Ulfrun’s attack, enemies that die from Slash Status within 20m restore Voruna’s charges.
+- **Adaptation** (WARFRAME, vazarin, Rare, coût 12 au rang max, Augment) : When Damaged: +10% Resistance to that Damage Type for 20s. Stacks up to 90%.
+- **Adaptation** (WARFRAME, vazarin, Rare, coût 12 au rang max, Augment) : When Damaged: +10% Resistance to that Damage Type for 20s. Stacks up to 90%.
+- **Adept Surge** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : +10% Mobility ; -25 Health
+- **Adrenaline Boost** (WARFRAME, madurai, Rare, coût 13 au rang max, Augment) : +50% Energy ; -20% Health
+- **Aero Vantage** (WARFRAME, naramon, Uncommon, coût 7 au rang max, Exilus, Augment) : -100% Gravity while Aim Gliding [fait partie d'un set : HawkSetMod]
+- **Agility Drift** (WARFRAME, vazarin, Rare, coût 9 au rang max, Exilus, Augment) : Reduced damage by 12% while airborne ; -6% Enemy Accuracy when targeting Warframe
+- **Air Thrusters** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : +100% Slide Boost when Airborne ; -20% Mobility
+- **Amar's Anguish** (WARFRAME, vazarin, Common, coût 9 au rang max, Exilus, Augment) : +15% to Parkour Velocity ; +15% Sprint Speed [fait partie d'un set : AmarSetMod]
+- **Amar's Hatred** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +25% Armor ; +15% Ability Strength [fait partie d'un set : AmarSetMod]
+- **Anti-Flak Plating** (WARFRAME, vazarin, Uncommon, coût 7 au rang max, Augment) : +20 Blast Resistance ; -10% Mobility
+- **Anticipation** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Exilus, Augment) : Immune to Knockdown for an additional +4s after being knocked down. ; Immune to Stagger for an additional +4s after being Staggered.
+- **Antitoxin** (WARFRAME, vazarin, Uncommon, coût 14 au rang max, Augment) : +82.5% Toxin Resistance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Antitoxin** (WARFRAME, vazarin, Uncommon, coût 5 au rang max, Augment) : +20% Toxin Resistance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Antitoxin** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +45% Toxin Resistance
+- **Archon Continuity** (WARFRAME, madurai, Legendary, coût 16 au rang max, Augment) : +55% Ability Duration ; Abilities that inflict a Toxin status effect will also apply a Corrosive status effect.
+- **Archon Flow** (WARFRAME, naramon, Legendary, coût 16 au rang max, Augment) : +185% Energy Max ; Enemies killed by Cold Abilities have 10% chance to drop an Energy Orb. Cooldown: 10s
+- **Archon Intensify** (WARFRAME, madurai, Legendary, coût 16 au rang max, Augment) : +30% Ability Strength ; Restoring health with abilities grants +30% Ability Strength for 10s.
+- **Archon Stretch** (WARFRAME, naramon, Legendary, coût 16 au rang max, Augment) : +45% Ability Range ; Abilities that deal Electricity Damage restore +2 Energy/s over 5s.
+- **Archon Vitality** (WARFRAME, vazarin, Legendary, coût 16 au rang max, Augment) : +100% Health ; Status Effects from abilities that deal Heat Damage will be applied twice.
+- **Armored Acrobatics** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +20% Damage Resistance during Bullet Jump ; -10% Mobility
+- **Armored Agility** (WARFRAME, vazarin, Rare, coût 11 au rang max, Augment) : +15% Sprint Speed ; +40% Armor
+- **Armored Evade** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +40% Damage Resistance while Dodging ; -10% Mobility
+- **Armored Recovery** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Exilus, Augment) : +50% Damage Resistance when knocked down ; -20% Slide
+- **Augur Accord** (WARFRAME, vazarin, Uncommon, coût 7 au rang max, Augment) : +70% Shield Capacity [fait partie d'un set : AugurSetMod]
+- **Augur Message** (WARFRAME, naramon, Common, coût 7 au rang max, Augment) : +24% Ability Duration [fait partie d'un set : AugurSetMod]
+- **Augur Reach** (WARFRAME, naramon, Uncommon, coût 7 au rang max, Augment) : +30% Ability Range [fait partie d'un set : AugurSetMod]
+- **Augur Secrets** (WARFRAME, naramon, Rare, coût 7 au rang max, Augment) : +24% Ability Strength [fait partie d'un set : AugurSetMod]
+- **Aviator** (WARFRAME, vazarin, Common, coût 14 au rang max, Exilus, Augment) : Reduced damage by 100% while airborne [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Aviator** (WARFRAME, vazarin, Common, coût 7 au rang max, Exilus, Augment) : Reduced damage by 40% while airborne
+- **Aviator** (WARFRAME, vazarin, Common, coût 9 au rang max, Exilus, Augment) : Reduced damage by 60% while airborne [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Battering Maneuver** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Exilus, Augment) : +18% to Parkour Velocity ; +18% Aim Glide/Wall Latch Duration ; +60% Impact on Bullet Jump
+- **Blind Rage** (WARFRAME, madurai, Rare, coût 16 au rang max, Augment) : +99% Ability Strength ; -55% Ability Efficiency
+- **Boreal's Anguish** (WARFRAME, vazarin, Common, coût 9 au rang max, Exilus, Augment) : -75% Gravity while Aim Gliding ; +60% Aim Glide/Wall Latch Duration [fait partie d'un set : BorealSetMod]
+- **Boreal's Hatred** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +65% Shield Capacity ; +15% Ability Efficiency [fait partie d'un set : BorealSetMod]
+- **Calculated Spring** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : -10% Mobility ; +25% Health
+- **Carnis Carapace** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +55% Armor ; +20% Health [fait partie d'un set : AshenSetMod]
+- **Catalyzing Shields** (WARFRAME, vazarin, Rare, coût 13 au rang max, Augment) : x0.20 Max Shield Capacity ; 1.33s Full Shield Gate immunity duration
+- **Coaction Drift** (WARFRAME, naramon, Rare, coût 9 au rang max, Exilus, Augment) : Squad benefits +15% more from Auras ; You benefit an additional +15% from Auras
+- **Constitution** (WARFRAME, naramon, Rare, coût 13 au rang max, Augment) : +40% Faster Knockdown Recovery ; +28% Ability Duration
+- **Continuity** (WARFRAME, madurai, Rare, coût 5 au rang max, Augment) : +12% Ability Duration [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Continuity** (WARFRAME, madurai, Rare, coût 7 au rang max, Augment) : +30% Ability Duration
+- **Cunning Drift** (WARFRAME, madurai, Rare, coût 9 au rang max, Exilus, Augment) : +12% Slide ; -30% Friction ; +15% Ability Range
+- **Diamond Skin** (WARFRAME, vazarin, Uncommon, coût 14 au rang max, Augment) : +82.5% Radiation Resistance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Diamond Skin** (WARFRAME, vazarin, Uncommon, coût 5 au rang max, Augment) : +20% Radiation Resistance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Diamond Skin** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +45% Radiation Resistance
+- **Endurance Drift** (WARFRAME, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : +10% Energy Max ; +12% Parkour Velocity
+- **Enemy Sense** (WARFRAME, naramon, Rare, coût 12 au rang max, Exilus, Augment) : +55m Enemy Radar [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Enemy Sense** (WARFRAME, naramon, Rare, coût 5 au rang max, Exilus, Augment) : +12m Enemy Radar [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Enemy Sense** (WARFRAME, naramon, Rare, coût 7 au rang max, Exilus, Augment) : +30m Enemy Radar
+- **Energy Conversion** (WARFRAME, madurai, Rare, coût 15 au rang max, Augment) : Energy Orbs grant 50% more Ability Strength to your next cast.
+- **Energy Nexus** (WARFRAME, naramon, Rare, coût 9 au rang max, Augment) : Warframe receives +3 Energy Regen/s
+- **Equilibrium** (WARFRAME, naramon, Uncommon, coût 14 au rang max, Augment) : Health pickups give +110% Energy. Energy pickups give +110% Health.
+- **Equilibrium** (WARFRAME, naramon, Uncommon, coût 7 au rang max, Augment) : Health pickups give +32% Energy. Energy pickups give +32% Health. [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Fast Deflection** (WARFRAME, vazarin, Uncommon, coût 5 au rang max, Augment) : +40% Shield Recharge [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Fast Deflection** (WARFRAME, vazarin, Uncommon, coût 7 au rang max, Augment) : +90% Shield Recharge ; -45% Shield Recharge Delay
+- **Final Act** (WARFRAME, madurai, Rare, coût 13 au rang max, Augment) : On Low Health: +30% Ability Strength +30% Casting Speed for 8s
+- **Firewalker** (WARFRAME, madurai, Rare, coût 12 au rang max, Exilus, Augment) : +24.2% to Parkour Velocity ; +24.2% Aim Glide/Wall Latch Duration ; +275% Heat on Bullet Jump
+- **Flame Repellent** (WARFRAME, vazarin, Common, coût 14 au rang max, Augment) : +100% Heat Resistance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Flame Repellent** (WARFRAME, vazarin, Common, coût 5 au rang max, Augment) : +20% Heat Resistance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Flame Repellent** (WARFRAME, vazarin, Common, coût 9 au rang max, Augment) : +60% Heat Resistance
+- **Fleeting Expertise** (WARFRAME, naramon, Rare, coût 11 au rang max, Augment) : +60% Ability Efficiency ; -60% Ability Duration
+- **Flow** (WARFRAME, naramon, Rare, coût 5 au rang max, Augment) : +50% Energy Max [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Flow** (WARFRAME, naramon, Rare, coût 9 au rang max, Augment) : +100% Energy Max
+- **Follow Through** (WARFRAME, madurai, Uncommon, coût 13 au rang max, Augment) : +10 Energy
+- **Fortitude** (WARFRAME, naramon, Rare, coût 9 au rang max, Augment) : +40% Chance to Resist Knockdown ; +100% Shield Recharge
+- **Gale Kick** (WARFRAME, madurai, Rare, coût 7 au rang max, Exilus, Augment) : +100% of Melee Damage converted to Impact Damage on Jump Kick, knocking down nearby enemies on kill.
+- **Gladiator Aegis** (WARFRAME, vazarin, Common, coût 9 au rang max, Augment) : +40% Armor [fait partie d'un set : GladiatorSetMod]
+- **Gladiator Finesse** (WARFRAME, vazarin, Rare, coût 9 au rang max, Augment) : Drains Energy to stop Lethal Damage with +60% Efficiency. [fait partie d'un set : GladiatorSetMod]
+- **Gladiator Resolve** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +40% Health [fait partie d'un set : GladiatorSetMod]
+- **Handspring** (WARFRAME, naramon, Rare, coût 11 au rang max, Exilus, Augment) : +240% Faster Knockdown Recovery [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Handspring** (WARFRAME, naramon, Rare, coût 16 au rang max, Exilus, Augment) : +440% Faster Knockdown Recovery [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Handspring** (WARFRAME, naramon, Rare, coût 9 au rang max, Exilus, Augment) : +160% Faster Knockdown Recovery
+- **Hastened Steps** (WARFRAME, madurai, Rare, coût 13 au rang max, Augment) : +20% Sprint Speed ; -20% Shield Capacity
+- **Health Conversion** (WARFRAME, unairu, Rare, coût 15 au rang max, Augment) : Health Orbs grant |ARMOUR| Armor, stacking up to |STACKS|x. Taking damage will consume a stack after |DURATION|s.
+- **Health Conversion** (WARFRAME, vazarin, Rare, coût 15 au rang max, Augment) : Health Orbs grant 450 Armor, stacking up to 3x. Taking damage will consume a stack after 3s.
+- **Heavy Impact** (WARFRAME, naramon, Uncommon, coût 14 au rang max, Exilus, Augment) : Create 11m seismic shockwaves from heavy landings, dealing 550 Damage and knocking foes off their feet. [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Heavy Impact** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : Create 2m seismic shockwaves from heavy landings, dealing 200 Damage and knocking foes off their feet. [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Heavy Impact** (WARFRAME, naramon, Uncommon, coût 9 au rang max, Exilus, Augment) : Create 6m seismic shockwaves from heavy landings, dealing 300 Damage and knocking foes off their feet.
+- **Heightened Reflexes** (WARFRAME, madurai, Rare, coût 13 au rang max, Augment) : +20% Casting Speed ; -20% Ability Efficiency
+- **Hunter Adrenaline** (WARFRAME, madurai, Common, coût 11 au rang max, Augment) : Convert +45% of Damage on Health to Energy. Without Shields, ally Overguard imitates Health. [fait partie d'un set : HunterSetMod]
+- **Ice Spring** (WARFRAME, vazarin, Rare, coût 12 au rang max, Exilus, Augment) : +24.2% to Parkour Velocity ; +24.2% Aim Glide/Wall Latch Duration ; +275% Cold on Bullet Jump
+- **Insulation** (WARFRAME, vazarin, Common, coût 14 au rang max, Augment) : +100% Cold Resistance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Insulation** (WARFRAME, vazarin, Common, coût 5 au rang max, Augment) : +20% Cold Resistance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Insulation** (WARFRAME, vazarin, Common, coût 9 au rang max, Augment) : +60% Cold Resistance
+- **Intensify** (WARFRAME, madurai, Rare, coût 11 au rang max, Augment) : +30% Ability Strength
+- **Intensify** (WARFRAME, madurai, Rare, coût 16 au rang max, Augment) : +55% Ability Strength [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Intensify** (WARFRAME, madurai, Rare, coût 7 au rang max, Augment) : +12% Ability Strength [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Jugulus Carapace** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +55% Armor ; +20% Health [fait partie d'un set : BonebladeSetMod]
+- **Kavat's Grace** (WARFRAME, naramon, Rare, coût 7 au rang max, Exilus, Augment) : Falling is 100% less likely to result in a hard landing.
+- **Lightning Dash** (WARFRAME, madurai, Rare, coût 12 au rang max, Exilus, Augment) : +24.2% to Parkour Velocity ; +24.2% Aim Glide/Wall Latch Duration ; +275% Electricity on Bullet Jump
+- **Lightning Rod** (WARFRAME, vazarin, Common, coût 14 au rang max, Augment) : +100% Electricity Resistance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Lightning Rod** (WARFRAME, vazarin, Common, coût 5 au rang max, Augment) : +20% Electricity Resistance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Lightning Rod** (WARFRAME, vazarin, Common, coût 9 au rang max, Augment) : +60% Electricity Resistance
+- **Maglev** (WARFRAME, naramon, Uncommon, coût 9 au rang max, Exilus, Augment) : +20% Slide ; -20% Friction [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Master Thief** (WARFRAME, naramon, Rare, coût 13 au rang max, Exilus, Augment) : +40% chance to unlock locked lockers.
+- **Master Thief** (WARFRAME, naramon, Rare, coût 15 au rang max, Exilus, Augment) : +60% chance to unlock locked lockers. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Master Thief** (WARFRAME, naramon, Rare, coût 20 au rang max, Exilus, Augment) : +110% chance to unlock locked lockers. [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Mecha Pulse** (WARFRAME, madurai, Rare, coût 9 au rang max, Augment) : Killing a Marked Enemy grants +60% Armor for 20s for each enemy within 30m. [fait partie d'un set : MechaSetMod]
+- **Mobilize** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : +20% to Parkour Velocity ; +20% Aim Glide/Wall Latch Duration
+- **Motus Signal** (WARFRAME, naramon, Common, coût 7 au rang max, Exilus, Augment) : Increase Double Jump strength by +200%. [fait partie d'un set : RaptorSetMod]
+- **Narrow Minded** (WARFRAME, vazarin, Rare, coût 16 au rang max, Augment) : +99% Ability Duration ; -66% Ability Range
+- **Natural Talent** (WARFRAME, naramon, Rare, coût 9 au rang max, Augment) : +50% Casting Speed
+- **Nira's Anguish** (WARFRAME, vazarin, Common, coût 9 au rang max, Exilus, Augment) : +15% to Parkour Velocity ; +15% Aim Glide/Wall Latch Duration [fait partie d'un set : NiraSetMod]
+- **Nira's Hatred** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +35% Health ; +15% Ability Duration [fait partie d'un set : NiraSetMod]
+- **No Current Leap** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : +10% Mobility ; 0 Energy Rate
+- **Overcharge Detectors** (WARFRAME, naramon, Uncommon, coût 7 au rang max, Exilus, Augment) : Exposes enemies at maximum Energy Capacity within 30m.
+- **Overcharged** (WARFRAME, vazarin, Rare, coût 15 au rang max, Augment) : Converts up to 50 Energy to Overshields at a rate of 100%.
+- **Overextended** (WARFRAME, vazarin, Rare, coût 11 au rang max, Augment) : +90% Ability Range ; -60% Ability Strength
+- **Pain Threshold** (WARFRAME, naramon, Rare, coût 9 au rang max, Exilus, Augment) : +160% Faster Stagger Recovery
+- **Patagium** (WARFRAME, naramon, Uncommon, coût 7 au rang max, Exilus, Augment) : +90% Aim Glide/Wall Latch Duration
+- **Piercing Step** (WARFRAME, naramon, Uncommon, coût 9 au rang max, Exilus, Augment) : +18% to Parkour Velocity ; +18% Aim Glide/Wall Latch Duration ; +60% Puncture on Bullet Jump
+- **Power Drift** (WARFRAME, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : +15% Ability Strength ; +30% Chance to Resist Knockdown
+- **Precision Intensify** (WARFRAME, madurai, Rare, coût 11 au rang max, Augment) : +90% Ability Strength for your 4th Ability
+- **Preparation** (WARFRAME, zenurik, Rare, coût 12 au rang max, Exilus, Augment) : +100% Maximum Energy is filled on Spawn
+- **Primed Continuity** (WARFRAME, madurai, Legendary, coût 14 au rang max, Augment) : +55% Ability Duration [variante du jeu : Expert, rang max 10]
+- **Primed Fast Deflection** (WARFRAME, vazarin, Legendary, coût 16 au rang max, Augment) : +165% Shield Recharge ; -55% Shield Recharge Delay [variante du jeu : Expert, rang max 10] [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Primed Flow** (WARFRAME, naramon, Legendary, coût 14 au rang max, Augment) : +185% Energy Max [variante du jeu : Expert, rang max 10]
+- **Primed Redirection** (WARFRAME, vazarin, Legendary, coût 16 au rang max, Augment) : +180% Shield Capacity [variante du jeu : Expert, rang max 10]
+- **Primed Streamline** (WARFRAME, naramon, Legendary, coût 14 au rang max, Augment) : +55% Ability Efficiency [variante du jeu : Expert, rang max 10] [ATTENTION : n'existe pas en jeu (confirmé par XeniX13 le 13/11/2026) ; l'entrée vient des données du jeu mais n'a aucune date de sortie. Ne jamais l'utiliser dans un build]
+- **Primed Sure Footed** (WARFRAME, vazarin, Legendary, coût 16 au rang max, Exilus, Augment) : +100% Chance to Resist Knockdown [variante du jeu : Expert, rang max 10]
+- **Primed Vigor** (WARFRAME, vazarin, Legendary, coût 16 au rang max, Augment) : +75% Shield Capacity ; +75% Health [variante du jeu : Expert, rang max 10]
+- **Proton Pulse** (WARFRAME, naramon, Common, coût 7 au rang max, Exilus, Augment) : Wall Dashing grants +100% Bullet Jump Speed. [fait partie d'un set : SpiderSetMod]
+- **Provoked** (WARFRAME, madurai, Uncommon, coût 14 au rang max, Augment) : +110% Damage during Bleedout
+- **Provoked** (WARFRAME, madurai, Uncommon, coût 5 au rang max, Augment) : +20% Damage during Bleedout [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Provoked** (WARFRAME, madurai, Uncommon, coût 9 au rang max, Augment) : +60% Damage during Bleedout [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Quick Charge** (WARFRAME, vazarin, Rare, coût 9 au rang max, Augment) : -20% Shield Recharge Delay ; -20 Shield Capacity
+- **Quick Thinking** (WARFRAME, vazarin, Rare, coût 7 au rang max, Augment) : Drains Energy to stop Lethal Damage with +80% Efficiency. [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Rage** (WARFRAME, madurai, Rare, coût 11 au rang max, Augment) : Convert +60% of Damage on Health to Energy. Without Shields, ally Overguard imitates Health. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Rage** (WARFRAME, madurai, Rare, coût 16 au rang max, Augment) : Convert +110% of Damage on Health to Energy. Without Shields, ally Overguard imitates Health. [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Rage** (WARFRAME, madurai, Rare, coût 9 au rang max, Augment) : Convert +40% of Damage on Health to Energy. Without Shields, ally Overguard imitates Health.
+- **Rapid Resilience** (WARFRAME, vazarin, Rare, coût 11 au rang max, Augment) : -75% Status Duration on Self
+- **Redirection** (WARFRAME, vazarin, Common, coût 12 au rang max, Augment) : +100% Shield Capacity
+- **Redirection** (WARFRAME, vazarin, Common, coût 5 au rang max, Augment) : +25% Shield Capacity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Redirection** (WARFRAME, vazarin, Common, coût 7 au rang max, Augment) : +55% Shield Capacity [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Reflection** (WARFRAME, vazarin, Uncommon, coût 12 au rang max, Augment) : +73.3% chance to Stagger on Block ; +18.3% chance to Stun on Block [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Reflection** (WARFRAME, vazarin, Uncommon, coût 5 au rang max, Augment) : +48% Damage taken is reflected when Blocking attacks while Channeling [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Reflection** (WARFRAME, vazarin, Uncommon, coût 7 au rang max, Augment) : +40% chance to Stagger on Block ; +10% chance to Stun on Block
+- **Reflex Guard** (WARFRAME, vazarin, Rare, coût 14 au rang max, Augment) : +100% Combo Count Chance while Blocking
+- **Rending Turn** (WARFRAME, madurai, Uncommon, coût 9 au rang max, Exilus, Augment) : +18% to Parkour Velocity ; +18% Aim Glide/Wall Latch Duration ; +60% Slash on Bullet Jump
+- **Resilient Focus** (WARFRAME, vazarin, Rare, coût 7 au rang max, Augment) : +20% Damage Resistance on Stun [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Retribution** (WARFRAME, vazarin, Rare, coût 11 au rang max, Exilus, Augment) : +90% Chance to deal Electrical Damage when shield struck by melee enemies. ; +120 Electricity [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Retribution** (WARFRAME, vazarin, Rare, coût 16 au rang max, Exilus, Augment) : +165% Chance to deal Electrical Damage when shield struck by melee enemies. ; +220 Electricity [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Retribution** (WARFRAME, vazarin, Rare, coût 9 au rang max, Exilus, Augment) : +60% Chance to deal Electrical Damage when shield struck by melee enemies. ; +80 Electricity
+- **Rime Vault** (WARFRAME, madurai, Rare, coût 0 au rang max, Exilus, Augment) : Ice FX on Bullet Jump
+- **Rising Skill** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : +10% Mobility ; -30 Shield Capacity
+- **Rolling Guard** (WARFRAME, vazarin, Rare, coût 12 au rang max, Augment) : On Dodge: Become invulnerable for 3s and remove all Status Effects. 7s cooldown.
+- **Rush** (WARFRAME, naramon, Uncommon, coût 11 au rang max, Exilus, Augment) : +30% Sprint Speed
+- **Rush** (WARFRAME, naramon, Uncommon, coût 16 au rang max, Exilus, Augment) : +55% Sprint Speed [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Rush** (WARFRAME, naramon, Uncommon, coût 7 au rang max, Exilus, Augment) : +10% Sprint Speed [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Saxum Carapace** (WARFRAME, vazarin, Uncommon, coût 9 au rang max, Augment) : +55% Armor ; +20% Health [fait partie d'un set : FemurSetMod]
+- **Searing Leap** (WARFRAME, madurai, Rare, coût 0 au rang max, Exilus, Augment) : Fire FX on Bullet Jump
+- **Shock Absorbers** (WARFRAME, vazarin, Rare, coût 7 au rang max, Exilus, Augment) : +20% Physical Damage Resistance
+- **Shock Absorbers** (WARFRAME, vazarin, Rare, coût 9 au rang max, Augment) : +30% Physical Damage Resistance [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Speed Drift** (WARFRAME, madurai, Rare, coût 9 au rang max, Exilus, Augment) : +12% Sprint Speed ; +15% Casting Speed
+- **Stealth Drift** (WARFRAME, naramon, Rare, coût 9 au rang max, Exilus, Augment) : +18m Enemy Radar ; +12% Aim Glide/Wall Latch Duration
+- **Steel Fiber** (WARFRAME, vazarin, Common, coût 14 au rang max, Augment) : +100% Armor
+- **Steel Fiber** (WARFRAME, vazarin, Common, coût 5 au rang max, Augment) : +32% Armor [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Steel Fiber** (WARFRAME, vazarin, Common, coût 9 au rang max, Augment) : +55% Armor [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Strain Consume** (WARFRAME, naramon, Rare, coût 5 au rang max, Augment) : Dead Maggots within 10m are consumed, increasing Max Health by 4% and increasing Health Regen by 2/sec for 45sec. [fait partie d'un set : StrainSetMod]
+- **Streamline** (WARFRAME, naramon, Rare, coût 5 au rang max, Augment) : +12% Ability Efficiency [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Streamline** (WARFRAME, naramon, Rare, coût 9 au rang max, Augment) : +30% Ability Efficiency
+- **Streamlined Form** (WARFRAME, naramon, Rare, coût 7 au rang max, Exilus, Augment) : +30% Slide ; -30% Friction
+- **Stretch** (WARFRAME, naramon, Uncommon, coût 14 au rang max, Augment) : +82.5% Ability Range [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Stretch** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Augment) : +20% Ability Range [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Stretch** (WARFRAME, naramon, Uncommon, coût 9 au rang max, Augment) : +45% Ability Range
+- **Sure Footed** (WARFRAME, vazarin, Rare, coût 11 au rang max, Exilus, Augment) : +90% Chance to Resist Knockdown [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Sure Footed** (WARFRAME, vazarin, Rare, coût 9 au rang max, Exilus, Augment) : +60% Chance to Resist Knockdown
+- **Surplus Diverters** (WARFRAME, madurai, Rare, coût 15 au rang max, Augment) : Gain +6 energy, upon replenishing shields completely after they have been deactivated.
+- **Synth Reflex** (WARFRAME, madurai, Rare, coût 7 au rang max, Exilus, Augment) : On Equip: +40% Bullet Jump for 2s [fait partie d'un set : SynthSetMod]
+- **Tactical Retreat** (WARFRAME, vazarin, Rare, coût 13 au rang max, Augment) : On Low Health: +10% Mobility for 4s
+- **Tek Collateral** (WARFRAME, naramon, Rare, coût 5 au rang max, Augment) : +100% Critical Damage when inside the Marked Zone. [fait partie d'un set : TekSetMod]
+- **Tempered Bound** (WARFRAME, naramon, Uncommon, coût 5 au rang max, Exilus, Augment) : -10% Mobility ; +30 Shield Capacity
+- **Thief's Wit** (WARFRAME, naramon, Common, coût 12 au rang max, Exilus, Augment) : +77m Loot Radar [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Thief's Wit** (WARFRAME, naramon, Common, coût 5 au rang max, Exilus, Augment) : +20m Loot Radar [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Thief's Wit** (WARFRAME, naramon, Common, coût 7 au rang max, Exilus, Augment) : +42m Loot Radar
+- **Toxic Flight** (WARFRAME, naramon, Rare, coût 12 au rang max, Exilus, Augment) : +24.2% to Parkour Velocity ; +24.2% Aim Glide/Wall Latch Duration ; +275% Toxin on Bullet Jump
+- **Transient Fortitude** (WARFRAME, madurai, Rare, coût 16 au rang max, Augment) : +55% Ability Strength ; -27.5% Ability Duration
+- **Umbral Fiber** (WARFRAME, umbra, Legendary, coût 16 au rang max, Augment) : +100% Armor ; +11% Tau Resistance [fait partie d'un set : UmbraSetMod]
+- **Umbral Intensify** (WARFRAME, umbra, Legendary, coût 16 au rang max, Augment) : +44% Ability Strength ; +11% Tau Resistance [fait partie d'un set : UmbraSetMod]
+- **Umbral Vitality** (WARFRAME, umbra, Legendary, coût 16 au rang max, Augment) : +100% Health ; +11% Tau Resistance [fait partie d'un set : UmbraSetMod]
+- **Undying Will** (WARFRAME, vazarin, Rare, coût 7 au rang max, Augment) : +42% Bleedout Reduction
+- **Venomous Rise** (WARFRAME, madurai, Rare, coût 0 au rang max, Exilus, Augment) : Toxin FX on Bullet Jump
+- **Vigilante Pursuit** (WARFRAME, naramon, Uncommon, coût 9 au rang max, Exilus, Augment) : +30m Enemy Radar [fait partie d'un set : VigilanteSetMod]
+- **Vigilante Vigor** (WARFRAME, vazarin, Common, coût 9 au rang max, Augment) : +60% Shield Recharge ; -30% Shield Recharge Delay [fait partie d'un set : VigilanteSetMod]
+- **Vigor** (WARFRAME, vazarin, Rare, coût 11 au rang max, Augment) : +50% Shield Capacity ; +50% Health
+- **Vigorous Swap** (WARFRAME, naramon, Rare, coût 12 au rang max, Augment) : On Equip: +165% Damage for 3s
+- **Vital Systems Bypass** (WARFRAME, naramon, Rare, coût 13 au rang max, Augment) : +1 Health Regen/s ; +50% Shield Recharge Delay
+- **Vitality** (WARFRAME, vazarin, Common, coût 12 au rang max, Augment) : +100% Health
+- **Vitality** (WARFRAME, vazarin, Common, coût 5 au rang max, Augment) : +25% Health [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Vitality** (WARFRAME, vazarin, Common, coût 7 au rang max, Augment) : +55% Health [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Voltaic Lance** (WARFRAME, madurai, Rare, coût 0 au rang max, Exilus, Augment) : Electrical FX on Bullet Jump
+- **Warm Coat** (WARFRAME, vazarin, Common, coût 11 au rang max, Exilus, Augment) : +18% Shield Resistance to Environmental Ice Hazards [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Warm Coat** (WARFRAME, vazarin, Common, coût 16 au rang max, Exilus, Augment) : +33% Shield Resistance to Environmental Ice Hazards [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Warm Coat** (WARFRAME, vazarin, Common, coût 9 au rang max, Exilus, Augment) : +12% Shield Resistance to Environmental Ice Hazards
+- **Cataclysmic Gate** (Wisp, zenurik, Rare, coût 9 au rang max, Augment) : Sol Gate Augment : Wisp and 2 spectral images cast a single blast of Sol Gate, leaving an area with 500 Heat Damage / Second with guaranteed Heat and Radiation Status Effects for 10s.
+- **Critical Surge** (Wisp, zenurik, Rare, coût 9 au rang max, Augment) : Breach Surge Augment: Teleporting to a Reservoir costs 50% Energy and grants 10% Critical Chance to Primary Weapons per meter traveled for 9s. Maximum 250% Critical Chance.
+- **Fused Reservoir** (Wisp, zenurik, Rare, coût 9 au rang max, Exilus, Augment) : Reservoirs Augment: Adds a fourth reservoir that gives the effects of all three. Costs 200% more Energy.
+- **Celestial Stomp** (Wukong, zenurik, Rare, coût 9 au rang max, Augment) : Celestial Twin Augment: Hold to command the twin to perform a slam attack suspending enemies in the air within 20m for 25 Energy.
+- **Enveloping Cloud** (Wukong, zenurik, Rare, coût 9 au rang max, Augment) : Cloud Walker Augment: Allies within 4m of the cloud become invisible to enemies for 14s.
+- **Primal Rage** (Wukong, zenurik, Rare, coût 9 au rang max, Augment) : Primal Fury Augment: Killing an enemy increases Critical Chance by 15%. The increase decays by 1%/s
+- **The Relentless Lost** (Xaku, zenurik, Rare, coût 9 au rang max, Augment) : The Lost Augment: The Lost gains 35% Ability Strength and 15% Ability Efficiency when cast. The effect stacks up to 3x. Casting the same ability back-to-back resets the effect.
+- **Untime Rift** (Xaku, zenurik, Rare, coût 9 au rang max, Augment) : The Vast Untime Augment: Creates a Rift that connects to enemies suffering from Void Status Effect within 15m, doubling debuffs applied by The Vast Untime and maintaining Void Status.
+- **Vampiric Grasp** (Xaku, zenurik, Rare, coût 9 au rang max, Augment) : Grasp of Lohk Augment: When a stolen weapon deals damage to an enemy affected by The Lost: Gaze or The Vast Untime, Xaku heals by 25.
+- **Loyal Merulina** (Yareli, zenurik, Rare, coût 9 au rang max, Augment) : Merulina Augment: Yareli no longer rides Merulina. Instead, Merulina follows her and casts Sea Snare on nearby enemies. 2s cooldown.
+- **Merulina Guardian** (Yareli, zenurik, Rare, coût 9 au rang max, Augment) : Merulina Augment: Enemies eliminated during Sea Snares heal 20% of Merulina's health. Upon healing, gain +200% Reload Speed and Fire Rate on Secondary weapons for 20s.
+- **Surging Blades** (Yareli, zenurik, Rare, coût 9 au rang max, Augment) : Aquablades Augment: Activate Aquablades when the ability is in use or cooldown to throw one blade. Blades gain 10% damage when any Aquablade hits an enemy. No cost to throw with Merulina.
+- **Airburst Rounds** (Zephyr, zenurik, Rare, coût 9 au rang max, Augment) : Airburst Augment: Each enemy hit by Airburst increases secondary damage by 40% for 14s.
+- **Anchored Glide** (Zephyr, zenurik, Rare, coût 7 au rang max, Exilus, Augment) : Disable Zephyr's reduced airborne gravity. Increase Ability Strength by 15%.
+- **Funnel Clouds** (Zephyr, zenurik, Rare, coût 9 au rang max, Augment) : Tornado Augment: Creates 8 additional tornadoes. All tornadoes are 50% their original size and won't pick up enemies.
+- **Jet Stream** (Zephyr, zenurik, Rare, coût 9 au rang max, Augment) : Turbulence Augment: Turbulence increases Movement Speed by 40% and Projectile Speed by 100% for Zephyr and her allies.
+- **Target Fixation** (Zephyr, zenurik, Rare, coût 9 au rang max, Augment) : Tail Wind Augment: Casting Tail Wind resets Zephyr’s bullet jump. Each enemy hit increases Tail Wind Damage by 100%. Damage resets upon being on the ground for 2s.

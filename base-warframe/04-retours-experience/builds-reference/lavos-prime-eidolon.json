@@ -1,0 +1,44 @@
+{
+  "id": "lavos-prime-eidolon",
+  "warframe": "Lavos Prime",
+  "demande": "build lavos prime eidolon",
+  "usage": "chasse aux Eidolons (très spécialisé)",
+  "build": {
+    "aura": "Enemy Radar",
+    "exilus": null,
+    "mods": [
+      "Narrow Minded",
+      "Primed Continuity",
+      "Valence Formation",
+      "Smite Infusion",
+      "Umbral Intensify",
+      "Blind Rage",
+      "Primed Redirection",
+      "Umbral Fiber"
+    ],
+    "arcanes": [
+      "Arcane Aegis",
+      "Arcane Avenger"
+    ],
+    "helminth": "Smite",
+    "helminth_de": "Oberon",
+    "helminth_remplace": "Vial Rush",
+    "armes": {
+      "principale": "Rubico Prime"
+    }
+  },
+  "stats_jeu": {
+    "puissance": 254,
+    "duree": 254,
+    "portee": 34,
+    "sante": 800,
+    "bouclier": 1148,
+    "armure": 1552
+  },
+  "pourquoi": [
+    "Pas de Persistence : on veut une régénération rapide, donc bouclier et Arcane Aegis",
+    "Radiation dans les armes avec Valence Formation, encore plus avec Smite Infusion (augment de Smite via le Helminth d'Oberon)",
+    "Pas besoin d'énergie : Lavos fonctionne avec des temps de recharge"
+  ],
+  "source": "XeniX13, captures en jeu du 22/11/2026"
+}

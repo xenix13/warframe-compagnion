@@ -1,0 +1,11 @@
+{
+ "_lisez_moi": "Règles des armes exaltées lues par le calcul des armes. Clé = nom de l'arme sans « Prime ». degats_x_puissance / portee_x_portee : true = la base de l'arme est multipliée par la puissance / la portée de capacité de la warframe ; null = inconnu (non compté, signalé). portee_base_m : portée de base quand les données du jeu ne la donnent pas (wiki : Shattered Lash 12 m). À compléter ou corriger à la main après vérification en jeu.",
+ "_general": "Depuis l'Update 38.5, toutes les armes exaltées et les griffes de Garuda ont un emplacement d'arcane (l'arcane doit être applicable à ce type d'arme). Source : wiki, page Exalted Weapon.",
+ "Shattered Lash": {"degats_x_puissance": true, "portee_x_portee": true,
+                    "combo_de_capacite": true, "portee_base_m": 12,
+                    "source": "dit par le joueur le 14/11/2026 (puissance et portée de la frame) ; combo : wiki, Update 38.5. Formule exacte (multiplication de la base) à confirmer en jeu."},
+ "Whipclaw": {"degats_x_puissance": null, "portee_x_portee": null, "combo_de_capacite": true, "source": "combo : wiki, Update 38.5"},
+ "Landslide Fists": {"degats_x_puissance": null, "portee_x_portee": null, "combo_de_capacite": true, "source": "combo : wiki, Update 38.5"},
+ "Shadow Clones": {"degats_x_puissance": null, "portee_x_portee": null, "combo_de_capacite": true, "source": "combo : wiki, Update 38.5"},
+ "_combo": "Ash, Atlas, Gara, Khora (anciennes pseudo-exaltées, ex-« stat stick », exaltées à part entière depuis l'Update 38.5) : les dégâts de capacité sont multipliés 1:1 par le compteur de combo de capacité, jusqu'à 12x ; relancer dans les 5 secondes donne des points de combo. Le calcul affiche à part les stats à combo 12x (dégâts x12). Le joueur (14/11/2026) : ces capacités de mêlée ont leur propre compteur de combo, c'est pour ça qu'on y met Blood Rush ou Weeping Wounds, dont la chance critique / de statut se multiplie avec ce combo."
+}

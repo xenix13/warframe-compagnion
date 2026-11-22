@@ -1,0 +1,56 @@
+{
+  "id": "xaku-prime-plateforme-armes",
+  "warframe": "Xaku Prime",
+  "demande": "build xaku prime dps plateforme d'armes",
+  "usage": "DPS, plateforme d'armes (ex. Torid Incarnon)",
+  "build": {
+    "aura": "Brief Respite",
+    "exilus": "Cunning Drift",
+    "mods": [
+      "Archon Vitality",
+      "Blind Rage",
+      "Umbral Intensify",
+      "Augur Reach",
+      "Overextended",
+      "Equilibrium",
+      "Rolling Guard",
+      "Archon Stretch"
+    ],
+    "arcanes": [
+      "Arcane Hot Shot",
+      "Molt Augmented"
+    ],
+    "helminth": "Coronal Ejection",
+    "helminth_de": "Sirius & Orion",
+    "helminth_remplace": "The Lost",
+    "fragments": [
+      "vitesse de lancement",
+      "puissance",
+      "puissance",
+      "durée",
+      "durée"
+    ],
+    "compagnon": "compagnon qui inflige de l'Électricité",
+    "armes": {
+      "principale": "Torid Incarnon (exemple)"
+    }
+  },
+  "stats_jeu": {
+    "puissance": 213,
+    "duree": 130,
+    "portee": 280,
+    "efficacite": 45,
+    "sante": 718,
+    "bouclier": 353,
+    "armure": 167,
+    "energie": 251
+  },
+  "pourquoi": [
+    "Arcane Hot Shot : le Feu infligé par les capacités donne des chances de critique aux armes",
+    "Helminth de Sirius pour le statut Feu : -50 % d'armure ennemie, et gros dégâts avec l'héritage de la chaleur (heat inherit)",
+    "Énergie : Archon Stretch avec un compagnon qui inflige de l'Électricité, plus Equilibrium",
+    "Rolling Guard au cas où, et pour se débarrasser d'un statut (Feu, Poison) qui pourrait tuer d'un coup",
+    "Fragments : un jaune vitesse de lancement pour le confort, puis puissance et durée"
+  ],
+  "source": "XeniX13, captures en jeu du 22/11/2026"
+}

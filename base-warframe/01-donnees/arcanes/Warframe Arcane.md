@@ -1,0 +1,70 @@
+# Warframe Arcanes (valeurs au rang maximum)
+
+- **Arcane Acceleration** (Uncommon) : On Critical Hit: 30% chance for +90% Fire Rate to Primary Weapons (Excludes Shotguns) for 9s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Aegis** (Rare) : On Shield Damaged: 3% chance for +30% Shield Recharge for 12s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Agility** (Uncommon) : On Damaged: 60% chance for +60% Parkour Velocity for 18s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Arachne** (Rare) : On Wall Latch: +150% Damage to Primary and Secondary weapons for 30s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Avenger** (Rare) : On Damaged: 21% chance for +45% Critical Chance for 12s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Awakening** (Uncommon) : On Reload: 60% chance for +150% Damage to Pistols for 24s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Barrier** (Legendary) : On Shield Damaged: 6% chance to instantly restore all Shields 6s cooldown +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Battery** (Rare) : Gain 0.30 maximum Energy per Armor point, up to 1000 Energy. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Bellicose** (Rare) : Gain 6% Ability Strength for every 250 Max Health up to 72%. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Blade Charger** (Rare) : On Primary Weapon Kill: 30% chance for +300% Melee Damage for 12s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Blessing** (Rare) : On Health Pickup: +24 Max Health. Stacks up to 50x. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Bodyguard** (Rare) : On 6 Melee Kills within 30s: Heal Companion for 900 +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Camisado** (Rare) : Attacks from summoned minions increase Ability Strength by 6% up to 60% on the next Ability Cast. Summons gain 20% Movement Speed. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Circumvent** (Rare) : Roll through enemies to steal 50% of their defenses for yourself. Stolen Armor lasts 15s. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Concentration** (Rare) : On Ability Cast: +60% Ability Duration for 3s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Consequence** (Common) : On Headshot: +60% Parkour Velocity for 18s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Crepuscular** (Rare) : While invisible, gain +30% Ability Strength and +3x Final Critical Damage. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Deflection** (Uncommon) : +102% chance to resist a Slash Status effect. ; +1 Arcane Revive
+- **Arcane Double Back** (Rare) : Gain +25% damage resistance for 4s per Dodge, Double Jump and Bullet Jump. Stacks up to 3x. ; +1 Arcane Revive
+- **Arcane Energize** (Legendary) : On Energy Pickup: 60% chance to replenish 150 Energy to self and allies within 15m 15s cooldown +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Eruption** (Uncommon) : On Energy Pickup: 100% chance to Knockdown nearby enemies +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Escapist** (Legendary) : On Mercy Kill: Gain a stack of Escapist, up to 9x. On taking fatal damage, consume 3 stacks to avoid death and become invulnerable for 12s. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Expertise** (Rare) : 100% of Ability Strength modifiers are also applied to Max Shields. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Fury** (Rare) : On Critical Hit: 60% chance for +180% Melee Damage to Melee Weapons for 18s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Grace** (Legendary) : On Health Damaged: 9% chance for +6% Health Regeneration/s for 9s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Guardian** (Uncommon) : On Damaged: 15% chance for +900 Armor for 20s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Healing** (Uncommon) : +102% chance to resist a Radiation Status effect. ; +1 Arcane Revive
+- **Arcane Hot Shot** (Legendary) : Gain 6% weapon Critical Chance for 10s, when using abilities to inflict Heat Status effect on enemies. Maximum 50x stacks. ; +1 Arcane Revive
+- **Arcane Ice** (Common) : +102% chance to resist a Heat Status effect. ; +1 Arcane Revive
+- **Arcane Ice Storm** (Rare) : On Enemy Frozen: Gain +2% Ability Strength and +2% Ability Duration for 15s. Stacks up to 20x. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Impetus** (Rare) : Unique Status Effects from Abilities grant +6% Ability Strength and +3% Ability Efficiency for 20s. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Intention** (Uncommon) : Gain +250 Max Health per active channeled ability. ; +1 Arcane Revive
+- **Arcane Momentum** (Common) : On Critical Hit: 60% chance for +150% Reload Speed to Sniper Rifles for 12s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Nullifier** (Common) : +102% chance to resist a Magnetic Status effect. ; +1 Arcane Revive
+- **Arcane Persistence** (Rare) : Remove all Shields. If Armor is above 700: Cannot be hit for more than 500 Damage/s. Magnetic Status and Ability Nullifying Effects disable this protection. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Phantasm** (Uncommon) : On Block: 45% chance for +60% Speed for 18s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Pistoleer** (Rare) : On Pistol Weak Point Kill: 60% chance for Infinite Ammo for 12s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Power Ramp** (Rare) : On Ability Cast: Next Ability cast gains +9% Ability Strength, stacking up to 4x. Resets when the same ability is recast consecutively. ; +1 Arcane Revive
+- **Arcane Precision** (Rare) : On Weak Point Hit: +300% Damage for 18s on Secondary Weapon +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Primary Charger** (Rare) : On Melee Kill: 30% chance for +300% Primary Weapon Damage for 12s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Pulse** (Rare) : On Health Pickup: 60% chance to restore 500 Health to allies within 25m 15s cooldown +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Rage** (Rare) : On Headshot: 15% chance for +180% Damage to Primary Weapons for 24s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Reaper** (Legendary) : On Melee Kill: +24 Health Regen/s and +660 Armor for 10s. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Resistance** (Uncommon) : +102% chance to resist a Toxin Status effect. ; +1 Arcane Revive
+- **Arcane Rise** (Rare) : On Reload: 60% chance for +150% Damage to Primary Weapons for 24s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Sculptor** (Rare) : On creating an object with abilities: casts have 175% Ability Efficiency for 12s. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Steadfast** (Rare) : 
+- **Arcane Steadfast** (Rare) : 
+- **Arcane Steadfast** (Rare) : 
+- **Arcane Steadfast** (Rare) : 
+- **Arcane Steadfast** (Rare) : On Ability Cast: 20% chance that the next three Abilities will not cost Energy. ; +1 Arcane Revive
+- **Arcane Strike** (Uncommon) : On Hit: 15% chance for +60% Attack Speed to Melee Weapons for 18s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Tanker** (Rare) : On Archgun Equipped: +1,200 Armor for 60s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Tempo** (Common) : On Critical Hit: 15% chance for +90% Fire Rate to Shotguns for 12s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Trickery** (Uncommon) : On Finisher Kill: 15% chance to become invisible for 30s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Truculence** (Rare) : When gaining 3,000 or more Overguard threshold, release a 30m Radial Attack that applies max Viral Status stacks. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Ultimatum** (Rare) : On Finisher Kill: +1,200 Armor for 45s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Universal Fallout** (Legendary) : Each Radiation Status Effect inflicted on enemies by Abilities gives a 6% chance to drop a Universal Orb on enemy death. +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Velocity** (Uncommon) : On Critical Hit: 90% chance for +120% Fire Rate to Pistols for 9s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Victory** (Uncommon) : On Headshot Kill: 75% chance for +3% Health Regeneration/s for 9s +1 Arcane Revive ; +1 Arcane Revive
+- **Arcane Warmth** (Common) : +102% chance to resist a Cold Status effect. ; +1 Arcane Revive
+- **Molt Augmented** (Rare) : On Kill: +0.24% Ability Strength. Stacks up to 250x. +1 Arcane Revive ; +1 Arcane Revive
+- **Molt Efficiency** (Rare) : While Shields are Active: Gain 6% Ability Duration per second, up to a maximum of 36% ; +1 Arcane Revive
+- **Molt Reconstruct** (Rare) : Heal yourself and allies within Affinity Range 6 Health for each Energy point spent on the initial casting cost of abilities. ; +1 Arcane Revive
+- **Molt Vigor** (Rare) : On Operator Ability: 45% Ability Strength on next Warframe Ability Cast +1 Arcane Revive ; +1 Arcane Revive
+- **Theorem Contagion** (Rare) : Standing in a zone created by a Residual Arcane creates a globe that orbits the player every 2s. The globes will strike the nearest enemy within 15m dealing 150 damage increasing their vulnerability to the globe's damage type by 200% for 6s. Globes will persist for 30s upon leaving the zone. ; +1 Arcane Revive
+- **Theorem Demulcent** (Rare) : Standing in a zone created by a Residual Arcane increases weapon damage by 12%/s stacking up to 15x. Effect persists for 20s upon leaving the zone. ; +1 Arcane Revive
+- **Theorem Infection** (Rare) : Standing in a zone created by a Residual Arcane increases damage of companions and summoned allies within 90m by 24%/s stacking up to 15x. Effect persists for 20s upon leaving the zone. ; +1 Arcane Revive

@@ -1,0 +1,24 @@
+# Operator Arcanes (valeurs au rang maximum)
+
+- **Emergence Dissipate** (Rare) : WHILE IN VOID SLING: Press to dissipate the endpoint in a 10m radius. Enemies hit create a short lived Void Mote that replenishes 10 Energy on pick up.
+- **Emergence Renewed** (Rare) : On Energy Depleted: Increase Energy Regeneration by 300% over 5s. Cooldown: 30s
+- **Emergence Savior** (Rare) : On Lethal Damage: Become invulnerable for 5s and recover 60% Health. Cooldown: 90s
+- **Magus Accelerant** (Common) : On Void Sling: Reduce Enemy Resistance to Heat Damage by 65%.
+- **Magus Aggress** (Uncommon) : On Warframe Melee Transference: Heavy Blades deal +300% Critical Damage for 4 consecutive attacks. Cooldown 20s.
+- **Magus Anomaly** (Common) : On Transference In: Enemies within 30m are pulled towards Warframe.
+- **Magus Cadence** (Uncommon) : On Void Sling: +90% Sprint Speed for 12s
+- **Magus Cloud** (Uncommon) : On Void Mode: +300% Void Sling Radius for 6s
+- **Magus Destruct** (Rare) : On Void Sling: Reduce Enemy Resistance to Puncture Damage by 65%.
+- **Magus Drive** (Common) : On Transference In: Increase K-Drive Speed by 150% for 30s.
+- **Magus Elevate** (Rare) : On Transference In: 95% chance to restore 300 Health to Warframe
+- **Magus Firewall** (Common) : On Void Mode: Generate Void Particles every 1s up to 6 particles, each granting 12.5% Damage Reduction for 60s. Taking damage consumes a particle.
+- **Magus Glitch** (Uncommon) : On Transference Static: 102% chance to negate Transference Static.
+- **Magus Husk** (Common) : On Transference Out: +300 Armor
+- **Magus Lockdown** (Rare) : On Void Sling: Drop a mine that tethers up to 10 enemies in 15m for 4s.
+- **Magus Melt** (Rare) : On Void Sling: Increase Heat Damage in Operator Mode by 30% for 15s, stacking up to 7x.
+- **Magus Nourish** (Rare) : While An Operator: Restores 35 Health/s to Warframe.
+- **Magus Overload** (Common) : On Void Sling: Stun robotic enemies for 3s, which then discharge Electricity Damage dealing 80% of their Max Health to anyone within 25m.
+- **Magus Repair** (Uncommon) : On Void Mode: Heal Warframes within 30m by 25% Health/s.
+- **Magus Replenish** (Uncommon) : On Void Sling: Heal 30% Health
+- **Magus Revert** (Rare) : On Void Sling: Use again within 3s, to return the Operator to their original position at no energy cost. Restores 60 Health. 3s cooldown.
+- **Magus Vigor** (Common) : On Transference Out: +600 Health

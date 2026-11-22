@@ -1,0 +1,162 @@
+# Companion Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Cat's Eye** (Adarza Kavat, penjaga, Rare, coût 3 au rang max) : Adarza Kavat grants 60% increased critical chance for 10s to allies within 25m every 20s.
+- **Reflect** (Adarza Kavat, penjaga, Rare, coût 3 au rang max) : Adarza Kavat has a 40% chance to reflect damage back to an enemy, amplifying it by 60%.
+- **Fetch** (BEAST, penjaga, Uncommon, coût 7 au rang max) : 13.5m Companion Gather-Link. Detects and collects items, including mods.
+- **Hastened Deflection** (BEAST, vazarin, Uncommon, coût 9 au rang max) : +90% Shield Recharge ; -45% Shield Recharge Delay
+- **Hunter Command** (BEAST, madurai, Rare, coût 9 au rang max) : Applying a Slash Status to an enemy causes the Companion to attack them for 6s. [fait partie d'un set : HunterSetMod]
+- **Hunter Recovery** (BEAST, madurai, Common, coût 9 au rang max) : Warframe healed for +30% Companion Damage dealt [fait partie d'un set : HunterSetMod]
+- **Loyal Retriever** (BEAST, naramon, Uncommon, coût 7 au rang max) : 13% chance to double Credit and Resource pickups
+- **Prosperous Retriever** (BEAST, naramon, Rare, coût 7 au rang max) : 18% chance to double Credit pickups
+- **Resourceful Retriever** (BEAST, naramon, Rare, coût 7 au rang max) : 18% chance to double Resource pickups
+- **Scavenge** (BEAST, penjaga, Common, coût 5 au rang max) : +90% chance for the pet to pry open a locked locker.
+- **Shelter** (BEAST, vazarin, Uncommon, coût 16 au rang max) : Creates a shield with 1800 Health around the player when they are reviving fallen allies.
+- **Tandem Bond** (BEAST, madurai, Rare, coût 7 au rang max) : Companion melee hits increase your Combo by 6. Heavy Attacks increase Companion melee damage by 30% multiplied by your combo multiplier for 30s.
+- **Ammo Case** (Carrier, penjaga, Common, coût 7 au rang max) : Increases Ammo Capacity by 25% and converts Ammo Pickups into ammo for equipped weapons after 2s.
+- **Looter** (Carrier, penjaga, Rare, coût 7 au rang max) : Emits a pulse wave to break open Loot Crates within 22m.
+- **Neutralize** (Chesa Kubrow, penjaga, Rare, coût 5 au rang max) : The kubrow roars, causing enemies within 10m to stumble and drop their weapons.
+- **Retrieve** (Chesa Kubrow, penjaga, Common, coût 5 au rang max) : Kubrow has 45% chance to scavenge additional loot from a fallen enemy or containers within 30m, every 10s.
+- **Bell Ringer** (Claws, naramon, Uncommon, coût 7 au rang max) : Melee attacks knock down enemies and apply +4 Impact Status Effects
+- **Bite** (Claws, madurai, Rare, coût 16 au rang max) : +330% Critical Chance ; +220% Critical Damage
+- **Bloodthirst** (Claws, madurai, Common, coût 7 au rang max) : 100 health stolen each hit per stack of Slash.
+- **Brute Conditioning** (Claws, madurai, Uncommon, coût 14 au rang max) : +385% Melee Damage ; Convert all base Physical Damage to Impact Damage
+- **Burning Claws** (Claws, madurai, Rare, coût 14 au rang max) : +330% Heat ; +330% Status Chance ; Converts all elemental damage from these claws to Heat damage
+- **Chilling Claws** (Claws, madurai, Rare, coût 14 au rang max) : +330% Cold ; +330% Status Chance ; Converts all elemental damage from these claws to Cold damage
+- **Cull The Weak** (Claws, madurai, Uncommon, coût 9 au rang max) : +60% Melee Damage per Status Type affecting the target ; Non-Critical hits deal +240% damage
+- **Disabling Conditioning** (Claws, madurai, Uncommon, coût 14 au rang max) : +385% Melee Damage ; Convert all base Physical Damage to Puncture Damage
+- **Flame Gland** (Claws, madurai, Rare, coût 7 au rang max) : +60% Heat ; +60% Status Chance
+- **Frost Jaw** (Claws, madurai, Rare, coût 7 au rang max) : +60% Cold ; +60% Status Chance
+- **Hunter Synergy** (Claws, madurai, Uncommon, coût 9 au rang max) : +30% Primary Weapon Critical Chance added to Companion [fait partie d'un set : HunterSetMod]
+- **Immunity Resistance** (Claws, madurai, Common, coût 7 au rang max) : +50% Status Damage
+- **Magnetic Claws** (Claws, madurai, Rare, coût 7 au rang max) : +60% Magnetic ; +40% Status Duration
+- **Magnetic Strike** (Claws, madurai, Common, coût 5 au rang max) : 100% Chance to apply a Magnetic status effect when inflicting an Impact status effect
+- **Maul** (Claws, madurai, Uncommon, coût 14 au rang max) : +330% Melee Damage
+- **Precision Conditioning** (Claws, madurai, Uncommon, coût 14 au rang max) : +385% Melee Damage ; Convert all base Physical Damage to Slash Damage
+- **Radon Claws** (Claws, madurai, Rare, coût 7 au rang max) : +60% Radiation ; +80% Critical Damage
+- **Sepsis Claws** (Claws, madurai, Rare, coût 14 au rang max) : +330% Toxin ; +330% Status Chance ; Converts all elemental damage from these claws to Toxin damage
+- **Shock Collar** (Claws, madurai, Rare, coût 7 au rang max) : +60% Electricity ; +60% Status Chance
+- **Shocking Claws** (Claws, madurai, Rare, coût 14 au rang max) : +330% Electricity ; +330% Status Chance ; Converts all elemental damage from these claws to Electricity damage
+- **Venom Teeth** (Claws, madurai, Rare, coût 7 au rang max) : +60% Toxin ; +60% Status Chance
+- **Aerial Bond** (COMPANION, vazarin, Rare, coût 7 au rang max) : Airborne kills decrease Companion Recovery Time by 3s and 9s for headshot kills. Companion creates a field of cold that increases up to 35% and 10m radius while Warframe is airborne, lasting for 3s after returning to ground.
+- **Animal Instinct** (COMPANION, naramon, Rare, coût 11 au rang max) : +30m Loot Radar ; +18m Enemy Radar
+- **Astral Bond** (COMPANION, madurai, Rare, coût 7 au rang max) : Damage dealt by Operator or Drifter grants 60% damage and 30% Void Damage to your Companion's attacks for 10s. Companion Void Damage adds +30% Amp and Energy Efficiency to Operator or Drifter for 5s.
+- **Calculated Redirection** (COMPANION, vazarin, Common, coût 14 au rang max) : +250% Shield Capacity
+- **Contagious Bond** (COMPANION, madurai, Rare, coût 9 au rang max) : When your Companion kills an enemy afflicted with a Status Effect, 50% of the Status Effect spreads to other enemies within 9m. Max 100 stacks.
+- **Covert Bond** (COMPANION, naramon, Rare, coût 7 au rang max) : Finisher and Mercy Kills grant your Companion 10s of stealth that attacks will not disrupt. Max 60s.
+- **Duplex Bond** (COMPANION, madurai, Rare, coût 9 au rang max) : Companion will clone itself each time you expend 100 energy, up to 3 clones. Clones live 30s and cannot use Abilities. Their kills have a 50% chance of dropping Energy Orbs.
+- **Enhanced Vitality** (COMPANION, vazarin, Common, coût 12 au rang max) : +250% Health
+- **Link Fiber** (COMPANION, vazarin, Uncommon, coût 14 au rang max) : Increase Max Armor by +125% of Warframe's Armor
+- **Link Redirection** (COMPANION, vazarin, Uncommon, coût 14 au rang max) : Increase Shield by +125% of Warframe's Max Shield
+- **Link Vitality** (COMPANION, vazarin, Uncommon, coût 12 au rang max) : Increase Health by +125% of Warframe's Max Health
+- **Loyal Companion** (COMPANION, vazarin, Common, coût 7 au rang max) : When your Health falls below 35%, gain 75% Damage Reduction for 10s while your Companion becomes invincible and draws fire to itself for 10s. 60s cooldown.
+- **Medi-Pet Kit** (COMPANION, vazarin, Rare, coût 9 au rang max) : +12 Companion Health Regen/s ; -15s Companion Recovery Time
+- **Metal Fiber** (COMPANION, vazarin, Common, coût 14 au rang max) : +250% Armor
+- **Momentous Bond** (COMPANION, madurai, Rare, coût 9 au rang max) : Killing Eximus enemies grants 120% bonus of a random Elemental Damage to your Companion for 30s and reduces Companion Recovery Time by 18s.
+- **Mystic Bond** (COMPANION, naramon, Rare, coût 9 au rang max) : After your Companion uses Abilities with cooldowns 5 times, you may cast a Warframe Ability without expending Energy.
+- **Pack Leader** (COMPANION, madurai, Common, coût 9 au rang max) : +100 Health per hit ; +1,200 Overguard Max
+- **Primed Animal Instinct** (COMPANION, naramon, Legendary, coût 16 au rang max) : +55m Loot Radar ; +33m Enemy Radar
+- **Primed Pack Leader** (COMPANION, madurai, Legendary, coût 14 au rang max) : +183 Health per hit ; +2,200 Overguard Max [variante du jeu : Expert, rang max 10]
+- **Reinforced Bond** (COMPANION, naramon, Rare, coût 9 au rang max) : If the Companion exceeds 1200 Max Shields or Overshields then your fire rate is increased 60%. Reloading restores 150 Overshields to your companion.
+- **Restorative Bond** (COMPANION, vazarin, Rare, coût 9 au rang max) : Health Orbs restore 60 more health and reduce Companion Recovery Time by 3s.
+- **Seismic Bond** (COMPANION, madurai, Rare, coût 9 au rang max) : While a channeled Ability is active, Companion melee attacks create a 4m shockwave for 30% of their melee attack damage. Damage dealt by your Companion increases your Ability Efficiency by 3% for 12 seconds. Max 10 stacks.
+- **Synth Deconstruct** (COMPANION, madurai, Rare, coût 9 au rang max) : Enemies injured by the Companions have 25% chance to drop a Health Orb when killed. [fait partie d'un set : SynthSetMod]
+- **Synth Fiber** (COMPANION, madurai, Rare, coût 7 au rang max) : Health Orbs increase Armor for Companions by 100% for 12s. [fait partie d'un set : SynthSetMod]
+- **Tenacious Bond** (COMPANION, vazarin, Rare, coût 7 au rang max) : Headshot kills reduce Companion Recovery timer by 3s. If the Companion's Critical Chance is over 50% then you gain +1.2x Final Critical Damage Multiplier.
+- **Vicious Bond** (COMPANION, madurai, Rare, coût 9 au rang max) : Companion melee attacks strip 15% of enemy armor. Enemies recently damaged by Abilities spread the effect to other enemies in a 9m radius.
+- **Crescent Charge** (Crescent Vulpaphyla, penjaga, Rare, coût 3 au rang max) : Charges an enemy within 25m dealing Puncture Damage and lifting them. While lifted, enemy is flung at nearby foes dealing an additional 20% of the thrown enemy's health and adding 5 Puncture Status to enemies within 5m.
+- **Crescent Devolution** (Crescent Vulpaphyla, penjaga, Rare, coût 3 au rang max) : Devolves into its larval form when downed and charges at enemies, dealing 100 Puncture Damage. Regains true form after 30s.
+- **Energy Generator** (Dethcube, penjaga, Rare, coût 9 au rang max) : Dethcube drops an Energy Orb after assisting in 10 kills.
+- **Vaporize** (Dethcube, penjaga, Common, coût 7 au rang max) : Every 10s the sentinel will stun and inflict 600 damage to an enemy within 30m. Damage dealt affected by Sentinel Weapon Mods.
+- **Arc Coil** (Diriga, penjaga, Common, coût 7 au rang max) : Sentinel will zap up to 7 enemies within 10m, dealing 100 Electricity Damage with a 10% Status Chance.
+- **Calculated Shot** (Diriga, penjaga, Common, coût 5 au rang max) : Sentinel charges a powerful shot and fires at the first enemy within 70m.
+- **Electro Pulse** (Diriga, penjaga, Common, coût 7 au rang max) : Every 5s, Sentinel will continually zap an enemy within 15m, trapping them in a stunned state.
+- **Fatal Attraction** (Djinn, penjaga, Common, coût 7 au rang max) : Enemies within 20m are drawn to you. Once they are within 6m, they detonate for 250 Damage. Kill them before detonation to increase lure time and reduce cooldown.
+- **Reawaken** (Djinn, penjaga, Rare, coût 9 au rang max) : Energy Orbs reduce Sentinel Recovery timer by 6s. Djinn recovers with 300 Overshields per Energy Orb collected. Djinn's max Overshields increase by 900.
+- **Thumper** (Djinn, penjaga, Common, coût 5 au rang max) : Djinn will attack the first visible enemy within 60m.
+- **Detect Vulnerability** (Helios, penjaga, Rare, coût 11 au rang max) : Upon completing research on an enemy, subsequent scans will reveal their weak points.
+- **Investigator** (Helios, penjaga, Common, coût 9 au rang max) : Helios Sentinel will scan objects and enemies within 50m over 2.0s. This consumes Codex Scanner charges.
+- **Targeting Receptor** (Helios, penjaga, Common, coût 3 au rang max) : Causes the Helios Sentinel to attack targets within 10m with 3 glaives.
+- **Helminth Ferocity** (Helminth Charger, penjaga, Rare, coût 5 au rang max) : +120% Finisher Damage [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Proboscis** (Helminth Charger, penjaga, Rare, coût 3 au rang max) : Helminth Charger whips a proboscis out at an enemy within 30m, pulling them back and dealing 100 damage.
+- **Strain Eruption** (Helminth Charger, naramon, Rare, coût 5 au rang max) : Maggots explode on death, dealing 4% of an enemy's current Health as Corrosive Damage to any enemy within 8m. [fait partie d'un set : StrainSetMod]
+- **Trample** (Helminth Charger, penjaga, Rare, coût 5 au rang max) : The Helminth Charger rushes an enemy, dealing 160 Damage to all in its path. It gains +10% Melee Damage, Max Health and Armor for every enemy hit for 5s.
+- **Strain Fever** (Helminth Claws, madurai, Rare, coût 9 au rang max) : Helminth Charger gains +40% Damage per Cyst. [fait partie d'un set : StrainSetMod]
+- **Aerial Prospectus** (Hound, penjaga, Rare, coût 5 au rang max) : Launches a beacon at an enemy within 27m that calls down an Orbital Strike dealing 1200 Blast Damage in a 7m radius.
+- **Diversified Denial** (Hound, penjaga, Rare, coût 5 au rang max) : Fabricate 3 Specters that fight for 30s. Each deals 85% of the Hound's damage and cannot use Abilities.
+- **Equilibrium Audit** (Hound, penjaga, Rare, coût 5 au rang max) : Unleashes a series of shockwaves that knockdown enemies within 15m and deal 300 damage.
+- **Evasive Denial** (Hound, penjaga, Rare, coût 5 au rang max) : Teleports a safe distance away and engages a displacement field gaining 75% chance to dodge enemy fire for 8s.
+- **Focused Prospectus** (Hound, penjaga, Rare, coût 5 au rang max) : Fires a beam of energy that deals 900 Heat Damage over 4.5s.
+- **Null Audit** (Hound, penjaga, Rare, coût 5 au rang max) : The Hound utilizes the same Aura and Abilities as an Eximus enemy for 60s, while stripping its Overguard by 50%.
+- **Reflex Denial** (Hound, penjaga, Rare, coût 5 au rang max) : Generates a shield that reflects 90% Damage taken in pulses over 10s as Magnetic Damage in a 12m radius.
+- **Repo Audit** (Hound, penjaga, Rare, coût 5 au rang max) : Emits a magnetic pulse that disarms enemies within 30m.
+- **Synergized Prospectus** (Hound, penjaga, Rare, coût 5 au rang max) : Fires a spark that seeks out the nearest enemy in 30m, dealing 300 Electricity Damage in a 10m radius. The spark ricochets up to 7x, seeking out the nearest enemy in 30m.
+- **Hunt** (Huras Kubrow, penjaga, Rare, coût 5 au rang max) : The kubrow charges at a target, dragging them and dealing 120% damage to all in its path.
+- **Stalk** (Huras Kubrow, penjaga, Rare, coût 5 au rang max) : The kubrow cloaks itself and its master to stalk down its prey when they are within 24m.
+- **Fear Sense** (Kavat, penjaga, Uncommon, coût 5 au rang max) : The Kavat senses the weaknesses of enemies within 25m. For 25s, its attacks deal +200% damage and stagger with a 30% chance of knockdown.
+- **Pounce** (Kavat, madurai, Uncommon, coût 5 au rang max) : The Kavat pounces at an enemy, dealing 90% Damage and stunning them for a short duration.
+- **Sharpened Claws** (Kavat, madurai, Uncommon, coût 5 au rang max) : A vicious attack dealing 300% damage that sunders armor by 120% and rends flesh.
+- **Tek Assault** (Kavat, madurai, Rare, coût 9 au rang max) : Kavat has 60% chance to ignore Lethal Damage and be immune for 4s. [fait partie d'un set : TekSetMod]
+- **Tek Enhance** (Kavat, madurai, Rare, coût 11 au rang max) : +30% Kavat Ability Duration [fait partie d'un set : TekSetMod]
+- **Territorial Aggression** (Kavat, penjaga, Uncommon, coût 5 au rang max) : The Kavat stakes their territory in a radius of 6m for 15s. Each second, enemies within this area have a 30% chance of being attacked by a shadow Kavat.
+- **Swipe** (Kavat Claws, madurai, Uncommon, coût 5 au rang max) : Strikes 4 additional enemies and increases Attack Range by 2m.
+- **Mecha Recharge** (Kubrow, madurai, Rare, coût 9 au rang max) : +90% Shield Recharge [fait partie d'un set : MechaSetMod]
+- **Mecha Overdrive** (Kubrow Claws, madurai, Rare, coût 11 au rang max) : +60% Primary Weapon Status Chance added to Companion ; +90% Status Duration [fait partie d'un set : MechaSetMod]
+- **Infectious Bite** (Medjay Predasite, penjaga, Rare, coût 3 au rang max) : An attack that deals +200% Finisher Damage and infects the target with a Virus that grows 4 volatile pustules that react to damage and explode.
+- **Paralytic Spores** (Medjay Predasite, penjaga, Rare, coût 3 au rang max) : Charges at an enemy within 30m dealing 160 damage. This releases spores that affect enemies within 15m, opening them up to Melee Finishers, and slowing them by 50% for 10s.
+- **Anti-Grav Grenade** (Moa, penjaga, Common, coût 5 au rang max) : A grenade that levitates enemies in a 6m. After 6s afflicted enemies come crashing down, causing Impact Damage equal to 80% of the damage taken while floating.
+- **Blast Shield** (Moa, penjaga, Common, coût 7 au rang max) : Overshields increased by +3000. Leap at an enemy within 10m dealing 30 Impact Damage and knocking down other enemies within 5m and resets Overshields.
+- **Hard Engage** (Moa, penjaga, Rare, coût 7 au rang max) : Engages enemies within 10m with melee attacks, dealing 90 Impact Damage. Melee attacks are enhanced by Mods equipped in the Moa's weapon.
+- **Security Override** (Moa, penjaga, Common, coût 7 au rang max) : Auto-hacks consoles over 2s. 30% chance to mind control basic robotic enemies and turrets in 30m for 14s after Hacking.
+- **Shockwave Actuators** (Moa, penjaga, Common, coût 5 au rang max) : Blasts a shockwave knocking down those within 12m. The shockwave recharges every 10s.
+- **Stasis Field** (Moa, penjaga, Common, coût 9 au rang max) : Creates a stasis field for 30s. While inside the field, all enemy projectiles move 90% slower and deal 60% less Damage.
+- **Tractor Beam** (Moa, penjaga, Common, coût 5 au rang max) : +100% Aim Glide Duration -50% Gravity
+- **Whiplash Mine** (Moa, penjaga, Common, coût 5 au rang max) : Deploys a tether mine snaring all enemies in a 20m. After 3s, all enemies still in range get pulled to the mine.
+- **Auto Omni** (Nautilus, penjaga, Common, coût 7 au rang max) : Nautilus has 100% chance to repair nearby Railjack hull damages and extinguishes fires on Railjack. Cooldown: 20s.
+- **Cordon** (Nautilus, penjaga, Common, coût 7 au rang max) : Nautilus forces enemies within 30m of the target into clusters for easier targeting. Cooldown: 15s.
+- **Botanist** (Oxylus, penjaga, Rare, coût 9 au rang max) : Oxylus Sentinel will automatically pick any plants within 50m over 2.0s.
+- **Scan Matter** (Oxylus, penjaga, Common, coût 3 au rang max) : Reveals resource containers and mineral deposits within 60m. Automatically breaks containers and collects resources every 3s.
+- **Panzer Devolution** (Panzer Vulpaphyla, penjaga, Rare, coût 3 au rang max) : Devolves into its larval form when downed and attacks enemies with quills, dealing 60 Viral Damage each. Regains true form after 30s.
+- **Viral Quills** (Panzer Vulpaphyla, penjaga, Rare, coût 3 au rang max) : Launches 6 quills at enemies within 20m, each dealing 60 Viral Damage with 40% Status Chance. If the target is affected by a Viral Status, a Spore is added. 4s cooldown.
+- **Anabolic Pollination** (Pharaoh Predasite, penjaga, Rare, coût 3 au rang max) : Release a cloud of spores that persists for 10s increasing Toxin Damage by +100% for 15s.
+- **Endoparasitic Vector** (Pharaoh Predasite, penjaga, Rare, coût 3 au rang max) : Transmit an endoparasite to an enemy within 30m. Tentacles spawn from it, clinging to enemies within 10m slowing them as they move further from the parasite, and dealing 20 Viral Damage/sec over 5s.
+- **Volatile Parasite** (PREDASITE, penjaga, Rare, coût 3 au rang max) : Every 15s spits out a maggot that latches onto the nearest enemy, drawing fire from those within 40m. On death, the maggot bursts, dealing 100% of accumulated damage Viral Damage (+40% damage if the enemy dies while latched) to those within 10m.
+- **Howl** (Raksa Kubrow, penjaga, Rare, coût 5 au rang max) : The kubrow cries out with a blood-curdling howl that strikes fear into 15 enemies within 24m for 16s.
+- **Protect** (Raksa Kubrow, penjaga, Rare, coût 5 au rang max) : The kubrow comes to the defense of its master, replenishing both of their shields by 30% of its maximum shields and adding its shield regeneration rate to its master's for 3s.
+- **Accelerated Deflection** (ROBOTIC, vazarin, Uncommon, coût 9 au rang max) : +90% Shield Recharge ; -45% Shield Recharge Delay
+- **Anti-Grav Array** (ROBOTIC, penjaga, Rare, coût 7 au rang max) : Increase height of owner's jumps by +40%.
+- **Coolant Leak** (ROBOTIC, penjaga, Rare, coût 5 au rang max) : Unleashes a 10m radial blast of Cold when multiple enemies are nearby. Add 3 stacks. 10s cooldown.
+- **Guardian** (ROBOTIC, penjaga, Common, coût 7 au rang max) : Boosts owner's shield by 100% when it runs out.
+- **Manifold Bond** (ROBOTIC, vazarin, Rare, coût 9 au rang max) : Companion Precept Mods apply Status Effects from Companion weapons. Killing enemies with 3 or more unique Status Effects reduces Companion Ability cooldowns by 3s.
+- **Medi-Ray** (ROBOTIC, penjaga, Uncommon, coût 5 au rang max) : Sentinel will occasionally heal its owner, restoring 12% Health over 4s.
+- **Odomedic** (ROBOTIC, penjaga, Rare, coût 5 au rang max) : Every 3m traversed by Wall Running regenerates +40 Health over 4s. This effect can stack up to 3x.
+- **Sanctuary** (ROBOTIC, vazarin, Rare, coût 16 au rang max) : Creates a shield with 1800 Health around the player when they are reviving fallen allies.
+- **Shield Charger** (ROBOTIC, penjaga, Rare, coût 5 au rang max) : Increase Warframe Max Shields and Shield Regeneration by 60% for 10s.
+- **Spare Parts** (ROBOTIC, naramon, Uncommon, coût 7 au rang max) : Companion marks a target every 15s for 15s. The target becomes 200% more likely to drop an item when killed.
+- **Vacuum** (ROBOTIC, penjaga, Common, coût 7 au rang max) : 13.5m Companion Gather-Link. Detects and collects items, including mods.
+- **Dig** (Sahasa Kubrow, penjaga, Rare, coût 5 au rang max) : +270% Success Chance
+- **Ferocity** (Sahasa Kubrow, penjaga, Rare, coût 5 au rang max) : Kubrow attacks an enemy open to finishers with +300% crit chance. If the enemy dies during the attack, enemies within 6m have a 30% chance to be knocked down and opened to finishers.
+- **Assault Mode** (Sentinel, penjaga, Common, coût 5 au rang max) : Sentinel will attack the first visible enemy within 30m.
+- **Fired Up** (Sentinel, madurai, Rare, coût 11 au rang max) : 5% Heat Damage on weapon per hit. Stacks up to 100%. Resets after 5s with no hits.
+- **Primed Regen** (Sentinel, penjaga, Legendary, coût 14 au rang max) : Sentinel recovery time reduced by 35s. Revives with 10s of invulnerability.
+- **Regen** (Sentinel, penjaga, Common, coût 7 au rang max) : Sentinel recovery time reduced by 20s. Revives with 10s of invulnerability.
+- **Repair Kit** (Sentinel, vazarin, Common, coût 7 au rang max) : +18 Companion Health Regen/s
+- **Sacrifice** (Sentinel, penjaga, Rare, coût 9 au rang max) : Sentinel incapacitates itself to revive its downed owner to 100% health and shields in 4s. Sentinel Recovery timer increases by 15s. ; +15s Companion Recovery Time
+- **Self Destruct** (Sentinel, madurai, Rare, coût 7 au rang max) : Explodes when incapacitated, dealing 600 Blast Damage in a 18m radius and knocking down nearby enemies.
+- **Ghost** (Shade, penjaga, Common, coût 7 au rang max) : Cloaks owner when enemies are within 24m. The cloak is disrupted if owner attacks.
+- **Revenge** (Shade, penjaga, Common, coût 5 au rang max) : Sentinel will not attack an enemy unless that enemy has attacked the Sentinel's master within 10m.
+- **Sly Devolution** (Sly Vulpaphyla, penjaga, Rare, coût 3 au rang max) : Devolves into its larval form when downed and regains its true form after 30s. Your kills reduce enemy accuracy against Warframes by 20% for 8s.
+- **Survival Instinct** (Sly Vulpaphyla, penjaga, Rare, coût 3 au rang max) : On Bullet Jump: Enemies lose sight of you for 1.5s. 5s cooldown.
+- **Charm** (Smeeta Kavat, penjaga, Rare, coût 3 au rang max) : Smeeta Kavat has a 40% chance every 27s to bestow its owner with good fortune.
+- **Mischief** (Smeeta Kavat, penjaga, Rare, coût 3 au rang max) : Smeeta Kavat becomes invisible for 9s every 7s while a decoy kavat draws fire. Decoy has a 15% chance to evade damage and blinds nearby enemies on death.
+- **Savagery** (Sunika Kubrow, penjaga, Rare, coût 5 au rang max) : The Kubrow rushes at 8 enemies within 10m, dealing damage and knocking them over.
+- **Unleashed** (Sunika Kubrow, penjaga, Rare, coût 5 au rang max) : The kubrow hunts for Eximus units protected by Overguard within 60m and deals +300% Damage against Overguard.
+- **Molecular Conversion** (Taxon, penjaga, Common, coût 7 au rang max) : Blast enemies within 10m, converting 200 Damage into Shields for the Warframe.
+- **Draining Bite** (Vasca Kavat, penjaga, Rare, coût 3 au rang max) : Vasca Kavat inflicts 5 stacks of Slash at 150% of its melee damage and restores 10% Health to itself.
+- **Transfusion** (Vasca Kavat, penjaga, Rare, coût 3 au rang max) : When its Master is bleeding out, the Vasca Kavat sacrifices 20% of its Health to raise them.
+- **Acidic Spittle** (Vizier Predasite, penjaga, Rare, coût 3 au rang max) : Every 5s spit acidic tar at an enemy within 30m, blinding them for 12s and dealing 120 Corrosive Damage.
+- **Iatric Mycelium** (Vizier Predasite, penjaga, Rare, coût 3 au rang max) : Release a trail of spores every 8s that heal the companion and its allies for 300 health over 5s.
+- **Martyr Symbiosis** (VULPAPHYLA, penjaga, Rare, coût 3 au rang max) : Drains and stores 20 health from corpses within 25m up to 40% of your health. If your health falls below 10%, Companion downs itself to heal you.
+- **Crowd Dispersion** (Wyrm, penjaga, Common, coût 7 au rang max) : Unleashes a 10.0m radial knockdown when multiple enemies are nearby, dealing 10.0 Damage.
+- **Negate** (Wyrm, penjaga, Rare, coût 9 au rang max) : Sentinel prevents Status Effects from applying to its owner once every 5s.

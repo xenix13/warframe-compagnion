@@ -1,0 +1,4 @@
+{
+ "_lisez_moi": "Notes sur les capacités Helminth, lues par l'agent (options helminth) et par le contrôle du build. Clé = nom de la capacité. À compléter à la main.",
+ "Nourish": "Multiplie l'énergie gagnée par les sources d'énergie (exemple du joueur : avec x2, un orbe d'énergie de 50 en donne 100). Ne génère pas d'énergie par lui-même et pas sur effet de statut. Donne aussi des dégâts Viral aux armes. Utile seulement si le build a déjà des sources d'énergie (orbes, Zenurik, arcanes…). Source : XeniX13, 21/11/2026."
+}

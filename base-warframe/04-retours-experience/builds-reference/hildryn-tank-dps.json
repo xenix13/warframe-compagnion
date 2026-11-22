@@ -1,0 +1,54 @@
+{
+  "id": "hildryn-tank-dps",
+  "warframe": "Hildryn",
+  "demande": "build hildryn tank dps",
+  "usage": "tank et DPS (arme exaltée en explosion)",
+  "build": {
+    "aura": "Corrosive Projection",
+    "exilus": "Power Drift",
+    "mods": [
+      "Primed Redirection",
+      "Overextended",
+      "Blind Rage",
+      "Fast Deflection",
+      "Stretch",
+      "Primed Continuity",
+      "Umbral Intensify",
+      "Aegis Gale"
+    ],
+    "arcanes": [
+      "Arcane Aegis",
+      "Arcane Expertise"
+    ],
+    "helminth": "Xata's Whisper",
+    "helminth_de": "Xaku",
+    "helminth_remplace": "Haven",
+    "fragments": [
+      "vitesse de lancement",
+      "puissance",
+      "puissance",
+      "puissance",
+      "puissance"
+    ],
+    "compagnon": "Kubrow Raksa (régénère le bouclier)",
+    "armes": {
+      "exaltee": "Balefire Charger, joué en explosion (ou Corrosif + Feu)"
+    }
+  },
+  "stats_jeu": {
+    "puissance": 253,
+    "duree": 155,
+    "portee": 235,
+    "efficacite": 45,
+    "sante": 370,
+    "bouclier": 8140,
+    "armure": 315,
+    "energie": 0
+  },
+  "pourquoi": [
+    "Énorme bouclier : presque intuable avec les arcanes et le Kubrow Raksa qui régénère le bouclier",
+    "Helminth Xata's Whisper car l'arme exaltée est jouée en explosion ; l'explosion de 5 m est agrandie avec Xata",
+    "Arcane Expertise : plus de puissance donne plus de bouclier, d'où les fragments de puissance"
+  ],
+  "source": "XeniX13, captures en jeu du 22/11/2026"
+}

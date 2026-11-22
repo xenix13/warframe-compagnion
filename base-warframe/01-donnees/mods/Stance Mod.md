@@ -1,0 +1,82 @@
+# Stance Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Butcher's Revelry** (Assault Saw, naramon, Rare, coût 1 au rang max) : Rip and rend with this Assault Saw stance.
+- **Harrowing Spire** (Bayonet, madurai, Rare, coût 1 au rang max) : Relentless jabs and powerful sweeping lunges.
+- **Defiled Snapdragon** (Blade And Whip, madurai, Rare, coût 1 au rang max) : Sudden lashes, lethal slashes.
+- **Tainted Hydra** (Blade And Whip, madurai, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Four Riders** (Claws, madurai, Rare, coût 1 au rang max) : Fast strikes, powerful slams.
+- **Malicious Raptor** (Claws, madurai, Rare, coût 1 au rang max) : Puncturing strikes and quick slashes.
+- **Scarlet Hurricane** (Claws, madurai, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Vermillion Storm** (Claws, madurai, Rare, coût 1 au rang max) : Kicks woven between spinning slashes.
+- **Homing Fang** (Daggers, naramon, Uncommon, coût 1 au rang max) : Fast strikes, many hits.
+- **Piercing Fury** (Daggers, naramon, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Pointed Wind** (Daggers, madurai, Rare, coût 1 au rang max) : Spiral strikes, lifting combos.
+- **Stinging Thorn** (Daggers, madurai, Rare, coût 1 au rang max) : Vigorous slashes with forceful stabs.
+- **Biting Piranha** (Dual Daggers, unairu, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Gnashing Payara** (Dual Daggers, unairu, Rare, coût 1 au rang max) : Lunging punctures with impaling spirals.
+- **Sinking Talon** (Dual Daggers, zenurik, Uncommon, coût 1 au rang max) : Strong, focused attacks with multi-hit spins.
+- **Spinning Needle** (Dual Daggers, vazarin, Rare, coût 1 au rang max) : Swift stabs, twisting slashes.
+- **Mountain's Edge** (Dual Nikanas, naramon, Uncommon, coût 1 au rang max) : Sharp movements with wide reach.
+- **Carving Mantis** (Dual Swords, naramon, Rare, coût 1 au rang max) : Strong slashes and quick stabs that keeps momentum forward.
+- **Crossing Snakes** (Dual Swords, naramon, Rare, coût 1 au rang max) : Multi-angle strikes and deadly thrust attacks.
+- **Dividing Blades** (Dual Swords, naramon, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Swirling Tiger** (Dual Swords, zenurik, Uncommon, coût 1 au rang max) : Fanning, multi-hit strikes.
+- **Fracturing Wind** (Fists, unairu, Uncommon, coût 1 au rang max) : Fast, multi-hit strikes with powerful finishers.
+- **Gaia's Tragedy** (Fists, vazarin, Rare, coût 1 au rang max) : Slow, powerful strikes.
+- **Quaking Hand** (Fists, unairu, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Seismic Palm** (Fists, vazarin, Rare, coût 1 au rang max) : Methodical strikes with reaching combos.
+- **Astral Twilight** (Glaives, naramon, Rare, coût 1 au rang max) : Orbiting slashes and lashing strikes.
+- **Celestial Nightfall** (Glaives, naramon, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Gleaming Talon** (Glaives, naramon, Rare, coût 1 au rang max) : Fast arcing strikes.
+- **Bullet Dance** (Gunblade, madurai, Rare, coût 1 au rang max) : Sharpened blades dance with gunfire.
+- **High Noon** (Gunblade, madurai, Rare, coût 1 au rang max) : Bullets spray between wicked slash attacks.
+- **Crashing Havoc** (Hammers, vazarin, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Crushing Ruin** (Hammers, madurai, Rare, coût 1 au rang max) : Aerial attacks with Crowd Control combos.
+- **Shattering Storm** (Hammers, vazarin, Uncommon, coût 1 au rang max) : Methodical strikes and high impact combos.
+- **Cleaving Whirlwind** (Heavy Blade, vazarin, Rare, coût 1 au rang max) : Arcing cuts with spinning finish.
+- **Noble Cadence** (Heavy Blade, madurai, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Rending Crane** (Heavy Blade, madurai, Uncommon, coût 1 au rang max) : Downward cuts with an impact combo.
+- **Tempo Royale** (Heavy Blade, vazarin, Rare, coût 1 au rang max) : Sweeping strikes and twisting slashes.
+- **Galeforce Dawn** (Heavy Scythe, madurai, Uncommon, coût 1 au rang max) : Wide slashes and heavy strikes.
+- **Cyclone Kraken** (Machetes, zenurik, Rare, coût 1 au rang max) : Brutal strikes with deft movement.
+- **Rending Wind** (Machetes, zenurik, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Sundering Weave** (Machetes, zenurik, Uncommon, coût 1 au rang max) : Steady chopping strikes with focused damage.
+- **Blind Justice** (Nikanas, madurai, Uncommon, coût 1 au rang max) : Reverse grip style emphasizing slashing and impaling strikes.
+- **Decisive Judgement** (Nikanas, madurai, Rare, coût 1 au rang max) : Fierce, double-handed strikes.
+- **Fateful Truth** (Nikanas, madurai, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Tranquil Cleave** (Nikanas, madurai, Rare, coût 1 au rang max) : Powerful arcs with frenzied combo.
+- **Atlantis Vulcan** (Nunchaku, vazarin, Uncommon, coût 1 au rang max) : Rapid strikes, deceptive movements.
+- **Mafic Rain** (Nunchaku, vazarin, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Argent Scourge** (Polearms, zenurik, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Bleeding Willow** (Polearms, naramon, Rare, coût 1 au rang max) : A blend of strong and rapid strikes with leaping combos.
+- **Shimmering Blight** (Polearms, zenurik, Uncommon, coût 1 au rang max) : Fast spinning attacks and staggering strikes.
+- **Twirling Spire** (Polearms, naramon, Rare, coût 1 au rang max) : A mix of sweeping attacks with precise strikes.
+- **Cunning Aspect** (Rapiers, naramon, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Vulpine Mask** (Rapiers, naramon, Rare, coût 1 au rang max) : Swift cuts, lancing strikes.
+- **Reaping Spiral** (Scythes, naramon, Rare, coût 1 au rang max) : Far flung attacks and multi-hit combos.
+- **Shadow Harvest** (Scythes, naramon, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Stalking Fan** (Scythes, zenurik, Rare, coût 1 au rang max) : Lunging spirals and shattering combos.
+- **Brutal Tide** (Sparring, naramon, Rare, coût 1 au rang max) : Round-house attacks and leaping fists.
+- **Grim Fury** (Sparring, unairu, Uncommon, coût 1 au rang max) : Lightning fast hit chains and hard-hitting combos.
+- **Vicious Approach** (Sparring, naramon, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Crashing Timber** (Staves, madurai, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Flailing Branch** (Staves, unairu, Rare, coût 1 au rang max) : Lifting strikes and whirlwind combos.
+- **Eleventh Storm** (Sword And Shield, madurai, Uncommon, coût 1 au rang max) : Rapid attacks using sword and shield.
+- **Final Harbinger** (Sword And Shield, madurai, Uncommon, coût 1 au rang max) : Powerful slashes and shield attacks.
+- **Last Herald** (Sword And Shield, madurai, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Crimson Dervish** (Swords, madurai, Rare, coût 1 au rang max) : Strong whirlwind attacks.
+- **Iron Phoenix** (Swords, unairu, Rare, coût 1 au rang max) : Fast cutting attacks with puncture finish.
+- **Rising Steel** (Swords, unairu, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Swooping Falcon** (Swords, madurai, Rare, coût 1 au rang max) : Quick slashes with spinning lunges.
+- **Vengeful Revenant** (Swords, madurai, Rare, coût 1 au rang max) : Hate... Dread... Despair...
+- **Gemini Cross** (Tonfas, madurai, Uncommon, coût 1 au rang max) : A style exhibiting sweeping slash attacks and swift jabs.
+- **Sovereign Outcast** (Tonfas, naramon, Rare, coût 1 au rang max) : An outlandish style with sweeping attacks.
+- **Star Divide** (Tonfas, madurai, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.
+- **Wise Razor** (Two-Handed Nikana, madurai, Uncommon, coût 1 au rang max) : Deftly executed sweeps and slashes.
+- **Slicing Feathers** (Warfans, naramon, Rare, coût 1 au rang max) : Twirling, acrobatic slashes with a refined touch.
+- **Votive Onslaught** (Warfans, naramon, Rare, coût 1 au rang max) : Precise, focused arcs and cuts not hampered by pity.
+- **Burning Wasp** (Whips, vazarin, Uncommon, coût 1 au rang max) : Chaining combos.
+- **Coiling Viper** (Whips, zenurik, Rare, coût 1 au rang max) : Powerful arcing strikes with energetic flips.
+- **Lashing Coil** (Whips, zenurik, Uncommon, coût 1 au rang max) : Fighting form devised for Conclave.

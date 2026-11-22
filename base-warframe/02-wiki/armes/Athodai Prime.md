@@ -1,0 +1,276 @@
+# Athodai Prime (wiki)
+Source : https://wiki.warframe.com/w/Athodai_Prime
+
+Tenno Weapon
+
+Athodai Prime
+Tradable
+(parts and/or blueprint only)
+
+General Information
+Type
+Pistol
+
+Mastery Rank Requirement
+14
+
+Max Rank
+30
+
+Slot
+Secondary
+
+Trigger Type
+Auto / Mag Burst
+
+Utility
+Accuracy
+Very High
+
+Ammo Max
+72
+
+Ammo Pickup
+40
+
+Ammo Type
+Secondary
+
+Magazine Size
+24
+
+Reload Time
+2.00 s
+
+Normal Attack
+<puncture>
+24
+( 30%)
+
+<Heat>
+56
+( 70%)
+
+Total Damage
+80 (70.00% Heat)
+
+Accuracy
+Very High
+
+Ammo Cost
+1
+
+Crit Chance
+40.00%
+
+Crit Multiplier
+2.00x
+
+Fire Rate
+5.00 attacks/sec
+
+Multishot
+1 (80.00 damage per projectile)
+
+Noise Level
+ALARMING
+
+Punch Through
+0.0 m
+
+Range
+300.0 m
+
+Spread
+2.00° (1.00° min, 3.00° max)
+
+Status Chance
+10.00%
+
+Projectile Type
+Hit-Scan
+
+Trigger Type
+Auto
+
+Alt-Fire
+<Heat>
+100
+( 100%)
+
+Total Damage
+100 (100.00% Heat)
+
+Accuracy
+Very High
+
+Ammo Cost
+1
+
+Crit Chance
+20.00%
+
+Crit Multiplier
+2.50x
+
+Fire Rate
+12.00 attacks/sec
+
+Multishot
+1 (100.00 damage per projectile)
+
+Noise Level
+ALARMING
+
+Punch Through
+2.0 m
+
+Range
+16.0 m
+
+Spread
+0.00° (0.00° min, 0.00° max)
+
+Status Chance
+35.00%
+
+Projectile Type
+Hit-Scan
+
+Trigger Type
+Burst
+
+Miscellaneous
+Riven Family
+Athodai
+
+Exilus Polarity
+
+Introduced
+Update 43.0 (2026-06-17)
+
+Polarities
+
+Sell Price
+2,500
+
+Variants
+Athodai
+Athodai Prime
+
+Vendor Sources
+
+Article Categories
+
+- Weapons
+- Update 43
+- Tenno Weapons
+- Prime Weapons
+- Heat Damage Weapons
+- Pistol
+- Athodai
+- Secondary Weapons
+- Auto Weapons
+- Automatic
+- Prime
+- Alarming Weapons
+- Hit-Scan Weapons
+- Tradeable Weapons
+
+Maintenance
+
+CODEX
+Unleash the song of the righteous warrior with this gilded pistol that goes into Overdrive on Weak Point kills, maximizing fire rate and ammo efficiency for a short time.
+
+Athodai Prime is the Primed counterpart of the Athodai handgun, sporting increased Damage, Critical Chance, and Status Chance. Athodai Prime was released alongside Styanax Prime and Afentis Prime.
+
+## Characteristics
+
+- This weapon deals primarily Heat damage.
+- Primary Fire shoots fully automatic rounds.
+- Weak point kills with primary fire trigger the Overdrive buff, increasing fire rate by +100%, Infinite Ammo, and decreasing Recoil by -100% for 12 seconds.
+- Overdrive buff disables Alternate Fire for its duration, and cannot be refreshed.
+- Fire Rate and Recoil bonuses are additive to mods.
+
+- Alternate Fire shoots a cone of energy, ejecting all remaining ammunition in the magazine in a quick burst.
+- Pinpoint accuracy.
+- Innate 2 meter Punch Through.
+- Cone has a thickness of 2 meters.
+- Prevents zoom.
+- This prevents the buffs from Hydraulic Crosshairs and Sharpened Bullets from affecting this mode as a result.
+
+- Can equip the Athodai-exclusive Pain Points mod.
+- Innate three polarities.
+
+Advantages over other Secondary Pistol weapons (excluding modular weapons):
+
+- Normal Attack (wiki attack index 1)
+- Very high crit chance (40.00%)
+- High burst DPS (560)
+- Very high sustained DPS (395.29)
+- Above average magazine size (24)
+- Above average total damage (80)
+- Very high ammo pickup (40)
+- High accuracy (1.00° to 3.00°)
+- Above average fire rate (5.00 attacks/sec)
+- Above average damage per shot (112)
+- Above average crit multiplier (2.00x)
+
+- Alt-Fire (wiki attack index 2)
+- Very high burst DPS (1560)
+- High sustained DPS (780)
+- High magazine size (24)
+- Above average total damage (100)
+- Very high ammo pickup (40)
+- Very high accuracy (0.00° to 0.00°)
+- Very high fire rate (12.00 attacks/sec)
+- Above average status chance (35.00%)
+- Above average crit multiplier (2.50x)
+
+Disadvantages over other Secondary Pistol weapons (excluding modular weapons):
+
+- Alternate Fire has a limited range of 16 meters.
+- Alternate Fire consumes 1 ammo per damage tick instead of 0.5, unlike most other continuous weapons.
+- Low ammo capacity; requires just 3 reloads to fully deplete all ammo reserves.
+- Normal Attack (wiki attack index 1)
+- Low reload speed (2.00 s)
+- Low ammo max (72)
+- Low status chance (10.00%)
+
+- Alt-Fire (wiki attack index 2)
+- Low reload speed (2.00 s)
+- Low ammo max (72)
+
+See WARFRAME Wiki:Stat Comparison/Percentiles for more details.
+
+Comparisons:
+
+- Athodai Prime (Normal Attack), compared to Athodai (Normal Attack):
+- Higher base damage per projectile (80.00 vs. 70.00)
+- Higher Puncture damage ( 24 vs. 22)
+- Higher Heat damage ( 56 vs. 48)
+
+- Higher total damage (80 vs. 70)
+- Higher base critical chance (40.00% vs. 32.00%)
+- Higher base status chance (10.00% vs. 8.00%)
+- Higher average damage per tap (112 vs. 92.4)
+- Higher burst DPS (560 vs. 462)
+- Higher sustained DPS (395.29 vs. 326.11)
+- Larger max ammo capacity (72 vs. 48)
+- More polarities ( vs. )
+- Higher Mastery Rank required (14 vs. 10)
+
+## Notes
+
+- Overdrive buff grants +100% fire rate, -100% Recoil, and allows it to consume no ammo while firing, but disables the Alternate Fire feature. The buff lasts for 12 seconds.
+- The buff triggers on enemy weak point kills, including kills made by hitting weak points generated by Sonar or Detect Vulnerability.
+- Overdrive's fire rate buff is additive to other fire rate increases, such as Gunslinger, Lethal Torrent, Gauss's Redline, or Wisp's Haste Reservoirs.
+- Duration cannot be refreshed.
+- Overdrive takes precedence over Arcane Pistoleer, preventing the Arcane from triggering.
+
+- The Alternate Fire ejects all of the remaining ammunition in the magazine in a single burst.
+- Because of this fact, increasing the magazine size of the weapon such as with Slip Magazine and using recoil reduction mods like Steady Hands can help to make its damage output more consistent and reliable.
+- Alternate Fire can be interrupted (preserving the ammunition left in the magazine) by rolling or quick melee.
+- Alternate Fire will not function under the effects of any ammo efficiency or infinite ammo buff (Energized Munitions, Overdrive, Arcane Pistoleer, Reactant Buff), instead firing only for few seconds or not firing at all.
+
+## Athodai Prime Skins

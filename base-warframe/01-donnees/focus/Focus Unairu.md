@@ -1,0 +1,26 @@
+# École de Focus Unairu : nœuds (valeurs au rang maximum)
+
+- **Basilisk Gaze** : Increases Void Blast radius by 60%.
+- **Basilisk Scales** : Increases Operator Armor by 200%.
+- **Caustic Strike** : Second Ability launches an energy bomb that explodes with a 8m radius, stripping 100% of enemy armor. Tap <ACTIVATE_ABILITY_1> again to detonate in-flight.
+- **Cogron Tauron Strike** : Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 4 times.
+- **Crippling Dash** : Using Void Sling through an enemy will reduce their Damage by 50%.
+- **Great Quake** : Increase shockwave radius by +40%.
+- **Last Gasp** : Revive your Warframe by transferring to Operator and killing 3 enemies before 15s elapse and the Revive Meter begins to drain.
+- **Magnetic Blast** : Enemies hit by Void Blast are affected by Magnetize for 10s.
+- **Magnetic Boost** : Void Sling out of a Magnetic Flare to refresh its duration and increase its radius by 100%.
+- **Magnetic Flare** : Use your first Ability to create a 8m radius field that lasts for 30s and disables the shields of any enemy that enters it.
+- **Poise** : Gain immunity to slow, stagger, and knockdown effects for 40s after transferring between Operator or Warframe.
+- **Reinforced Return** : Warframe is invulnerable for 4s after Operator is downed. Tap as Operator falls to bring the Warframe to the Operator’s location.
+- **Seismic Impact** : Cogron Tauron Strikes enable their shockwave effect for the next 4 aerial Melee slam attacks.
+- **Static Purge** : 100% chance to clear Transference Static on kill while Reinforced Return is active.
+- **Stone Skin** : Increases Armor for Warframe and Operator by 200.
+- **Sundered Bounty** : Shockwaves generate 5 pickups, in the form of Universal Orbs or Ammo.
+- **Sundering Dash** : Using Void Sling through an enemy will reduce their Armor by 75%.
+- **Tempered Benison** : Shockwaves create 5 Armor Motes that grant +450 temporary Armor. Max 5.
+- **Unairu Wisp** : Void Blast has a 100% chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator Damage by 100% for 12s.
+- **Unairu Wisp** : 100% chance to summon an Unairu Wisp per enemy hit by Caustic Strike. The Wisp will seek out the nearest ally within Affinity Range, increasing Operator damage by 100% for 20s.
+- **Vengeance** : During Last Gasp, Operator Damage is increased by 100% plus an additional 25% per second.
+- **Void Chrysalis** : Void Mode reduces damage taken by invisible allies within 25m by 80%. This ability costs an additional 4 Energy/s.
+- **Void Shadow** : Void Mode now renders allies within 40m invisible. This ability costs an additional 4 Energy/s per ally cloaked.
+- **Void Spines** : 100% Damage taken is returned to the attacker.

@@ -1,0 +1,3320 @@
+{
+ "_lecture": "Coûts des capacités de chaque warframe, relevés automatiquement dans les pages Abilities du wiki le 13/11/2026. cout = coût de lancement ; couts_supplementaires = coûts dans le temps (« s » = par seconde) ou par action. Coût réel d'un lancement = cout x (2 - efficacité) ; drain réel par seconde = valeur x (2 - efficacité) / durée. Relevé automatique : en cas de doute, la page de la capacité fait foi.",
+ "Ash": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Slash procs inflicted by Ash's weapons and abilities deal 25% more damage and last 50% longer.\n- Damage bonus stacks additively with other Status Damage.\n  - For example, when using Ash, a weapon that deals 100 damage with Bane of Grineer will have a Slash proc that deals (100 * (1 + 0.3)) * 0.35 * (1 + 0.3) * (1 + 0.25) = 73.94 damage per tick.\n- Bleed duration bonus stacks additively with status duration mods such as Lingering Torment.\n- Works in Archwing missions. Note that Railjack Slash status effect Tear has a base 20s duration and is not a DoT.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Shuriken",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Smoke Screen",
+    "cout": 35.0,
+    "cout_affiche_wiki": "35",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Teleport",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Blade Storm",
+    "cout": 0.0,
+    "cout_affiche_wiki": "0 +6-12/mark",
+    "couts_supplementaires": [
+     {
+      "valeur": 6.0,
+      "valeur_max": 12.0,
+      "par": "mark"
+     }
+    ],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "- Ash toggles a state of intense focus as he searches for targets to assassinate. During targeting mode, enemies within 50 meters from Ash that are seen near the aiming reticle become highlighted and tagged with a death mark above their head, consuming 12 energy per enemy.",
+     "- Reactivating Blade Storm with no marks will toggle off targeting mode instead.",
+     "- To deactivate the bug, Ash can prompt a \"falling out of level\" event by power wall climbing to the sky if there is a wall in the map that allows him to. This will respawn Ash to a random location on the ground and deactivate the bug."
+    ]
+   }
+  ]
+ },
+ "Atlas": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Wielding explosive power and incredible stamina, Atlas strengthens his insurmountable durability through battle. Atlas possesses various passive mechanics highlighted in the tabs below:\nStrong as the mountain, Atlas is immune to Knockdown while in contact with the ground.\n- Knockdown immunity does not apply while in the air.\n- Does not apply to pushback effects.\n- Does not prevent the recoiling effect from firing powerful Archguns such as Corvas, Velocitus, and Larkspur in non-Archwing missions.\n- Works in Archwing missions.\nRubble is a pickup item unique to Atlas that drops from petrified enemies and Rumblers on death. Rubble restores Health to Atlas if he is injured; if Atlas is at full health, Rubble instead grants additional Armor that decays over time.\n- Each petrified enemy and each Rumbler will drop 1 piece of Rubble that restores 50 health or provides 50 armor. Rubble will remain",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Landslide",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Tectonics",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Petrify",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Rumblers",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Banshee": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "All of Banshee's abilities inflict 5 Puncture Status Effects to all enemies within 20 meters of her.\nAdditionally, all of her equipped weapons, including Gunblades such as Redeemer, and weapons equipped on Sentinels should they be present, are treated as silent.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Sonic Boom",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Sonar",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Silence",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Sound Quake",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Baruuk": {
+  "ressource": "énergie + jauge de Retenue (Restraint)",
+  "note_ressource": "Baruuk a de l'énergie pour ses capacités 1 à 3, mais son 4 (Serene Storm) n'en utilise pas : il se lance et se maintient avec la jauge de Retenue (Restraint). La jauge démarre pleine et doit être vidée pour utiliser le 4 : chaque attaque esquivée par Elude en retire 1,2 %, chaque ennemi touché par Lull 0,8 %, chaque ennemi désarmé par Desolate Hands 1,6 %. Serene Storm la remplit de 4 % à l'activation puis de 0,8 % par seconde. Jauge entièrement vidée : jusqu'à 50 % de réduction de dégâts.",
+  "passif": "Baruuk's tolerance for violence wanes as his hand is forced by his foes. Restraint is a resource unique to Baruuk that provides up to 50% Damage Reduction when the meter is completely depleted.\n- Restraint meter is displayed in the lower-right on the HUD, above the ability icons.\n- Restraint meter starts fully filled, and is depleted using Baruuk's abilities:\n  - Each attack evaded through Elude erodes 1.2% from the meter.\n  - Each enemy affected by Lull erodes 0.8% from the meter.\n  - Each enemy disarmed by Desolate Hands erodes 1.6% from the meter.\n- Baruuk's fourth ability Serene Storm utilizes Restraint instead of Energy to cast and maintain. Using this ability refills Restraint meter by 4% on activation and by 0.8% per second until the ability is deactivated.\n  - Restraint can still erode from using Baruuk's other abilities during this ability.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Elude",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +2.5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 2.5,
+      "valeur_max": 2.5,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "| 1 25 +2.5/s | Elude Dodge all incoming projectiles, but only while not attacking. Use again to deactivate this ability. Introduced in Update 24.2 (2018-12-18) | Strength:N/A",
+     "Misc: 100% (dodge chance) 0.2 s (reactive delay) 1.2% (Restraint erosion per attack dodged)",
+     "- Elude drains 2.5 energy per second while active and will remain active until Baruuk's energy is depleted or the ability is deactivated by pressing the ability key again."
+    ]
+   },
+   {
+    "numero": 2,
+    "nom": "Lull",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Desolate Hands",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Serene Storm",
+    "cout": null,
+    "cout_affiche_wiki": "",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "| 4 | Serene Storm With his Restraint eroded, Baruuk commands the Desert Wind to deliver powerful radial strikes with his fists and feet. Each moment commanding the storm restores his Restraint. Introduced in Update 24.2 (2018-12-18) | Strength:100 / 125 / 200 / 250 ( Impact damage) 10% / 15% / 20% / 25% (damage reduction)",
+     "- Baruuk foregoes his restraints to empower his fists with volatile energies, commanding the Desert Wind and wielding it as his melee Exalted Weapon. While Serene Storm is active, Baruuk also receives 10% / 15% / 20% / 25% Damage Reduction against enemy attacks, and slows enemies within a 3 meter radius by 50%.",
+     "- Rather than using energy, Baruuk regenerates his Restraint, recovering 4% Restraint on activation and then restores 0.80% Restraint per second."
+    ]
+   }
+  ]
+ },
+ "Bonewidow": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Meathook",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Shield Maiden",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Firing Line",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Exalted Ironbride",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +2.5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 2.5,
+      "valeur_max": 2.5,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Exalted Ironbride drains 2.5 energy per second and will remain active until Bonewidow's energy is depleted or the ability is deactivated by pressing the ability key again."
+    ]
+   }
+  ]
+ },
+ "Caliban": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Versatile and resilient, Caliban and allies within his Affinity Range gain Adaptive Armor that builds damage resistance against the highest damage type received from enemy attacks, stacking 5% per hit up to a cap of 50%. If Caliban or his allies do not receive damage for 5 seconds, their Adaptive Armor loses 2% per second until fully removed.\n- Passive bonus value is displayed as a Buff icon beside Caliban's hitpoint indicators.\n  - Impact, Puncture, Slash, Cold, Electricity, Heat, Toxin, Blast, Corrosive, Magnetic, Radiation, Viral, and Tau damage types stack their respective resistances separately, and will have different icons in the status bar.\n- Damage over time from procs (such as Slash or Toxin for example) will not contribute nor maintain damage resistance.\n- Adaptive Armor does not stack with Adaptation. The damage reduction provided to Caliban (or his allies) equipped with Adap",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Razor Gyre",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Sentient Wrath",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Lethal Progeny",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Fusion Strike",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Chroma": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "It's taking longer than I calculated.\nFind out if we can reupload the imgur reference images to the wiki for posterity\nChroma possesses an extra midair jump and bullet jump. Wings matching Chroma's energy colors will form during these maneuvers.\nChroma can alter his abilities to match any basic (uncombined) elemental attribute of the player's choice. Customizing Chroma's primary emission color determines what abilities he starts with. Color choices are grouped into four categories with each category corresponding to a given element:\n- red, magenta, brown, orange and bright yellow hues being Heat;\n- blue and purple hues being Electricity;\n- green, lime, teal and dark yellow hues being Toxin;\n- white, grey, black, and some faded colors being Cold.\nHeat\nElectricity\nToxin\nCold\nSpectral Scream",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Spectral Scream",
+    "cout": 10.0,
+    "cout_affiche_wiki": "10 +3/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 3.0,
+      "valeur_max": 3.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Hold down the ability key (default 1 ) to expend 10 Energy to activate Spectral Scream. While active, Chroma holsters his weapons away and continuously exhales elemental energy in a cone 4 / 5 / 6.5 / 10 meters long that inflicts 200 / 250 / 300 / 400 Heat, Electricity, Toxin, or Cold damage per second with a 100% status chanc",
+     "- Spectral Scream consumes 3 energy per second while active and will remain active until Chroma's energy is depleted or the ability is deactivated by pressing the ability key again.",
+     "- Spectral Scream's energy drain is not converted into shields by Augur Mods."
+    ]
+   },
+   {
+    "numero": 2,
+    "nom": "Elemental Ward",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Vex Armor",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Effigy",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +10/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 10.0,
+      "valeur_max": 10.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Effigy drains 10 energy per second while active and will remain active until Chroma's energy is depleted, the sentry's health is depleted, or the ability is deactivated by pressing the ability key again.",
+     "- When deactivated, Chroma can teleport his pelt from anywhere onto himself. This will stop movement and interrupt any action Chroma is doing, such as reloading, leaving a player vulnerable.",
+     "- When deactivated while sliding, Chroma's pelt will be reapplied to him without triggering the animation, even if the player immediately cancels his slide."
+    ]
+   }
+  ]
+ },
+ "Citrine": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Citrine emits a healing aura within a radius of 50 meters, granting the Geoluminesence buff to herself and allies that continuously recover a base 5 Health points per second. Whenever she picks up a regular Health Orb, Dispensary produced Empowered variant, or Universal Orb, regeneration rate is permanently increased by 0.1 points, up to a maximum heal rate of 25 points per second after collecting 200 Health Orbs.\n- Until her passive reach max stacks, Citrine innately can always collect Health Orbs to increase her passive healing even when unharmed.\n- Allies gain or lose Geoluminesence whenever they enter or exit Citrine's Passive radius.\n  - Passive radius matches Affinity Range distance, but is separate from it therefore Fosfor and Mending Unity do not affect Geoluminesence.\n- Passive heal rate is indicated by a diamond-shaped UI indicator above the ability icons. The accumulated passi",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Fractured Blast",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Preserving Shell",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Prismatic Gem",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Crystallize",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Cyte-09": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Cyte-09 gains Practiced Aim when he kills an enemy by damaging their Weak Points, increasing his Critical Chance against weak points by 1% up to a maximum of 300%, lasting for the entirety of a mission.\n- Critical chance bonus is additive to similar mods such as Point Strike.\n- Additional critical chance from Cyte-09's passive can raise the Critical Tier of his equipped weapon.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Seek",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Resupply",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Evade",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Neutralize",
+    "cout": 5.0,
+    "cout_affiche_wiki": "5 +10/shot +20/alt fire",
+    "couts_supplementaires": [
+     {
+      "valeur": 10.0,
+      "valeur_max": 10.0,
+      "par": "shot"
+     },
+     {
+      "valeur": 20.0,
+      "valeur_max": 20.0,
+      "par": "alt fire"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Dagath": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Dagath feeds from the souls of the deceased, granting her a 35% chance to activate Abundant Abyss when picking up Health Orbs or Energy Orbs to increase their effective yield by +300%. The passive has no cooldown and can activate on each orb collected.\n- This applies to:\n  - Health Orbs — 50 health becomes 200 health\n  - Dispensary's Empowered Health Orbs — 100 health becomes 400 health\n  - Small Energy Orbs — 25 energy becomes 100 energy\n  - Large Energy Orbs — 50 energy becomes 200 energy\n  - Universal Orbs — 25 health and 25 energy becomes 100 health and 100 energy\n    - Note that when picking up a Universal Orb, Abundant Abyss performs two separate rolls; the first roll determines whether the health is increased, and the second roll determines whether the energy is increased. It is possible for one to increase and not the other.\n- Does not affect Equilibrium conversion.\n- Effect is m",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Wyrd Scythes",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Doom",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Grave Spirit",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Rakhali's Cavalry",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Dante": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Enemies slain by Noctua's primary fire, page fragments, and alt-fire are scanned into the Codex upon death, with each enemy death recording 1 scan entry. Enemy types with completed Codex research become permanently debuffed with Chronicler's Mark, which grants Dante's equipped weapons, including the Noctua itself, and Final Verse's Wordwarden Noctua copies an extra 50% Status Chance versus these foes.\n- Status chance bonus is multiplicative to a weapon's total status chance after mods and other bonuses are applied.\n  - For example, Noctua with Scorch equipped will have 40% status chance, or 40% * 1.5 = 60% against fully researched enemies.\n- Status chance bonus is also multiplicative to Pageflight's status increase.\n- Works in Archwing missions.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Noctua",
+    "cout": 5.0,
+    "cout_affiche_wiki": "5 +2/shot",
+    "couts_supplementaires": [
+     {
+      "valeur": 2.0,
+      "valeur_max": 2.0,
+      "par": "shot"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Dante expends 5 energy to equip his Exalted Weapon tome sidearm, the Noctua, replacing his equipped secondary weapon. Press the ability key again (default 1 ) to deactivate and return his secondary weapon to the swap weapon cycle (default F ).",
+     "- Casting and deactivating Noctua are full-body animations that allow uninterrupted movement and parkour Maneuvers."
+    ]
+   },
+   {
+    "numero": 2,
+    "nom": "Light Verse",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Dark Verse",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Final Verse",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Ember": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Reveling in the heat of combat, Ember gains 5% extra Ability Strength for every enemy burning with an active Heat status effect within Affinity Range.\n- Buff values appear above Immolation's heat gauge.\n- Works in Archwing missions.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Fireball",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Immolation",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +when at max heat: +1t/s-2 t = time at max heat in seconds",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "- Ember expends 50 Energy to surround herself in a swirling torrent of protective flame that burns stronger with each moment. While immolated, a thermometer appears above the ability icons, gradually rising in temperature. Ember gains 10% / 20% / 30% / 40% Damage Reduction on cast displayed as a percent (%) next to the thermomet",
+     "- Once Immolation reaches maximum heat, Ember drains energy at an increasing rate of 0.4 energy per second to sustain Immolation. The energy drain growth is uncapped.",
+     "- Example: After 10 seconds at max heat, Immolation will drain 4 energy per second: After 30 seconds at max heat, Immolation will drain 12 energy per second."
+    ]
+   },
+   {
+    "numero": 3,
+    "nom": "Fire Blast",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Inferno",
+    "cout": 0.0,
+    "cout_affiche_wiki": "0 +10/enemy (max 10x)",
+    "couts_supplementaires": [
+     {
+      "valeur": 10.0,
+      "valeur_max": 10.0,
+      "par": "enemy"
+     }
+    ],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Equinox": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "When Equinox collects Health Orbs or Energy Orbs, 10% of the restored amount is converted into additional Energy and Health respectively.\n- Equinox's passive stacks additively with Equilibrium, for a total conversion of 120%.\n- Allows for the pickup of orbs while the associated resource pool is full, for the purpose of conversion.\n- The effect of Arcane Pulse does not apply to health from converted energy orbs.\n- The effects of Arcane Energize and Energy Pulse do not apply to energy from converted health orbs.\n- Works in Archwing missions.\nEquinox can shift between two forms to alter her abilities: the offensive-focused Day-Form or the defensive/supportive-focused Night-Form. Customizing Equinox's primary emission color determines what form she starts with. Which form is indicated by an icon next to the emission color:\n- Bright hues change default form to Day-Form, indicated by the icon.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Metamorphosis",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Rest & Rage",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Pacify & Provoke",
+    "cout": 10.0,
+    "cout_affiche_wiki": "10 +0.5/s/enemy +3/ability",
+    "couts_supplementaires": [
+     {
+      "valeur": 0.5,
+      "valeur_max": 0.5,
+      "par": "s/enemy"
+     },
+     {
+      "valeur": 3.0,
+      "valeur_max": 3.0,
+      "par": "ability"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Equinox emits a crippling or empowering aura with a radius of 10 / 12 / 14 / 16 meters. Pacify & Provoke will remain active indefinitely until deactivated by casting Metamorphosis, by running out of Energy, or by pressing the ability key again (default 3 ).",
+     "- Despite being a channeled ability, this does not interrupt energy regeneration from Energy Siphon, Energy Nexus, Dreamer's Bond, Wellspring and is not affected by Ability Duration.",
+     "- Neither Pacify nor Provoke can activate channeling-based Incarnon Genesis perk bonuses."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Mend & Maim",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +3.5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 3.5,
+      "valeur_max": 3.5,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "| 4 50 +3.5/s | Mend & Maim In Night-Form, allies' Shields are replenished with each nearby enemy killed. In Day-Form, enemies are inflicted with Slash Status Effect. Deactivate while in Night-Form to restore Health and Shields for Equinox and allies. Deactivate while in Day-Form to cast a wave of slashing force. Introduced in U",
+     "Strength: 10 / 15 / 20 / 25 (shields per kill)",
+     "- Mend & Maim consumes 3.5 energy per second while active and will remain active until Equinox's energy is depleted, or the ability is deactivated by pressing the ability key again or by casting Metamorphosis."
+    ]
+   }
+  ]
+ },
+ "Excalibur": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Excalibur and Excalibur Prime has improved mastery in the Tenno art of the blade, receiving +10% Attack Speed and +10% damage bonuses for melee attacks while wielding the following weapons:\n- Swords, such as the Skana.\n- Dual Swords, such as the Dual Skana.\n- Nikana (Weapon Type), such as the Dragon Nikana.\n- Rapiers, such as the Destreza.\n- Exalted Blade\n- Bonuses are additive to mods such as Pressure Point and Fury.\nExcalibur Umbra exhibits sentience, allowing him to remain active in combat even when a player uses Operator form, acting similarly to a Specter.\n- Umbra can receive damage and healing in his specter form. Health and shields lost in his specter form will not be restored upon returning to Umbra unless all of Umbra's health is depleted.\n- Once all of Umbra's health is depleted, he will stop moving or attacking.\n  - The player does not die or lose a revive, however, if Umbra's",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Slash Dash",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Radial Howl",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Radial Blind",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Radial Javelin",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Exalted Blade",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +2.5/s +25/slide",
+    "couts_supplementaires": [
+     {
+      "valeur": 2.5,
+      "valeur_max": 2.5,
+      "par": "s"
+     },
+     {
+      "valeur": 25.0,
+      "valeur_max": 25.0,
+      "par": "slide"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Performing a slide attack will also drain 25 energy to cast a Judged Severance, a diminished version of Radial Blind that Blinds and Stuns enemies within 5m for 6 seconds, as well as disabling security cameras.",
+     "- Exalted Blade consumes 2.5 energy per second while active and will remain active until Excalibur's energy is depleted or the ability is deactivated by pressing the ability key again.",
+     "- Exalted Blade's energy drain is not converted into shields by Augur Mods."
+    ]
+   }
+  ]
+ },
+ "Follie": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Follie's abilities splatter thick viscous Inkblot onto enemies, applying a 50% Slow for 10 seconds. While coated in ink, slain foes have a 20% chance to congeal an ink balloon that pops, dropping a random mixture of 3 Health Orbs and Energy Orbs.\n- Affects Overguard protected enemies.\n- Is not dismissed by Nullifier fields.\n- Ability Synergy:\n  - Self Portrait and Plein Air apply Inkblot and pause its duration on affected enemies, until they leave the ink effigy's ink pool or detach from the ink balloon.\n  - Follie's signature Enkaus splatter an Inkblot glob on its alternate fire mode and can siphon back ammo from Inkblot inflicted by Follie's abilities.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Forced Perspective",
+    "cout": 15.0,
+    "cout_affiche_wiki": "15",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Shadowgraph",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Self Portrait",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Plein Air",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Frost": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Frost's abilities have their Cold status effect duration increased by 100%. Frost's Fortifying Freeze passive increases his Armor by 50 per enemy afflicted by a Cold status effect within Affinity Range.\n- The armor buff works in Archwing missions.\n- Main article: Biting Frost\nBiting Frost is a Warframe Augment Mod for Frost's passive, gaining increased Critical Chance and Critical Damage on enemies frozen by 10 Cold status effects.\nRank | Crit Chance | Crit Damage | Cost\n0 | +130% | +130% | 6\n1 | +150% | +150% | 7\n2 | +175% | +175% | 8\n3 | +200% | +200% | 9",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Freeze",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Ice Wave",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Snow Globe",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Avalanche",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Gara": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "When casting an ability, Gara's glass body has 15% chance to Blind enemies within 12 meters for 10 seconds, exposing them to Melee Finisher attacks. Blind chance increases by 20% until the blind triggers.\n- Can affect enemies with Overguard.\n- Can affect enemies inside a Nullifier Bubble.\n- Enemies must be within Line of Sight of Gara to be blinded, but do not have to face toward Gara.\n- Can refresh blind duration on currently blinded enemies when the passive procs again.\n- Affects enemies crystallized by Mass Vitrify.\n- Melee finisher damage benefits from the damage multipliers of Splinter Storm and Mass Vitrify.\n- Can proc also by going in and out of Operator form.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Shattered Lash",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Splinter Storm",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Spectrorage",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Mass Vitrify",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75 +3-5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 3.0,
+      "valeur_max": 5.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Gara expends 75 Energy and coats herself in a shell of hardened glass, becoming immobile and Invulnerable to damage as she unleashes a radial ring of molten glass that expands outward and downward. The molten glass ring's initial horizontal radius from Gara is 2 meters, which expands horizontally at a rate of 3 meters per seco",
+     "- Can be recast while active to expand molten glass and create a new barrier. Only 1 barrier may remain active per player.",
+     "- Mass Vitrify can refresh an ally's Splinter Storm timer if they pass through the molten wall while Mass Vitrify is being channeled."
+    ]
+   }
+  ]
+ },
+ "Garuda": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "The more Garuda kills, the more vicious her attacks become; Garuda gains 5% additional Weapon Damage and Melee Damage for each kill or assisted kill, up to a maximum of 100%, which begins to slowly decay after 5s.\n- Damage bonus is multiplicative to all other damage multipliers, such as Eclipse and Minelayer (Overdriver), and faction damage bonuses, such as Bane of Grineer and Roar.\n- Damage bonus is a Universal Weapon Bonus, which allows it to affect certain abilities. Check the Universal Weapon Bonuses page for a list of affected abilities.\n  - Of the abilities in Garuda's kit, Dread Mirror's blood orb explosion damage and Seeking Talons' projectile hit damage are affected by her passive.\n- After not killing for 5 seconds, the damage bonus decays by 1% per 2 seconds.\n  - If Garuda is inside an ability-nullifying field, such as those of the Nullifier Crewman, the decay will begin after ",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Dread Mirror",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Blood Altar",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Bloodletting",
+    "cout": null,
+    "cout_affiche_wiki": "",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "- Bloodletting is a powerful ability to combine with Helminth-infused toggled abilities that constantly drain energy, the most notable being Sevagoth's Gloom as it provides Garuda with another self-healing ability besides Blood Altar to constantly regenerate her energy reserves."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Seeking Talons",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Gauss": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "To achieve supersonic speed, Gauss draws upon both his Energy reserves and his state-of-the-art electrokinetic battery to fuel his abilities. Gauss has access to 80% of the battery in his default state; activating Redline grants access to 100% of the battery. The battery, displayed as a gauge meter above his ability icons, acts as a secondary resource that charges or drains depending on the ability he uses:\nPassive\n- +0.66% battery per meter that Gauss moves.\n- +?% battery per second while reviving an ally in Bleedout.\n- -3% battery if Gauss falls Out of Bounds.\n- -15% battery per second if Gauss stands in a Nullifier Crewman bubble.\nMach Rush\n- +10% battery on cast.\n- +1% battery per enemy hit.\nKinetic Plating\n- -1% battery per second while active.\n- -0.1% battery per hit received.\n- +0.25% battery per melee hit to enemies.\nThermal Sunder\n- +10% battery upon casting Cold.\n- -10% battery",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Mach Rush",
+    "cout": 15.0,
+    "cout_affiche_wiki": "15 +12.5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 12.5,
+      "valeur_max": 12.5,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Mach Rush consumes 12.5 energy per second while active and will remain active until Gauss's energy is depleted or he stops sprinting by releasing the ability key.",
+     "- Mach Rush's energy drain is not converted into shields by Augur Mods.",
+     "- While active, Kinetic Plating adds 100% Slash damage to Mach Rush's shockwave, and makes it inflict a Slash status effect on enemies caught in its explosion radius."
+    ]
+   },
+   {
+    "numero": 2,
+    "nom": "Kinetic Plating",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Thermal Sunder",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Redline",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Grendel": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Devouring his prey whole, Grendel slowly digests the enemies he swallows via Feast. Each enemy still alive in Grendel's belly passively grants him 250 Armor, to a maximum of 1,250 bonus armor at the 5 enemy cap.\n- Passive bonus value is displayed above Grendel's ability icons.\n- Gourmand provides an additional 150 armor bonus per enemy at max rank to Grendel's passive, increasing the armor bonus to 400 per enemy and the total armor bonus to 2,000 at enemy cap.\n- Armor bonus is added after armor mods such as Steel Fiber. For example, Grendel with a rank 10 Steel Fiber and one enemy alive in his belly will have Total armor = (350 × (1 + 1.1)) + 250 = 985\n- Armor bonus adds or subtracts depending on the number of enemies currently residing in Grendel's stomach.\n- Main article: Gastroparesis\nGastroparesis is a Warframe Augment Mod for Grendel's passive that grants an Extra Hit of Gas damage ",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Feast",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Nourish",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Pulverize",
+    "cout": null,
+    "cout_affiche_wiki": "",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "- Grendel consumes 0 energy to curl up into a roving sphere that changes his movement controls into a directional physics-based roll. As he roves, Grendel gorges upon enemies inside his stomach, inflicting 25 Toxin damage per second while healing him 50 / 100 / 150 / 200 health per second over 5 seconds which slowly diminishes t",
+     "- Pulverize consumes 3 energy per second on an empty stomach while active and will remain active until Grendel's energy is depleted or the ability is deactivated by pressing the ability key again. Should Grendel run out of energy during Pulverize, he will automatically unfurl and become stunned in a dizziness animation for 2 sec",
+     "- Pulverize drains 0 energy when Feast stores enemies in his stomach. The sphere also enlarges with engorged enemies, increasing the collision and ground slam's damage and radius."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Regurgitate",
+    "cout": null,
+    "cout_affiche_wiki": "",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Gyre": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Gyre's abilities gain a flat 10% Critical Chance per active Electricity status proc affecting an individual enemy to deal 2.0x Critical Damage against that enemy.\n- Bonus stacks additively with Cathode Grace, increasing the overall ability critical chance at lower Electricity status stack counts.\n- Passive and Cathode Grace combined provide up to a maximum of 300% ability critical chance.\n  - From the passive alone, a minimum of 30 Electricity procs will reach the capped ability critical chance.\n- Gyre's abilities can reach orange and red critical multipliers to inflict 3.0x and 4.0x ability critical damage.\n  - From the passive alone, orange crits start at 11 stacks (110% crit chance) and red crits at 21 stacks (210% crit chance) respectively.\n- Helminth-subsumed abilities and Railjack turret abilities such as Seeker Volley do not benefit from Gyre's passive.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Arcsphere",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Coil Horizon",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Cathode Grace",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Rotorswell",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Harrow": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Harrow possesses 200% Overshields capacity, granting him a maximum of 2,400 Overshields, and spawns into missions with 100% Energy filled, identical to how the mod Preparation works.\n- Works in Archwing missions.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Condemn",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Penance",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Thurible",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Covenant",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Hildryn": {
+  "ressource": "boucliers",
+  "note_ressource": "Hildryn n'a pas d'énergie : ses capacités consomment ses boucliers et surboucliers. L'efficacité réduit ces coûts en bouclier. Les orbes d'énergie lui rendent 25 de bouclier et relancent la recharge ; Equilibrium et Energy Conversion fonctionnent, mais Arcane Energize n'a aucun effet et Brief Respite ou le set Augur ne lui rendent pas de bouclier. Son shield gate dure 3,5 s à bouclier plein. Les nombres ci-dessous sont des coûts en bouclier.",
+  "passif": "Hildryn utilizes her advanced Shielding systems to power all of her abilities. Although she has no Energy capacity, her shields boast additional passive benefits and defensive capabilities:\n- Hildryn's Shield Gating is more advanced than other Warframes, bolstering her defenses:\n  - Overshields protect Hildryn's Health pool from damage types that normally bypass shields to directly affect health, such as Toxin damage (e.g. Mutalist Osprey, Toxic Ancient), and Combat Discipline's health loss per kill.\n  - Hildryn's Shield Gating grace period is 3.5 seconds when fully charged.\n    - This passive is shared with ally Warframes and Companions when linked via Haven. Reset is dependent on the allies' own shield bar being fully replenished once protected by invulnerability.\n    - This passive also works in Archwing combat.\n- All of Hildryn's abilities drain her Overshield and Shield points, as s",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Balefire",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +100/shot +200/charge shot",
+    "couts_supplementaires": [
+     {
+      "valeur": 100.0,
+      "valeur_max": 100.0,
+      "par": "shot"
+     },
+     {
+      "valeur": 200.0,
+      "valeur_max": 200.0,
+      "par": "charge shot"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Requires shields to activate and consumes shields per shot."
+    ]
+   },
+   {
+    "numero": 2,
+    "nom": "Pillage",
+    "cout": 150.0,
+    "cout_affiche_wiki": "150",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Haven",
+    "cout": 250.0,
+    "cout_affiche_wiki": "250 +5/s/ally +25/s/enemy",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s/ally"
+     },
+     {
+      "valeur": 25.0,
+      "valeur_max": 25.0,
+      "par": "s/enemy"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Hildryn expends 250 shields or overshields to overcharge her Shield Matrix to continuously link to allies and enemies alike. When targets are in her direct line of sight and within a 8 / 10 / 12 / 15 meter radius, Hildryn drains 5 Overshield/Shield points per second for every ally linked, and 25 Overshield/Shield points per se",
+     "- Casting Haven is a full body animation that stops Hildryn's grounded movement and other actions, while deactivating Haven does not play an animation nor stop Hildryn's actions."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Aegis Storm",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100 +25/s +25/s/enemy +50/dodge",
+    "couts_supplementaires": [
+     {
+      "valeur": 25.0,
+      "valeur_max": 25.0,
+      "par": "s"
+     },
+     {
+      "valeur": 25.0,
+      "valeur_max": 25.0,
+      "par": "s/enemy"
+     },
+     {
+      "valeur": 50.0,
+      "valeur_max": 50.0,
+      "par": "dodge"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "| 4 100 +25/s +25/s/enemy +50/dodge | Aegis Storm Take the skies and rain Balefire rockets down on the enemy. Nearby enemies are blasted into the air where they will create an Energy Orb every few seconds. When shields run out the enemies are smashed into the ground. Introduced in Update 24.4 (2019-03-08) | Strength:100 / 125 / ",
+     "- The Operator can still be used while in Aegis Storm to do these actions without deactivating the ability.",
+     "- The slam upon ability deactivation will move in the direction of the aiming reticle."
+    ]
+   }
+  ]
+ },
+ "Hydroid": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Enemies damaged by Hydroid are permanently more vulnerable to Corrosive Status, with initial status reducing armor by 50% rather than 26%, allowing Corrosive Status to reach 100% armor reduction at full stacks. As long as Hydroid has damaged the enemy, the Corrosive Status Effects can be applied from any source, not just from Hydroid's weapons or abilities, and will receive the benefit.\n- Works in Archwing missions.\n- Affected enemies are marked with a translucent water-dripping Corrosive symbol over their head, and a splashing sound is played when a new enemy is affected. The symbol color is affected by Hydroid's chosen Warframe energy color.\n- Bosses are immune to the increased armor reduction from Hydroid's passive, except in the Simulacrum.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Tempest Barrage",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Tidal Surge",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Plunder",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Tentacle Swarm",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Inaros": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "On fatal injury and entering Bleedout, Inaros entombs himself into a Sarcophagus and incarnates as a sand version of himself, able to revive himself by melee attacking (default E ) enemies and siphoning their life force. Alternatively, allies may manually revive Inaros by interacting with his Sarcophagus.\n- The revive meter that appears on the reticle is filled by ?% for every melee hit.\n  - Attacks from Swarm Kavats spawned by Scarab Swarm also contribute to the revive meter.\n- The sand incarnation will only use Unarmed attacks and cannot use other weapons.\n- The sand incarnation does not restrict Maneuvers.\n- Undying Will and Renewal's bleedout timer slow will still function normally on Inaros's Sarcophagus.\n- Unairu's Last Gasp will not prompt on Inaros's Sarcophagus.\n- Sarcophagus does not prevent Inaros from dying in Arbitrations; he will still enter the Sarcophagus animation before",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Desiccation",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Sandstorm",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Scarab Shell",
+    "cout": null,
+    "cout_affiche_wiki": "",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "Misc: 5% (status protection cost) ? m (charging damage radius) ? (damage per tick) Stagger on hit 2,500 HP (total health cost) 2 HP (min. health threshold) ∞ (armor bonus duration) 25 HP (health drain per percent charge) 4.67s (time to full armor bonus)",
+     "- The armor buildup will end once the bonus armor is fully filled, Inaros only has 2 health left, or the ability is manually deactivated.",
+     "- Inaros can move but cannot cast other abilities, use weapons, or perform parkour Maneuvers or general interactions while channeling this ability."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Scarab Swarm",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Ivara": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Ivara's innate enemy Radar has a larger radius, detecting enemies and displaying their position on the minimap within 50 meters rather than the usual 30 meters.\n- This effect stacks with (Primed) Animal Instinct, Enemy Radar, Enemy Sense, Stealth Drift, and Vigilante Pursuit, increasing her detection range to 191 meters, or more with squad members equipped with the aura Enemy Radar and/or Coaction Drift.\n- Works in Archwing missions, enemy detection range increases from 180 to 320 archwing meters.\n  - The range discrepancy exists likely because everything is minified in archwing but the passive is using real meters.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Quiver",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Navigator",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +3/s +2/s2",
+    "couts_supplementaires": [
+     {
+      "valeur": 3.0,
+      "valeur_max": 3.0,
+      "par": "s"
+     },
+     {
+      "valeur": 2.0,
+      "valeur_max": 2.0,
+      "par": "s2"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Navigator consumes 25 energy when a projectile is fired after activating the ability or when Navigator takes control of a projectile in flight. It then drains 3 energy per second which increases by an additional 2 energy per second for every second a projectile is actively controlled. Navigator will end if the projectile impac",
+     "- The energy drain growth accelerates the energy drain while a projectile is actively controlled. As an example, Navigator's energy drain will be equal to 3 energy per second the instant a projectile becomes influenced by the ability. If the projectile is controlled for a total of 5 seconds, the energy drain will have increased ",
+     "- Energy drain is capped after 23.5 seconds of channeling."
+    ]
+   },
+   {
+    "numero": 3,
+    "nom": "Prowl",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +1-3/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 1.0,
+      "valeur_max": 3.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Ivara expends 25 energy to activate her cloak, turning Ivara and her Companion transparent, rendering them invisible to enemies. While active, Ivara gains 10% / 20% / 30% / 40% bonus damage on headshots at the cost of 0.5x Movement Speed. Ivara also becomes capable of pickpocketing enemies: if standing beside an enemy with Pro",
+     "- Prowl consumes 1 point of energy per second while stationary and consumes 3 energy per second while walking or rolling. Additionally, melee attacks consume 2 energy per hit, and taking damage consumes 10 energy per hit. Prowl will end if Ivara's energy is depleted, if certain maneuvers are performed that break the cloak, or th",
+     "- Rolling is actually a viable alternative to Sprinting, allowing you to move quickly without breaking your invisibility. Keep in mind, however, that if you press Shift , (or whichever key you have bound to activate Sprinting with), it will immediately deactivate Prowl."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Artemis Bow",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +15/shot",
+    "couts_supplementaires": [
+     {
+      "valeur": 15.0,
+      "valeur_max": 15.0,
+      "par": "shot"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Each shot consumes 15 energy. Artemis Bow will end if Ivara's energy falls below the energy cost per shot or if deactivated by pressing the ability key again.",
+     "- Artemis Bow does not have a continuous energy drain.",
+     "- Artemis Bow does not activate channeling-based Incarnon Genesis perk bonuses."
+    ]
+   }
+  ]
+ },
+ "Jade": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Where sacred light shines the song of life begins, as the shadow of time marches evermore toward deathly silence. As The Anointed, Jade possesses two passives:\n- Jade possesses 2 Aura mod slots in her Arsenal loadouts to assist herself and her squadmates.\n  - This also includes increased mod capacity from both Auras (+28 from two maxed Auras, or +32 / +36 with Steel Charge and/or Power Donation), allowing Jade more modding space with less need for Polarization, as well as granting her more potential Starting Energy.\n- Enemies that enter Light's Judgment well and Glory on High's primary fire at a 10% chance afflict enemies with the Judgements debuff as an overhead icon visual, applying 50% Damage Vulnerability lasting for 10 seconds.\n  - Enemies killed while debuffed by Judgments extends Symphony of Mercy's duration by 2 seconds.\n  - Glory on High's Alternate Fire can detonate Judgments, ",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Light's Judgment",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Symphony Of Mercy",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Ophanim Eyes",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Glory On High",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +5/s +25/alt fire",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s"
+     },
+     {
+      "valeur": 25.0,
+      "valeur_max": 25.0,
+      "par": "alt fire"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Has a fixed casting cooldown of 1.5 seconds, unaffected by fire rate, reload speed, or casting speed.",
+     "- Glory on High consumes 5 energy per second while active and will remain active until Jade's energy is depleted, or the ability is deactivated by pressing the ability key again.",
+     "- Glory on High's energy drain is not converted into shields by Augur Mods."
+    ]
+   }
+  ]
+ },
+ "Khora": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "- For more information on Khora's Kavat, please refer to the tabs below and visit the Venari ability article.\nKhora's ferocious Kavat, Venari, fights alongside her with steadfast zeal. Venari is an exclusive Companion for the Khora Warframe, integrated as her signature passive ability. Venari will spawn beside Khora when the player first enters a mission, as a permanent companion that lasts until killed.\nWhile Venari is alive, Khora passively gains a 15% movement speed boost. If Venari is killed, she will respawn beside Khora after 45 seconds, or instantly if summoned via the third ability for an energy cost. Both passive features are tied to Khora's Venari ability allowing her to be modified.\nAdditionally, Venari is an independent AI-controlled entity from Khora that possesses unique interactions:\nVenari\nUntradeable\n📝 Update Infobox Data\nDescription\nKhora's loyal Kavat. Her constant com",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Whipclaw",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Ensnare",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Venari",
+    "cout": null,
+    "cout_affiche_wiki": "",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "Misc: 120 s (mark duration) 45 s (respawn time) 2.5 s (snare duration) 5 (hits per snare) 3 s (Attack & Protect cooldowns) < 90% HP (missing health threshold) 10 m (Heal aura radius) 65 s (Venari self-heal mark duration)",
+     "- Khora commands her loyal Kavat companion Venari to prioritize a target on the aiming reticle for 25 energy, leaving Venari's mark above the target for 120 seconds. Once commanded, Venari chases the marked target if nearby or teleports to it if far away, while refreshing the special effect for her battle posture if it is on coo",
+     "- Holding the ability key (default 3 ) cycles to Venari's next battle posture for no energy cost, and also deactivates any current Mark:"
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Strangledome",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Koumei": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Dare to tempt her fate, risk all in this game of chance, soon shall she succeed. Every 1 minute, fate selects one of Koumei's equipped weapons to impart randomized Status Effects when dealing Damage for 1 minute.\n- Koumei's primary, secondary, or melee weapon icon with a circle timer is shown beside her five dice above her ability icons.\n- Can select weapon types that Koumei does not have equipped.\n- Has no effect on Multishot.\n- Works in Archwing missions but the secondary weapon buff is useless.\nCasting an ability rolls The Five Fates, up to 5 six-sided dice displayed above Koumei's ability icons. The dice of fate randomly roll to one of their six sides, combining the plum blossom petals into a total number; the total dice roll determines the effectiveness of some abilities from a minimum of 1 to a maximum of 30. When rolling at least three dice in a triple 6 formation, known as Shadow",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Kumihimo",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Omikuji",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Omamori",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Bunraku",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Kullervo": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "All melee weapons equipped by Kullervo gain +75% Heavy Attack Efficiency and +100% Heavy Attack Wind Up Speed, in addition to a stylized Melee Combo Counter permanently displayed above his ability icons.\n- Heavy Attack Efficiency bonus works in Archwing missions.\n- Recompense successful hits on enemies add 1 melee combo per dagger, excluding missed daggers striking Kullervo himself.\n- Melee weapon attacks and ability dagger hits spread by Collective Curse add 1 melee combo per hit.\n- Storm of Ukko's direct damage adds 1 melee combo per tick.\nUnlike most Warframes, when Kullervo ranks up he receives a special set of rank bonuses which are indicated at the middle-left of the Warframe Upgrade screen:\n- +20 Health every three ranks, starting at rank 1.\n- +10 Armor every three ranks, starting at rank 2.\n- +5 Energy Capacity every three ranks, starting at rank 3.\n- +200 Health\n- +100 Armor\n- +",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Wrathful Advance",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Recompense",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Collective Curse",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Storm Of Ukko",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Lavos": {
+  "ressource": "temps de recharge",
+  "note_ressource": "Lavos n'a pas d'énergie et ses capacités ne consomment aucune ressource : elles sont gratuites, avec un temps de recharge entre deux utilisations. L'efficacité ne réduit pas un coût : elle joue sur la réduction de recharge donnée par Transmutation Probe et par l'augment Swift Bite. Une capacité Helminth sur Lavos coûte 0 énergie mais a 10 s de recharge. Les nombres ci-dessous sont des temps de recharge en secondes.",
+  "passif": "Valence Block\nPurifying himself from all ailments, Lavos cleanses all active negative Status Effects and gains status immunity for 10 seconds upon collecting an Energy or Universal Orb. Picking up an Energy or Universal Orb has a cooldown of 5 seconds.\n- Buff duration is renewed to full upon collecting a new orb.\n- Valence Block buff icon and timer are shown beside Lavos' shield and health indicators.\n- While activated, three serpent-like energy particle effects encircle Lavos' body.\n- If Lavos is injured with missing health, Universal Orbs are collectible to heal him with no cooldown period in between.\n- When Lavos' Companion is equipped with Synth Fiber, all nearby Health and Universal Orbs will be collected, bypassing Lavos' innate orb pickup cooldown entirely.\nSpecial Casting",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Ophidian Bite",
+    "cout": 8.0,
+    "cout_affiche_wiki": "8",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Vial Rush",
+    "cout": 5.0,
+    "cout_affiche_wiki": "5",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Transmutation Probe",
+    "cout": 10.0,
+    "cout_affiche_wiki": "10",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Catalyze",
+    "cout": 30.0,
+    "cout_affiche_wiki": "30",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Limbo": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "- Main article: Rift Plane\nLimbo's abilities allow access to the Rift plane (\"Rift\", for short), an alternate dimension to the normal environment, or material plane. Interaction between the Rift and material planes is highly limited. Generally, for both players and enemies, weapons will not function across planes, but Abilities will. Anyone in the Rift can be forcibly removed from it by entering a Nullifier's bubble. Any player can leave the Rift voluntarily by performing a Roll, Sidespring, or Backspring.\nEnemies that transition between planes will receive Knockdown and 300 Impact damage, unaffected by any modifiers. Enemies in the Rift that are killed by Limbo will grant him 10 Energy (regardless of whether Limbo is himself in the Rift).\nWarframes in the Rift gain 2 Energy per second, except when using most Channeled Abilities. Companions will enter and exit the Rift alongside their ow",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Banish",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Stasis",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Rift Surge",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Cataclysm",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Loki": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Loki's Wall Latch duration is increased to a maximum of 60 seconds, ten times longer than any other Warframe.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Decoy",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Invisibility",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Switch Teleport",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Radial Disarm",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Mag": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Mag automatically Vacuums Pickups that are within 8 meters towards her.\n- The passive does not stack with mods like Vacuum or Fetch, making it useless if these mods are used, since they override her passive due to providing more range.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Pull",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Magnetize",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Polarize",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Crush",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Mesa": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Mesa has improved proficiency with secondary weapons, and gains a health bonus at the expense of not having a melee weapon equipped:\n- +15% fire rate with dual wielded sidearms.\n- +25% reload speed for one handed sidearms.\n- +50 health when no melee weapon is equipped.\n  - Works in Archwing missions and you can still have an Archmelee.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Ballistic Battery",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Shooting Gallery",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Shatter Shield",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Peacemaker",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +15/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 15.0,
+      "valeur_max": 15.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Holstering the Regulators upon deactivation, however, is not affected.",
+     "- Peacemaker does not trigger \"On Equip\" mods like Vigorous Swap on either activation or deactivation.",
+     "- User cannot move while active unless equipped with Mesa's Waltz."
+    ]
+   }
+  ]
+ },
+ "Mirage": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Mirage has an increased proficiency when performing several Maneuvers:\n- Sliding lasts 85% longer\n- +50% faster Maneuver Speed",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Hall Of Mirrors",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Sleight Of Hand",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Eclipse",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Prism",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +10/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 10.0,
+      "valeur_max": 10.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Prism drains 10 energy per second while active and will remain active for the ability's full duration, until Mirage's energy is depleted, or the ability is deactivated by pressing the ability key again.",
+     "- When the ability expires or is manually deactivated (default 4 ), the prism will explode in a bright flash of light that Blinds enemies within 8 / 12 / 15 / 25 meters for 7 / 10 / 12 / 15 seconds.",
+     "- Lunar Eclipse (tap cast) halves Prism's base energy cost to 25 energy and base energy drain to 5 energy per second."
+    ]
+   }
+  ]
+ },
+ "Narin": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Enemies killed by any source, while afflicted with Cold Status Effects from Narin, have a 1% chance per Cold status effect (10% chance at 10 Cold status) to drop a Sangodae Cold Ammo rune. Ammo runes remain indefinitely until picked up; up to 5 ammo runes may be active at once, with the newest spawned removing the oldest.\n- Sangodae ammo runes are client-side pickups, which can be collected separately by Narin herself and allied Warframes.\n- Ammo runes are represented as floating runic globes containing a crane and bullets symbol.\n- Narin's Companion-inflicted Cold status effects do not activate Sangodae drop chance.\nSangodae grants elemental Magazine ammo to the affected Warframe's primary and secondary Weapons, providing an Extra Hit of 50% bonus Cold damage with a guaranteed Cold status effect on every hit, lasting for 15 seconds. Reloading doesn't clear the effect, it only temporaril",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Neote",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Naraemagi",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Hakchum",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Nurinarim",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Nekros": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "A master of death, Nekros and his Companions regenerates 5 Health when an enemy dies within 10 meters of him.\n- Works in Archwing missions but is hard to trigger.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Soul Punch",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Terrify",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Desecrate",
+    "cout": 10.0,
+    "cout_affiche_wiki": "10 +10/corpse",
+    "couts_supplementaires": [
+     {
+      "valeur": 10.0,
+      "valeur_max": 10.0,
+      "par": "corpse"
+     }
+    ],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "- Nekros expends 10 energy to emit an aura of dark power to consume all corpses within a radius of 10 / 15 / 20 / 25 meters. Consumed corpses have a 30% / 40% / 50% / 60% chance to spawn a health orb and a 22.5% / 32% / 42.5% / 54% chance to roll the corpse's drop table again to produce additional loot. After a 2 second delay on",
+     "- Despite being a channeled ability, this does not interrupt energy regeneration from any source including Energy Siphon and Wellspring, and it is unaffected by Ability Duration.",
+     "- Desecrate does not activate channeling-based Incarnon Genesis perk bonuses."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Shadows Of The Dead",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Nezha": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Nezha slides 60% faster and goes 35% farther. These effects additively stack with Cunning Drift, Maglev and Streamlined Form.\nNezha's passive can be disabled with Controlled Slide.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Fire Walker",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Blazing Chakram",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Warding Halo",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Divine Spears",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Nidus": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "The Infestation dwelling within Nidus mutates rapidly when used against his foes, fueling his abilities and yielding various symbiotic benefits.\nMutation Stacks are a resource unique to Nidus, indicated by the Mutation counter and gauge displayed in the lower-right on the HUD, above the ability icons.\n- The gauge is divided into 5 sections which represent the number of hits dealt to enemies via Nidus's abilities, while the counter at the center of the gauge keeps track of the number of Mutation stacks up to a maximum of 200.\n  - When generating Mutation, the sections light up clockwise. Once all 5 sections have lit up, the gauge completes a cycle and the sections become unlit again, while the counter increases by 1 Mutation stack. The following abilities generate 1/5th of a Mutation stack:\n    - Each enemy hit with Virulence, from direct hits and damage over time.\n    - Each enemy killed",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Virulence",
+    "cout": 40.0,
+    "cout_affiche_wiki": "40",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Larva",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Parasitic Link",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Ravenous",
+    "cout": 3.0,
+    "cout_affiche_wiki": "3",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Nokko": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Upon receiving fatal damage, if Nokko has at least one Stinkbrain or Brightbonnet placed, he will trigger Vital Decay to transform into his Invulnerable Sprodling form instead of entering Bleedout. While in this form, Nokko will revive if he can reach one of his active mushrooms within 15 seconds; failing to reach a mushroom in time will result in immediate death. Reviving has a 3-second animation, during which Nokko is invulnerable and gains 100% Health and Shields. Once reborn, Nokko remains invulnerable for an additional 1 second.\n- If Nokko does not have any active mushrooms upon receiving fatal damage, Vital Decay will not activate and he will enter Bleedout normally.\n- During Vital Decay, active mushrooms will glow and their durations are paused.\n  - Successfully reviving will immediately destroy all mushrooms.\n  - If all mushrooms are destroyed (for example, by a Nullifier Bubble)",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Stinkbrain",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Brightbonnet",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Reroot",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Sporespring",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Nova": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Enemies killed by Nova while Slowed have a 15% chance to drop a Health Orb; enemies killed while sped-up have a 15% chance to drop an Energy Orb. The slow/speed-up can be from any source, including Nova's Molecular Prime.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Null Star",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Antimatter Drop",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Wormhole",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Molecular Prime",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Nyx": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Nyx gains Thrive in Chaos whenever enemies within Affinity Range are afflicted with Confusion (from Radiation status effect or Mind Control), increasing her primary and secondary weapon Critical Chance by 40% per enemy up to a maximum of 200% from 5 enemies.\n- The bonus is additive to mods like Pistol Gambit and Point Strike.\n- Works in Archwing missions.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Mind Control",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Psychic Bolts",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Chaos",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Absorb",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Oberon": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Guarded by nature, when Oberon picks up a regular Health Orb, Dispensary produced Empowered variant, or Universal Orb, he blesses himself and allies within Affinity Range with Righteous Negation for up to 3 charges. Incoming damage is blocked to consume a charge while also becoming Invulnerable for 0.25s (0.5s on the final charge). Charges last indefinitely until consumed.\n- More Oberons will not increase the max charge count.\n- Affected allies include Warframes, and Companions.\n  - Each guarded ally consumes charges individually and does not reduce the charges on other guarded allies.\n  - When possessing Righteous Negation, the ally is surrounded by up to 3 energy shields with antler-like protrusions.\n- Amount of remaining stacks are shown on the ability icon and as a buff icon beside Oberon's Health indicator.\n- While Oberon or an ally has overguard, his passive will trigger before the",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Smite",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Hallowed Ground",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Renewal",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +3.5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 3.5,
+      "valeur_max": 3.5,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Oberon expends 25 energy to channel a blessed field, granting Iron Renewal to himself and allies within Affinity Range, granting the following effects:",
+     "- Renewal consumes 3.5 energy per second while active. Renewal will remain active until Oberon's energy is depleted or the ability is deactivated by pressing the ability key again.",
+     "- While active, Renewal will remain on allies even if they move out of range."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Reckoning",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Octavia": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Octavia creates musical masterpieces from the Mandachord affixed to her arms that empowers her abilities. She possesses various passive mechanics highlighted in the tabs below:\n- For an in-depth guide to the Mandachord by the developers, see Mandachord/Developer's Guide.\n- To access the Mandachord menu, open the Arsenal in your ship, equip Octavia, click on the Warframe's Appearance tab, and select Mandachord at the bottom-right of the screen.\n- Once inside the Mandachord menu, the player's view will switch to first-person and look downward at the expanded Mandachord on Octavia's left arm.\n- The Mandachord menu comprises of all customization options related to Octavia's abilities.\n  - Each ability is affected by a section of the Mandachord: Percussion (Mallet), Bass (Resonator), and Melody (Metronome).\n  - Instruments enable selection of different soundpacks for each section (see Octavia",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Mallet",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Resonator",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Metronome",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Amp",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Oraxia": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "An apex predator patiently prowls, hidden in plain sight. Perform Wall Latch (default hold RMB near a wall) to activate Predator’s Lurk, rendering Oraxia and her Companion Invisible for 8 seconds.\n- Passive timer is shown as a Buff icon beside Oraxia's hitpoints indicator.\n- Predator's Lurk can have its duration refreshed when Oraxia releases then reuses wall latch again.\n- Invisibility does not break when Oraxia stops wall latching or attacks with her weapons and abilities.\n- When used on a vertical surface or ceiling, Silken Stride's Silken Thread web-sling allows Oraxia to automatically wall latch for an infinite duration and trigger Predator's Lurk for its normal invisibility duration.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Mercy's Kiss",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Webbed Embrace",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Widow's Brood",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Silken Stride",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- While active, Oraxia laces her primary and secondary weapons' magazine ammo with potent venom, causing each weapon hit to inflict an Extra Hit of 10% / 20% / 30% / 40% Toxin damage (20% / 40% / 60% / 80% while Wall Latching) with 100% status chance; however, Oraxia is unable to equip her melee weapon. Enemies killed by Oraxia'",
+     "- Silken Stride consumes 5 energy per second while active, and will remain active until Oraxia's energy is depleted or the ability is deactivated manually.",
+     "- Silken Stride's energy drain is not converted into shields by Augur Mods."
+    ]
+   }
+  ]
+ },
+ "Protea": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Every 4th ability cast by Protea gains an additive 100% Ability Strength bonus. The power recorder displayed on the HUD above her ability icons is charged by 1 power bar per ability cast. Once fully charged with 3 power bars, the leftmost slot glows intensely and the bonus ready message is shown above.\n- After the bonus is applied, the power recorder empties to reset the cycle.\n- Abilities can be cast in any combination to empower a desired ability with the passive bonus.\n- Passive bonus grants improvements to the following aspects of each ability:\n  - Grenade Fan's Shrapnel Vortex damage per second, or Shield Satellite shield restore on attach and shield points per second.\n  - Blaze Artillery damage per shot.\n  - Dispensary extra pickup drop chance.\n  - Temporal Anchor recorded damage conversion.\n- Stored power bars are not affected by ability nullifying effects.\n- The power recorder is",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Grenade Fan",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Blaze Artillery",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Dispensary",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Temporal Anchor",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Qorvex": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "All Primary, Secondary, and melee weapons wielded by Qorvex gain Core Exposure, granting them a +3 Punch Through bonus.\n- Works in Archwing missions.\nThis also applies to some subsumed abilities' projectiles, including:\n- Null Star (without the Neutron Star augment)\n- Main article: Universal Weapon Bonuses",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Chyrinka Pillar",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Containment Wall",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Disometric Guard",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Crucible Blast",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Revenant": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "When Revenant's Shield is fully depleted, he emits a radial pulse over 7.5 meters inflicting 100 Blast damage with maximum 75% Damage Falloff.\n- Works in Archwing missions but can not inflict Knockdown.\nAdditionally, harnessing the essence of Eidolons, Revenant is immune to the Magnetic night waters of the Plains of Eidolon.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Enthrall",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Mesmer Skin",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Reave",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Danse Macabre",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +20-40/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 20.0,
+      "valeur_max": 40.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- While active, all damage received by Revenant is stored into a total damage pool. The stored damage is displayed as a buff. The current displayed value is added to each beam as a flat damage bonus.",
+     "- Revenant is able to move with reduced movement speed while channeling Danse Macabre.",
+     "- Danse Macabre consumes 20 energy per second (40 energy per second during the boosted version) while active and will remain active until Revenant's energy is depleted or the ability is deactivated by pressing the ability key again."
+    ]
+   }
+  ]
+ },
+ "Rhino": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "If Rhino falls far enough to incur a Hard Landing (even if he avoids the animation, such as by sliding), the ground impact will discharge a shockwave that deals Impact damage and Knockdown in a 6 meter area of effect. This stacks with Heavy Impact. There is a max 90% Damage Falloff at the edge of the shockwave's radius.\n- There is no effect when Kavat's Grace is installed.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Rhino Charge",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Iron Skin",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Roar",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Rhino Stomp",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Saryn": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Status Effects inflicted by Saryn's weapons and abilities last 25% longer.\n- Duration bonus stacks additively with status duration mods such as Lasting Sting.\n- Works in Archwing missions.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Spores",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Molt",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Toxic Lash",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Miasma",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Sevagoth": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Intertwined forever in life and death, Sevagoth and his Shadow exhibit numerous unique properties and interactions, highlighted in the tabs below:\nOn fatal injury and entering Bleedout, Sevagoth's body petrifies into a broken tombstone as his Shadow manifests itself. Control the Shadow to collect the souls of 5 enemies by casting Consume via the ability, quick melee, or fire weapon buttons with a targeted enemy on the aiming reticle (default 2 , E and LMB respectively), reviving Sevagoth upon a full harvest. Alternatively, allies may manually revive Sevagoth by interacting with his tombstone.\n- Targeted enemy must be within 14m to track\n- While the passive is activated, a soul counter appears above Sevagoth's ability icons indicating the number of remaining enemies required to revive Sevagoth, as well as a bleedout gauge that counts down toward his death. If Exalted Shadow is unlocked, t",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Reap",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Sow",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Gloom",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +.75-7.5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 0.75,
+      "valeur_max": 7.5,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "Misc: 95 % (slow cap) 10 (energy drain enemy cap) 0.1 %/s (Death Well gain per second per enemy)",
+     "- While enemies are in range, Gloom consumes 0.75 energy per enemy per second, stacking up to a cap of 10 enemies for a maximum drain amount of 7.5 energy per second, to sustain the ability until Sevagoth's energy is depleted or the ability is deactivated by pressing the ability key again.",
+     "- Sevagoth himself, his Shadow, and allies within Gloom do not trigger energy drain per second, granting them a persistent lifesteal effect while in range."
+    ]
+   },
+   {
+    "numero": 4,
+    "nom": "Exalted Shadow",
+    "cout": null,
+    "cout_affiche_wiki": "",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": [
+     "Misc: 5 s (Invincibility duration on cast) 5 m (Shadow summoned propulsion) 5 % (Death Well gain per enemy for Reap, Sow and Death's Harvest) 0.1 %/s (Death Well gain per second per enemy for Gloom) 1% HP (Death Well drain to health conversion)",
+     "- The player must be directly controlling Sevagoth with Exalted Shadow deactivated to gain Death Well percentage from the eligible Abilities noted above.",
+     "- If Sevagoth would inevitably fall Out of Bounds, the Exalted Shadow can be summoned to prevent Channeled Abilities or buffs like Gloom from turning off on Sevagoth."
+    ]
+   }
+  ]
+ },
+ "Sirius & Orion": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "As one and the same from different alternate timelines, Sirius & Orion exhibit numerous unique properties and interactions, highlighted in the tabs below:",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Coronal Ejection",
+    "cout": 15.0,
+    "cout_affiche_wiki": "15",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Jade Stars",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Light's Sanctuary",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Celestial Clash",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Styanax": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Styanax's weapon Critical Chance bonus increases by 1% per 40 Shield points, based on his current total including Overshields. Passive bonus is doubled on Speargun primary Weapons, such as Styanax's signature Afentis ( Prime), Ferrox ( Tenet), and Javlok.\n- Passive bonus value is displayed as a Buff icon called Hoplite beside Styanax's hitpoint indicators.\n- Critical chance bonus percentage changes in real time to reflect Styanax's shield pool.\n- Critical chance bonus applies to all weapon types including primary, secondary, and melee. Stacks additively with Mods.\n- While Styanax has a Speargun equipped, the Hoplite buff will display the increased critical value, even when holding another weapon.\n- Works in Archwing missions.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Axios Javelin",
+    "cout": 15.0,
+    "cout_affiche_wiki": "15",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Tharros Strike",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Rally Point",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Final Stand",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Temple": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Temple tracks their rhythmic mayhem by keeping in sync with the Backbeat metronome, shown below their aiming reticle. The metronome's pendulum swings from left to right and vice-versa at a pace of 78 BPM, while passing through a central zone that doubles as a fuel gauge for Lizzie, the living Techrot guitar wielded during Exalted Solo.\nWhen in the zone, the pendulum's bulb above its needle lights up. Cast an ability while the Backbeat is in the zone to amplify Temple's ability with a 50% Ability Efficiency, fuel up the gauge by 55 ammunition, and earn an extra effect specific to each ability:\n- Pyrotechnics: 2x additional flame pillars.\n- Overdrive: 2x Critical Chance vulnerability.\n- Ripper's Wail: 4 second Invulnerability duration.\n  - Additionally striking enemies with Pyrotechnics or Overdrive, or recasting Ripper's Wail, increases its weapon Heat damage bonus by 2% / 3% / 4% / 5% up",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Pyrotechnics",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Overdrive",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Ripper's Wail",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Exalted Solo",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Titania": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Frolicking and fluttering about, Titania passively possesses +25% Bullet Jump and Rolling distance. Casting her abilities rejuvenates Titania and her allies within 15 meters, granting them the Upsurge buff which regenerates 4 Health points per second for 20 seconds.\n- Upsurge is granted at the start of Titania's cast animations.\n  - The duration of the heal is refreshed on successive ability casts.\n- Upsurge buff icon is displayed with a duration timer next to the shield and health indicators, at the top-right of the HUD.\n  - An icon also appears next to each allied player affected by Upsurge.\n- Affected allies includes all Warframes, Companions, Eidolon Lures, summoned allied units such as Specters, allied Invasion units, Hostages, Kavor Defectors, Sortie and Arbitrations Defense Operatives, and Defense Objects.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Spellbind",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Tribute",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Lantern",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Razorwing",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Railjack Intrinsic bonuses do not affect Razorwing, with the exception of the Rank 8 Tactical Intrinsic \"Archwing Tactical Blink\", which reduces Razorwing's Archwing Blink cooldown by 25%.",
+     "- Cast animation of 1.4 seconds and deactivation of 1.0 second are affected by Casting Speed.",
+     "- Razorwing consumes 5 per second while active and will remain active until Titania's energy is depleted, or the ability is deactivated by pressing the ability key again."
+    ]
+   }
+  ]
+ },
+ "Trinity": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Trinity and allies in her Affinity Range gain Lifegiver, which increases their Health equal to 50% (25% in Conclave) of Trinity's total Energy pool.\n- Lifegiver can be increased by energy pool Mods, such as Flow, Primed Flow, and Archon Flow, as well as Azure Archon Shard.\n- Works in Archwing missions but scales off the Archwing energy pool.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Well Of Life",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Energy Vampire",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Link",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Blessing",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Uriel": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Uriel commands the Legion comprised of three fiendish Demons: Catenach, Gulphagor, and Vythelas. Demons are flying Health-based intangible Summons unlocked by Uriel's abilities gaining Rank, spawning with Uriel into the mission lasting indefinitely until killed, after which they automatically resurrect in 60 seconds. Demons draw enemy fire with their notable Threat Level whilst following Uriel wherever he roams, and perform specific devilish deeds to assist and amplify Uriel.\nUriel's Legion possesses various unique and shared attributes highlighted in the tabs below:\n- Demons' maximum Health scales with enemy levels in the mission.\n- Catenach and Gulphagor will deal many attacks when executing their moves, rapidly maxing out Arcane Camisado. Vythelas does not attack.\n- Demons' alive or dead status, health bars and Brimstone gauge are displayed as a stylized triangular UI above Uriel's ab",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Infernalis",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Remedium",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Demonium",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Brimstone",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Valkyr": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "- For the mod, see Rage.\nValkyr\n- Valkyr gains Rage from:\n  - Melee attack: 3% per hit\n  - Melee kill or assisted kill: 12%\n  - Finisher or Parazon Mercy Kill: 27%\n- After not building Rage for 5 seconds, the damage bonus decays at a non-linear rate dependent on the amount of Rage Valkyr has, with the following formula:\n  - { λ =0.016 ; n =(ln(1000λ))/λ ; d(t) ={{ e^(−λt), if 0≤t≤n ; e^(−λn)−0.001(t−n), if t>n } ; Bonus(t) =⌊300⋅d(t)⌋ }\n    - Above 18%, the meter decays by half over 43 seconds. Below 18%, the meter decays by 0.3% every second.\n- Bonus damage is additive with mods like Pressure Point and Condition Overload.\n- Damage bonus is displayed above the ability bars as a stylized UI, along with a gauge beneath it to represent the death prevention meter.\n- Rage's value persists when inside Nullifier bubbles and when recovering from falling Out of Bounds.\n- Works in Archwing mission",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Rip Line",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Warcry",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Paralysis",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Hysteria",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Hysteria consumes 5 energy per second while active and will remain active until either Valkyr's energy is depleted or the ability is deactivated by pressing the ability key again.",
+     "- Hysteria's energy drain is not converted into shields by Augur Mods.",
+     "- While Hysteria is active, Valkyr can cast other abilities and use primary and secondary weapons. However, switching weapons will disable Hysteria's effects, including the status immunity, health restore, and Warcry's tripled armor, while continuing to drain energy over time."
+    ]
+   }
+  ]
+ },
+ "Vauban": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "An inventor by nature, the process of creation necessitates demolition and deconstruction. Vauban inflicts 25% bonus damage with his weapons and abilities against enemies that are incapacitated.\n- Enemies are considered incapacitated from:\n  - Electricity status effect's stun, including from an attached Tesla Nervos\n  - Heat status effect's panicking\n  - Cold status effect's frozen on 10 stacks\n    - Note that enemies must be in the crowd control animation, simply having the status effect does not count.\n  - Minelayer's Tether-Flechette Orb coil\n  - Bastille's lifting prison\n  - Bastille's vortex gravity pull\n- Knockdown and Stagger do not count as incapacitation.\n- Damage bonus stacks with Minelayer's Overdriver buff for weapon damage only.\n- Damage bonus applies multiplicatively to total damage, according to this formula: Damage × (1 + 0.25)\n- Damage bonus applies a second time on stat",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Tesla Nervos",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Minelayer",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Photon Strike",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Bastille",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Voidrig": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Necraweb",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Storm Shroud",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Gravemines",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Guard Mode",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 +5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Guard Mode then drains 5 energy per second and will remain active until Voidrig's energy is depleted or or the ability is deactivated by pressing the ability key again."
+    ]
+   }
+  ]
+ },
+ "Volt": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Traveling along the ground between Volt's attacks (by walking, running, or sliding) will build up static energy, adding bonus Electricity damage toward Volt's next weapon attack or ability cast. For every 1 meter traveled, 10 points of Electricity damage are added, accumulating to a maximum of 1000 bonus damage.\n- Volt's passive is named Static Discharge by the Transistor Shield augment.\n- Does not combine with single elements or elemental mods on weapons; the bonus Electricity damage type remains separate.\n- Is not discharged by most Helminth injected abilities or Shocking Speed sparks.\n- Non-projectile attacks that don't make contact with an enemy or an environmental construct (e.g. the wall or floor) will not discharge the passive.\n  - Non-slam melee attacks can make contact with walls without discharging.\n- Landing from a jump, even from standstill, will charge the passive.\n- Status ",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Shock",
+    "cout": 15.0,
+    "cout_affiche_wiki": "15",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Speed",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Electric Shield",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Discharge",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Voruna": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Like a blood moon striding across the starlit night, Voruna never hunts alone. Safeguarded by her four loyal wolves, she may freely invoke their protective passives anytime during a mission.\nHold down the ability button (default 1 , 2 , 3 , 4 ) to invoke 1 passive into the UI indicator above the ability icons. Wolf passives persist indefinitely until switched, undergoing a cooldown (Ulfrun's Descent), or revoked by holding down the ability key again; while a passive is selected, the corresponding wolf skull on Voruna's body glows with energy, as a flying wolf skull orbits around her.\n- Shroud of Dynar increases Parkour Velocity by 50%.\n  - Bonus is additive with other sources of Parkour Velocity.\n- Fangs of Raksh grants complete resistance to new Status Effects.\n- Lycath's Hunt imbues Voruna's melee weapon with an additive 100% Heavy Attack Efficiency.\n  - Since heavy attack efficiency i",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Shroud Of Dynar",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Fangs Of Raksh",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Lycath's Hunt",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Ulfrun's Descent",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Wisp": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Wisp weaves between dimensions whilst she is airborne, gaining a cloak that renders her and her Companions completely invisible to enemies indefinitely until she lands or fires a weapon. Wisp's cloak will reactivate 0.5 seconds after the player stops firing, provided they are still airborne.\n- The cloak does not wear off immediately after landing, allowing Wisp to constantly remain invisible.\n  - Hard Landings will dissipate the cloak immediately.\n- Silenced weapons will still remove her invisibility.\n- Invisibility is not affected by Melee weapon strikes, allowing Wisp to freely use them without making her visible.\n- Unlike other invisible abilities, Wisp does not turn transparent. Instead she visually glows and emits energy particles that are affected by her chosen Energy color.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Reservoirs",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Wil-O-Wisp",
+    "cout": 35.0,
+    "cout_affiche_wiki": "35",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Breach Surge",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Sol Gate",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 +12-24/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 12.0,
+      "valeur_max": 24.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Damage Ramp is a per-damge-type, per-enemy debuff that persists until the ability is deactivated.",
+     "- Wisp recoils backward when the ability deactivates.",
+     "- Sol Gate consumes 12 energy per second (24 energy per second during the boosted version) while active and will remain active until Wisp's energy is depleted or the ability is deactivated by pressing the ability key again."
+    ]
+   }
+  ]
+ },
+ "Wukong": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Wukong has learned five techniques to avoid death whenever he takes fatal damage. Wukong will be randomly allowed 3 of these techniques per mission, each will make Wukong avoid entering bleedout upon taking fatal damage, Invulnerable for 2 seconds, restore 50% health, and provide a unique buff:\n- Primal Forces: 300% Elemental Damage for 60 seconds.\n- Heavenly Cloak: Invisibility for 30 seconds.\n  - Invisibility does not reveal Wukong when he attacks.\n- Cosmic Armour: Invulnerable for 30 seconds.\n- Monkey Luck: Enemies killed yield extra loot drops for 60 seconds.\n  - Additional loot retrieval stacks with other loot abilities that loot while alive (Ivara's Prowl), loot while petrified (Atlas's Ore Gaze), and loot corpse (Nekros's Desecrate and Chesa Kubrow's Retrieve). However, it does not stack with other loot on death abilities (Hydroid's Pilfering Swarm, Khora's Pilfering Strangledome,",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Celestial Twin",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Cloud Walker",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Defy",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Primal Fury",
+    "cout": 10.0,
+    "cout_affiche_wiki": "10 +5/s",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- Primal Fury consumes 5 energy per second while active and will remain active until Wukong's energy is depleted or the ability is deactivated by pressing the ability key again.",
+     "- Primal Fury's energy drain is not converted into shields by Augur Mods."
+    ]
+   }
+  ]
+ },
+ "Xaku": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Shifting their pieces unpredictably, Xaku has a 25% Dodge chance to harmlessly phase through incoming enemy weapon attacks, while protected by a 25% Damage Reduction against area of effect damage. Passive dodge chance and area damage reduction both raise to 75% while The Vast Untime is activated.\n- Enemy attacks affected by the dodge passive include hitscan, bullets, projectiles, and melee attacks. Explosions that occur near Xaku are not dodged, instead Xaku will receive damage reduction against them.\n- Evasion (such as from Agility Drift) and Xaku's dodge chances are separate mechanics that do not stack.\n- Works in Archwing missions.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Xata's Whisper",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Grasp Of Lohk",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "The Lost",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "The Vast Untime",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Yareli": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "Everflowing with the seas, whenever Yareli moves for at least 1.5 seconds, she gains the Critical Flow buff that increases Critical Chance on her secondary Weapon by 200%. Critical Flow lasts until Yareli stops moving for 1 second.\n- Critical Flow additively stacks with other pistol critical chance mods such as Pistol Gambit to increase the secondary weapon's base critical chance stat.\n- The condition of movement to activate and sustain Critical Flow involves the player's input of the movement keys (default W A S D ), falling from heights, or certain Maneuvers such as Bullet Jumping, Aim Gliding, and Wall Latching. Object-induced movement such as riding an elevator do not trigger Yareli's passive.\n- Merulina's innate K-Drive drifting momentum helps activate and maintain Yareli's passive.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Sea Snares",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 2,
+    "nom": "Merulina",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Aquablades",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Riptide",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ },
+ "Zephyr": {
+  "ressource": "énergie",
+  "note_ressource": "",
+  "passif": "While airborne, Zephyr falls slower and is more maneuverable, and her equipped weapons gain a 150% Critical Chance bonus that additively stacks to the bonuses of critical chance Mods.\nThe reduced gravity portion of her passive can be disabled with Anchored Glide.",
+  "capacites": [
+   {
+    "numero": 1,
+    "nom": "Tail Wind",
+    "cout": 25.0,
+    "cout_affiche_wiki": "25 -12.5 (airborne) +5/s hovering",
+    "couts_supplementaires": [
+     {
+      "valeur": 5.0,
+      "valeur_max": 5.0,
+      "par": "s hovering"
+     }
+    ],
+    "canalisee": true,
+    "lignes_du_wiki": [
+     "- While Zephyr is airborne, holding down the ability key then releasing it (default 1 ) causes Zephyr to expend 12.5 energy then drain 5 energy per second to immediately arrest her momentum then sustain her altitude in a continuous hover. While hovering in the air, Zephyr may attack with, switch and reload her weapons, as well a",
+     "- Hover Glide's energy drain is not converted into shields by Augur Mods.",
+     "- Hover Glide will automatically deactivate when Zephyr's energy pool fully depletes, upon touching a horizontal surface, performing a Tail Wind dash, dodge roll (default tap LShift ), jump (default Spacebar ), bullet jump (default LCtrl + Spacebar ), quick melee attack or melee slam attack (default E )."
+    ]
+   },
+   {
+    "numero": 2,
+    "nom": "Airburst",
+    "cout": 50.0,
+    "cout_affiche_wiki": "50 -25 in air",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 3,
+    "nom": "Turbulence",
+    "cout": 75.0,
+    "cout_affiche_wiki": "75",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   },
+   {
+    "numero": 4,
+    "nom": "Tornado",
+    "cout": 100.0,
+    "cout_affiche_wiki": "100",
+    "couts_supplementaires": [],
+    "canalisee": false,
+    "lignes_du_wiki": []
+   }
+  ]
+ }
+}

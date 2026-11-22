@@ -1,0 +1,26 @@
+{
+  "id": "dual-viciss-lavos-melee",
+  "arme": "Dual Viciss",
+  "pour": "Lavos Prime (mêlée, Gaz + Électricité)",
+  "mods": [
+    "Condition Overload",
+    "Galvanized Steel",
+    "Weeping Wounds",
+    "Amalgam Organ Shatter",
+    "Blood Rush",
+    "Primed Fury",
+    "Shocking Touch",
+    "Galvanized Elementalist"
+  ],
+  "posture": "Mantis (Taillade de Mante ?)",
+  "exilus": "Mentor's Legacy",
+  "arcane": "Melee Influence",
+  "pourquoi": [
+    "Gaz + Électricité avec Galvanized Elementalist : très fort avec Lavos"
+  ],
+  "noms_a_confirmer": [
+    "posture « Taillade de Mante »",
+    "exilus « Héritage du Mentor »"
+  ],
+  "source": "XeniX13, captures en jeu du 22/11/2026"
+}

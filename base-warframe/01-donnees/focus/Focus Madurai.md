@@ -1,0 +1,23 @@
+# École de Focus Madurai : nœuds (valeurs au rang maximum)
+
+- **Blazing Dash** : Void Sling leaves a trail of fire that deals 1000 Damage/s over 14s. Void Sling will now stun enemies instead of displacing them.
+- **Chained Sling** : 50% Energy Efficiency on Consecutive Void Slings.
+- **Contamination Wave** : Second Ability emits a Void wave lasting 2s that drenches enemies with Void Contamination making them 50% more vulnerable to Operator Damage for 20s.
+- **Distilled Contamination** : Killing an enemy affected by Contamination Wave makes all affected enemies 50% more vulnerable, while also making the effect last 10s longer. Maximum 2 stacks.
+- **Downpour** : Rain of Arrows will also target 4 additional enemies within 10m.
+- **Eternal Gaze** : Increase Energy Regeneration Rate for Amps and Void Beam by 60%.
+- **Flame Blast** : Void Blast releases a ball of fire that deals 250% of the Void Blast damage and explodes after 0.6000000238418579s.
+- **Inner Gaze** : Increase Energy for Amps and Void Beam by 40%.
+- **Meteoric Dash** : Void Sling deals 400 Extra Damage to enemies.
+- **Overwhelming Power** : Gain +5% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +50%.
+- **Phoenix Spirit** : Elemental Damage increased by |PERCENT|%.
+- **Phoenix Talons** : Physical Damage and Operator Damage increased by 30%.
+- **Power Transfer** : 100% Amp Critical Damage for 20s on switching to Operator. 50% Casting Speed on switching to Warframe.
+- **Rain Of Arrows** : On dealing damage, fire an arrow at an enemy with 0.35s cooldown between arrows. 30s duration.
+- **Rising Blast** : Increases Void Blast Damage by 200% and it can now be charged to deal additional damage.
+- **Sling Strength** : Switching to Warframe after a Chained Sling adds 40% Ability Strength for 20s.
+- **Surging Storm** : Increase Rain of Arrows radius to 5m.
+- **Thara Tauron Strike** : Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 7s.
+- **Void Fuel** : 40% Weapon Efficiency for Operator and Warframe while Void Strike is active.
+- **Void Radiance** : Consumes 50 Energy on leaving Void Mode to blind enemies within 10m for 5s.
+- **Void Strike** : First Ability consumes all energy to increase damage for 8s. Deal 10% additional damage for every percentage of energy consumed. 40s cooldown.

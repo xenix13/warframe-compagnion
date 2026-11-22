@@ -1,0 +1,21 @@
+# École de Focus Vazarin : nœuds (valeurs au rang maximum)
+
+- **Deathless Currents** : Vortex heals allies for 250 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned.
+- **Enduring Tides** : Increases Operator Health and Armor by 200%.
+- **Eroding Rapids** : Vortex applies 100% status vulnerability to all enemies within it.
+- **Guardian Blast** : Void Blast consumes 25 Energy for each ally hit within 8m and grants them 160 Shields.
+- **Guardian Break** : When the Guardian Shell breaks, Warframe Shield Regeneration rate is increased by 150% and Regeneration Delay is reduced by 80%, for 12s.
+- **Guardian Shell** : Void Blast can be charged to manifest a shield that drains Energy for every 400 Damage absorbed.
+- **Guardian Shell** : Use your first Ability to manifest a barrier on the Operator and allies in Affinity Range. It is invulnerable for 4s when first created and damage inflicted while it's invulnerable will be added to its base health of 500.
+- **Mending Soul** : The first 4 revives are instantaneous. Additional revives are 100% faster.
+- **Mending Unity** : Increases Affinity Radius by 25m.
+- **Nidri Tauron Strike** : Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex for 20s. 50% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it.
+- **Protective Sling** : Allies touched by Void Sling are granted immunity from damage for 5s and healed 60% over 5s for 10 energy cost.
+- **Rejuvenating Tides** : Operator Health Regeneration is increased by 6/s, and is doubled while controlling the Warframe.
+- **Rift Waters** : Vortex strips enemy Overguard 25% per second.
+- **Sonic Dash** : Void Sling no longer displaces enemies, instead it emits a shockwave 14m wide and travels 8m stunning any enemy it hits.
+- **Squad Regen** : When Void Regen reaches its maximum, it is applied to squad members within Affinity Range for 60s.
+- **Swelling Deluge** : Increase vortex duration to 40s.
+- **Void Aegis** : Void Mode creates a shield that grows up to 12m over 5s. This ability costs an additional 2 Energy/s.
+- **Void Regen** : Void Mode starts healing at +10 Health per second, increasing by 10 per second up to a maximum of 50.
+- **Void Snare** : Second Ability Launches a projectile that spins up a vortex trap on impact, or tap <ACTIVATE_ABILITY_1> again to detonate in-flight. Trap lasts 8s. Void Sling through trapped enemies to grant allies within Affinity Range 100 Health.

@@ -1,0 +1,177 @@
+# Melee Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Electromagnetic Shielding** (Ack & Brunt, vazarin, Uncommon, coût 9 au rang max, Exilus) : While blocking, redirect 50% of damage taken by allies within 12m to yourself.
+- **Amanata Pressure** (Amanata, madurai, Rare, coût 11 au rang max) : +330% Melee Damage
+- **Covert Lethality** (Daggers, madurai, Rare, coût 13 au rang max) : +16 Initial Combo ; +100% Finisher Damage
+- **Heartseeker** (Daggers, madurai, Rare, coût 13 au rang max) : Lock onto targets within 1m, but reduces blocking effectiveness. ; -50% Damage Block
+- **Gleaming Blight** (Dark Dagger, naramon, Rare, coût 7 au rang max) : +100% Status Chance ; +1 'Blight'
+- **Justice Blades** (Dual Cleavers, naramon, Rare, coût 7 au rang max) : +100% Melee Damage ; +1 'Justice'
+- **Amar's Contempt** (Dual Daggers, madurai, Rare, coût 9 au rang max) : +90% Melee Damage ; +30% Slash [fait partie d'un set : AmarSetMod]
+- **Amalgam Furax Body Count** (Furax, naramon, Rare, coût 11 au rang max) : +15s Combo Duration +45% Fire Rate for Secondary Weapons ; Melee kills Blast and stagger enemies in 15m
+- **Burning Hate** (Hate, madurai, Rare, coût 7 au rang max) : When Hate damages enemies inflicted with Heat Status, they become vulnerable to 120% more Status Damage.
+- **Vulcan Blitz** (Jat Kittag, madurai, Uncommon, coût 9 au rang max) : Enemies explode on death, dealing 300 Blast Damage (+60% Enemy Max Health) in a 6m radius.
+- **Blade Of Truth** (Jaw Sword, madurai, Rare, coût 7 au rang max) : +100% Melee Damage ; +1 'Truth'
+- **Entropy Flight** (Kestrel, naramon, Rare, coût 7 au rang max) : +140% Projectile Speed ; +1 'Entropy'
+- **Air Martial** (Melee, madurai, Rare, coût 13 au rang max) : With Melee equipped, lock onto targets within +5m while Airborne ; -100% Channeling Damage [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Amalgam Organ Shatter** (Melee, madurai, Rare, coût 11 au rang max) : +85% Critical Damage ; +60% Heavy Attack Wind Up Speed
+- **Auger Strike** (Melee, naramon, Rare, coût 11 au rang max) : +120% Puncture
+- **Berserker Fury** (Melee, madurai, Rare, coût 14 au rang max) : On Melee Kill: +64.2% Attack Speed for 10s. Stacks up to 2x. [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Berserker Fury** (Melee, madurai, Rare, coût 7 au rang max) : On Melee Kill: +23.3% Attack Speed for 10s. Stacks up to 2x. [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Berserker Fury** (Melee, madurai, Rare, coût 9 au rang max) : On Melee Kill: +35% Attack Speed for 10s. Stacks up to 2x.
+- **Blood Rush** (Melee, madurai, Uncommon, coût 14 au rang max) : +40% Critical Chance stacks with Combo Multiplier
+- **Body Count** (Melee, naramon, Common, coût 9 au rang max) : +12s Combo Duration
+- **Buzz Kill** (Melee, naramon, Rare, coût 11 au rang max) : +120% Slash
+- **Carnis Mandible** (Melee, naramon, Common, coût 9 au rang max) : +90% Slash ; +60% Status Chance [fait partie d'un set : AshenSetMod]
+- **Collision Force** (Melee, naramon, Rare, coût 11 au rang max) : +120% Impact
+- **Condition Overload** (Melee, madurai, Rare, coût 15 au rang max) : +80% Melee Damage per Status Type affecting the target
+- **Condition's Perfection** (Melee, vazarin, Uncommon, coût 7 au rang max, Exilus) : Enables Tennokai. Increases status chance by +100% on Tennokai attacks.
+- **Corrupt Charge** (Melee, madurai, Rare, coût 7 au rang max) : +30 Initial Combo ; -50% Combo Duration
+- **Counterweight** (Melee, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Impact
+- **Discipline's Merit** (Melee, naramon, Rare, coût 7 au rang max, Exilus) : Enables Tennokai. Opportunities occur every 4 melee hits instead of at random.
+- **Dispatch Overdrive** (Melee, naramon, Uncommon, coût 9 au rang max, Exilus) : On Heavy Attack Hit: +60% Movement Speed for 15s
+- **Dreamer's Wrath** (Melee, madurai, Rare, coût 9 au rang max, Exilus) : Enables Tennokai. Increases opportunity chance by 50% and critical damage by 32% for Tennokai attacks.
+- **Drifting Contact** (Melee, vazarin, Rare, coût 5 au rang max) : +10s Combo Duration ; +40% Status Chance
+- **Enduring Affliction** (Melee, vazarin, Uncommon, coût 9 au rang max) : +100% Status Chance on Lifted enemies
+- **Enduring Strike** (Melee, zenurik, Common, coût 7 au rang max) : +20% Additional Combo Count Chance on Lifted enemies
+- **Energy Channel** (Melee, madurai, Rare, coût 14 au rang max) : Converts 550% of Energy used to up to 550 Bonus Damage on next Melee Attack. [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Energy Channel** (Melee, madurai, Rare, coût 7 au rang max) : Converts 200% of Energy used to up to 200 Bonus Damage on next Melee Attack.
+- **Energy Channel** (Melee, madurai, Rare, coût 9 au rang max) : Converts 300% of Energy used to up to 300 Bonus Damage on next Melee Attack. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Explosive Demise** (Melee, madurai, Rare, coût 9 au rang max) : Enemies killed explode, dealing 300 Damage shortly after death.
+- **Fever Strike** (Melee, naramon, Uncommon, coût 11 au rang max) : +90% Toxin
+- **Fever Strike** (Melee, naramon, Uncommon, coût 9 au rang max) : +60% Toxin [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Finishing Touch** (Melee, madurai, Uncommon, coût 12 au rang max) : +165% Finisher Damage [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Finishing Touch** (Melee, madurai, Uncommon, coût 5 au rang max) : +60% Finisher Damage
+- **Finishing Touch** (Melee, madurai, Uncommon, coût 7 au rang max) : +90% Finisher Damage [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Focus Energy** (Melee, madurai, Rare, coût 9 au rang max) : +40% Heavy Attack Efficiency ; +60% Electricity
+- **Focus Radon** (Melee, madurai, Rare, coût 7 au rang max) : +60% Radiation ; +40% Heavy Attack Efficiency
+- **Focused Defense** (Melee, vazarin, Common, coût 7 au rang max, Exilus) : +20 Parry Angle
+- **Fury** (Melee, madurai, Uncommon, coût 7 au rang max) : +20% Attack Speed [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Fury** (Melee, madurai, Uncommon, coût 9 au rang max) : +30% Attack Speed
+- **Galvanized Elementalist** (Melee, vazarin, Rare, coût 12 au rang max) : +80% Status Damage ; On Melee Kill: +30% Status Chance for 20s. Stacks up to 4x. [variante du jeu : Expert, rang max 10]
+- **Galvanized Reflex** (Melee, madurai, Rare, coût 12 au rang max) : +50% Heavy Attack Efficiency ; On Melee Kill: +20 Initial Combo for 20s. Stacks up to 4x. [variante du jeu : Expert, rang max 10]
+- **Galvanized Steel** (Melee, madurai, Rare, coût 12 au rang max) : +110% Critical Chance (x2 for Heavy Attacks) ; On Melee Kill: +30% Critical Damage for 20s. Stacks up to 4x. [variante du jeu : Expert, rang max 10]
+- **Gladiator Might** (Melee, madurai, Uncommon, coût 9 au rang max) : +60% Critical Damage [fait partie d'un set : GladiatorSetMod]
+- **Gladiator Rush** (Melee, naramon, Common, coût 9 au rang max) : +6s Combo Duration [fait partie d'un set : GladiatorSetMod]
+- **Gladiator Vice** (Melee, madurai, Rare, coût 9 au rang max) : +30% Attack Speed [fait partie d'un set : GladiatorSetMod]
+- **Guardian Derision** (Melee, vazarin, Rare, coût 11 au rang max, Exilus) : Blocking taunts enemies within 15 meters to target you instead of allies. ; +30% Combo Count Chance while Blocking
+- **Harrowed Hook** (Melee, naramon, Rare, coût 13 au rang max) : With Melee Weapon equipped, unchanneled hits slow target and disable jump for +2s. [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Healing Return** (Melee, vazarin, Rare, coût 16 au rang max) : Restores 11 Health per Status Type affecting the target
+- **Heavy Trauma** (Melee, naramon, Rare, coût 5 au rang max) : +60% Impact [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Heavy Trauma** (Melee, naramon, Rare, coût 7 au rang max) : +90% Impact
+- **Impenetrable Offense** (Melee, madurai, Rare, coût 13 au rang max) : +30% Damage Block ; -10% Melee Damage
+- **Jagged Edge** (Melee, naramon, Rare, coût 12 au rang max) : +165% Slash [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Jagged Edge** (Melee, naramon, Rare, coût 5 au rang max) : +60% Slash [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Jagged Edge** (Melee, naramon, Rare, coût 7 au rang max) : +90% Slash
+- **Jugulus Barbs** (Melee, naramon, Common, coût 9 au rang max) : +90% Puncture ; +60% Status Chance [fait partie d'un set : BonebladeSetMod]
+- **Killing Blow** (Melee, madurai, Uncommon, coût 11 au rang max) : +120% Melee Damage on Heavy Attack ; +60% Heavy Attack Wind Up Speed
+- **Lasting Sting** (Melee, madurai, Common, coût 16 au rang max) : +110% Status Duration
+- **Life Strike** (Melee, vazarin, Rare, coût 7 au rang max) : +20% Life Steal on Heavy Attack
+- **Magnetic Rush** (Melee, madurai, Rare, coût 7 au rang max) : +60% Magnetic ; +20% Attack Speed
+- **Maiming Strike** (Melee, madurai, Rare, coût 7 au rang max) : +150% Critical Chance for Slide Attack
+- **Martial Fury** (Melee, madurai, Rare, coût 13 au rang max) : +20% Attack Speed ; -50% Energy Rate
+- **Master's Edge** (Melee, madurai, Uncommon, coût 9 au rang max, Exilus) : Enables Tennokai. Increases Tennokai damage by 60%.
+- **Melee Elementalist** (Melee, vazarin, Uncommon, coût 9 au rang max) : +90% Status Damage ; +60% Heavy Attack Wind Up Speed
+- **Melee Prowess** (Melee, vazarin, Common, coût 12 au rang max) : +165% Status Chance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Melee Prowess** (Melee, vazarin, Common, coût 5 au rang max) : +60% Status Chance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Melee Prowess** (Melee, vazarin, Common, coût 7 au rang max) : +90% Status Chance
+- **Melee Prowess** (Melee, vazarin, Common, coût 7 au rang max) : +90% Status Chance [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Mentor's Legacy** (Melee, naramon, Uncommon, coût 4 au rang max, Exilus) : Enables Tennokai.
+- **Molten Impact** (Melee, naramon, Uncommon, coût 11 au rang max) : +90% Heat
+- **Molten Impact** (Melee, naramon, Uncommon, coût 16 au rang max) : +165% Heat [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Molten Impact** (Melee, naramon, Uncommon, coût 9 au rang max) : +60% Heat [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Mortal Conduct** (Melee, madurai, Rare, coût 13 au rang max) : At Less than 50 Health: +60% Damage taken is reflected when Blocking attacks while Channeling for 8s
+- **Motus Impact** (Melee, madurai, Uncommon, coût 7 au rang max) : Increase range of aerial melee attacks by +2m. [fait partie d'un set : RaptorSetMod]
+- **North Wind** (Melee, vazarin, Uncommon, coût 11 au rang max) : +90% Cold
+- **North Wind** (Melee, vazarin, Uncommon, coût 16 au rang max) : +165% Cold [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **North Wind** (Melee, vazarin, Uncommon, coût 9 au rang max) : +60% Cold [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Opportunity's Reach** (Melee, madurai, Uncommon, coût 7 au rang max, Exilus) : Enables Tennokai. Increases opportunity window to 4.0s and melee range by 3m for Tennokai attacks.
+- **Organ Shatter** (Melee, madurai, Common, coût 14 au rang max) : +165% Critical Damage [ATTENTION : n'existe pas en jeu (confirmé par XeniX13 le 13/11/2026) : utiliser la version normale +90 %]
+- **Organ Shatter** (Melee, madurai, Common, coût 7 au rang max) : +60% Critical Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Organ Shatter** (Melee, madurai, Common, coût 9 au rang max) : +90% Critical Damage
+- **Pressure Point** (Melee, madurai, Common, coût 14 au rang max) : +200% Melee Damage ; +120% COMBO COUNT CHANCE
+- **Pressure Point** (Melee, madurai, Common, coût 7 au rang max) : +80% Melee Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Pressure Point** (Melee, madurai, Common, coût 9 au rang max) : +120% Melee Damage
+- **Primed Fever Strike** (Melee, naramon, Legendary, coût 16 au rang max) : +165% Toxin [variante du jeu : Expert, rang max 10]
+- **Primed Fury** (Melee, madurai, Legendary, coût 14 au rang max) : +55% Attack Speed [variante du jeu : Expert, rang max 10]
+- **Primed Heavy Trauma** (Melee, naramon, Legendary, coût 12 au rang max) : +165% Impact [variante du jeu : Expert, rang max 10]
+- **Primed Pressure Point** (Melee, madurai, Legendary, coût 14 au rang max) : +165% Melee Damage [variante du jeu : Expert, rang max 10]
+- **Primed Reach** (Melee, madurai, Legendary, coût 14 au rang max) : +3 Range [variante du jeu : Expert, rang max 10]
+- **Primed Smite Corpus** (Melee, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Corpus [variante du jeu : Expert, rang max 10]
+- **Primed Smite Grineer** (Melee, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Grineer [variante du jeu : Expert, rang max 10]
+- **Primed Smite Infested** (Melee, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Infested [variante du jeu : Expert, rang max 10]
+- **Primed Smite Orokin** (Melee, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Orokin [variante du jeu : Expert, rang max 10]
+- **Primed Smite The Murmur** (Melee, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Murmur [variante du jeu : Expert, rang max 10]
+- **Proton Snap** (Melee, madurai, Rare, coût 9 au rang max) : Hold Wall Latch for 2s to gain +100% Toxin Damage ; and +50% Status Chance for 20s. [fait partie d'un set : SpiderSetMod]
+- **Quickening** (Melee, madurai, Rare, coût 9 au rang max) : +40% Attack Speed ; +20% Combo Count Chance
+- **Reach** (Melee, madurai, Common, coût 7 au rang max) : +1.5 Range
+- **Reach** (Melee, madurai, Common, coût 9 au rang max) : +2.3 Range [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Reflex Coil** (Melee, naramon, Uncommon, coût 12 au rang max) : +110% Heavy Attack Efficiency [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Reflex Coil** (Melee, naramon, Uncommon, coût 5 au rang max) : +40% Heavy Attack Efficiency [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Reflex Coil** (Melee, naramon, Uncommon, coût 7 au rang max) : +60% Heavy Attack Efficiency
+- **Reflex Coil** (Melee, naramon, Uncommon, coût 7 au rang max) : +60% Heavy Attack Efficiency [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Relentless Assault** (Melee, madurai, Rare, coût 13 au rang max) : On Kill: +2 Energy Rate for 4s
+- **Relentless Combination** (Melee, naramon, Uncommon, coût 9 au rang max) : +100% chance to increase Melee Combo Counter when Slash Status deals damage.
+- **Rending Strike** (Melee, naramon, Rare, coût 9 au rang max) : +60% Slash ; +80% Puncture
+- **Sacrificial Pressure** (Melee, umbra, Legendary, coût 16 au rang max) : +110% Melee Damage ; x1.33 Damage to Sentients [fait partie d'un set : SacrificeSetMod]
+- **Sacrificial Steel** (Melee, umbra, Legendary, coût 16 au rang max) : +220% Critical Chance (x2 for Heavy Attacks) ; x1.33 Damage to Sentients [fait partie d'un set : SacrificeSetMod]
+- **Saxum Thorax** (Melee, naramon, Common, coût 9 au rang max) : +90% Impact ; +60% Status Chance [fait partie d'un set : FemurSetMod]
+- **Seismic Wave** (Melee, madurai, Uncommon, coût 9 au rang max) : +200% Slam Attack Damage
+- **Serrated Edges** (Melee, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Puncture
+- **Sharpened Blade** (Melee, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Slash
+- **Shattering Impact** (Melee, vazarin, Common, coût 9 au rang max) : Impact Damage reduces enemy Armor by 6.
+- **Shocking Touch** (Melee, naramon, Uncommon, coût 11 au rang max) : +90% Electricity
+- **Shocking Touch** (Melee, naramon, Uncommon, coût 16 au rang max) : +165% Electricity [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Shocking Touch** (Melee, naramon, Uncommon, coût 9 au rang max) : +60% Electricity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Smite Corpus** (Melee, madurai, Uncommon, coût 7 au rang max) : x1.2 Damage to Corpus [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Smite Corpus** (Melee, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Corpus
+- **Smite Grineer** (Melee, madurai, Uncommon, coût 7 au rang max) : x1.2 Damage to Grineer [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Smite Grineer** (Melee, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Grineer
+- **Smite Infested** (Melee, madurai, Uncommon, coût 7 au rang max) : x1.2 Damage to Infested [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Smite Infested** (Melee, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Infested
+- **Smite Orokin** (Melee, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Orokin
+- **Smite The Murmur** (Melee, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Murmur
+- **Spoiled Strike** (Melee, madurai, Rare, coût 7 au rang max) : +100% Melee Damage ; -20% Attack Speed
+- **Spring-Loaded Blade** (Melee, vazarin, Rare, coût 9 au rang max) : On Status Effect: +1 Range for 24s. Stacks up to 2 times.
+- **Stand Ground** (Melee, vazarin, Rare, coût 9 au rang max) : Blocking reduces damage taken from enemy abilities by 60%.
+- **Strain Infection** (Melee, madurai, Rare, coût 9 au rang max) : Melee Attacks gain +20% Critical Damage per Cyst. [fait partie d'un set : StrainSetMod]
+- **Sundering Strike** (Melee, naramon, Rare, coût 12 au rang max) : +165% Puncture [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Sundering Strike** (Melee, naramon, Rare, coût 5 au rang max) : +60% Puncture [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Sundering Strike** (Melee, naramon, Rare, coût 7 au rang max) : +90% Puncture
+- **Sword Alone** (Melee, madurai, Rare, coût 13 au rang max) : +10% Mobility ; +30% Sprint Speed
+- **Tek Gravity** (Melee, madurai, Rare, coût 9 au rang max) : Slam Attacks in the Marked Zone pull all enemies within 20m. [fait partie d'un set : TekSetMod]
+- **True Punishment** (Melee, zenurik, Common, coût 7 au rang max) : +100% Additional Combo Count Chance ; -50% Combo Duration
+- **True Steel** (Melee, madurai, Common, coût 14 au rang max) : +220% Critical Chance (x2 for Heavy Attacks) [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **True Steel** (Melee, madurai, Common, coût 7 au rang max) : +80% Critical Chance (x2 for Heavy Attacks) [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **True Steel** (Melee, madurai, Common, coût 9 au rang max) : +120% Critical Chance (x2 for Heavy Attacks)
+- **Truth's Flame** (Melee, madurai, Rare, coût 9 au rang max, Exilus) : Enables Tennokai. Tennokai kills grant an additional 4s Tennokai opportunity and increase Tennokai damage by 120%. CURSE: Suffer 100 Heat Damage/s for 6s. ; +1 'Truth'
+- **Vicious Frost** (Melee, madurai, Rare, coût 7 au rang max) : +60% Cold ; +60% Status Chance
+- **Virulent Scourge** (Melee, madurai, Rare, coût 7 au rang max) : +60% Toxin ; +60% Status Chance
+- **Volcanic Edge** (Melee, madurai, Rare, coût 7 au rang max) : +60% Heat ; +60% Status Chance
+- **Voltaic Strike** (Melee, madurai, Rare, coût 7 au rang max) : +60% Electricity ; +60% Status Chance
+- **Weeping Wounds** (Melee, madurai, Uncommon, coût 9 au rang max) : +40% Status Chance per Combo Multiplier
+- **Toxic Blight** (Mire, madurai, Rare, coût 7 au rang max) : +100% Toxin ; +1 'Blight'
+- **Entropy Detonation** (Obex, naramon, Rare, coût 7 au rang max) : Lethal ground attacks cause enemies to explode dealing +1,000 ; (+20% Enemy Max Health) Blast Damage ; in a 10m radius. ; +1 'Entropy'
+- **Boreal's Contempt** (Polearms, madurai, Rare, coût 9 au rang max) : +90% Melee Damage ; +60% Status Damage [fait partie d'un set : BorealSetMod]
+- **Static Discharge** (Prova, naramon, Rare, coût 7 au rang max) : Heavy Attacks electrify nearby enemies for Electricity Damage equal to 80% of weapon damage.
+- **Amalgam Ripkas True Steel** (Ripkas, madurai, Rare, coût 11 au rang max) : +187% Critical Chance (x2 for Heavy Attacks) ; +20% Reload Speed on Shotguns ; +100% Gore Chance
+- **Hunter's Bonesaw** (Ripkas, madurai, Uncommon, coût 7 au rang max) : Increase Finisher Damage by 120% against prone enemies.
+- **Avenging Truth** (Silva & Aegis, madurai, Rare, coût 7 au rang max) : Blocking absorbs 50% of incoming damage, stored as Extra Damage for the next charge attack. ; +1 'Truth'
+- **Bright Purity** (Skana, madurai, Rare, coût 7 au rang max) : +100% Melee Damage ; +1 'Purity'
+- **Combo Fury** (Thrown Melee, naramon, Rare, coût 9 au rang max) : On Melee Kill: +100% Reload Speed +100% Magazine Capacity for 12s on Secondary Weapon
+- **Combo Killer** (Thrown Melee, naramon, Uncommon, coût 7 au rang max) : +5s Combo Duration ; On Kill with Secondary Weapon: Reset Melee Combo Timer
+- **Mark Of The Beast** (Thrown Melee, naramon, Rare, coût 11 au rang max) : On 6 Melee Kills within 6s: +120% Status and Critical Chance for Secondary Weapon for 24s
+- **Power Throw** (Thrown Melee, madurai, Rare, coût 14 au rang max) : +3.7 Punch Through ; On Consecutive throw (Max stacks 3): +183.3% Throw Damage [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Power Throw** (Thrown Melee, madurai, Rare, coût 7 au rang max) : +1.3 Punch Through ; On Consecutive throw (Max stacks 3): +66.7% Throw Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Power Throw** (Thrown Melee, madurai, Rare, coût 9 au rang max) : +2 Punch Through ; On Consecutive throw (Max stacks 3): +100% Throw Damage
+- **Quick Return** (Thrown Melee, naramon, Common, coût 7 au rang max) : -4 Bounce
+- **Rebound** (Thrown Melee, naramon, Common, coût 7 au rang max) : +4 Bounce
+- **Volatile Quick Return** (Thrown Melee, naramon, Uncommon, coût 5 au rang max) : -4 Bounce ; +3 Blast Radius ; +100% Chance to explode on Bounce (Disables Punch Through)
+- **Volatile Rebound** (Thrown Melee, naramon, Rare, coût 13 au rang max) : +100% Chance to explode on Bounce (Disables Punch Through)
+- **Whirlwind** (Thrown Melee, madurai, Rare, coût 14 au rang max, Exilus) : +330% Projectile Speed [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Whirlwind** (Thrown Melee, madurai, Rare, coût 7 au rang max, Exilus) : +120% Projectile Speed [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Whirlwind** (Thrown Melee, madurai, Rare, coût 9 au rang max, Exilus) : +180% Projectile Speed
+- **Rift Strike** (Twin Basolk, naramon, Uncommon, coût 7 au rang max) : Heavy attacks now step through the rift to attack enemies up to 25m away
+- **Sentient Incision** (Venato, naramon, Rare, coût 7 au rang max) : +120% additional damage matching the target's weakness. Does not combine with other damage types.
+- **Nira's Contempt** (Whips, madurai, Rare, coût 9 au rang max) : +90% Melee Damage ; +60% Status Chance [fait partie d'un set : NiraSetMod]

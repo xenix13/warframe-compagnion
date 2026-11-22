@@ -1,0 +1,52 @@
+{
+  "id": "lavos-prime-nuke-poison",
+  "warframe": "Lavos Prime",
+  "demande": "build lavos prime nuke",
+  "usage": "nuke (2e pouvoir chargé en Poison), jouable aussi en mêlée (Dual Viciss)",
+  "build": {
+    "aura": "Mecha Empowered",
+    "exilus": "Amar's Anguish",
+    "mods": [
+      "Overextended",
+      "Archon Continuity",
+      "Stretch",
+      "Valence Formation",
+      "Umbral Intensify",
+      "Blind Rage",
+      "Umbral Vitality",
+      "Umbral Fiber"
+    ],
+    "arcanes": [
+      "Arcane Persistence",
+      "Arcane Bellicose"
+    ],
+    "helminth": "Coronal Ejection",
+    "helminth_de": "Sirius & Orion",
+    "helminth_remplace": "Transmutation Probe",
+    "fragments": [
+      "vitesse de lancement",
+      "+3 cumuls de Corrosif (Tauforgé)",
+      "+45 % dégâts du Poison",
+      "+45 % dégâts du Poison",
+      "santé sur dégâts de Poison"
+    ],
+    "armes": {
+      "melee": "Dual Viciss"
+    }
+  },
+  "stats_jeu": {
+    "puissance": 270,
+    "duree": 155,
+    "portee": 235,
+    "efficacite": 45,
+    "sante": 2240,
+    "bouclier": 0,
+    "armure": 1890
+  },
+  "pourquoi": [
+    "Gros dégâts avec le 2e pouvoir chargé en Poison, beaucoup de fragments de Poison ; petit retrait d'armure avec le statut Feu (Helminth de Sirius)",
+    "Arcane Persistence pour la survie : le 1 rend de la santé, le compagnon aussi, et la santé de base est correcte",
+    "Fragments : jaune vitesse de lancement, un vert Tauforgé pour le Corrosif (plus de retrait d'armure), un pour la santé sur Poison, deux pour les dégâts du Poison"
+  ],
+  "source": "XeniX13, captures en jeu du 22/11/2026"
+}

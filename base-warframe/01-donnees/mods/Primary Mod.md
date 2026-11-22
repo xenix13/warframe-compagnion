@@ -1,0 +1,230 @@
+# Primary Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Range Advantage** (Akjagara, madurai, Rare, coût 9 au rang max) : +300% damage if no enemies are within 10m.
+- **Amalgam Argonak Metal Auger** (Argonak, naramon, Rare, coût 11 au rang max) : +3 Punch Through ; Damage from Daggers reduces Armor by 6. Enemies are revealed by Punch Through.
+- **Deft Tempo** (Assault Rifle, naramon, Rare, coût 13 au rang max) : On Headshot: +10% Mobility for 4s
+- **Guided Ordnance** (Assault Rifle, madurai, Uncommon, coût 7 au rang max, Exilus) : On Hit: +30% Accuracy when Aiming for 9s
+- **Gun Glide** (Assault Rifle, madurai, Rare, coût 9 au rang max, Exilus) : -20% Weapon Recoil ; and +20% Accuracy when Sliding
+- **Hydraulic Gauge** (Assault Rifle, naramon, Rare, coût 9 au rang max) : -60% Weapon Recoil ; -10% Magazine Capacity
+- **Loose Hatch** (Assault Rifle, naramon, Common, coût 9 au rang max) : +30% Reload Speed ; +50% Weapon Recoil
+- **Maximum Capacity** (Assault Rifle, naramon, Common, coût 9 au rang max) : +30% Magazine Capacity ; -15% Reload Speed
+- **Overview** (Assault Rifle, naramon, Uncommon, coût 7 au rang max, Exilus) : -60% Zoom while Aim Gliding
+- **Primed Rifle Ammo Mutation** (Assault Rifle, naramon, Legendary, coût 10 au rang max, Exilus) : Converts Secondary ammo pickups to 92% of Ammo Pick Up. [variante du jeu : Expert, rang max 10]
+- **Recover** (Assault Rifle, vazarin, Rare, coût 13 au rang max) : On Kill: +15 Heal Rate for 10s ; -25% from Health Orbs
+- **Rifle Ammo Mutation** (Assault Rifle, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up.
+- **Rifle Ammo Mutation** (Assault Rifle, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Spring-Loaded Chamber** (Assault Rifle, madurai, Uncommon, coût 7 au rang max) : On Reload: +75% Fire Rate when Aiming for 9s
+- **Tactical Reload** (Assault Rifle, naramon, Rare, coût 9 au rang max, Exilus) : +20% Magazine Reloaded/s when Holstered
+- **Tainted Mag** (Assault Rifle, naramon, Rare, coût 14 au rang max) : +66% Magazine Capacity ; -33% Reload Speed
+- **Vanquished Prey** (Assault Rifle, vazarin, Rare, coût 13 au rang max) : On Kill: -100% Shield Recharge Delay for 10s ; -25% from Health Orbs
+- **Biotic Rounds** (AX-52, madurai, Rare, coût 7 au rang max) : On Weak Point Kill: +150% Viral and Magnetic Damage and Status Chance for 15s
+- **Dreadful Killshot** (Basmu, madurai, Rare, coût 7 au rang max) : Increased Damage and Status Chance by +20% for every 75 Warframe Health. Capped at 360%
+- **Sentient Barrage** (Battacor, madurai, Rare, coût 7 au rang max) : Discharge from Alt-Fire now has infinite Body Punch Through but no longer explodes on contact. Each enemy hit will refill one charge, and reaching a full charge will increase the Critical Chance and Critical Damage of the next discharge by 300%.
+- **Arrow Mutation** (Bow, naramon, Rare, coût 10 au rang max, Exilus) : Converts Secondary ammo pickups to 92% of Ammo Pick Up. [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Arrow Mutation** (Bow, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up.
+- **Arrow Mutation** (Bow, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Feathered Arrows** (Bow, madurai, Uncommon, coût 9 au rang max) : +60% Projectile Speed ; -20% Damage
+- **Plan B** (Bow, madurai, Rare, coût 13 au rang max) : On Hit: +20% Secondary Weapon Fire Rate for 3s
+- **Soaring Strike** (Bow, madurai, Rare, coût 13 au rang max) : +50% Fire Rate when Airborne
+- **Split Flights** (Bow, madurai, Rare, coût 15 au rang max) : On Hit: +100% Multishot -180% Accuracy for 2s. Stacks up to 4x. (Non-AOE Bows)
+- **Thunderbolt** (Bow, madurai, Rare, coût 11 au rang max) : +45% Chance to Explode (Use with Caution) [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Thunderbolt** (Bow, madurai, Rare, coût 16 au rang max) : +82.5% Chance to Explode (Use with Caution) [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Thunderbolt** (Bow, madurai, Rare, coût 9 au rang max) : +30% Chance to Explode (Use with Caution)
+- **Triple Tap** (Burston, madurai, Rare, coût 13 au rang max) : On 2 Hits within 0.02s: +40% Damage for 0.2s
+- **Gilded Truth** (Burston Prime, madurai, Rare, coût 7 au rang max) : +80% Fire Rate ; +1 'Truth'
+- **Amalgam Daikyu Target Acquired** (Daikyu, madurai, Rare, coût 15 au rang max) : +75% to Headshot Multiplier ; +3% Life Steal on Nikanas ; 60% chance to pickup used arrows.
+- **Spring-Loaded Broadhead** (Daikyu, madurai, Rare, coût 15 au rang max) : Increase damage by +40% ; if the target is over 15m away.
+- **Thermagnetic Shells** (Detron, naramon, Rare, coût 5 au rang max) : Enemies explode on death, dealing 80 Magnetic Damage (+40% Enemy Max Health) in a 6m radius.
+- **Unseen Dread** (Dread, madurai, Rare, coût 7 au rang max) : Become invisible for 5 seconds when you strike 3 or more enemies with a single projectile. Deal 175% more Critical Damage with Dread while invisible.
+- **Overpressured Rounds** (EFV-5 Jupiter, madurai, Rare, coût 7 au rang max) : Rifle kills add 120% Falloff Distance and decrease Spread for next attack with Buckshot. Buckshot kills restore 50% of the current Magazine.
+- **Vile Discharge** (Embolist, madurai, Rare, coût 7 au rang max) : Damage is accumulated up to 30,000. Use Alt-fire to launch an explosive vile sac dealing and resetting the accumulated damage.
+- **Flux Overdrive** (Flux Rifle, madurai, Rare, coût 7 au rang max) : Status Chance fluctuates between +150% and +250% over 5s while the beam is fired.
+- **Photon Overcharge** (Glaxion, vazarin, Rare, coût 7 au rang max) : +90% Critical Damage ; On Kill or Assist: Slain enemies have a 2% chance to drop an Energy Orb per Cold Status affecting them.
+- **Gorgon Frenzy** (Gorgon, madurai, Rare, coût 13 au rang max) : On Kill: +30% Fire Rate for 3s
+- **Metamorphic Magazine** (Gorgon, naramon, Rare, coût 7 au rang max) : +90% Magazine Capacity ; +90% Ammo Maximum ; Inflicting 20 cumulative attacks on an enemy will petrify them for 5s.
+- **Brain Storm** (Grakata, madurai, Rare, coût 13 au rang max) : On Headshot: 40% chance for Infinite Ammo for 2s
+- **Wild Frenzy** (Grakata, naramon, Rare, coût 9 au rang max) : Secondary Fire will shoot with +400% Fire Rate until the magazine is empty. Killing 2 or more enemies will refund 100% of the ammo.
+- **Deadly Sequence** (Grinlok, madurai, Rare, coût 7 au rang max) : +200% Critical Chance ; +1 'Sequence'
+- **Grinloked** (Grinlok, madurai, Rare, coût 13 au rang max) : +60% Accuracy when Aiming
+- **Exposing Harpoon** (Harpak, naramon, Rare, coût 9 au rang max) : Pulling an enemy will give +300% Critical Chance for 15s.
+- **Scattered Justice** (Hek, madurai, Rare, coût 7 au rang max) : +200% Multishot ; +1 'Justice'
+- **Necrophagic Vigor** (Hema, madurai, Rare, coût 7 au rang max) : Reloading drains up to half your Health based on ammo created, increasing Critical Chance and Critical Damage by +20% for every 20 Health drained. Capped at 360%.
+- **Higasa Serration** (Higasa, madurai, Rare, coût 11 au rang max) : +450% Damage
+- **Final Tap** (Hind, madurai, Rare, coût 13 au rang max) : On 4 Hits within 0.05s: +100% Damage for 0.2s
+- **Amalgam Javlok Magazine Warp** (Javlok, naramon, Rare, coût 11 au rang max) : +45% Magazine Capacity ; +100% Combo Count Chance while Blocking with a Shield
+- **Voltage Sequence** (Lanka, naramon, Rare, coût 7 au rang max) : Killing a flying enemy creates a lightning trap from their remains, lasting 8s ; +1 'Sequence'
+- **Double Tap** (Latron, madurai, Rare, coût 13 au rang max) : ON HIT: 20% Bonus Damage on next Shot for 2s. Stacks up to 20x outside of Conclave.
+- **Neutralizing Justice** (Miter, vazarin, Rare, coût 7 au rang max) : Each Miter blade has a +90% chance to immediately destroy a Nullifier field. ; +1 'Justice'
+- **Thundermiter** (Miter, madurai, Rare, coût 13 au rang max) : +100% chance charged Projectiles explode ; -60% Magazine Capacity
+- **Bursting Mass** (Mutalist Quanta, naramon, Rare, coût 9 au rang max) : The infested mass accumulates 200% of the damage that goes through it and deals it in 15m radius when it expires. Secondary fire will manually detonate an existing mass.
+- **Nightwatch Napalm** (Ogris, madurai, Uncommon, coût 9 au rang max) : Rockets disperse napalm, inflicting 30% damage over 6s across 90% of the explosion area.
+- **Disarming Purity** (Panthera, naramon, Rare, coût 7 au rang max) : Secondary Fire mode has a 40% chance to disarm enemies. ; +1 'Purity'
+- **Bhisaj-Bal** (Paris Prime, naramon, Rare, coût 7 au rang max, Exilus) : Restore 300 Health for every 3 Status effects. ; +90% Status Chance
+- **Napalm Grenades** (Penta, naramon, Rare, coût 9 au rang max) : +30 Final Status Chance
+- **Tether Grenades** (Penta, naramon, Rare, coût 7 au rang max, Exilus) : Grenades tether up to 5 enemies from 9m away.
+- **Aero Periphery** (PRIMARY, naramon, Common, coût 5 au rang max, Exilus) : -50% Zoom while Aim Gliding [fait partie d'un set : HawkSetMod]
+- **Combustion Beam** (PRIMARY, madurai, Rare, coût 9 au rang max) : Enemies killed explode, dealing 600 Damage shortly after death.
+- **Hunter Munitions** (PRIMARY, madurai, Uncommon, coût 9 au rang max) : +30% chance to apply on Critical [fait partie d'un set : HunterSetMod]
+- **Hunter Track** (PRIMARY, madurai, Rare, coût 9 au rang max) : +90% Status Duration [fait partie d'un set : HunterSetMod]
+- **Shivering Contagion** (PRIMARY, naramon, Rare, coût 9 au rang max) : On Cold Status Effect: 100% chance to spread that status to other enemies within 6m.
+- **Sinister Reach** (PRIMARY, naramon, Uncommon, coût 5 au rang max, Exilus) : +12m Beam Range
+- **Vigilante Armaments** (PRIMARY, naramon, Common, coût 9 au rang max) : +60% Multishot [fait partie d'un set : VigilanteSetMod]
+- **Vigilante Fervor** (PRIMARY, madurai, Uncommon, coût 9 au rang max) : +45% Fire Rate (x2 for Bows) [fait partie d'un set : VigilanteSetMod]
+- **Vigilante Offense** (PRIMARY, naramon, Rare, coût 9 au rang max) : +1.5 Punch Through [fait partie d'un set : VigilanteSetMod]
+- **Vigilante Supplies** (PRIMARY, naramon, Rare, coût 9 au rang max, Exilus) : Converts Secondary ammo pickups to 30% of Ammo Pick Up. [fait partie d'un set : VigilanteSetMod]
+- **Aerial Ace** (Rifle, naramon, Rare, coût 9 au rang max, Exilus) : On Kill: Refresh Double Jump up to 6x while Airborne.
+- **Agile Aim** (Rifle, madurai, Uncommon, coût 5 au rang max, Exilus) : +20% Movement Speed when Aiming
+- **Amalgam Serration** (Rifle, madurai, Rare, coût 16 au rang max) : +155% Damage ; +25% Sprint Speed
+- **Ammo Drum** (Rifle, naramon, Common, coût 12 au rang max, Exilus) : +165% Ammo Maximum [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Ammo Drum** (Rifle, naramon, Common, coût 5 au rang max, Exilus) : +10% Ammo Maximum [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Ammo Drum** (Rifle, naramon, Common, coût 7 au rang max, Exilus) : +90% Ammo Maximum
+- **Apex Predator** (Rifle, naramon, Uncommon, coût 7 au rang max, Exilus) : Reveals target on Minimap for +6s.
+- **Argon Scope** (Rifle, madurai, Rare, coût 7 au rang max) : On Weak Point Hit: +135% Critical Chance when Aiming for 9s
+- **Bane Of Corpus** (Rifle, madurai, Uncommon, coût 14 au rang max) : x1.55 Damage to Corpus [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale] [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Bane Of Corpus** (Rifle, madurai, Uncommon, coût 5 au rang max) : x1.1 Damage to Corpus [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Bane Of Corpus** (Rifle, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Corpus
+- **Bane Of Grineer** (Rifle, madurai, Uncommon, coût 14 au rang max) : x1.55 Damage to Grineer [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale] [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Bane Of Grineer** (Rifle, madurai, Uncommon, coût 5 au rang max) : x1.1 Damage to Grineer [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Bane Of Grineer** (Rifle, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Grineer
+- **Bane Of Infested** (Rifle, madurai, Uncommon, coût 14 au rang max) : x1.55 Damage to Infested [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale] [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Bane Of Infested** (Rifle, madurai, Uncommon, coût 5 au rang max) : x1.1 Damage to Infested [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Bane Of Infested** (Rifle, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Infested
+- **Bane Of Orokin** (Rifle, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Orokin
+- **Bane Of The Murmur** (Rifle, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Murmur
+- **Bladed Rounds** (Rifle, madurai, Uncommon, coût 9 au rang max) : On Kill: +120% Critical Damage when Aiming for 9s
+- **Catalyzer Link** (Rifle, madurai, Common, coût 9 au rang max) : On Ability Cast: +60% Status Chance when Aiming for 9s
+- **Cautious Shot** (Rifle, naramon, Rare, coût 10 au rang max, Exilus) : +100% chance to reduce the Stagger effect from self-imposed Radial Attacks
+- **Comet Rounds** (Rifle, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Impact
+- **Continuous Misery** (Rifle, madurai, Common, coût 7 au rang max) : +100% Status Duration
+- **Crash Course** (Rifle, naramon, Rare, coût 11 au rang max) : +120% Impact
+- **Critical Delay** (Rifle, naramon, Rare, coût 9 au rang max) : +200% Critical Chance ; -20% Fire Rate (x2 for Bows)
+- **Cryo Rounds** (Rifle, vazarin, Uncommon, coût 11 au rang max) : +90% Cold
+- **Cryo Rounds** (Rifle, vazarin, Uncommon, coût 5 au rang max) : +40% Cold [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Eagle Eye** (Rifle, naramon, Uncommon, coût 14 au rang max, Exilus) : +110% Zoom [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Eagle Eye** (Rifle, naramon, Uncommon, coût 7 au rang max, Exilus) : +40% Zoom
+- **Eagle Eye** (Rifle, naramon, Uncommon, coût 9 au rang max, Exilus) : +60% Zoom [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Fanged Fusillade** (Rifle, naramon, Rare, coût 11 au rang max) : +120% Slash
+- **Fast Hands** (Rifle, naramon, Common, coût 5 au rang max) : +12% Reload Speed [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Fast Hands** (Rifle, naramon, Common, coût 7 au rang max) : +30% Reload Speed
+- **Firestorm** (Rifle, madurai, Rare, coût 9 au rang max) : +24% Blast Range
+- **Galvanized Aptitude** (Rifle, vazarin, Rare, coût 12 au rang max) : +80% Status Chance ; On Kill: +40% Direct Damage per Status Type affecting the target for 20s. Stacks up to 2x.
+- **Galvanized Chamber** (Rifle, madurai, Rare, coût 16 au rang max) : +80% Multishot ; On Kill: +30% Multishot for 20s. Stacks up to 5x.
+- **Galvanized Scope** (Rifle, madurai, Rare, coût 12 au rang max) : On Weak Point Hit: +120% Critical Chance when Aiming for 12s On Weak Point Kill: +40% Critical Chance when Aiming for 12s. Stacks up to 5x.
+- **Hammer Shot** (Rifle, vazarin, Rare, coût 9 au rang max) : +60% Critical Damage ; +80% Status Chance
+- **Heavy Caliber** (Rifle, madurai, Rare, coût 16 au rang max) : +165% Damage ; -55% Accuracy
+- **Hellfire** (Rifle, naramon, Uncommon, coût 11 au rang max) : +90% Heat
+- **Hellfire** (Rifle, naramon, Uncommon, coût 16 au rang max) : +165% Heat [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Hellfire** (Rifle, naramon, Uncommon, coût 7 au rang max) : +40% Heat [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **High Voltage** (Rifle, madurai, Rare, coût 7 au rang max) : +60% Electricity ; +60% Status Chance
+- **Hush** (Rifle, naramon, Common, coût 5 au rang max, Exilus) : Reduces the chance an enemy will hear gunfire by 100%.
+- **Infected Clip** (Rifle, naramon, Uncommon, coût 11 au rang max) : +90% Toxin
+- **Infected Clip** (Rifle, naramon, Uncommon, coût 16 au rang max) : +165% Toxin [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Infected Clip** (Rifle, naramon, Uncommon, coût 7 au rang max) : +40% Toxin [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Internal Bleeding** (Rifle, madurai, Rare, coût 15 au rang max) : Impact Status Effects have 35% chance to apply a Slash Status Effect (x2 when Fire Rate is below 2.5)
+- **Lucky Shot** (Rifle, madurai, Uncommon, coût 9 au rang max) : +40% Projectile Speed ; -2% Accuracy
+- **Magazine Warp** (Rifle, naramon, Common, coût 5 au rang max) : +12% Magazine Capacity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Magazine Warp** (Rifle, naramon, Common, coût 9 au rang max) : +30% Magazine Capacity
+- **Magnetic Capacity** (Rifle, madurai, Rare, coût 7 au rang max) : +60% Magnetic ; +40% Magazine Capacity
+- **Malignant Force** (Rifle, madurai, Rare, coût 7 au rang max) : +60% Toxin ; +60% Status Chance
+- **Metal Auger** (Rifle, naramon, Rare, coût 15 au rang max) : +2.1 Punch Through
+- **Metal Auger** (Rifle, naramon, Rare, coût 20 au rang max) : +3.9 Punch Through [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Metal Auger** (Rifle, naramon, Rare, coût 9 au rang max) : +1 Punch Through [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Piercing Caliber** (Rifle, naramon, Rare, coût 11 au rang max) : +120% Puncture
+- **Piercing Hit** (Rifle, naramon, Common, coût 14 au rang max) : +165% Puncture [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Piercing Hit** (Rifle, naramon, Common, coût 5 au rang max) : +12% Puncture [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Piercing Hit** (Rifle, naramon, Common, coût 9 au rang max) : +90% Puncture
+- **Point Strike** (Rifle, madurai, Common, coût 14 au rang max) : +275% Critical Chance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Point Strike** (Rifle, madurai, Common, coût 5 au rang max) : +60% Critical Chance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Point Strike** (Rifle, madurai, Common, coût 9 au rang max) : +150% Critical Chance
+- **Primary Acuity** (Rifle, naramon, Rare, coût 16 au rang max) : +350% Weak Point Damage ; +350% Weak Point Critical Chance. Multishot cannot be modified.
+- **Primed Bane Of Corpus** (Rifle, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Corpus [variante du jeu : Expert, rang max 10]
+- **Primed Bane Of Grineer** (Rifle, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Grineer [variante du jeu : Expert, rang max 10]
+- **Primed Bane Of Infested** (Rifle, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Infested [variante du jeu : Expert, rang max 10]
+- **Primed Bane Of Orokin** (Rifle, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Orokin [variante du jeu : Expert, rang max 10]
+- **Primed Bane Of The Murmur** (Rifle, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Murmur [variante du jeu : Expert, rang max 10]
+- **Primed Cryo Rounds** (Rifle, vazarin, Legendary, coût 16 au rang max) : +165% Cold [variante du jeu : Expert, rang max 10]
+- **Primed Fast Hands** (Rifle, naramon, Legendary, coût 12 au rang max) : +55% Reload Speed [variante du jeu : Expert, rang max 10]
+- **Primed Firestorm** (Rifle, madurai, Legendary, coût 16 au rang max) : +44% Blast Range [variante du jeu : Expert, rang max 10]
+- **Primed Magazine Warp** (Rifle, naramon, Legendary, coût 14 au rang max) : +55% Magazine Capacity [variante du jeu : Expert, rang max 10]
+- **Primed Shred** (Rifle, madurai, Legendary, coût 16 au rang max) : +55% Fire Rate (x2 for Bows) ; +2.2 Punch Through
+- **Primed Stabilizer** (Rifle, naramon, Legendary, coût 12 au rang max, Exilus) : -85% Weapon Recoil [variante du jeu : Expert, rang max 10]
+- **Proton Jet** (Rifle, naramon, Uncommon, coût 7 au rang max) : During a Wall Latch gain +120% Status Chance and Critical Chance. [fait partie d'un set : SpiderSetMod]
+- **Radiated Reload** (Rifle, madurai, Rare, coût 7 au rang max) : +60% Radiation ; +40% Reload Speed
+- **Rifle Aptitude** (Rifle, vazarin, Uncommon, coût 14 au rang max) : +165% Status Chance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Rifle Aptitude** (Rifle, vazarin, Uncommon, coût 5 au rang max) : +60% Status Chance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Rifle Aptitude** (Rifle, vazarin, Uncommon, coût 9 au rang max) : +90% Status Chance
+- **Rifle Aptitude** (Rifle, vazarin, Uncommon, coût 9 au rang max) : +90% Status Chance [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Rifle Elementalist** (Rifle, vazarin, Uncommon, coût 9 au rang max) : +90% Status Damage ; +0.6 Punch Through
+- **Rime Rounds** (Rifle, madurai, Rare, coût 7 au rang max) : +60% Cold ; +60% Status Chance
+- **Ripper Rounds** (Rifle, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Puncture
+- **Rupture** (Rifle, naramon, Common, coût 14 au rang max) : +165% Impact [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Rupture** (Rifle, naramon, Common, coût 5 au rang max) : +12% Impact [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Rupture** (Rifle, naramon, Common, coût 9 au rang max) : +90% Impact
+- **Sawtooth Clip** (Rifle, naramon, Common, coût 14 au rang max) : +165% Slash [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Sawtooth Clip** (Rifle, naramon, Common, coût 5 au rang max) : +10% Slash [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Sawtooth Clip** (Rifle, naramon, Common, coût 9 au rang max) : +90% Slash
+- **Semi-Rifle Cannonade** (Rifle, vazarin, Uncommon, coût 9 au rang max) : +240% Damage ; +1.5 Punch Through
+- **Serrated Rounds** (Rifle, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Slash
+- **Serration** (Rifle, madurai, Uncommon, coût 14 au rang max) : +165% Damage
+- **Serration** (Rifle, madurai, Uncommon, coût 5 au rang max) : +40% Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Serration** (Rifle, madurai, Uncommon, coût 9 au rang max) : +90% Damage [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Shred** (Rifle, madurai, Rare, coût 11 au rang max) : +30% Fire Rate (x2 for Bows) ; +1.2 Punch Through
+- **Spectral Serration** (Rifle, madurai, Rare, coût 16 au rang max) : +330% Damage while Invisible
+- **Speed Trigger** (Rifle, madurai, Uncommon, coût 14 au rang max) : +110% Fire Rate (x2 for Bows) [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Speed Trigger** (Rifle, madurai, Uncommon, coût 5 au rang max) : +20% Fire Rate (x2 for Bows) [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Speed Trigger** (Rifle, madurai, Uncommon, coût 9 au rang max) : +60% Fire Rate (x2 for Bows)
+- **Split Chamber** (Rifle, madurai, Rare, coût 15 au rang max) : +90% Multishot
+- **Split Chamber** (Rifle, madurai, Rare, coût 20 au rang max) : +165% Multishot [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Split Chamber** (Rifle, madurai, Rare, coût 7 au rang max) : +20% Multishot [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Stabilizer** (Rifle, naramon, Rare, coût 11 au rang max, Exilus) : -90% Weapon Recoil [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Stabilizer** (Rifle, naramon, Rare, coût 9 au rang max, Exilus) : -60% Weapon Recoil
+- **Stormbringer** (Rifle, naramon, Uncommon, coût 11 au rang max) : +90% Electricity
+- **Stormbringer** (Rifle, naramon, Uncommon, coût 16 au rang max) : +165% Electricity [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Stormbringer** (Rifle, naramon, Uncommon, coût 7 au rang max) : +40% Electricity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Terminal Velocity** (Rifle, madurai, Uncommon, coût 7 au rang max, Exilus) : +60% Projectile Speed
+- **Thermite Rounds** (Rifle, madurai, Rare, coût 7 au rang max) : +60% Heat ; +60% Status Chance
+- **Twitch** (Rifle, naramon, Uncommon, coût 7 au rang max, Exilus) : On Equip: -40% Weapon Recoil and +40% Accuracy for 8s
+- **Vile Acceleration** (Rifle, naramon, Rare, coût 9 au rang max) : +90% Fire Rate (x2 for Bows) ; -15% Damage
+- **Vile Precision** (Rifle, naramon, Rare, coût 9 au rang max, Exilus) : -90% Weapon Recoil ; -36% Fire Rate (x2 for Bows)
+- **Vital Sense** (Rifle, madurai, Rare, coût 14 au rang max) : +220% Critical Damage [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Vital Sense** (Rifle, madurai, Rare, coût 5 au rang max) : +60% Critical Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Vital Sense** (Rifle, madurai, Rare, coût 9 au rang max) : +120% Critical Damage
+- **Wildfire** (Rifle, madurai, Rare, coût 9 au rang max) : +20% Magazine Capacity ; +60% Heat
+- **Mending Shot** (Rifle (No Aoe), madurai, Rare, coût 10 au rang max, Exilus) : Shoot Health Orbs to obtain them with +110% extra effect.
+- **Ambush Optics** (Rubico, naramon, Rare, coût 9 au rang max, Exilus) : -50% Zoom
+- **Motus Setup** (Shotgun, madurai, Rare, coût 9 au rang max) : 100% Critical and Status Chance for 4s after landing from a Double or Bullet Jump. [fait partie d'un set : RaptorSetMod]
+- **Spontaneous Singularity** (Simulor, madurai, Rare, coût 7 au rang max) : Orbs that strike targets will explode immediately with 90% Bonus Damage and a 18% chance of Singularity that pulls in more targets. Orbs do not bounce or combine.
+- **Aero Agility** (Sniper, naramon, Rare, coût 7 au rang max) : 100% Reload Speed while Aim Gliding [fait partie d'un set : HawkSetMod]
+- **Charged Chamber** (Sniper, madurai, Uncommon, coût 11 au rang max) : +60% Damage on first shot in Magazine [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Charged Chamber** (Sniper, madurai, Uncommon, coût 9 au rang max) : +40% Damage on first shot in Magazine
+- **Depleted Reload** (Sniper, naramon, Rare, coût 7 au rang max) : -60% Magazine Capacity ; +48% Reload Speed
+- **Emergent Aftermath** (Sniper, madurai, Rare, coût 13 au rang max) : On Kill: +50% Reload Speed for 3s
+- **Harkonar Scope** (Sniper, naramon, Uncommon, coût 9 au rang max) : +12s Combo Duration
+- **Lie In Wait** (Sniper, madurai, Uncommon, coût 13 au rang max) : +20% Fire Rate when Crouching ; +100% Weapon Recoil
+- **Primed Chamber** (Sniper, madurai, Rare, coût 7 au rang max) : +100% Damage on first shot in Magazine
+- **Primed Charged Chamber** (Sniper, madurai, Legendary, coût 16 au rang max) : +110% Damage on first shot in Magazine [variante du jeu : Expert, rang max 10] [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Primed Sniper Ammo Mutation** (Sniper, naramon, Legendary, coût 10 au rang max, Exilus) : Converts Secondary ammo pickups to 92% of Ammo Pick Up. [variante du jeu : Expert, rang max 10]
+- **Sharpshooter** (Sniper, naramon, Rare, coût 12 au rang max) : On Weak Point Kill: +15 Energy
+- **Sniper Ammo Mutation** (Sniper, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up.
+- **Sniper Ammo Mutation** (Sniper, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Target Acquired** (Sniper, madurai, Rare, coût 11 au rang max) : +60% to Headshot Multiplier
+- **Clip Delegation** (Sobek, vazarin, Rare, coût 7 au rang max) : On Reload: Next Magazine has Status Chance and Multishot increased by 15% per shot landed with current Magazine. Max 15 stacks.
+- **Shattering Justice** (Sobek, naramon, Rare, coût 7 au rang max) : +90% Status Chance ; +1 'Justice'
+- **Hata-Satya** (Soma Prime, madurai, Rare, coût 7 au rang max) : Each hit increases Critical Chance by 1.2%. Resets upon reloading or holstering.
+- **Volatile Variant** (Sporothrix, madurai, Rare, coût 7 au rang max) : Shots have +3 Punch Through and barbs explode instantly. Barbs that strike enemies directly have +4m radius and +50% Status Chance.
+- **Directed Convergence** (Supra, madurai, Rare, coût 13 au rang max, Exilus) : +100% Accuracy when Aiming
+- **Entropy Burst** (Supra, madurai, Rare, coût 7 au rang max) : +20 Final Status Chance ; +1 'Entropy'
+- **Sudden Justice** (Sybaris, madurai, Rare, coût 13 au rang max) : On 2 Hits within 0.2s: +30% Fire Rate for 2s
+- **Focused Acceleration** (Tetra, madurai, Rare, coût 13 au rang max, Exilus) : +80% Projectile Speed
+- **Kinetic Ricochet** (Tetra, naramon, Rare, coût 7 au rang max, Exilus) : Shots now bounce up to 6x and travel 30% further.
+- **Critical Precision** (Tiberon, madurai, Rare, coût 7 au rang max) : Burst Fire Only: Headshots increase Critical Chance by 10% up to 500%. Missing with all shots in a burst removes up to 100% of this bonus Critical Chance.
+- **Measured Burst** (Tiberon, madurai, Rare, coût 13 au rang max) : -60% Fire Rate ; +30% Damage
+- **Combat Reload** (Tigris, naramon, Rare, coût 9 au rang max) : If 5 pellets are headshots, increase reload speed by +120% for 3s.
+- **Precision Munition** (Tonkor, madurai, Rare, coût 10 au rang max) : +100% Accuracy ; +50% Projectile Speed
+- **Precision Strike** (Tonkor, naramon, Rare, coût 7 au rang max) : Hitting an enemy directly with the grenade increases Reload Speed by 150% for 5s.
+- **Adhesive Blast** (Unique, madurai, Rare, coût 9 au rang max, Exilus) : Grenades have 100% chance to stick to surfaces.
+- **Lasting Purity** (Vulkar, naramon, Rare, coût 7 au rang max) : +60% Damage when Aiming ; +1 'Purity'
+- **Meticulous Aim** (Vulkar, naramon, Rare, coût 9 au rang max) : +105% Headshot Damage ; -45% Bodyshot Damage
+- **Eximus Advantage** (Zylok, madurai, Rare, coût 7 au rang max) : Headshots on Eximus enemies increase Secondary Damage by +600% for 10 secs.

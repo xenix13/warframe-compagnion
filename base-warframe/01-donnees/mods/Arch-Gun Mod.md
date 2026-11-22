@@ -1,0 +1,42 @@
+# Arch-Gun Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Ammo Chain** (Archgun, naramon, Uncommon, coût 7 au rang max) : +100% Ammo Maximum
+- **Archgun Ace** (Archgun, madurai, Rare, coût 11 au rang max) : On Headshot Kill: +50% Fire/Charge Rate +100% Reload Speed for 9s
+- **Automatic Trigger** (Archgun, madurai, Rare, coût 15 au rang max) : +60% Fire Rate
+- **Ballista Measure** (Archgun, vazarin, Rare, coût 9 au rang max) : +20% Range
+- **Charged Bullets** (Archgun, madurai, Rare, coût 7 au rang max) : +60% Electricity ; +60% Status Chance
+- **Combustion Rounds** (Archgun, madurai, Uncommon, coût 9 au rang max) : +120% Heat
+- **Comet Blast** (Archgun, naramon, Rare, coût 7 au rang max) : +90% Impact
+- **Containment Breach** (Archgun, madurai, Rare, coût 7 au rang max) : +60% Radiation ; +30% Multishot
+- **Contamination Casing** (Archgun, madurai, Rare, coût 7 au rang max) : +60% Toxin ; +60% Status Chance
+- **Critical Focus** (Archgun, madurai, Rare, coût 11 au rang max) : +60% Critical Chance and Damage when Aiming
+- **Deadly Efficiency** (Archgun, madurai, Rare, coût 9 au rang max) : On Reload From Empty: +120% Damage for 9s
+- **Dual Rounds** (Archgun, madurai, Rare, coût 11 au rang max) : +60% Multishot
+- **Electrified Barrel** (Archgun, naramon, Uncommon, coût 9 au rang max) : +120% Electricity
+- **Hollowed Bullets** (Archgun, madurai, Rare, coût 7 au rang max) : +80% Critical Damage
+- **Hypothermic Shell** (Archgun, madurai, Rare, coût 7 au rang max) : +60% Cold ; +60% Status Chance
+- **Magazine Extension** (Archgun, naramon, Common, coût 9 au rang max) : +60% Magazine Capacity
+- **Magma Chamber** (Archgun, madurai, Rare, coût 7 au rang max) : +60% Heat ; +60% Status Chance
+- **Magnetized Cycle** (Archgun, madurai, Rare, coût 7 au rang max) : +60% Magnetic ; +30% Fire Rate
+- **Marked Target** (Archgun, naramon, Rare, coût 11 au rang max) : +120% Status Chance when Aiming
+- **Modified Munitions** (Archgun, vazarin, Uncommon, coût 9 au rang max) : +60% Status Chance
+- **Parallax Scope** (Archgun, naramon, Common, coût 7 au rang max) : +100% Critical Chance
+- **Polar Magazine** (Archgun, vazarin, Uncommon, coût 9 au rang max) : +120% Cold
+- **Primed Ammo Chain** (Archgun, naramon, Legendary, coût 10 au rang max) : +165% Ammo Maximum [variante du jeu : Expert, rang max 10]
+- **Primed Combustion Rounds** (Archgun, madurai, Legendary, coût 14 au rang max) : +187% Heat [variante du jeu : Expert, rang max 10]
+- **Primed Deadly Efficiency** (Archgun, madurai, Legendary, coût 14 au rang max) : On Reload From Empty: +220% Damage for 17s
+- **Primed Dual Rounds** (Archgun, madurai, Legendary, coût 16 au rang max) : +110% Multishot
+- **Primed Electrified Barrel** (Archgun, naramon, Legendary, coût 14 au rang max) : +187% Electricity [variante du jeu : Expert, rang max 10]
+- **Primed Polar Magazine** (Archgun, vazarin, Legendary, coût 14 au rang max) : +187% Cold [variante du jeu : Expert, rang max 10]
+- **Primed Rubedo-Lined Barrel** (Archgun, madurai, Legendary, coût 16 au rang max) : +187% Damage [variante du jeu : Expert, rang max 10]
+- **Primed Venomous Clip** (Archgun, vazarin, Legendary, coût 14 au rang max) : +187% Toxin [variante du jeu : Expert, rang max 10]
+- **Quasar Drill** (Archgun, naramon, Rare, coût 7 au rang max) : +90% Puncture
+- **Quick Reload** (Archgun, naramon, Uncommon, coût 5 au rang max) : +100% Reload Speed
+- **Resolute Focus** (Archgun, naramon, Uncommon, coût 9 au rang max) : +100% Chance to Resist Staggers/Knockdowns when Aiming ; +50% Accuracy when Aiming
+- **Rubedo-Lined Barrel** (Archgun, madurai, Uncommon, coût 11 au rang max) : +100% Damage
+- **Sabot Rounds** (Archgun, naramon, Rare, coût 15 au rang max) : +60% Damage ; +3 Punch Through
+- **Shell Rush** (Archgun, vazarin, Uncommon, coût 7 au rang max) : +50% Charge Rate
+- **Venomous Clip** (Archgun, vazarin, Uncommon, coût 9 au rang max) : +120% Toxin
+- **Zodiac Shred** (Archgun, naramon, Rare, coût 7 au rang max) : +90% Slash

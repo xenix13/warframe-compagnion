@@ -1,0 +1,124 @@
+# Shotgun Mods (valeurs au rang maximum)
+
+Généré automatiquement depuis les données du jeu (WFCD warframe-items). Ne pas modifier à la main : les retours de jeu vont dans 04-retours-experience.
+
+- **Efficient Beams** (Convectrix, naramon, Rare, coût 9 au rang max) : +150% Status Chance
+- **Fomorian Accelerant** (Drakgoon, madurai, Uncommon, coût 7 au rang max, Exilus) : Flak now bounces up to 4x and travels 60% faster.
+- **Accelerated Blast** (Shotgun, madurai, Rare, coût 9 au rang max) : +60% Fire Rate ; +60% Puncture
+- **Amalgam Shotgun Barrage** (Shotgun, madurai, Rare, coût 11 au rang max) : +85% Fire Rate ; +45% Revive Speed
+- **Ammo Stock** (Shotgun, naramon, Uncommon, coût 5 au rang max) : +20% Magazine Capacity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Ammo Stock** (Shotgun, naramon, Uncommon, coût 7 au rang max) : +60% Magazine Capacity
+- **Atomic Fallout** (Shotgun, madurai, Rare, coût 7 au rang max) : +60% Radiation ; +40% Magazine Capacity
+- **Blaze** (Shotgun, madurai, Rare, coût 9 au rang max) : +60% Damage ; +60% Heat
+- **Blunderbuss** (Shotgun, madurai, Common, coût 5 au rang max) : +40% Critical Chance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Blunderbuss** (Shotgun, madurai, Common, coût 9 au rang max) : +90% Critical Chance
+- **Bounty Hunter** (Shotgun, naramon, Uncommon, coût 7 au rang max) : Reveals target on Minimap for +6s.
+- **Breach Loader** (Shotgun, naramon, Rare, coût 11 au rang max) : +120% Puncture
+- **Broad Eye** (Shotgun, naramon, Uncommon, coût 7 au rang max, Exilus) : -60% Zoom while Aim Gliding
+- **Burdened Magazine** (Shotgun, naramon, Rare, coût 11 au rang max) : +60% Magazine Capacity ; -18% Reload Speed
+- **Charged Shell** (Shotgun, naramon, Uncommon, coût 11 au rang max) : +90% Electricity
+- **Charged Shell** (Shotgun, naramon, Uncommon, coût 7 au rang max) : +40% Electricity [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Chilling Grasp** (Shotgun, vazarin, Uncommon, coût 11 au rang max) : +90% Cold
+- **Chilling Grasp** (Shotgun, vazarin, Uncommon, coût 5 au rang max) : +40% Cold [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Chilling Reload** (Shotgun, madurai, Rare, coût 5 au rang max) : +60% Cold ; +40% Reload Speed
+- **Cleanse Corpus** (Shotgun, madurai, Uncommon, coût 5 au rang max) : x1.12 Damage to Corpus [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Cleanse Corpus** (Shotgun, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Corpus
+- **Cleanse Grineer** (Shotgun, madurai, Uncommon, coût 5 au rang max) : x1.12 Damage to Grineer [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Cleanse Grineer** (Shotgun, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Grineer
+- **Cleanse Infested** (Shotgun, madurai, Uncommon, coût 5 au rang max) : x1.12 Damage to Infested [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Cleanse Infested** (Shotgun, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Infested
+- **Cleanse Orokin** (Shotgun, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Orokin
+- **Cleanse The Murmur** (Shotgun, madurai, Uncommon, coût 9 au rang max) : x1.3 Damage to Murmur
+- **Contagious Spread** (Shotgun, naramon, Uncommon, coût 11 au rang max) : +90% Toxin
+- **Contagious Spread** (Shotgun, naramon, Uncommon, coût 16 au rang max) : +165% Toxin [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Contagious Spread** (Shotgun, naramon, Uncommon, coût 7 au rang max) : +40% Toxin [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Counterbalance** (Shotgun, naramon, Rare, coût 9 au rang max, Exilus) : -60% Weapon Recoil
+- **Crash Shot** (Shotgun, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Impact
+- **Critical Deceleration** (Shotgun, madurai, Rare, coût 9 au rang max) : +200% Critical Chance ; -20% Fire Rate
+- **Disruptor** (Shotgun, naramon, Common, coût 14 au rang max) : +165% Impact [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Disruptor** (Shotgun, naramon, Common, coût 5 au rang max) : +12% Impact [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Disruptor** (Shotgun, naramon, Common, coût 9 au rang max) : +90% Impact
+- **Double-Barrel Drift** (Shotgun, madurai, Rare, coût 9 au rang max, Exilus) : -20% Weapon Recoil ; and +20% Accuracy when Sliding
+- **Fatal Acceleration** (Shotgun, madurai, Uncommon, coût 7 au rang max, Exilus) : +40% Projectile Speed
+- **Flak Shot** (Shotgun, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Slash
+- **Flechette** (Shotgun, naramon, Common, coût 14 au rang max) : +165% Puncture [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Flechette** (Shotgun, naramon, Common, coût 5 au rang max) : +12% Puncture [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Flechette** (Shotgun, naramon, Common, coût 9 au rang max) : +90% Puncture
+- **Frail Momentum** (Shotgun, madurai, Rare, coût 9 au rang max) : +90% Fire Rate ; -15% Damage
+- **Frigid Blast** (Shotgun, madurai, Rare, coût 7 au rang max) : +60% Cold ; +60% Status Chance
+- **Full Contact** (Shotgun, naramon, Rare, coût 11 au rang max) : +120% Impact
+- **Galvanized Acceleration** (Shotgun, madurai, Rare, coût 12 au rang max, Exilus) : +30% Projectile Speed and +30% Beam Range ; On Kill: +30% Projectile Speed and +30% Beam Range for 10s. Stacks up to 2x.
+- **Galvanized Hell** (Shotgun, madurai, Rare, coût 16 au rang max) : +110% Multishot ; On Kill: +30% Multishot for 20s. Stacks up to 4x.
+- **Galvanized Savvy** (Shotgun, vazarin, Rare, coût 12 au rang max) : +80% Status Chance ; On Kill: +40% Direct Damage per Status Type affecting the target for 20s. Stacks up to 2x.
+- **Hell's Chamber** (Shotgun, madurai, Rare, coût 15 au rang max) : +120% Multishot
+- **Hell's Chamber** (Shotgun, madurai, Rare, coût 20 au rang max) : +220% Multishot [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Hell's Chamber** (Shotgun, madurai, Rare, coût 7 au rang max) : +40% Multishot [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Hydraulic Chamber** (Shotgun, naramon, Rare, coût 9 au rang max) : -60% Weapon Recoil ; -10% Magazine Capacity
+- **Incendiary Coat** (Shotgun, naramon, Uncommon, coût 11 au rang max) : +90% Heat
+- **Incendiary Coat** (Shotgun, naramon, Uncommon, coût 16 au rang max) : +165% Heat [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Incendiary Coat** (Shotgun, naramon, Uncommon, coût 7 au rang max) : +40% Heat [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Kill Switch** (Shotgun, madurai, Rare, coût 13 au rang max) : On Kill: +50% Reload Speed for 3s
+- **Laser Sight** (Shotgun, madurai, Uncommon, coût 9 au rang max) : On Weak Point Hit: +120% Critical Chance when Aiming for 9s
+- **Lingering Torment** (Shotgun, madurai, Common, coût 11 au rang max) : +90% Status Duration
+- **Loaded Capacity** (Shotgun, naramon, Common, coût 9 au rang max) : +30% Magazine Capacity ; -15% Reload Speed
+- **Lock And Load** (Shotgun, naramon, Rare, coût 9 au rang max, Exilus) : +20% Magazine Reloaded/s when Holstered
+- **Loose Chamber** (Shotgun, naramon, Common, coût 9 au rang max) : +30% Reload Speed ; +50% Weapon Recoil
+- **Magnetic Strafe** (Shotgun, madurai, Rare, coût 7 au rang max) : +60% Magnetic ; +40% Fire Rate
+- **Magnetic Welt** (Shotgun, madurai, Rare, coût 15 au rang max) : Impact Status Effects have 35% chance to apply a Magnetic Status Effect (x2 when Fire Rate is below 2.5)
+- **Momentary Pause** (Shotgun, vazarin, Rare, coût 13 au rang max) : On Kill: +15 Heal Rate for 10s ; -25% from Health Orbs
+- **Nano-Applicator** (Shotgun, madurai, Rare, coût 9 au rang max) : On Ability Cast: +90% Status Chance when Aiming for 9s
+- **Narrow Barrel** (Shotgun, madurai, Rare, coût 7 au rang max, Exilus) : On Hit: +30% Accuracy when Aiming for 9s
+- **Point Blank** (Shotgun, madurai, Uncommon, coût 5 au rang max) : +40% Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Point Blank** (Shotgun, madurai, Uncommon, coût 9 au rang max) : +90% Damage
+- **Primed Ammo Stock** (Shotgun, naramon, Legendary, coût 12 au rang max) : +110% Magazine Capacity [variante du jeu : Expert, rang max 10]
+- **Primed Blunderbuss** (Shotgun, madurai, Legendary, coût 16 au rang max) : +165% Critical Chance [variante du jeu : Expert, rang max 10] [ATTENTION : aucune date de sortie dans les données du jeu, ce mod n'est peut-être pas disponible en jeu : à vérifier avant de l'utiliser]
+- **Primed Charged Shell** (Shotgun, naramon, Legendary, coût 16 au rang max) : +165% Electricity [variante du jeu : Expert, rang max 10]
+- **Primed Chilling Grasp** (Shotgun, vazarin, Legendary, coût 16 au rang max) : +165% Cold [variante du jeu : Expert, rang max 10]
+- **Primed Cleanse Corpus** (Shotgun, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Corpus [variante du jeu : Expert, rang max 10]
+- **Primed Cleanse Grineer** (Shotgun, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Grineer [variante du jeu : Expert, rang max 10]
+- **Primed Cleanse Infested** (Shotgun, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Infested [variante du jeu : Expert, rang max 10]
+- **Primed Cleanse Orokin** (Shotgun, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Orokin [variante du jeu : Expert, rang max 10]
+- **Primed Cleanse The Murmur** (Shotgun, madurai, Legendary, coût 14 au rang max) : x1.55 Damage to Murmur [variante du jeu : Expert, rang max 10]
+- **Primed Counterbalance** (Shotgun, naramon, Legendary, coût 12 au rang max, Exilus) : -85% Weapon Recoil [variante du jeu : Expert, rang max 10]
+- **Primed Point Blank** (Shotgun, madurai, Legendary, coût 14 au rang max) : +165% Damage [variante du jeu : Expert, rang max 10]
+- **Primed Ravage** (Shotgun, madurai, Legendary, coût 14 au rang max) : +110% Critical Damage [variante du jeu : Expert, rang max 10]
+- **Primed Shotgun Ammo Mutation** (Shotgun, naramon, Legendary, coût 10 au rang max, Exilus) : Converts Secondary ammo pickups to 92% of Ammo Pick Up. [variante du jeu : Expert, rang max 10]
+- **Primed Tactical Pump** (Shotgun, naramon, Legendary, coût 12 au rang max) : +100% Reload Speed [variante du jeu : Expert, rang max 10]
+- **Prize Kill** (Shotgun, vazarin, Rare, coût 13 au rang max) : On Kill: -100% Shield Recharge Delay for 10s ; -25% from Health Orbs
+- **Ravage** (Shotgun, madurai, Rare, coût 5 au rang max) : +30% Critical Damage [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Ravage** (Shotgun, madurai, Rare, coût 9 au rang max) : +60% Critical Damage
+- **Repeater Clip** (Shotgun, madurai, Uncommon, coût 9 au rang max) : On Reload: +105% Fire Rate when Aiming for 9s
+- **Scattering Inferno** (Shotgun, madurai, Rare, coût 7 au rang max) : +60% Heat ; +60% Status Chance
+- **Seeking Force** (Shotgun, naramon, Rare, coût 15 au rang max) : +2.1 Punch Through
+- **Seeking Force** (Shotgun, naramon, Rare, coût 20 au rang max) : +3.9 Punch Through [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Seeking Force** (Shotgun, naramon, Rare, coût 9 au rang max) : +0.8 Punch Through [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Seeking Fury** (Shotgun, madurai, Rare, coût 11 au rang max) : +15% Reload Speed ; +1.2 Punch Through
+- **Semi-Shotgun Cannonade** (Shotgun, vazarin, Uncommon, coût 9 au rang max) : +240% Damage ; +1.5 Punch Through
+- **Shell Compression** (Shotgun, naramon, Uncommon, coût 12 au rang max, Exilus) : +165% Ammo Maximum [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Shell Compression** (Shotgun, naramon, Uncommon, coût 5 au rang max, Exilus) : +12% Ammo Maximum [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Shell Compression** (Shotgun, naramon, Uncommon, coût 7 au rang max, Exilus) : +90% Ammo Maximum
+- **Shell Shock** (Shotgun, madurai, Rare, coût 7 au rang max) : +60% Electricity ; +60% Status Chance
+- **Shotgun Ammo Mutation** (Shotgun, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up.
+- **Shotgun Ammo Mutation** (Shotgun, naramon, Rare, coût 7 au rang max, Exilus) : Converts Secondary ammo pickups to 50% of Ammo Pick Up. [variante affaiblie du jeu : Intermediate, rang max 5 ; ce n'est pas la version normale du mod]
+- **Shotgun Barrage** (Shotgun, madurai, Uncommon, coût 14 au rang max) : +165% Fire Rate [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Shotgun Barrage** (Shotgun, madurai, Uncommon, coût 5 au rang max) : +40% Fire Rate [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Shotgun Barrage** (Shotgun, madurai, Uncommon, coût 9 au rang max) : +90% Fire Rate
+- **Shotgun Elementalist** (Shotgun, vazarin, Uncommon, coût 9 au rang max) : +90% Status Damage ; +60% Magazine Capacity
+- **Shotgun Savvy** (Shotgun, vazarin, Uncommon, coût 14 au rang max) : +165% Status Chance [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Shotgun Savvy** (Shotgun, vazarin, Uncommon, coût 5 au rang max) : +12% Status Chance [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Shotgun Savvy** (Shotgun, vazarin, Uncommon, coût 9 au rang max) : +90% Status Chance
+- **Shrapnel Shot** (Shotgun, madurai, Common, coût 9 au rang max) : On Kill: +99% Critical Damage when Aiming for 9s
+- **Shred Shot** (Shotgun, madurai, Uncommon, coût 5 au rang max) : 20% of Damage converted into Puncture
+- **Shredder** (Shotgun, naramon, Common, coût 14 au rang max) : +165% Slash [ATTENTION : variante Expert (rang max 10) d'un mod qui existe en version normale ; très probablement absente du jeu (même cas qu'Organ Shatter +165 %, confirmé inexistant par XeniX13) : utiliser la version normale]
+- **Shredder** (Shotgun, naramon, Common, coût 5 au rang max) : +12% Slash [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Shredder** (Shotgun, naramon, Common, coût 9 au rang max) : +90% Slash
+- **Silent Battery** (Shotgun, naramon, Uncommon, coût 5 au rang max, Exilus) : Reduces the chance an enemy will hear gunfire by 100%.
+- **Snap Shot** (Shotgun, madurai, Uncommon, coût 5 au rang max, Exilus) : +20% Movement Speed when Aiming
+- **Soft Hands** (Shotgun, naramon, Uncommon, coût 7 au rang max, Exilus) : On Equip: -40% Weapon Recoil and +40% Accuracy for 8s
+- **Sweeping Serration** (Shotgun, naramon, Rare, coût 11 au rang max) : +120% Slash
+- **Tactical Pump** (Shotgun, naramon, Uncommon, coût 5 au rang max) : +12% Reload Speed [variante affaiblie du jeu : Beginner, rang max 3 ; ce n'est pas la version normale du mod]
+- **Tactical Pump** (Shotgun, naramon, Uncommon, coût 7 au rang max) : +60% Reload Speed
+- **Tainted Shell** (Shotgun, vazarin, Rare, coût 14 au rang max) : +77% Accuracy ; -55% Fire Rate
+- **Toxic Barrage** (Shotgun, madurai, Rare, coût 7 au rang max) : +60% Toxin ; +60% Status Chance
+- **Vicious Spread** (Shotgun, madurai, Rare, coût 9 au rang max) : +90% Damage ; -60% Accuracy
+- **Acid Shells** (Sobek, madurai, Uncommon, coût 9 au rang max) : Enemies explode on death, dealing 450 Corrosive Damage (+45% Enemy Max Health) in a 10m radius.

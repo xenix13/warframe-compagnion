@@ -1,0 +1,296 @@
+{
+ "warframe": "Atlas",
+ "variantes": [
+  "Atlas",
+  "Atlas Prime"
+ ],
+ "statut": "préparé par l'assistant à partir du wiki, corrigé par XeniX13 le 21/11/2026 (défense, Umbra, Nourish) ; les lignes [à vérifier] ne sont pas confirmées.",
+ "date": "2026-11-21",
+ "passif": "Immunisé au renversement au sol. Les ennemis pétrifiés et les Rumblers lâchent du Rubble : +50 santé si Atlas est blessé, sinon +50 armure bonus (plafond 1 500, perte de 5 par seconde, doublée dans une bulle de Nullifier). Un ennemi pétrifié tué par Landslide donne 75 au lieu de 50. L'armure de Rubble compte pour Arcane Battery.",
+ "capacites": {
+  "Landslide": {
+   "type": [
+    "dégâts",
+    "mobilité",
+    "mono-cible et petite zone"
+   ],
+   "cout": "25, divisé par 2 au 2e coup et par 4 au 3e coup tant que le combo tient",
+   "monte_avec": [
+    "puissance (multiplie la base)",
+    "mods de mêlée de Landslide Fists",
+    "combo de capacité : +1x par relance qui touche, jusqu'à 12x",
+    "Steel Charge, Arcane Fury (compte comme coup de mêlée)"
+   ],
+   "notes": [
+    "invulnérable pendant la ruée",
+    "35 % critique, 2x, 15 % statut de base",
+    "le 3e coup renverse et active Melee Afflictions",
+    "durée du combo 5 s, allongée par Body Count et Primary Dexterity",
+    "pas d'attaque lourde ni de vitesse d'attaque : Fury et les mods d'attaque lourde ne servent à rien"
+   ]
+  },
+  "Tectonics": {
+   "type": [
+    "défense",
+    "dégâts de zone"
+   ],
+   "cout": 50,
+   "monte_avec": [
+    "puissance",
+    "armure d'Atlas (5 x l'armure en santé du mur)"
+   ],
+   "notes": [
+    "Petrify sur le mur : rocher 2x plus rapide, 30 m, +200 % de dégâts"
+   ]
+  },
+  "Petrify": {
+   "type": [
+    "contrôle",
+    "vulnérabilité"
+   ],
+   "cout": 75,
+   "monte_avec": [
+    "durée (pétrification)",
+    "portée (cône)"
+   ],
+   "notes": [
+    "+50 % de dégâts subis sur les ennemis pétrifiés",
+    "source principale de Rubble",
+    "soigne les Rumblers à 100 %",
+    "pas d'effet sur boss, Overguard, Capture",
+    "disponible au Helminth (sans Rubble pour les autres frames)"
+   ]
+  },
+  "Rumblers": {
+   "type": [
+    "invocation",
+    "contrôle",
+    "survie"
+   ],
+   "cout": 100,
+   "monte_avec": [
+    "puissance (santé, armure, dégâts)",
+    "mods de santé, bouclier et armure d'Atlas (santé et armure des Rumblers)",
+    "durée"
+   ],
+   "notes": [
+    "l'invocation pétrifie dans un rayon de 3 à 6 m",
+    "chaque Rumbler qui meurt donne du Rubble"
+   ]
+  }
+ },
+ "augments": {
+  "Rubble Heap": "passif : au-dessus de 1 400 Rubble, Landslide ne coûte rien, fait 2x dégâts et va 2x plus vite",
+  "Path Of Statues": "Landslide laisse une traînée de 12 s qui pétrifie 6 s : plus d'ennemis pétrifiés, donc plus de Rubble et de vulnérabilité",
+  "Rumbled": "Atlas devient un Rumbler avec une Overguard qui absorbe jusqu'à 300 % de sa santé max",
+  "Titanic Rumbler": "un seul Rumbler, 300 % de santé, 400 % de dégâts, attire l'aggro",
+  "Tectonic Fracture": "jusqu'à 3 murs, sans rocher",
+  "Ore Gaze": "ennemis pétrifiés scannés, 25 % de chance de butin supplémentaire"
+ },
+ "archetypes": [
+  {
+   "id": "landslide-rubble",
+   "nom": "Landslide au combo, armure de Rubble",
+   "objectif": "DPS et tank, toutes missions, solo et escouade, Steel Path au level cap",
+   "boucle_de_jeu": [
+    "Petrify (ou l'invocation des Rumblers, ou Path Of Statues) pétrifie un groupe : +50 % de dégâts subis.",
+    "Landslide tue les pétrifiés : Rubble à 75, l'armure monte jusqu'à 1 500.",
+    "Au-dessus de 1 400 Rubble, Rubble Heap rend Landslide gratuit, 2x plus fort et 2x plus rapide.",
+    "Relancer Landslide toutes les 5 s fait monter le combo de capacité jusqu'à 12x, qui multiplie les dégâts et le bonus de Blood Rush et Weeping Wounds."
+   ],
+   "capacite_centrale": "Landslide",
+   "survie": [
+    "invulnérabilité pendant la ruée de Landslide et ennemis pétrifiés qui ne tirent plus",
+    "VARIANTE BOUCLIER (jeu de XeniX13) : Brief Respite en aura convertit l'énergie dépensée en bouclier, et le shield gate protège ; elle peut se combiner avec de la défense par la santé et l'armure ; Steel Fiber ou Umbral Fiber ne sont pas nécessaires (XeniX13, 21/11/2026)",
+    "VARIANTE PERSISTENCE : Arcane Persistence plafonne les dégâts à 500/s si l'armure dépasse 700 (le Rubble y aide), mais retire tout le bouclier : on mise alors tout sur la santé et l'armure, sans Brief Respite ni mod de bouclier (XeniX13, 21/11/2026)",
+    "armure de Rubble : jusqu'à 1 500 en plus de la base, sert aussi à Arcane Battery"
+   ],
+   "energie": [
+    "Rubble Heap : Landslide gratuit une fois la réserve pleine",
+    "Arcane Battery : 0,30 énergie max par point d'armure, Rubble compris",
+    "Zenurik pour Petrify et Rumblers",
+    "[à comparer] Nourish au Helminth : multiplie l'énergie gagnée par les autres sources, n'en crée pas"
+   ],
+   "noyau": {
+    "mods": [
+     "Rubble Heap"
+    ],
+    "arme_exaltee": {
+     "nom": "Landslide Fists",
+     "mods": [
+      "Blood Rush",
+      "Weeping Wounds",
+      "Primed Pressure Point",
+      "Organ Shatter"
+     ]
+    }
+   },
+   "choix": [
+    {
+     "quoi": "défense",
+     "options": [
+      "bouclier (Brief Respite, shield gate), éventuellement avec santé et armure en plus",
+      "Arcane Persistence : tout sur la santé et l'armure, aucun bouclier ; Umbral Fiber utile ici, avec le bonus de set sur Umbral Intensify"
+     ]
+    },
+    {
+     "quoi": "puissance",
+     "pourquoi": "multiplie la base de Landslide et les Rumblers",
+     "options": [
+      "Intensify ou Umbral Intensify",
+      "Transient Fortitude",
+      "Blind Rage (coûte de l'efficacité, compensé par Rubble Heap)",
+      "aura : Brief Respite si variante bouclier, sinon Growing Power"
+     ]
+    },
+    {
+     "quoi": "étendre la pétrification",
+     "options": [
+      "Path Of Statues",
+      "Stretch (portée du cône de Petrify et des coups)",
+      "Primed Continuity (durée de pétrification)"
+     ]
+    },
+    {
+     "quoi": "mods de Landslide Fists restants",
+     "options": [
+      "Condition Overload",
+      "2 mods élémentaires (Viral, Corrosive ou Heat selon la faction)",
+      "Body Count ou Drifting Contact (durée du combo)"
+     ]
+    },
+    {
+     "quoi": "arcane de Landslide Fists",
+     "options": [
+      "Melee Exposure (Corrosive à chaque capacité lancée)",
+      "Melee Duplicate",
+      "Melee Afflictions (le 3e coup renverse)"
+     ]
+    },
+    {
+     "quoi": "arcanes de la frame",
+     "options": [
+      "Arcane Fury (Landslide compte comme mêlée)",
+      "Arcane Battery",
+      "Arcane Persistence [à vérifier]",
+      "Molt Augmented"
+     ]
+    },
+    {
+     "quoi": "Helminth (remplace Tectonics en général)",
+     "options": [
+      "Roar [à vérifier sur Landslide]",
+      "Nourish (multiplie l'énergie gagnée par les autres sources, ex. orbe 50 → 100 avec x2 ; donne du Viral aux armes)"
+     ]
+    }
+   ],
+   "stats_cibles": {
+    "puissance": "haute (200 % et plus)",
+    "duree": "moyenne",
+    "portee": "moyenne",
+    "efficacite": "peu importante avec Rubble Heap"
+   },
+   "pieges": [
+    "Fury, Quickening en tant que vitesse et les mods d'attaque lourde sont inutiles sur Landslide",
+    "le Rubble soigne avant de donner de l'armure : blessé, on ne monte pas l'armure",
+    "l'armure de Rubble baisse de 5/s : il faut garder un flux de pétrifiés",
+    "[à vérifier] le wiki dit que Landslide Fists n'a pas d'emplacement Exilus",
+    "Arcane Persistence retire le bouclier : ne pas la combiner avec Brief Respite ni compter sur le shield gate"
+   ]
+  },
+  {
+   "id": "rumbled-tank",
+   "nom": "Rumbled, tank à Overguard",
+   "objectif": "survie maximale, tenir un objectif (défense, survie), solo et escouade",
+   "boucle_de_jeu": [
+    "Rumblers avec Rumbled : Atlas prend une Overguard qui absorbe jusqu'à 300 % de sa santé max.",
+    "Petrify garde les groupes immobiles et donne du Rubble pour soigner."
+   ],
+   "capacite_centrale": "Rumblers",
+   "survie": [
+    "Overguard de Rumbled (monte avec la santé max)",
+    "Rubble pour se soigner",
+    "pétrification"
+   ],
+   "energie": [
+    "Zenurik",
+    "Arcane Battery (armure)",
+    "[à comparer] Nourish (multiplie les gains d'énergie, n'en crée pas)"
+   ],
+   "noyau": {
+    "mods": [
+     "Rumbled"
+    ]
+   },
+   "choix": [
+    {
+     "quoi": "santé",
+     "pourquoi": "ici un mod de santé sert le build : il fait grossir l'Overguard",
+     "options": [
+      "Vitality ou Umbral Vitality",
+      "Archon Vitality"
+     ]
+    },
+    {
+     "quoi": "puissance et durée",
+     "options": [
+      "Intensify",
+      "Primed Continuity"
+     ]
+    }
+   ],
+   "stats_cibles": {
+    "puissance": "moyenne",
+    "duree": "haute",
+    "portee": "basse",
+    "efficacite": "moyenne",
+    "sante": "haute"
+   },
+   "pieges": [
+    "[à vérifier] fonctionnement exact de Rumbled après les dernières mises à jour : archétype moins sûr que le premier"
+   ]
+  },
+  {
+   "id": "petrify-farm",
+   "nom": "Petrify, contrôle et farm",
+   "objectif": "farm de ressources et de butin, contrôle de foule en escouade",
+   "boucle_de_jeu": [
+    "Petrify avec Ore Gaze sur chaque groupe : 25 % de chance de butin en plus, ennemis immobiles et +50 % de dégâts subis pour l'équipe."
+   ],
+   "capacite_centrale": "Petrify",
+   "survie": [
+    "ennemis pétrifiés",
+    "Rubble"
+   ],
+   "energie": [
+    "Zenurik",
+    "efficacité"
+   ],
+   "noyau": {
+    "mods": [
+     "Ore Gaze"
+    ]
+   },
+   "choix": [
+    {
+     "quoi": "portée et durée",
+     "options": [
+      "Stretch",
+      "Primed Continuity",
+      "Overextended (perd de la puissance, sans effet sur Petrify)"
+     ]
+    }
+   ],
+   "stats_cibles": {
+    "puissance": "basse",
+    "duree": "haute",
+    "portee": "haute",
+    "efficacite": "moyenne"
+   },
+   "pieges": [
+    "pas d'effet sur les boss et les ennemis avec Overguard : peu adapté aux missions de boss et à la chasse d'Archonte"
+   ]
+  }
+ ],
+ "relu_par_le_joueur": true
+}

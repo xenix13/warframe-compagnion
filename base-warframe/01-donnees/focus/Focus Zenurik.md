@@ -1,0 +1,21 @@
+# École de Focus Zenurik : nœuds (valeurs au rang maximum)
+
+- **Boundless Energy** : Ability strength, duration, and cast speed granted by spectral pages increased by 40%.
+- **Brilliant Insight** : Spectral pages also fire off beams that blind enemies within 16m.
+- **Disarming Sling** : Slinging through enemies has a 50% chance to disarm them.
+- **Energy Pulse** : Energy pickups grant 50% additional Energy over 5s.
+- **Hardened Wellspring** : Use your first Ability inside a Wellspring to increase its size, boost its duration by 20s, and grant 20% Ability Strength to those inside.
+- **Inner Might** : Allows Abilities to be cast without using Energy or Shields but requires 60s to recharge.
+- **Lightning Dash** : Manifests ball lightning after a Void Sling that travels slowly and zaps enemies within 16m for 800 Damage. Costs 10 Energy.
+- **Lorak Tauron Strike** : Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 100% chance to drop Energy Orbs if killed within 10s.
+- **No Quarter** : Killing a disarmed enemy increases Operator energy regen rate by 10% for 10s. 4 Max Stacks.
+- **Prismatic Beam** : Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 20m.
+- **Spectral Pages** : Create 4 spectral pages granting an additional 10% Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page.
+- **Temporal Drag** : Second Ability emits a radial burst slowing any enemy it touches by 80% for 10s.
+- **Temporal Shot** : Precision head shot damage increased by 100% on enemies afflicted with Temporal Drag.
+- **Void Flow** : Increases Operator Energy by 90%.
+- **Void Singularity** : Void Mode pulls enemies within 20m towards the Operator, and costs an additional 2 Energy/s.
+- **Void Siphon** : Increases Operator Energy Regeneration by 90%.
+- **Void Static** : Void Mode emits a pulse that deals 500 Damage/s over 15m, and costs an additional 1 Energy/s.
+- **Voltaic Blast** : Void Blast creates a surge of electricity, zapping enemies within 10m for 200% Damage.
+- **Wellspring** : First Ability creates a well of energy for 8s. Allies passing through the well gain 5 Energy/s for 30s.

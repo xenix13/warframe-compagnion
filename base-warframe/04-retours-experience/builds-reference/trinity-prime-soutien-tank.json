@@ -1,0 +1,45 @@
+{
+  "id": "trinity-prime-soutien-tank",
+  "warframe": "Trinity Prime",
+  "demande": "build trinity prime soutien tank dps",
+  "usage": "soutien, tank et DPS",
+  "build": {
+    "aura": "Physique",
+    "exilus": null,
+    "mods": [
+      "Champion's Blessing",
+      "Blind Rage",
+      "Abating Link",
+      "Primed Continuity",
+      "Primed Redirection",
+      "Primed Flow",
+      "Stretch",
+      "Transient Fortitude"
+    ],
+    "arcanes": [
+      "Molt Efficiency",
+      "Molt Augmented"
+    ],
+    "helminth": "Roar",
+    "helminth_de": "Rhino",
+    "helminth_remplace": "Well Of Life"
+  },
+  "stats_jeu": {
+    "puissance": 269,
+    "duree": 128,
+    "portee": 145,
+    "efficacite": 45,
+    "sante": 764,
+    "bouclier": 1554,
+    "armure": 135,
+    "energie": 641
+  },
+  "pourquoi": [
+    "Tank à n'importe quel niveau grâce au 3 et au 4 ; le 2 donne de l'énergie à toute l'escouade",
+    "Le 1 est remplacé par Roar pour rendre Trinity et l'escouade plus efficaces",
+    "Les deux augments : retrait d'armure (Abating Link) et chances de critique sur soins avec le 4 (Champion's Blessing)",
+    "Peu de portée ajoutée : la plupart des capacités marchent à la portée d'affinité",
+    "Pas de Rolling Guard : Trinity n'est jamais en danger d'être tuée d'un coup"
+  ],
+  "source": "XeniX13, captures en jeu du 22/11/2026"
+}

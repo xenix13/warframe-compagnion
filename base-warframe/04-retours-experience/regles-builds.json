@@ -1,0 +1,51 @@
+{
+  "*": {
+    "interdits": [
+      {
+        "nom": "Energy Siphon",
+        "raison": "XeniX13 : les auras d'énergie sont presque inutiles, elles gâchent l'emplacement d'aura",
+        "date": "13/11/2026"
+      }
+    ],
+    "notes": [
+      "Un build très gourmand en énergie (efficacité basse) apprécie le focus Zenurik (XeniX13, 13/11/2026).",
+      "Arcane Battery augmente seulement l'énergie maximale, il n'en redonne pas : il ne remplace jamais une vraie source d'énergie (XeniX13, 13/11/2026)."
+    ]
+  },
+  "Banshee": {
+    "obligatoires": [
+      {
+        "nom": "Gaseous Quake",
+        "si_role": "nuke",
+        "raison": "XeniX13 : quand le nuke passe par Sound Quake (4), cet augment est nécessaire, sinon les dégâts sont trop faibles et le 4 ne sert qu'au contrôle de foule. D'autres nukes sont possibles sans lui (autre capacité, Helminth).",
+        "date": "13/11/2026"
+      }
+    ],
+    "interdits": [
+      {
+        "nom": "Arcane Battery",
+        "raison": "XeniX13 : l'arcane donne de l'énergie max selon l'armure, et Banshee en a peu ; en plus il n'en redonne pas. Il faut une vraie source d'énergie.",
+        "date": "13/11/2026"
+      },
+      {
+        "nom": "Vitality",
+        "raison": "XeniX13 : Banshee est trop fragile pour être jouée sur la santé ; on encaisse avec le bouclier",
+        "date": "13/11/2026"
+      },
+      {
+        "nom": "Steel Fiber",
+        "raison": "XeniX13 : Banshee ne se joue pas sur l'armure ; on encaisse avec le bouclier",
+        "date": "13/11/2026"
+      }
+    ],
+    "focus": {
+      "nom": "Zenurik",
+      "raison": "XeniX13 : Zenurik est apprécié sur un build très gourmand en énergie comme le nuke au 4",
+      "date": "13/11/2026"
+    },
+    "notes": [
+      "Survie de Banshee : privilégier le bouclier (réduction de dégâts de 50 % d'après la page Shield de la base), pas la santé ni l'armure."
+    ]
+  },
+  "_lecture": "Avis de XeniX13 avec leur raison et leur cas d'application. Ce ne sont pas des règles absolues : il n'y a pas de recette unique pour un build (XeniX13, 13/11/2026). Le contrôle les rappelle sans refuser le build."
+}

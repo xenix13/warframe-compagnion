@@ -1,0 +1,44 @@
+{
+  "id": "xaku-prime-controle-dps",
+  "warframe": "Xaku Prime",
+  "demande": "build xaku prime contrôle et dps",
+  "usage": "contrôle et DPS",
+  "build": {
+    "aura": "Brief Respite",
+    "exilus": "Cunning Drift",
+    "mods": [
+      "Rolling Guard",
+      "Blind Rage",
+      "Umbral Intensify",
+      "Augur Reach",
+      "Overextended",
+      "Equilibrium",
+      "Augur Secrets",
+      "Archon Stretch"
+    ],
+    "arcanes": [
+      "Molt Augmented",
+      "Molt Efficiency"
+    ],
+    "helminth": "Sentient Wrath",
+    "helminth_remplace": "The Lost",
+    "fragments": [
+      "vitesse de lancement",
+      "puissance",
+      "puissance",
+      "durée",
+      "durée"
+    ],
+    "helminth_de": "Caliban"
+  },
+  "stats_jeu": {
+    "puissance": 213,
+    "duree": 130,
+    "portee": 280,
+    "efficacite": 45
+  },
+  "pourquoi": [
+    "Comme le build plateforme d'armes, mais le 3e pouvoir (The Lost) contrôle et augmente les dégâts sur les cibles prises dans le contrôle"
+  ],
+  "source": "XeniX13, captures en jeu du 22/11/2026"
+}
